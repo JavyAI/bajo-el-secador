@@ -6,75 +6,84 @@
   "count": 110,
   "tracks": [
     {
-      "id": "0O4CLgXvbjU",
-      "artist": "Juan Gabriel",
-      "title": "Así Fue",
-      "youtube": "https://www.youtube.com/watch?v=0O4CLgXvbjU",
-      "artwork": "assets/covers/0O4CLgXvbjU.jpg",
-      "artworkLarge": "assets/covers/0O4CLgXvbjU.jpg",
-      "intro": true
-    },
-    {
-      "id": "ga5Bo4YdgH4",
-      "artist": "Juan Gabriel",
-      "title": "Hasta Que Te Conoci",
-      "youtube": "https://www.youtube.com/watch?v=ga5Bo4YdgH4",
-      "artwork": "assets/covers/ga5Bo4YdgH4.jpg",
-      "artworkLarge": "assets/covers/ga5Bo4YdgH4.jpg",
-      "intro": true
-    },
-    {
-      "id": "_tNVEhSelH0",
-      "artist": "Juan Gabriel",
-      "title": "Abrázame Muy Fuerte",
-      "youtube": "https://www.youtube.com/watch?v=_tNVEhSelH0",
-      "artwork": "assets/covers/_tNVEhSelH0.jpg",
-      "artworkLarge": "assets/covers/_tNVEhSelH0.jpg",
-      "intro": true
-    },
-    {
-      "id": "uMrN1W4ryoE",
-      "artist": "Chayanne",
-      "title": "Dejaria Todo",
-      "youtube": "https://www.youtube.com/watch?v=uMrN1W4ryoE",
-      "artwork": "assets/covers/uMrN1W4ryoE.jpg",
-      "artworkLarge": "assets/covers/uMrN1W4ryoE.jpg",
-      "intro": true
-    },
-    {
-      "id": "6N2LEajhs30",
-      "artist": "Marco Antonio Solis",
-      "title": "O Me Voy o Te Vas",
-      "youtube": "https://www.youtube.com/watch?v=6N2LEajhs30",
-      "artwork": "assets/covers/6N2LEajhs30.jpg",
-      "artworkLarge": "assets/covers/6N2LEajhs30.jpg",
-      "intro": true
-    },
-    {
-      "id": "apFHxRBXkzg",
-      "artist": "Pepe Aguilar",
-      "title": "Por Mujeres Como Tú",
-      "youtube": "https://www.youtube.com/watch?v=apFHxRBXkzg",
-      "artwork": "assets/covers/apFHxRBXkzg.jpg",
-      "artworkLarge": "assets/covers/apFHxRBXkzg.jpg",
-      "intro": true
-    },
-    {
-      "id": "FCi-Xp2TVoQ",
-      "artist": "Selena",
-      "title": "No Me Queda Mas",
-      "youtube": "https://www.youtube.com/watch?v=FCi-Xp2TVoQ",
-      "artwork": "assets/covers/FCi-Xp2TVoQ.jpg",
-      "artworkLarge": "assets/covers/FCi-Xp2TVoQ.jpg",
-      "intro": true
-    },
-    {
       "id": "RgKqxLAhRKE",
       "artist": "Juan Gabriel",
       "title": "Amor Eterno",
       "youtube": "https://www.youtube.com/watch?v=RgKqxLAhRKE",
       "artwork": "assets/covers/RgKqxLAhRKE.jpg",
       "artworkLarge": "assets/covers/RgKqxLAhRKE.jpg",
+      "intro": true
+    },
+    {
+      "id": "ksoI-1X9sr4",
+      "artist": "Luis Miguel",
+      "title": "Suave",
+      "youtube": "https://www.youtube.com/watch?v=ksoI-1X9sr4",
+      "artwork": "assets/covers/ksoI-1X9sr4.jpg",
+      "artworkLarge": "assets/covers/ksoI-1X9sr4.jpg",
+      "intro": true
+    },
+    {
+      "id": "kkF5eGMxwEQ",
+      "artist": "Ana Gabriel",
+      "title": "Simplemente Amigos",
+      "youtube": "https://www.youtube.com/watch?v=kkF5eGMxwEQ",
+      "artwork": "assets/covers/kkF5eGMxwEQ.jpg",
+      "artworkLarge": "assets/covers/kkF5eGMxwEQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "OkOJGgqcwro",
+      "artist": "Olga Tañón",
+      "title": "Como Olvidar",
+      "youtube": "https://www.youtube.com/watch?v=OkOJGgqcwro",
+      "artwork": "assets/covers/OkOJGgqcwro.jpg",
+      "artworkLarge": "assets/covers/OkOJGgqcwro.jpg",
+      "intro": true
+    },
+    {
+      "id": "N3tdl7-puY4",
+      "artist": "Selena",
+      "title": "Como La Flor",
+      "youtube": "https://www.youtube.com/watch?v=N3tdl7-puY4",
+      "artwork": "assets/covers/N3tdl7-puY4.jpg",
+      "artworkLarge": "assets/covers/N3tdl7-puY4.jpg",
+      "intro": true
+    },
+    {
+      "id": "b1cbgrcBrY0",
+      "artist": "José José",
+      "title": "El Triste",
+      "youtube": "https://www.youtube.com/watch?v=b1cbgrcBrY0",
+      "artwork": "assets/covers/b1cbgrcBrY0.jpg",
+      "artworkLarge": "assets/covers/b1cbgrcBrY0.jpg",
+      "intro": true
+    },
+    {
+      "id": "acl81DrzYP8",
+      "artist": "Rocío Dúrcal",
+      "title": "La Gata Bajo La Lluvia",
+      "youtube": "https://www.youtube.com/watch?v=acl81DrzYP8",
+      "artwork": "assets/covers/acl81DrzYP8.jpg",
+      "artworkLarge": "assets/covers/acl81DrzYP8.jpg",
+      "intro": true
+    },
+    {
+      "id": "xrk5rOIGiuU",
+      "artist": "Amanda Miguel",
+      "title": "El Me Mintio",
+      "youtube": "https://www.youtube.com/watch?v=xrk5rOIGiuU",
+      "artwork": "assets/covers/xrk5rOIGiuU.jpg",
+      "artworkLarge": "assets/covers/xrk5rOIGiuU.jpg",
+      "intro": true
+    },
+    {
+      "id": "39kMo2cddgQ",
+      "artist": "Thalía",
+      "title": "Amor a La Mexicana",
+      "youtube": "https://www.youtube.com/watch?v=39kMo2cddgQ",
+      "artwork": "assets/covers/39kMo2cddgQ.jpg",
+      "artworkLarge": "assets/covers/39kMo2cddgQ.jpg",
       "intro": true
     },
     {
@@ -87,12 +96,39 @@
       "intro": true
     },
     {
-      "id": "gr6RzMi4L3o",
+      "id": "E6soE-1p3kw",
+      "artist": "Milly Quezada",
+      "title": "Volvio Juanita",
+      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
+      "artwork": "assets/covers/E6soE-1p3kw.jpg",
+      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg",
+      "intro": true
+    },
+    {
+      "id": "1pr7Fv-9Z3I",
       "artist": "Ana Gabriel",
-      "title": "No Te Hago Falta",
-      "youtube": "https://www.youtube.com/watch?v=gr6RzMi4L3o",
-      "artwork": "assets/covers/gr6RzMi4L3o.jpg",
-      "artworkLarge": "assets/covers/gr6RzMi4L3o.jpg",
+      "title": "Evidencias",
+      "youtube": "https://www.youtube.com/watch?v=1pr7Fv-9Z3I",
+      "artwork": "assets/covers/1pr7Fv-9Z3I.jpg",
+      "artworkLarge": "assets/covers/1pr7Fv-9Z3I.jpg",
+      "intro": true
+    },
+    {
+      "id": "uMrN1W4ryoE",
+      "artist": "Chayanne",
+      "title": "Dejaria Todo",
+      "youtube": "https://www.youtube.com/watch?v=uMrN1W4ryoE",
+      "artwork": "assets/covers/uMrN1W4ryoE.jpg",
+      "artworkLarge": "assets/covers/uMrN1W4ryoE.jpg",
+      "intro": true
+    },
+    {
+      "id": "sADUuDB2MzI",
+      "artist": "Selena",
+      "title": "Amor Prohibido",
+      "youtube": "https://www.youtube.com/watch?v=sADUuDB2MzI",
+      "artwork": "assets/covers/sADUuDB2MzI.jpg",
+      "artworkLarge": "assets/covers/sADUuDB2MzI.jpg",
       "intro": true
     },
     {
@@ -105,13 +141,68 @@
       "intro": true
     },
     {
+      "id": "0O4CLgXvbjU",
+      "artist": "Juan Gabriel",
+      "title": "Así Fue",
+      "youtube": "https://www.youtube.com/watch?v=0O4CLgXvbjU",
+      "artwork": "assets/covers/0O4CLgXvbjU.jpg",
+      "artworkLarge": "assets/covers/0O4CLgXvbjU.jpg"
+    },
+    {
+      "id": "ga5Bo4YdgH4",
+      "artist": "Juan Gabriel",
+      "title": "Hasta Que Te Conoci",
+      "youtube": "https://www.youtube.com/watch?v=ga5Bo4YdgH4",
+      "artwork": "assets/covers/ga5Bo4YdgH4.jpg",
+      "artworkLarge": "assets/covers/ga5Bo4YdgH4.jpg"
+    },
+    {
+      "id": "_tNVEhSelH0",
+      "artist": "Juan Gabriel",
+      "title": "Abrázame Muy Fuerte",
+      "youtube": "https://www.youtube.com/watch?v=_tNVEhSelH0",
+      "artwork": "assets/covers/_tNVEhSelH0.jpg",
+      "artworkLarge": "assets/covers/_tNVEhSelH0.jpg"
+    },
+    {
+      "id": "6N2LEajhs30",
+      "artist": "Marco Antonio Solis",
+      "title": "O Me Voy o Te Vas",
+      "youtube": "https://www.youtube.com/watch?v=6N2LEajhs30",
+      "artwork": "assets/covers/6N2LEajhs30.jpg",
+      "artworkLarge": "assets/covers/6N2LEajhs30.jpg"
+    },
+    {
+      "id": "apFHxRBXkzg",
+      "artist": "Pepe Aguilar",
+      "title": "Por Mujeres Como Tú",
+      "youtube": "https://www.youtube.com/watch?v=apFHxRBXkzg",
+      "artwork": "assets/covers/apFHxRBXkzg.jpg",
+      "artworkLarge": "assets/covers/apFHxRBXkzg.jpg"
+    },
+    {
+      "id": "FCi-Xp2TVoQ",
+      "artist": "Selena",
+      "title": "No Me Queda Mas",
+      "youtube": "https://www.youtube.com/watch?v=FCi-Xp2TVoQ",
+      "artwork": "assets/covers/FCi-Xp2TVoQ.jpg",
+      "artworkLarge": "assets/covers/FCi-Xp2TVoQ.jpg"
+    },
+    {
+      "id": "gr6RzMi4L3o",
+      "artist": "Ana Gabriel",
+      "title": "No Te Hago Falta",
+      "youtube": "https://www.youtube.com/watch?v=gr6RzMi4L3o",
+      "artwork": "assets/covers/gr6RzMi4L3o.jpg",
+      "artworkLarge": "assets/covers/gr6RzMi4L3o.jpg"
+    },
+    {
       "id": "oADpF--uirA",
       "artist": "Juan Gabriel",
       "title": "Querida",
       "youtube": "https://www.youtube.com/watch?v=oADpF--uirA",
       "artwork": "assets/covers/oADpF--uirA.jpg",
-      "artworkLarge": "assets/covers/oADpF--uirA.jpg",
-      "intro": true
+      "artworkLarge": "assets/covers/oADpF--uirA.jpg"
     },
     {
       "id": "T_oE3qkbo5s",
@@ -119,8 +210,7 @@
       "title": "No Se Tu",
       "youtube": "https://www.youtube.com/watch?v=T_oE3qkbo5s",
       "artwork": "assets/covers/T_oE3qkbo5s.jpg",
-      "artworkLarge": "assets/covers/T_oE3qkbo5s.jpg",
-      "intro": true
+      "artworkLarge": "assets/covers/T_oE3qkbo5s.jpg"
     },
     {
       "id": "6e0XWqAeTwc",
@@ -128,8 +218,7 @@
       "title": "Y Quien Puede Ser",
       "youtube": "https://www.youtube.com/watch?v=6e0XWqAeTwc",
       "artwork": "assets/covers/6e0XWqAeTwc.jpg",
-      "artworkLarge": "assets/covers/6e0XWqAeTwc.jpg",
-      "intro": true
+      "artworkLarge": "assets/covers/6e0XWqAeTwc.jpg"
     },
     {
       "id": "1ddK89KqVe8",
@@ -137,96 +226,7 @@
       "title": "El Hombre Que Yo Amo",
       "youtube": "https://www.youtube.com/watch?v=1ddK89KqVe8",
       "artwork": "assets/covers/1ddK89KqVe8.jpg",
-      "artworkLarge": "assets/covers/1ddK89KqVe8.jpg",
-      "intro": true
-    },
-    {
-      "id": "ksoI-1X9sr4",
-      "artist": "Luis Miguel",
-      "title": "Suave",
-      "youtube": "https://www.youtube.com/watch?v=ksoI-1X9sr4",
-      "artwork": "assets/covers/ksoI-1X9sr4.jpg",
-      "artworkLarge": "assets/covers/ksoI-1X9sr4.jpg"
-    },
-    {
-      "id": "kkF5eGMxwEQ",
-      "artist": "Ana Gabriel",
-      "title": "Simplemente Amigos",
-      "youtube": "https://www.youtube.com/watch?v=kkF5eGMxwEQ",
-      "artwork": "assets/covers/kkF5eGMxwEQ.jpg",
-      "artworkLarge": "assets/covers/kkF5eGMxwEQ.jpg"
-    },
-    {
-      "id": "OkOJGgqcwro",
-      "artist": "Olga Tañón",
-      "title": "Como Olvidar",
-      "youtube": "https://www.youtube.com/watch?v=OkOJGgqcwro",
-      "artwork": "assets/covers/OkOJGgqcwro.jpg",
-      "artworkLarge": "assets/covers/OkOJGgqcwro.jpg"
-    },
-    {
-      "id": "N3tdl7-puY4",
-      "artist": "Selena",
-      "title": "Como La Flor",
-      "youtube": "https://www.youtube.com/watch?v=N3tdl7-puY4",
-      "artwork": "assets/covers/N3tdl7-puY4.jpg",
-      "artworkLarge": "assets/covers/N3tdl7-puY4.jpg"
-    },
-    {
-      "id": "b1cbgrcBrY0",
-      "artist": "José José",
-      "title": "El Triste",
-      "youtube": "https://www.youtube.com/watch?v=b1cbgrcBrY0",
-      "artwork": "assets/covers/b1cbgrcBrY0.jpg",
-      "artworkLarge": "assets/covers/b1cbgrcBrY0.jpg"
-    },
-    {
-      "id": "acl81DrzYP8",
-      "artist": "Rocío Dúrcal",
-      "title": "La Gata Bajo La Lluvia",
-      "youtube": "https://www.youtube.com/watch?v=acl81DrzYP8",
-      "artwork": "assets/covers/acl81DrzYP8.jpg",
-      "artworkLarge": "assets/covers/acl81DrzYP8.jpg"
-    },
-    {
-      "id": "xrk5rOIGiuU",
-      "artist": "Amanda Miguel",
-      "title": "El Me Mintio",
-      "youtube": "https://www.youtube.com/watch?v=xrk5rOIGiuU",
-      "artwork": "assets/covers/xrk5rOIGiuU.jpg",
-      "artworkLarge": "assets/covers/xrk5rOIGiuU.jpg"
-    },
-    {
-      "id": "39kMo2cddgQ",
-      "artist": "Thalía",
-      "title": "Amor a La Mexicana",
-      "youtube": "https://www.youtube.com/watch?v=39kMo2cddgQ",
-      "artwork": "assets/covers/39kMo2cddgQ.jpg",
-      "artworkLarge": "assets/covers/39kMo2cddgQ.jpg"
-    },
-    {
-      "id": "E6soE-1p3kw",
-      "artist": "Milly Quezada",
-      "title": "Volvio Juanita",
-      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
-      "artwork": "assets/covers/E6soE-1p3kw.jpg",
-      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg"
-    },
-    {
-      "id": "1pr7Fv-9Z3I",
-      "artist": "Ana Gabriel",
-      "title": "Evidencias",
-      "youtube": "https://www.youtube.com/watch?v=1pr7Fv-9Z3I",
-      "artwork": "assets/covers/1pr7Fv-9Z3I.jpg",
-      "artworkLarge": "assets/covers/1pr7Fv-9Z3I.jpg"
-    },
-    {
-      "id": "sADUuDB2MzI",
-      "artist": "Selena",
-      "title": "Amor Prohibido",
-      "youtube": "https://www.youtube.com/watch?v=sADUuDB2MzI",
-      "artwork": "assets/covers/sADUuDB2MzI.jpg",
-      "artworkLarge": "assets/covers/sADUuDB2MzI.jpg"
+      "artworkLarge": "assets/covers/1ddK89KqVe8.jpg"
     },
     {
       "id": "9jQJfdQlYUk",

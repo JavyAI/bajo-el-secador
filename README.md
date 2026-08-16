@@ -13,9 +13,9 @@ Open http://localhost:8876/
 
 | Hash | Room | Mix | First song |
 |---|---|---|---|
-| `#salon` | Bajo el secador | 110 · baladas y merengue | Juan Gabriel — Así Fue |
-| `#barberia` | En la silla | 68 · bachata | Romeo Santos — Propuesta Indecente |
-| `#colmado` | En la esquina | 81 · salsa y merengue | Son by Four — A Puro Dolor |
+| `#salon` | Bajo el secador | 110 · baladas y merengue | Juan Gabriel — Amor Eterno |
+| `#barberia` | En la silla | 68 · bachata | Aventura — Obsesión |
+| `#colmado` | En la esquina | 86 · salsa y merengue | Juan Luis Guerra — A Pedir Su Mano |
 
 Clock top-left. Presence top-center (this origin, live tabs only). YouTube Music pill top-right. Wordmark in the quiet band of each painting. Glass player at the bottom: spinning circular art, authored order, no shuffle.
 

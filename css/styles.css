@@ -1,8 +1,8 @@
 :root {
   --ink: #fff;
   --muted: rgba(255, 255, 255, 0.7);
-  --glass: rgba(255, 255, 255, 0.1);
-  --glass-edge: rgba(255, 255, 255, 0.2);
+  --glass: rgba(255, 255, 255, 0.12);
+  --glass-edge: rgba(255, 255, 255, 0.28);
   --theme: #133d3c;
   --safe-t: max(20px, env(safe-area-inset-top));
   --safe-r: max(20px, env(safe-area-inset-right));
@@ -324,19 +324,46 @@ a {
 }
 
 .player {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   display: flex;
   align-items: center;
   gap: 16px;
   width: min(100%, 36rem);
   padding: 12px 20px 12px 12px;
   border-radius: 999px;
-  background: var(--glass);
+  background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.08) 46%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
   border: 1px solid var(--glass-edge);
-  backdrop-filter: blur(28px) saturate(1.5);
-  -webkit-backdrop-filter: blur(28px) saturate(1.5);
+  backdrop-filter: blur(42px) saturate(1.85);
+  -webkit-backdrop-filter: blur(42px) saturate(1.85);
   box-shadow:
-    0 8px 40px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    0 10px 40px rgba(0, 0, 0, 0.38),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.player::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 1px;
+  height: 46%;
+  border-radius: 999px 999px 40% 40%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0));
+  pointer-events: none;
+  z-index: 0;
+}
+
+.player > * {
+  position: relative;
+  z-index: 1;
 }
 
 .vinyl {
@@ -380,12 +407,20 @@ body.is-playing .cover {
 
 .title {
   margin: 0;
+  display: block;
+  max-width: 100%;
   font-size: 15px;
   font-weight: 600;
+  color: inherit;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+a.title:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .artist {

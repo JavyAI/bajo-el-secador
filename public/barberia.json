@@ -6,6 +6,15 @@
   "count": 68,
   "tracks": [
     {
+      "id": "SEjw5rdyvVg",
+      "artist": "Aventura",
+      "title": "Obsesion",
+      "youtube": "https://www.youtube.com/watch?v=SEjw5rdyvVg",
+      "artwork": "assets/covers/SEjw5rdyvVg.jpg",
+      "artworkLarge": "assets/covers/SEjw5rdyvVg.jpg",
+      "intro": true
+    },
+    {
       "id": "QFs3PIZb3js",
       "artist": "Romeo Santos",
       "title": "Propuesta Indecente",
@@ -24,39 +33,12 @@
       "intro": true
     },
     {
-      "id": "Lg_Pn45gyMs",
-      "artist": "Aventura",
-      "title": "Ella y Yo",
-      "youtube": "https://www.youtube.com/watch?v=Lg_Pn45gyMs",
-      "artwork": "assets/covers/Lg_Pn45gyMs.jpg",
-      "artworkLarge": "assets/covers/Lg_Pn45gyMs.jpg",
-      "intro": true
-    },
-    {
-      "id": "mhHqonzsuoA",
-      "artist": "Romeo Santos",
-      "title": "Imitadora",
-      "youtube": "https://www.youtube.com/watch?v=mhHqonzsuoA",
-      "artwork": "assets/covers/mhHqonzsuoA.jpg",
-      "artworkLarge": "assets/covers/mhHqonzsuoA.jpg",
-      "intro": true
-    },
-    {
-      "id": "jk4HYngf65w",
-      "artist": "Romeo Santos",
-      "title": "Cancioncitas de Amor",
-      "youtube": "https://www.youtube.com/watch?v=jk4HYngf65w",
-      "artwork": "assets/covers/jk4HYngf65w.jpg",
-      "artworkLarge": "assets/covers/jk4HYngf65w.jpg",
-      "intro": true
-    },
-    {
-      "id": "4eCL0l9iD5A",
-      "artist": "Romeo Santos",
-      "title": "Hilito",
-      "youtube": "https://www.youtube.com/watch?v=4eCL0l9iD5A",
-      "artwork": "assets/covers/4eCL0l9iD5A.jpg",
-      "artworkLarge": "assets/covers/4eCL0l9iD5A.jpg",
+      "id": "0mFaIxl1wgQ",
+      "artist": "Frank Reyes",
+      "title": "Tu Eres Ajena",
+      "youtube": "https://www.youtube.com/watch?v=0mFaIxl1wgQ",
+      "artwork": "assets/covers/0mFaIxl1wgQ.jpg",
+      "artworkLarge": "assets/covers/0mFaIxl1wgQ.jpg",
       "intro": true
     },
     {
@@ -69,30 +51,66 @@
       "intro": true
     },
     {
-      "id": "uBwk106e3es",
-      "artist": "Aventura",
-      "title": "Un Beso",
-      "youtube": "https://www.youtube.com/watch?v=uBwk106e3es",
-      "artwork": "assets/covers/uBwk106e3es.jpg",
-      "artworkLarge": "assets/covers/uBwk106e3es.jpg",
+      "id": "7WUL72Vvt-U",
+      "artist": "Antony Santos",
+      "title": "Voy Pa'lla",
+      "youtube": "https://www.youtube.com/watch?v=7WUL72Vvt-U",
+      "artwork": "assets/covers/7WUL72Vvt-U.jpg",
+      "artworkLarge": "assets/covers/7WUL72Vvt-U.jpg",
       "intro": true
     },
     {
-      "id": "z2pt4CN4rhc",
-      "artist": "Aventura",
-      "title": "Mi Corazoncito",
-      "youtube": "https://www.youtube.com/watch?v=z2pt4CN4rhc",
-      "artwork": "assets/covers/z2pt4CN4rhc.jpg",
-      "artworkLarge": "assets/covers/z2pt4CN4rhc.jpg",
+      "id": "VIQ6cijCBf4",
+      "artist": "Luis Vargas",
+      "title": "Loco de Amor",
+      "youtube": "https://www.youtube.com/watch?v=VIQ6cijCBf4",
+      "artwork": "assets/covers/VIQ6cijCBf4.jpg",
+      "artworkLarge": "assets/covers/VIQ6cijCBf4.jpg",
       "intro": true
     },
     {
-      "id": "WllxyZpvVEs",
+      "id": "Lg_Pn45gyMs",
       "artist": "Aventura",
-      "title": "Angelito",
-      "youtube": "https://www.youtube.com/watch?v=WllxyZpvVEs",
-      "artwork": "assets/covers/WllxyZpvVEs.jpg",
-      "artworkLarge": "assets/covers/WllxyZpvVEs.jpg",
+      "title": "Ella y Yo",
+      "youtube": "https://www.youtube.com/watch?v=Lg_Pn45gyMs",
+      "artwork": "assets/covers/Lg_Pn45gyMs.jpg",
+      "artworkLarge": "assets/covers/Lg_Pn45gyMs.jpg",
+      "intro": true
+    },
+    {
+      "id": "vY_3YrKtUUE",
+      "artist": "Romeo Santos",
+      "title": "Eres Mia",
+      "youtube": "https://www.youtube.com/watch?v=vY_3YrKtUUE",
+      "artwork": "assets/covers/vY_3YrKtUUE.jpg",
+      "artworkLarge": "assets/covers/vY_3YrKtUUE.jpg",
+      "intro": true
+    },
+    {
+      "id": "ZNN7NTl83cI",
+      "artist": "Prince Royce",
+      "title": "Corazon Sin Cara",
+      "youtube": "https://www.youtube.com/watch?v=ZNN7NTl83cI",
+      "artwork": "assets/covers/ZNN7NTl83cI.jpg",
+      "artworkLarge": "assets/covers/ZNN7NTl83cI.jpg",
+      "intro": true
+    },
+    {
+      "id": "kuCDQx9AmI8",
+      "artist": "Raulin Rodriguez",
+      "title": "Nereyda",
+      "youtube": "https://www.youtube.com/watch?v=kuCDQx9AmI8",
+      "artwork": "assets/covers/kuCDQx9AmI8.jpg",
+      "artworkLarge": "assets/covers/kuCDQx9AmI8.jpg",
+      "intro": true
+    },
+    {
+      "id": "v0ckuv1xBm0",
+      "artist": "Juan Luis Guerra",
+      "title": "Burbujas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
+      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
+      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg",
       "intro": true
     },
     {
@@ -105,104 +123,13 @@
       "intro": true
     },
     {
-      "id": "0m5SXO8qK78",
-      "artist": "Monchy y Alexandra",
-      "title": "Dos Locos",
-      "youtube": "https://www.youtube.com/watch?v=0m5SXO8qK78",
-      "artwork": "assets/covers/0m5SXO8qK78.jpg",
-      "artworkLarge": "assets/covers/0m5SXO8qK78.jpg",
-      "intro": true
-    },
-    {
-      "id": "9Vt0NBO37yI",
-      "artist": "Raulin Rodriguez",
-      "title": "Medicina de Amor",
-      "youtube": "https://www.youtube.com/watch?v=9Vt0NBO37yI",
-      "artwork": "assets/covers/9Vt0NBO37yI.jpg",
-      "artworkLarge": "assets/covers/9Vt0NBO37yI.jpg",
-      "intro": true
-    },
-    {
-      "id": "SEjw5rdyvVg",
-      "artist": "Aventura",
-      "title": "Obsesion",
-      "youtube": "https://www.youtube.com/watch?v=SEjw5rdyvVg",
-      "artwork": "assets/covers/SEjw5rdyvVg.jpg",
-      "artworkLarge": "assets/covers/SEjw5rdyvVg.jpg",
-      "intro": true
-    },
-    {
-      "id": "rmerQRm3GJk",
-      "artist": "Hector Acosta",
-      "title": "Me Voy",
-      "youtube": "https://www.youtube.com/watch?v=rmerQRm3GJk",
-      "artwork": "assets/covers/rmerQRm3GJk.jpg",
-      "artworkLarge": "assets/covers/rmerQRm3GJk.jpg",
-      "intro": true
-    },
-    {
-      "id": "0mFaIxl1wgQ",
-      "artist": "Frank Reyes",
-      "title": "Tu Eres Ajena",
-      "youtube": "https://www.youtube.com/watch?v=0mFaIxl1wgQ",
-      "artwork": "assets/covers/0mFaIxl1wgQ.jpg",
-      "artworkLarge": "assets/covers/0mFaIxl1wgQ.jpg"
-    },
-    {
-      "id": "7WUL72Vvt-U",
-      "artist": "Antony Santos",
-      "title": "Voy Pa'lla",
-      "youtube": "https://www.youtube.com/watch?v=7WUL72Vvt-U",
-      "artwork": "assets/covers/7WUL72Vvt-U.jpg",
-      "artworkLarge": "assets/covers/7WUL72Vvt-U.jpg"
-    },
-    {
-      "id": "VIQ6cijCBf4",
-      "artist": "Luis Vargas",
-      "title": "Loco de Amor",
-      "youtube": "https://www.youtube.com/watch?v=VIQ6cijCBf4",
-      "artwork": "assets/covers/VIQ6cijCBf4.jpg",
-      "artworkLarge": "assets/covers/VIQ6cijCBf4.jpg"
-    },
-    {
-      "id": "vY_3YrKtUUE",
-      "artist": "Romeo Santos",
-      "title": "Eres Mia",
-      "youtube": "https://www.youtube.com/watch?v=vY_3YrKtUUE",
-      "artwork": "assets/covers/vY_3YrKtUUE.jpg",
-      "artworkLarge": "assets/covers/vY_3YrKtUUE.jpg"
-    },
-    {
-      "id": "ZNN7NTl83cI",
-      "artist": "Prince Royce",
-      "title": "Corazon Sin Cara",
-      "youtube": "https://www.youtube.com/watch?v=ZNN7NTl83cI",
-      "artwork": "assets/covers/ZNN7NTl83cI.jpg",
-      "artworkLarge": "assets/covers/ZNN7NTl83cI.jpg"
-    },
-    {
-      "id": "kuCDQx9AmI8",
-      "artist": "Raulin Rodriguez",
-      "title": "Nereyda",
-      "youtube": "https://www.youtube.com/watch?v=kuCDQx9AmI8",
-      "artwork": "assets/covers/kuCDQx9AmI8.jpg",
-      "artworkLarge": "assets/covers/kuCDQx9AmI8.jpg"
-    },
-    {
-      "id": "v0ckuv1xBm0",
-      "artist": "Juan Luis Guerra",
-      "title": "Burbujas de Amor",
-      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
-      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
-      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg"
-    },
-    {
       "id": "5HirJ6k5yzA",
       "artist": "Alex Bueno",
       "title": "Que Vuelva",
       "youtube": "https://www.youtube.com/watch?v=5HirJ6k5yzA",
       "artwork": "assets/covers/5HirJ6k5yzA.jpg",
-      "artworkLarge": "assets/covers/5HirJ6k5yzA.jpg"
+      "artworkLarge": "assets/covers/5HirJ6k5yzA.jpg",
+      "intro": true
     },
     {
       "id": "uv_sAIRruiA",
@@ -210,7 +137,80 @@
       "title": "Dile al Amor",
       "youtube": "https://www.youtube.com/watch?v=uv_sAIRruiA",
       "artwork": "assets/covers/uv_sAIRruiA.jpg",
-      "artworkLarge": "assets/covers/uv_sAIRruiA.jpg"
+      "artworkLarge": "assets/covers/uv_sAIRruiA.jpg",
+      "intro": true
+    },
+    {
+      "id": "mhHqonzsuoA",
+      "artist": "Romeo Santos",
+      "title": "Imitadora",
+      "youtube": "https://www.youtube.com/watch?v=mhHqonzsuoA",
+      "artwork": "assets/covers/mhHqonzsuoA.jpg",
+      "artworkLarge": "assets/covers/mhHqonzsuoA.jpg"
+    },
+    {
+      "id": "jk4HYngf65w",
+      "artist": "Romeo Santos",
+      "title": "Cancioncitas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=jk4HYngf65w",
+      "artwork": "assets/covers/jk4HYngf65w.jpg",
+      "artworkLarge": "assets/covers/jk4HYngf65w.jpg"
+    },
+    {
+      "id": "4eCL0l9iD5A",
+      "artist": "Romeo Santos",
+      "title": "Hilito",
+      "youtube": "https://www.youtube.com/watch?v=4eCL0l9iD5A",
+      "artwork": "assets/covers/4eCL0l9iD5A.jpg",
+      "artworkLarge": "assets/covers/4eCL0l9iD5A.jpg"
+    },
+    {
+      "id": "uBwk106e3es",
+      "artist": "Aventura",
+      "title": "Un Beso",
+      "youtube": "https://www.youtube.com/watch?v=uBwk106e3es",
+      "artwork": "assets/covers/uBwk106e3es.jpg",
+      "artworkLarge": "assets/covers/uBwk106e3es.jpg"
+    },
+    {
+      "id": "z2pt4CN4rhc",
+      "artist": "Aventura",
+      "title": "Mi Corazoncito",
+      "youtube": "https://www.youtube.com/watch?v=z2pt4CN4rhc",
+      "artwork": "assets/covers/z2pt4CN4rhc.jpg",
+      "artworkLarge": "assets/covers/z2pt4CN4rhc.jpg"
+    },
+    {
+      "id": "WllxyZpvVEs",
+      "artist": "Aventura",
+      "title": "Angelito",
+      "youtube": "https://www.youtube.com/watch?v=WllxyZpvVEs",
+      "artwork": "assets/covers/WllxyZpvVEs.jpg",
+      "artworkLarge": "assets/covers/WllxyZpvVEs.jpg"
+    },
+    {
+      "id": "0m5SXO8qK78",
+      "artist": "Monchy y Alexandra",
+      "title": "Dos Locos",
+      "youtube": "https://www.youtube.com/watch?v=0m5SXO8qK78",
+      "artwork": "assets/covers/0m5SXO8qK78.jpg",
+      "artworkLarge": "assets/covers/0m5SXO8qK78.jpg"
+    },
+    {
+      "id": "9Vt0NBO37yI",
+      "artist": "Raulin Rodriguez",
+      "title": "Medicina de Amor",
+      "youtube": "https://www.youtube.com/watch?v=9Vt0NBO37yI",
+      "artwork": "assets/covers/9Vt0NBO37yI.jpg",
+      "artworkLarge": "assets/covers/9Vt0NBO37yI.jpg"
+    },
+    {
+      "id": "rmerQRm3GJk",
+      "artist": "Hector Acosta",
+      "title": "Me Voy",
+      "youtube": "https://www.youtube.com/watch?v=rmerQRm3GJk",
+      "artwork": "assets/covers/rmerQRm3GJk.jpg",
+      "artworkLarge": "assets/covers/rmerQRm3GJk.jpg"
     },
     {
       "id": "mSQR149bnWg",

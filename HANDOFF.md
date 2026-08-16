@@ -114,13 +114,13 @@ Live plates came from:
 
 ---
 
-## Openers (first 15 = this official clip’s YouTube views)
+## Openers (culture first, not chart)
 
-Secador starts: Juan Gabriel — Así Fue  
-Silla starts: Romeo Santos — Propuesta Indecente  
-Esquina starts: Son by Four — A Puro Dolor (Yiyo Sarante salsa hits now in this room; Chiquito Team Band merengue/salsa too)  
+Secador starts: Juan Gabriel — Amor Eterno  
+Silla starts: Aventura — Obsesión  
+Esquina starts: Juan Luis Guerra — A Pedir Su Mano  
 
-Rest of each catalog keeps prior order after the promoted 15. Artist stacking is allowed (founder’s view-rank rule).
+First 15 is the room set (tía radio / silla típica+diaspora / colmado fiesta). Views only pick the official clip, not the song. Yiyo Sarante and Chiquito Team Band live on Esquina after the opener.
 
 ---
 

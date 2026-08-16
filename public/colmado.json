@@ -6,102 +6,12 @@
   "count": 86,
   "tracks": [
     {
-      "id": "kAKVT1HWNsg",
-      "artist": "Son by Four",
-      "title": "A Puro Dolor",
-      "youtube": "https://www.youtube.com/watch?v=kAKVT1HWNsg",
-      "artwork": "assets/covers/kAKVT1HWNsg.jpg",
-      "artworkLarge": "assets/covers/kAKVT1HWNsg.jpg",
-      "intro": true
-    },
-    {
-      "id": "ExCIp6TOnJw",
-      "artist": "Yiyo Sarante",
-      "title": "Manos de Tijera",
-      "youtube": "https://www.youtube.com/watch?v=ExCIp6TOnJw",
-      "artwork": "assets/covers/ExCIp6TOnJw.jpg",
-      "artworkLarge": "assets/covers/ExCIp6TOnJw.jpg",
-      "intro": true
-    },
-    {
-      "id": "WPiEbYSF9kE",
-      "artist": "Elvis Crespo",
-      "title": "Suavemente",
-      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
-      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
-      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
-      "intro": true
-    },
-    {
-      "id": "s3fcKFQukbY",
-      "artist": "Tito Nieves",
-      "title": "Fabricando Fantasias",
-      "youtube": "https://www.youtube.com/watch?v=s3fcKFQukbY",
-      "artwork": "assets/covers/s3fcKFQukbY.jpg",
-      "artworkLarge": "assets/covers/s3fcKFQukbY.jpg",
-      "intro": true
-    },
-    {
-      "id": "2PVi95J-FMo",
-      "artist": "Luis Enrique",
-      "title": "Yo No Sé Mañana",
-      "youtube": "https://www.youtube.com/watch?v=2PVi95J-FMo",
-      "artwork": "assets/covers/2PVi95J-FMo.jpg",
-      "artworkLarge": "assets/covers/2PVi95J-FMo.jpg",
-      "intro": true
-    },
-    {
-      "id": "wQUcaSEuob0",
-      "artist": "Rey Ruiz",
-      "title": "Mi Media Mitad",
-      "youtube": "https://www.youtube.com/watch?v=wQUcaSEuob0",
-      "artwork": "assets/covers/wQUcaSEuob0.jpg",
-      "artworkLarge": "assets/covers/wQUcaSEuob0.jpg",
-      "intro": true
-    },
-    {
-      "id": "imeXSRNRMeg",
-      "artist": "Celia Cruz",
-      "title": "La Negra Tiene Tumbao",
-      "youtube": "https://www.youtube.com/watch?v=imeXSRNRMeg",
-      "artwork": "assets/covers/imeXSRNRMeg.jpg",
-      "artworkLarge": "assets/covers/imeXSRNRMeg.jpg",
-      "intro": true
-    },
-    {
-      "id": "gxlB1B9emDc",
-      "artist": "Oscar D'Leon",
-      "title": "Lloraras",
-      "youtube": "https://www.youtube.com/watch?v=gxlB1B9emDc",
-      "artwork": "assets/covers/gxlB1B9emDc.jpg",
-      "artworkLarge": "assets/covers/gxlB1B9emDc.jpg",
-      "intro": true
-    },
-    {
-      "id": "0ZfwT6lHahk",
-      "artist": "Gilberto Santa Rosa",
-      "title": "Que Alguien Me Diga",
-      "youtube": "https://www.youtube.com/watch?v=0ZfwT6lHahk",
-      "artwork": "assets/covers/0ZfwT6lHahk.jpg",
-      "artworkLarge": "assets/covers/0ZfwT6lHahk.jpg",
-      "intro": true
-    },
-    {
-      "id": "eHsR140M2no",
-      "artist": "Yiyo Sarante",
-      "title": "Que Agonia",
-      "youtube": "https://www.youtube.com/watch?v=eHsR140M2no",
-      "artwork": "assets/covers/eHsR140M2no.jpg",
-      "artworkLarge": "assets/covers/eHsR140M2no.jpg",
-      "intro": true
-    },
-    {
-      "id": "mXZRB_al3fs",
-      "artist": "Willie Colon y Hector Lavoe",
-      "title": "El Dia de Mi Suerte",
-      "youtube": "https://www.youtube.com/watch?v=mXZRB_al3fs",
-      "artwork": "assets/covers/mXZRB_al3fs.jpg",
-      "artworkLarge": "assets/covers/mXZRB_al3fs.jpg",
+      "id": "_koz_f4mthE",
+      "artist": "Juan Luis Guerra",
+      "title": "A Pedir Su Mano",
+      "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
+      "artwork": "assets/covers/_koz_f4mthE.jpg",
+      "artworkLarge": "assets/covers/_koz_f4mthE.jpg",
       "intro": true
     },
     {
@@ -114,13 +24,201 @@
       "intro": true
     },
     {
+      "id": "WPiEbYSF9kE",
+      "artist": "Elvis Crespo",
+      "title": "Suavemente",
+      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
+      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
+      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
+      "intro": true
+    },
+    {
+      "id": "AFYJ5axf02o",
+      "artist": "Celia Cruz",
+      "title": "La Vida Es Un Carnaval",
+      "youtube": "https://www.youtube.com/watch?v=AFYJ5axf02o",
+      "artwork": "assets/covers/AFYJ5axf02o.jpg",
+      "artworkLarge": "assets/covers/AFYJ5axf02o.jpg",
+      "intro": true
+    },
+    {
+      "id": "US0GbUpQ9VU",
+      "artist": "Willie Colon",
+      "title": "El Gran Varon",
+      "youtube": "https://www.youtube.com/watch?v=US0GbUpQ9VU",
+      "artwork": "assets/covers/US0GbUpQ9VU.jpg",
+      "artworkLarge": "assets/covers/US0GbUpQ9VU.jpg",
+      "intro": true
+    },
+    {
+      "id": "frsVQWSINAI",
+      "artist": "El Gran Combo",
+      "title": "Me Libere",
+      "youtube": "https://www.youtube.com/watch?v=frsVQWSINAI",
+      "artwork": "assets/covers/frsVQWSINAI.jpg",
+      "artworkLarge": "assets/covers/frsVQWSINAI.jpg",
+      "intro": true
+    },
+    {
+      "id": "k62zZBeevWQ",
+      "artist": "Ruben Blades",
+      "title": "Pedro Navaja",
+      "youtube": "https://www.youtube.com/watch?v=k62zZBeevWQ",
+      "artwork": "assets/covers/k62zZBeevWQ.jpg",
+      "artworkLarge": "assets/covers/k62zZBeevWQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "2LiZyAIVmbs",
+      "artist": "Juan Luis Guerra",
+      "title": "Bachata Rosa",
+      "youtube": "https://www.youtube.com/watch?v=2LiZyAIVmbs",
+      "artwork": "assets/covers/2LiZyAIVmbs.jpg",
+      "artworkLarge": "assets/covers/2LiZyAIVmbs.jpg",
+      "intro": true
+    },
+    {
+      "id": "oWBf9hfW_4Y",
+      "artist": "Joe Arroyo",
+      "title": "Rebelion",
+      "youtube": "https://www.youtube.com/watch?v=oWBf9hfW_4Y",
+      "artwork": "assets/covers/oWBf9hfW_4Y.jpg",
+      "artworkLarge": "assets/covers/oWBf9hfW_4Y.jpg",
+      "intro": true
+    },
+    {
+      "id": "1DbXzlhKS5s",
+      "artist": "Wilfrido Vargas",
+      "title": "El Africano",
+      "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
+      "artwork": "assets/covers/1DbXzlhKS5s.jpg",
+      "artworkLarge": "assets/covers/1DbXzlhKS5s.jpg",
+      "intro": true
+    },
+    {
+      "id": "rOw9UxJyhII",
+      "artist": "Los Hermanos Rosario",
+      "title": "La Dueña del Swing",
+      "youtube": "https://www.youtube.com/watch?v=rOw9UxJyhII",
+      "artwork": "assets/covers/rOw9UxJyhII.jpg",
+      "artworkLarge": "assets/covers/rOw9UxJyhII.jpg",
+      "intro": true
+    },
+    {
+      "id": "H5gxKL5pmI4",
+      "artist": "Frankie Ruiz",
+      "title": "Desnudate Mujer",
+      "youtube": "https://www.youtube.com/watch?v=H5gxKL5pmI4",
+      "artwork": "assets/covers/H5gxKL5pmI4.jpg",
+      "artworkLarge": "assets/covers/H5gxKL5pmI4.jpg",
+      "intro": true
+    },
+    {
+      "id": "gxlB1B9emDc",
+      "artist": "Oscar D'Leon",
+      "title": "Lloraras",
+      "youtube": "https://www.youtube.com/watch?v=gxlB1B9emDc",
+      "artwork": "assets/covers/gxlB1B9emDc.jpg",
+      "artworkLarge": "assets/covers/gxlB1B9emDc.jpg",
+      "intro": true
+    },
+    {
+      "id": "EhBwGUityKo",
+      "artist": "Grupo Niche",
+      "title": "Cali Pachanguero",
+      "youtube": "https://www.youtube.com/watch?v=EhBwGUityKo",
+      "artwork": "assets/covers/EhBwGUityKo.jpg",
+      "artworkLarge": "assets/covers/EhBwGUityKo.jpg",
+      "intro": true
+    },
+    {
+      "id": "v0ckuv1xBm0",
+      "artist": "Juan Luis Guerra",
+      "title": "Burbujas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
+      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
+      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg",
+      "intro": true
+    },
+    {
+      "id": "kAKVT1HWNsg",
+      "artist": "Son by Four",
+      "title": "A Puro Dolor",
+      "youtube": "https://www.youtube.com/watch?v=kAKVT1HWNsg",
+      "artwork": "assets/covers/kAKVT1HWNsg.jpg",
+      "artworkLarge": "assets/covers/kAKVT1HWNsg.jpg"
+    },
+    {
+      "id": "ExCIp6TOnJw",
+      "artist": "Yiyo Sarante",
+      "title": "Manos de Tijera",
+      "youtube": "https://www.youtube.com/watch?v=ExCIp6TOnJw",
+      "artwork": "assets/covers/ExCIp6TOnJw.jpg",
+      "artworkLarge": "assets/covers/ExCIp6TOnJw.jpg"
+    },
+    {
+      "id": "s3fcKFQukbY",
+      "artist": "Tito Nieves",
+      "title": "Fabricando Fantasias",
+      "youtube": "https://www.youtube.com/watch?v=s3fcKFQukbY",
+      "artwork": "assets/covers/s3fcKFQukbY.jpg",
+      "artworkLarge": "assets/covers/s3fcKFQukbY.jpg"
+    },
+    {
+      "id": "2PVi95J-FMo",
+      "artist": "Luis Enrique",
+      "title": "Yo No Sé Mañana",
+      "youtube": "https://www.youtube.com/watch?v=2PVi95J-FMo",
+      "artwork": "assets/covers/2PVi95J-FMo.jpg",
+      "artworkLarge": "assets/covers/2PVi95J-FMo.jpg"
+    },
+    {
+      "id": "wQUcaSEuob0",
+      "artist": "Rey Ruiz",
+      "title": "Mi Media Mitad",
+      "youtube": "https://www.youtube.com/watch?v=wQUcaSEuob0",
+      "artwork": "assets/covers/wQUcaSEuob0.jpg",
+      "artworkLarge": "assets/covers/wQUcaSEuob0.jpg"
+    },
+    {
+      "id": "imeXSRNRMeg",
+      "artist": "Celia Cruz",
+      "title": "La Negra Tiene Tumbao",
+      "youtube": "https://www.youtube.com/watch?v=imeXSRNRMeg",
+      "artwork": "assets/covers/imeXSRNRMeg.jpg",
+      "artworkLarge": "assets/covers/imeXSRNRMeg.jpg"
+    },
+    {
+      "id": "0ZfwT6lHahk",
+      "artist": "Gilberto Santa Rosa",
+      "title": "Que Alguien Me Diga",
+      "youtube": "https://www.youtube.com/watch?v=0ZfwT6lHahk",
+      "artwork": "assets/covers/0ZfwT6lHahk.jpg",
+      "artworkLarge": "assets/covers/0ZfwT6lHahk.jpg"
+    },
+    {
+      "id": "eHsR140M2no",
+      "artist": "Yiyo Sarante",
+      "title": "Que Agonia",
+      "youtube": "https://www.youtube.com/watch?v=eHsR140M2no",
+      "artwork": "assets/covers/eHsR140M2no.jpg",
+      "artworkLarge": "assets/covers/eHsR140M2no.jpg"
+    },
+    {
+      "id": "mXZRB_al3fs",
+      "artist": "Willie Colon y Hector Lavoe",
+      "title": "El Dia de Mi Suerte",
+      "youtube": "https://www.youtube.com/watch?v=mXZRB_al3fs",
+      "artwork": "assets/covers/mXZRB_al3fs.jpg",
+      "artworkLarge": "assets/covers/mXZRB_al3fs.jpg"
+    },
+    {
       "id": "1crMUfqH6i0",
       "artist": "Bonny Cepeda",
       "title": "Una Fotografia",
       "youtube": "https://www.youtube.com/watch?v=1crMUfqH6i0",
       "artwork": "assets/covers/1crMUfqH6i0.jpg",
-      "artworkLarge": "assets/covers/1crMUfqH6i0.jpg",
-      "intro": true
+      "artworkLarge": "assets/covers/1crMUfqH6i0.jpg"
     },
     {
       "id": "JXLNr85yoKk",
@@ -128,8 +226,7 @@
       "title": "Mi Todo",
       "youtube": "https://www.youtube.com/watch?v=JXLNr85yoKk",
       "artwork": "assets/covers/JXLNr85yoKk.jpg",
-      "artworkLarge": "assets/covers/JXLNr85yoKk.jpg",
-      "intro": true
+      "artworkLarge": "assets/covers/JXLNr85yoKk.jpg"
     },
     {
       "id": "UwnmzIgNzyU",
@@ -137,8 +234,7 @@
       "title": "Una Aventura",
       "youtube": "https://www.youtube.com/watch?v=UwnmzIgNzyU",
       "artwork": "assets/covers/UwnmzIgNzyU.jpg",
-      "artworkLarge": "assets/covers/UwnmzIgNzyU.jpg",
-      "intro": true
+      "artworkLarge": "assets/covers/UwnmzIgNzyU.jpg"
     },
     {
       "id": "sJqDmVekMWU",
@@ -147,102 +243,6 @@
       "youtube": "https://www.youtube.com/watch?v=sJqDmVekMWU",
       "artwork": "assets/covers/sJqDmVekMWU.jpg",
       "artworkLarge": "assets/covers/sJqDmVekMWU.jpg"
-    },
-    {
-      "id": "US0GbUpQ9VU",
-      "artist": "Willie Colon",
-      "title": "El Gran Varon",
-      "youtube": "https://www.youtube.com/watch?v=US0GbUpQ9VU",
-      "artwork": "assets/covers/US0GbUpQ9VU.jpg",
-      "artworkLarge": "assets/covers/US0GbUpQ9VU.jpg"
-    },
-    {
-      "id": "AFYJ5axf02o",
-      "artist": "Celia Cruz",
-      "title": "La Vida Es Un Carnaval",
-      "youtube": "https://www.youtube.com/watch?v=AFYJ5axf02o",
-      "artwork": "assets/covers/AFYJ5axf02o.jpg",
-      "artworkLarge": "assets/covers/AFYJ5axf02o.jpg"
-    },
-    {
-      "id": "_koz_f4mthE",
-      "artist": "Juan Luis Guerra",
-      "title": "A Pedir Su Mano",
-      "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
-      "artwork": "assets/covers/_koz_f4mthE.jpg",
-      "artworkLarge": "assets/covers/_koz_f4mthE.jpg"
-    },
-    {
-      "id": "frsVQWSINAI",
-      "artist": "El Gran Combo",
-      "title": "Me Libere",
-      "youtube": "https://www.youtube.com/watch?v=frsVQWSINAI",
-      "artwork": "assets/covers/frsVQWSINAI.jpg",
-      "artworkLarge": "assets/covers/frsVQWSINAI.jpg"
-    },
-    {
-      "id": "k62zZBeevWQ",
-      "artist": "Ruben Blades",
-      "title": "Pedro Navaja",
-      "youtube": "https://www.youtube.com/watch?v=k62zZBeevWQ",
-      "artwork": "assets/covers/k62zZBeevWQ.jpg",
-      "artworkLarge": "assets/covers/k62zZBeevWQ.jpg"
-    },
-    {
-      "id": "2LiZyAIVmbs",
-      "artist": "Juan Luis Guerra",
-      "title": "Bachata Rosa",
-      "youtube": "https://www.youtube.com/watch?v=2LiZyAIVmbs",
-      "artwork": "assets/covers/2LiZyAIVmbs.jpg",
-      "artworkLarge": "assets/covers/2LiZyAIVmbs.jpg"
-    },
-    {
-      "id": "oWBf9hfW_4Y",
-      "artist": "Joe Arroyo",
-      "title": "Rebelion",
-      "youtube": "https://www.youtube.com/watch?v=oWBf9hfW_4Y",
-      "artwork": "assets/covers/oWBf9hfW_4Y.jpg",
-      "artworkLarge": "assets/covers/oWBf9hfW_4Y.jpg"
-    },
-    {
-      "id": "1DbXzlhKS5s",
-      "artist": "Wilfrido Vargas",
-      "title": "El Africano",
-      "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
-      "artwork": "assets/covers/1DbXzlhKS5s.jpg",
-      "artworkLarge": "assets/covers/1DbXzlhKS5s.jpg"
-    },
-    {
-      "id": "rOw9UxJyhII",
-      "artist": "Los Hermanos Rosario",
-      "title": "La Dueña del Swing",
-      "youtube": "https://www.youtube.com/watch?v=rOw9UxJyhII",
-      "artwork": "assets/covers/rOw9UxJyhII.jpg",
-      "artworkLarge": "assets/covers/rOw9UxJyhII.jpg"
-    },
-    {
-      "id": "H5gxKL5pmI4",
-      "artist": "Frankie Ruiz",
-      "title": "Desnudate Mujer",
-      "youtube": "https://www.youtube.com/watch?v=H5gxKL5pmI4",
-      "artwork": "assets/covers/H5gxKL5pmI4.jpg",
-      "artworkLarge": "assets/covers/H5gxKL5pmI4.jpg"
-    },
-    {
-      "id": "EhBwGUityKo",
-      "artist": "Grupo Niche",
-      "title": "Cali Pachanguero",
-      "youtube": "https://www.youtube.com/watch?v=EhBwGUityKo",
-      "artwork": "assets/covers/EhBwGUityKo.jpg",
-      "artworkLarge": "assets/covers/EhBwGUityKo.jpg"
-    },
-    {
-      "id": "v0ckuv1xBm0",
-      "artist": "Juan Luis Guerra",
-      "title": "Burbujas de Amor",
-      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
-      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
-      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg"
     },
     {
       "id": "af9gVqE9-E8",

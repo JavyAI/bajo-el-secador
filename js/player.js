@@ -351,11 +351,15 @@
   function paint(track) {
     if (!track) {
       el.title.textContent = "En la espera";
+      el.title.removeAttribute("href");
+      el.title.removeAttribute("aria-label");
       el.artist.textContent = state.room;
       el.cover.removeAttribute("src");
       return;
     }
     el.title.textContent = track.title;
+    el.title.href = track.youtube || `https://www.youtube.com/watch?v=${track.id}`;
+    el.title.setAttribute("aria-label", `Abrir ${track.title} en YouTube`);
     el.artist.textContent = track.artist;
     setCover(track);
     el.elapsed.textContent = "0:00";
