@@ -1,0 +1,442 @@
+{
+  "name": "Bajo el secador",
+  "mode": "hidden-audio-rotate",
+  "loop": true,
+  "shuffle": true,
+  "neverSameArtistTwice": true,
+  "player": {
+    "showVideo": false,
+    "showArtwork": true,
+    "artworkFrom": "youtube-thumbnail",
+    "youtubeLink": true,
+    "skip": true,
+    "continue": true
+  },
+  "saveToYouTube": {
+    "queue1": "https://www.youtube.com/watch_videos?video_ids=gr6RzMi4L3o,CwfCO_CRKqw,1pr7Fv-9Z3I,JP1JGX-AFts,kkF5eGMxwEQ,OkOJGgqcwro,ZsOJ_PZjjPI,2GWftGahyvw,TLEHvXbYcvc,acl81DrzYP8,XDwf19cOHf0,uZtXRgB95T4,F07ngnis2ig,FChzlYpau0g,secbA0q5sxw,KVoOnGfy9DY,kb0Z5pxtd7w,A4_a4Za8cFQ,4mRo1P-8ax8,lsskeGG67QA,Bvpm82NoX-4,Daf4icdvGPQ,ayviD-x0KWs,M9ak4pfJPhU",
+    "queue2": "https://www.youtube.com/watch_videos?video_ids=gITrPfzWE_o,XWr_fhIBeIU,JvZIszQhRv0,dZDYAJ9SHiw,B3-oUuY4zVQ,tcN11NwXi-I,vwgzbDXHgus,5CL2xcD0Wk8,6iRhlfGtOLQ,JP1JGX-AFts,YLSXfdfOoag,OkOJGgqcwro,8yHO2LT6J8M,2GWftGahyvw,LINJWvKcxYM,acl81DrzYP8,gE886frEdjA,uZtXRgB95T4,BSWlpBAaUiQ,FChzlYpau0g,qzbq42QVoto,KVoOnGfy9DY,qURX3H48S8w,A4_a4Za8cFQ"
+  },
+  "count": 42,
+  "tracks": [
+    {
+      "id": "gr6RzMi4L3o",
+      "artist": "Ana Gabriel",
+      "title": "No Te Hago Falta (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=gr6RzMi4L3o",
+      "artwork": "https://i.ytimg.com/vi/gr6RzMi4L3o/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gr6RzMi4L3o/maxresdefault.jpg"
+    },
+    {
+      "id": "CwfCO_CRKqw",
+      "artist": "Rocío Dúrcal",
+      "title": "Como Tu Mujer",
+      "station": "secador",
+      "who": "abuela",
+      "youtube": "https://www.youtube.com/watch?v=CwfCO_CRKqw",
+      "artwork": "https://i.ytimg.com/vi/CwfCO_CRKqw/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/CwfCO_CRKqw/maxresdefault.jpg"
+    },
+    {
+      "id": "1pr7Fv-9Z3I",
+      "artist": "Ana Gabriel",
+      "title": "Evidencias (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=1pr7Fv-9Z3I",
+      "artwork": "https://i.ytimg.com/vi/1pr7Fv-9Z3I/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1pr7Fv-9Z3I/maxresdefault.jpg"
+    },
+    {
+      "id": "JP1JGX-AFts",
+      "artist": "Amanda Miguel",
+      "title": "Él Me Mintió",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=JP1JGX-AFts",
+      "artwork": "https://i.ytimg.com/vi/JP1JGX-AFts/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/JP1JGX-AFts/maxresdefault.jpg"
+    },
+    {
+      "id": "kkF5eGMxwEQ",
+      "artist": "Ana Gabriel",
+      "title": "Simplemente amigos (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=kkF5eGMxwEQ",
+      "artwork": "https://i.ytimg.com/vi/kkF5eGMxwEQ/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kkF5eGMxwEQ/maxresdefault.jpg"
+    },
+    {
+      "id": "OkOJGgqcwro",
+      "artist": "Olga Tañón",
+      "title": "Cómo Olvidar",
+      "station": "sabado",
+      "who": "sobrina",
+      "youtube": "https://www.youtube.com/watch?v=OkOJGgqcwro",
+      "artwork": "https://i.ytimg.com/vi/OkOJGgqcwro/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/OkOJGgqcwro/maxresdefault.jpg"
+    },
+    {
+      "id": "ZsOJ_PZjjPI",
+      "artist": "Ana Gabriel",
+      "title": "Luna (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=ZsOJ_PZjjPI",
+      "artwork": "https://i.ytimg.com/vi/ZsOJ_PZjjPI/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ZsOJ_PZjjPI/maxresdefault.jpg"
+    },
+    {
+      "id": "2GWftGahyvw",
+      "artist": "Daniela Romo",
+      "title": "De mí enamórate",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=2GWftGahyvw",
+      "artwork": "https://i.ytimg.com/vi/2GWftGahyvw/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2GWftGahyvw/maxresdefault.jpg"
+    },
+    {
+      "id": "TLEHvXbYcvc",
+      "artist": "Ana Gabriel",
+      "title": "Quién como tú (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=TLEHvXbYcvc",
+      "artwork": "https://i.ytimg.com/vi/TLEHvXbYcvc/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TLEHvXbYcvc/maxresdefault.jpg"
+    },
+    {
+      "id": "acl81DrzYP8",
+      "artist": "Rocío Dúrcal",
+      "title": "La gata bajo la lluvia",
+      "station": "secador",
+      "who": "abuela",
+      "youtube": "https://www.youtube.com/watch?v=acl81DrzYP8",
+      "artwork": "https://i.ytimg.com/vi/acl81DrzYP8/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/acl81DrzYP8/maxresdefault.jpg"
+    },
+    {
+      "id": "XDwf19cOHf0",
+      "artist": "Ana Gabriel",
+      "title": "Tú lo decidiste (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=XDwf19cOHf0",
+      "artwork": "https://i.ytimg.com/vi/XDwf19cOHf0/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/XDwf19cOHf0/maxresdefault.jpg"
+    },
+    {
+      "id": "uZtXRgB95T4",
+      "artist": "Amanda Miguel",
+      "title": "Ámame una vez más",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=uZtXRgB95T4",
+      "artwork": "https://i.ytimg.com/vi/uZtXRgB95T4/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/uZtXRgB95T4/maxresdefault.jpg"
+    },
+    {
+      "id": "F07ngnis2ig",
+      "artist": "Ana Gabriel",
+      "title": "Es demasiado tarde (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=F07ngnis2ig",
+      "artwork": "https://i.ytimg.com/vi/F07ngnis2ig/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/F07ngnis2ig/maxresdefault.jpg"
+    },
+    {
+      "id": "FChzlYpau0g",
+      "artist": "Olga Tañón",
+      "title": "Es mentiroso (2022)",
+      "station": "sabado",
+      "who": "sobrina",
+      "youtube": "https://www.youtube.com/watch?v=FChzlYpau0g",
+      "artwork": "https://i.ytimg.com/vi/FChzlYpau0g/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FChzlYpau0g/maxresdefault.jpg"
+    },
+    {
+      "id": "secbA0q5sxw",
+      "artist": "Ana Gabriel",
+      "title": "Y aquí estoy (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=secbA0q5sxw",
+      "artwork": "https://i.ytimg.com/vi/secbA0q5sxw/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/secbA0q5sxw/maxresdefault.jpg"
+    },
+    {
+      "id": "KVoOnGfy9DY",
+      "artist": "Marisela",
+      "title": "Tu dama de hierro",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=KVoOnGfy9DY",
+      "artwork": "https://i.ytimg.com/vi/KVoOnGfy9DY/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/KVoOnGfy9DY/maxresdefault.jpg"
+    },
+    {
+      "id": "kb0Z5pxtd7w",
+      "artist": "Ana Gabriel",
+      "title": "Destino (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=kb0Z5pxtd7w",
+      "artwork": "https://i.ytimg.com/vi/kb0Z5pxtd7w/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kb0Z5pxtd7w/maxresdefault.jpg"
+    },
+    {
+      "id": "A4_a4Za8cFQ",
+      "artist": "Rocío Dúrcal",
+      "title": "Costumbres",
+      "station": "secador",
+      "who": "abuela",
+      "youtube": "https://www.youtube.com/watch?v=A4_a4Za8cFQ",
+      "artwork": "https://i.ytimg.com/vi/A4_a4Za8cFQ/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/A4_a4Za8cFQ/maxresdefault.jpg"
+    },
+    {
+      "id": "4mRo1P-8ax8",
+      "artist": "Ana Gabriel",
+      "title": "Cuánto te extraño (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=4mRo1P-8ax8",
+      "artwork": "https://i.ytimg.com/vi/4mRo1P-8ax8/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4mRo1P-8ax8/maxresdefault.jpg"
+    },
+    {
+      "id": "lsskeGG67QA",
+      "artist": "Olga Tañón",
+      "title": "Lo que está pa' ti",
+      "station": "sabado",
+      "who": "sobrina",
+      "youtube": "https://www.youtube.com/watch?v=lsskeGG67QA",
+      "artwork": "https://i.ytimg.com/vi/lsskeGG67QA/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/lsskeGG67QA/maxresdefault.jpg"
+    },
+    {
+      "id": "Bvpm82NoX-4",
+      "artist": "Ana Gabriel",
+      "title": "A pesar de todo (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=Bvpm82NoX-4",
+      "artwork": "https://i.ytimg.com/vi/Bvpm82NoX-4/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Bvpm82NoX-4/maxresdefault.jpg"
+    },
+    {
+      "id": "Daf4icdvGPQ",
+      "artist": "Olga Tañón",
+      "title": "Así yo soy",
+      "station": "sabado",
+      "who": "sobrina",
+      "youtube": "https://www.youtube.com/watch?v=Daf4icdvGPQ",
+      "artwork": "https://i.ytimg.com/vi/Daf4icdvGPQ/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Daf4icdvGPQ/maxresdefault.jpg"
+    },
+    {
+      "id": "ayviD-x0KWs",
+      "artist": "Ana Gabriel",
+      "title": "Lo sé (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=ayviD-x0KWs",
+      "artwork": "https://i.ytimg.com/vi/ayviD-x0KWs/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ayviD-x0KWs/maxresdefault.jpg"
+    },
+    {
+      "id": "M9ak4pfJPhU",
+      "artist": "Amanda Miguel",
+      "title": "Ámame una vez más (25)",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=M9ak4pfJPhU",
+      "artwork": "https://i.ytimg.com/vi/M9ak4pfJPhU/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/M9ak4pfJPhU/maxresdefault.jpg"
+    },
+    {
+      "id": "gITrPfzWE_o",
+      "artist": "Ana Gabriel",
+      "title": "La reina (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=gITrPfzWE_o",
+      "artwork": "https://i.ytimg.com/vi/gITrPfzWE_o/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gITrPfzWE_o/maxresdefault.jpg"
+    },
+    {
+      "id": "XWr_fhIBeIU",
+      "artist": "Rocío Dúrcal",
+      "title": "Como tu mujer (legado)",
+      "station": "secador",
+      "who": "abuela",
+      "youtube": "https://www.youtube.com/watch?v=XWr_fhIBeIU",
+      "artwork": "https://i.ytimg.com/vi/XWr_fhIBeIU/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/XWr_fhIBeIU/maxresdefault.jpg"
+    },
+    {
+      "id": "JvZIszQhRv0",
+      "artist": "Ana Gabriel",
+      "title": "No a pedir perdón (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=JvZIszQhRv0",
+      "artwork": "https://i.ytimg.com/vi/JvZIszQhRv0/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/JvZIszQhRv0/maxresdefault.jpg"
+    },
+    {
+      "id": "dZDYAJ9SHiw",
+      "artist": "Daniela Romo",
+      "title": "De mí enamórate (en vivo)",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=dZDYAJ9SHiw",
+      "artwork": "https://i.ytimg.com/vi/dZDYAJ9SHiw/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/dZDYAJ9SHiw/maxresdefault.jpg"
+    },
+    {
+      "id": "B3-oUuY4zVQ",
+      "artist": "Ana Gabriel",
+      "title": "Sin tu amor (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=B3-oUuY4zVQ",
+      "artwork": "https://i.ytimg.com/vi/B3-oUuY4zVQ/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/B3-oUuY4zVQ/maxresdefault.jpg"
+    },
+    {
+      "id": "tcN11NwXi-I",
+      "artist": "Yuri",
+      "title": "Quién eres tú",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=tcN11NwXi-I",
+      "artwork": "https://i.ytimg.com/vi/tcN11NwXi-I/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/tcN11NwXi-I/maxresdefault.jpg"
+    },
+    {
+      "id": "vwgzbDXHgus",
+      "artist": "Ana Gabriel",
+      "title": "Medley: Amor / Ni un roce / Ay amor",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=vwgzbDXHgus",
+      "artwork": "https://i.ytimg.com/vi/vwgzbDXHgus/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/vwgzbDXHgus/maxresdefault.jpg"
+    },
+    {
+      "id": "5CL2xcD0Wk8",
+      "artist": "Amanda Miguel",
+      "title": "Él me mintió (restaurado)",
+      "station": "secador",
+      "who": "madre",
+      "youtube": "https://www.youtube.com/watch?v=5CL2xcD0Wk8",
+      "artwork": "https://i.ytimg.com/vi/5CL2xcD0Wk8/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/5CL2xcD0Wk8/maxresdefault.jpg"
+    },
+    {
+      "id": "6iRhlfGtOLQ",
+      "artist": "Ana Gabriel",
+      "title": "Pacto de amor (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=6iRhlfGtOLQ",
+      "artwork": "https://i.ytimg.com/vi/6iRhlfGtOLQ/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6iRhlfGtOLQ/maxresdefault.jpg"
+    },
+    {
+      "id": "YLSXfdfOoag",
+      "artist": "Ana Gabriel",
+      "title": "Sólo quiero ser amada",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=YLSXfdfOoag",
+      "artwork": "https://i.ytimg.com/vi/YLSXfdfOoag/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YLSXfdfOoag/maxresdefault.jpg"
+    },
+    {
+      "id": "8yHO2LT6J8M",
+      "artist": "Ana Gabriel",
+      "title": "No sabes (Altos de Chavón)",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=8yHO2LT6J8M",
+      "artwork": "https://i.ytimg.com/vi/8yHO2LT6J8M/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/8yHO2LT6J8M/maxresdefault.jpg"
+    },
+    {
+      "id": "LINJWvKcxYM",
+      "artist": "Ana Gabriel",
+      "title": "Con las alas atadas",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=LINJWvKcxYM",
+      "artwork": "https://i.ytimg.com/vi/LINJWvKcxYM/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/LINJWvKcxYM/maxresdefault.jpg"
+    },
+    {
+      "id": "gE886frEdjA",
+      "artist": "Ana Gabriel",
+      "title": "Dulce y salado",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=gE886frEdjA",
+      "artwork": "https://i.ytimg.com/vi/gE886frEdjA/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gE886frEdjA/maxresdefault.jpg"
+    },
+    {
+      "id": "BSWlpBAaUiQ",
+      "artist": "Ana Gabriel",
+      "title": "Mi amigo",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=BSWlpBAaUiQ",
+      "artwork": "https://i.ytimg.com/vi/BSWlpBAaUiQ/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/BSWlpBAaUiQ/maxresdefault.jpg"
+    },
+    {
+      "id": "qzbq42QVoto",
+      "artist": "Ana Gabriel",
+      "title": "Siete veces, siete más",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=qzbq42QVoto",
+      "artwork": "https://i.ytimg.com/vi/qzbq42QVoto/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qzbq42QVoto/maxresdefault.jpg"
+    },
+    {
+      "id": "qURX3H48S8w",
+      "artist": "Ana Gabriel",
+      "title": "Sin problemas",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=qURX3H48S8w",
+      "artwork": "https://i.ytimg.com/vi/qURX3H48S8w/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qURX3H48S8w/maxresdefault.jpg"
+    },
+    {
+      "id": "m9q3BuOtB1E",
+      "artist": "Ana Gabriel",
+      "title": "Medley ranchero",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=m9q3BuOtB1E",
+      "artwork": "https://i.ytimg.com/vi/m9q3BuOtB1E/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/m9q3BuOtB1E/maxresdefault.jpg"
+    },
+    {
+      "id": "BBxnW6Y18VA",
+      "artist": "Ana Gabriel",
+      "title": "Mi talismán / No entiendo / Hechizo",
+      "station": "secador",
+      "who": "tia",
+      "youtube": "https://www.youtube.com/watch?v=BBxnW6Y18VA",
+      "artwork": "https://i.ytimg.com/vi/BBxnW6Y18VA/hqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/BBxnW6Y18VA/maxresdefault.jpg"
+    }
+  ]
+}
