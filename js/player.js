@@ -10,25 +10,25 @@
       name: "Bajo el secador",
       lockup: ["Bajo el", "secador"],
       kicker: "Baladas y merengue",
-      theme: "#1a3538",
+      theme: "#133d3c",
       tracks: "public/salon.json",
-      lista: "https://www.youtube.com/playlist?list=PLHGerkzq-_SQ",
+      lista: "https://music.youtube.com/playlist?list=PLHGerkzq-_SQ",
     },
     barberia: {
       name: "En la silla",
       lockup: ["En la", "silla"],
       kicker: "Bachata",
-      theme: "#102848",
+      theme: "#043368",
       tracks: "public/barberia.json",
-      lista: "https://www.youtube.com/playlist?list=PLUXmVaLcUP14",
+      lista: "https://music.youtube.com/playlist?list=PLUXmVaLcUP14",
     },
     colmado: {
       name: "En la esquina",
       lockup: ["En la", "esquina"],
       kicker: "Salsa y merengue",
-      theme: "#4e5540",
+      theme: "#224028",
       tracks: "public/colmado.json",
-      lista: "https://www.youtube.com/playlist?list=PLHayRTekRcmM",
+      lista: "https://music.youtube.com/playlist?list=PLHayRTekRcmM",
     },
   };
 
@@ -55,6 +55,7 @@
     heroB: document.getElementById("hero-b"),
     rooms: Array.from(document.querySelectorAll(".rooms a")),
     themes: Array.from(document.querySelectorAll('meta[name="theme-color"]')),
+    maskIcon: document.querySelector('link[rel="mask-icon"]'),
     dbg: document.getElementById("dbg"),
     dbgBody: document.getElementById("dbg-body"),
     dbgClose: document.getElementById("dbg-close"),
@@ -273,18 +274,6 @@
     return state.queue[state.index] || null;
   }
 
-  function sequentialAvoidingRepeat(tracks) {
-    const remaining = tracks.slice();
-    const out = [];
-    while (remaining.length) {
-      const last = out.length ? out[out.length - 1].artist : null;
-      const idx = remaining.findIndex((t) => t.artist !== last);
-      const take = idx === -1 ? 0 : idx;
-      out.push(remaining.splice(take, 1)[0]);
-    }
-    return out;
-  }
-
   function buildQueue() {
     state.queue = state.catalog.slice();
     state.index = 0;
@@ -292,7 +281,13 @@
 
   function setTheme(color) {
     document.documentElement.style.setProperty("--theme", color);
-    for (const meta of el.themes) meta.setAttribute("content", color);
+    document.querySelectorAll('meta[name="theme-color"]').forEach((meta) => meta.remove());
+    const meta = document.createElement("meta");
+    meta.setAttribute("name", "theme-color");
+    meta.setAttribute("content", color);
+    document.head.appendChild(meta);
+    el.themes = [meta];
+    if (el.maskIcon) el.maskIcon.setAttribute("color", color);
   }
 
   function crossfadeScene(id) {
@@ -634,17 +629,19 @@
     go(1, { fromEnd: true });
   }
 
-  function onPlayerError(slot) {
+  function onPlayerError(slot, event) {
     const player = slotPlayer(slot);
     const vid = videoIdOf(player);
+    const code = event && event.data;
+    dbg("yt-error", `${code} ${vid || ""} ${slot}`);
     if (slot !== state.activeSlot) {
       if (state.mixing && state.expectIncoming && vid === state.expectIncoming) {
-        failForward("incoming-error");
+        failForward(`incoming-error:${code}`);
       }
       return;
     }
     if (state.mixing) return;
-    failForward("active-error");
+    failForward(`active-error:${code}`);
   }
 
   function createPlayer(slot, videoId) {
@@ -1135,8 +1132,16 @@
     }
   }
 
+  function absolutizeShareImages() {
+    const href = new URL("assets/og.jpg", location.href).href;
+    document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"]').forEach((tag) => {
+      tag.setAttribute("content", href);
+    });
+  }
+
   async function boot() {
     bind();
+    absolutizeShareImages();
     tickClock();
     setInterval(tickClock, 1000);
     startPresence();

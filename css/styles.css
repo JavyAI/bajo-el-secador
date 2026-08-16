@@ -3,7 +3,7 @@
   --muted: rgba(255, 255, 255, 0.7);
   --glass: rgba(255, 255, 255, 0.1);
   --glass-edge: rgba(255, 255, 255, 0.2);
-  --theme: #1a3538;
+  --theme: #133d3c;
   --safe-t: max(20px, env(safe-area-inset-top));
   --safe-r: max(20px, env(safe-area-inset-right));
   --safe-b: max(24px, env(safe-area-inset-bottom));
@@ -36,9 +36,9 @@ body {
   transition: background-color 0.7s ease;
 }
 
-body[data-room="salon"] { --theme: #1a3538; }
-body[data-room="barberia"] { --theme: #102848; }
-body[data-room="colmado"] { --theme: #4e5540; }
+body[data-room="salon"] { --theme: #133d3c; }
+body[data-room="barberia"] { --theme: #043368; }
+body[data-room="colmado"] { --theme: #224028; }
 
 img {
   display: block;
@@ -142,7 +142,7 @@ a {
 }
 
 .clock__hi {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.04em;
   text-transform: lowercase;
   color: rgba(255, 255, 255, 0.72);
@@ -156,7 +156,7 @@ a {
 
 .clock__date {
   margin-top: 2px;
-  font-size: 11px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -249,10 +249,10 @@ a {
 }
 
 .kicker {
-  margin: 0 0 6px;
-  font-size: 0.78rem;
+  margin: 0 0 8px;
+  font-size: 0.8125rem;
   font-weight: 500;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.82);
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
@@ -267,12 +267,11 @@ a {
   align-items: center;
   font-family: Fraunces, "Times New Roman", serif;
   font-optical-sizing: auto;
-  font-size: clamp(2.8rem, 8.4vw, 5.6rem);
+  font-size: clamp(4.5rem, 19vw, 7.75rem);
   font-weight: 600;
   font-style: normal;
   line-height: 0.86;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  letter-spacing: -0.03em;
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
 }
 
@@ -281,9 +280,10 @@ a {
 }
 
 .wordmark span:first-child {
-  font-size: 0.42em;
-  letter-spacing: 0.28em;
-  margin-bottom: 0.18em;
+  font-size: 0.5em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.08em;
 }
 
 .rooms {
@@ -295,9 +295,9 @@ a {
 .rooms a {
   min-height: 40px;
   padding: 8px 12px;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 500;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.62);
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
@@ -602,8 +602,8 @@ body:not(.is-playing) .play .ico-pause {
   }
 
   .wordmark {
-    width: auto;
-    max-width: 88vw;
+    width: 72vw;
+    max-width: 20rem;
   }
 
   .clock {

@@ -1,56 +1,39 @@
 # Bajo el secador
 
-Three rooms, one page. Codex plates in the back. Hidden YouTube audio. Same bones as [saloon.wtf](https://saloon.wtf).
+Three rooms, one page. Codex plates in the back. Hidden official YouTube audio. Same bones as [saloon.wtf](https://saloon.wtf) — not its art, logo, or music.
 
-```
+```bash
 cd /Users/javyai/Documents/CODEX/2026-08-15/bajo-el-secador
 python3 -m http.server 8876 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8876/
+Use **localhost**, not `127.0.0.1`. YouTube blocks embeds from the numeric address (error 150).
 
-| Hash | Room | Plate | Playlist |
+Open http://localhost:8876/
+
+| Hash | Room | Mix | First song |
 |---|---|---|---|
-| `#salon` | Bajo el secador | `assets/salon.jpg` (DSA-3.0 v3) | [PLHGerkzq-_SQ](https://www.youtube.com/playlist?list=PLHGerkzq-_SQ) |
-| `#barberia` | En la silla | `assets/barberia.jpg` (DSA-3.0 v4) | [PLUXmVaLcUP14](https://www.youtube.com/playlist?list=PLUXmVaLcUP14) |
-| `#colmado` | En la esquina | `assets/colmado.jpg` (DSA-3.0 v4) | [PLHayRTekRcmM](https://www.youtube.com/playlist?list=PLHayRTekRcmM) |
+| `#salon` | Bajo el secador | 110 · baladas y merengue | Juan Gabriel — Así Fue |
+| `#barberia` | En la silla | 68 · bachata | Romeo Santos — Propuesta Indecente |
+| `#colmado` | En la esquina | 81 · salsa y merengue | Son by Four — A Puro Dolor |
 
-Clock top-left. Presence top-center (this origin, live tabs). YouTube top-right. Wordmark in the quiet band of each painting. Glass player at the bottom.
+Clock top-left. Presence top-center (this origin, live tabs only). YouTube Music pill top-right. Wordmark in the quiet band of each painting. Glass player at the bottom: spinning circular art, authored order, no shuffle.
 
 Sala de espera. Radio de salón. El video de YouTube no se ve: solo se oye.
 
-## Cómo abrir
-
-Desde esta carpeta:
-
-```bash
-python3 -m http.server 8765
-```
-
-Luego abre [http://127.0.0.1:8765](http://127.0.0.1:8765).
-
-También sirve:
-
-```bash
-npx serve .
-```
-
-Hace falta un servidor local. Abrir `index.html` como archivo no carga `public/tracks.json`.
-
-El primer toque en reproducir, anterior o siguiente arranca el audio (regla de autoplay del navegador).
+Hard-refresh after JS/CSS/JSON edits (`Cmd+Shift+R`). Debug overlay: **Shift+D**.
 
 ## Qué hay
 
 - `index.html` — página única
-- `css/styles.css` — paleta del cuadro: teal, mango, crema, índigo
-- `js/player.js` — iframe oficial de YouTube, 1×1, sin pointer-events; controles propios
-- `public/tracks.json` — 42 videos oficiales (sin repetir id)
-- `assets/salon.jpg` — fondo de sala, placa wow 16:9 edit2
+- `css/styles.css` — Fraunces + Figtree, glass dock, full-bleed plates
+- `js/player.js` — IFrame API oficial, dos hosts 480×270 fuera de pantalla, fade entre salas
+- `public/salon.json` / `barberia.json` / `colmado.json` — orden de la radio
+- `assets/{salon,barberia,colmado}.jpg` — placas Codex DSA-3.0
+- `assets/covers/` — carátulas cuadradas de catálogo (iTunes/Deezer)
 
-## Estaciones
+El pill abre las mismas listas en YouTube Music (`PLHGerkzq-_SQ`, `PLUXmVaLcUP14`, `PLHayRTekRcmM`). El reproductor de la página sigue usando embeds oficiales de YouTube. Las primeras 15 de cada sala son los bangers de entrada.
 
-- **Todas**
-- **Secador** — baladas bajo el casco
-- **Sábado** — Olga Tañón
+Añadir a la pantalla de inicio: Safari usa `apple-touch-icon.png` (el secador de casco) y el `theme-color` de cada sala.
 
-Aleatorio y repetir vienen encendidos. Si se puede, no suenan dos temas de la misma artista seguidos.
+Hace falta un servidor local. Abrir `index.html` como archivo no carga las listas. El primer toque en reproducir arranca el audio (regla de autoplay del navegador).

@@ -5,7 +5,7 @@ Finish the three-room Dominican listening site. Static HTML. Clone **saloon.wtf 
 Founder is Javy. Talk to him in product language. Do not invent a new concept.
 
 **Today:** 2026-08-15  
-**Git:** local only, `main` at `5121685` (`Initial snapshot of the three-room listening site.`). No GitHub remote. Commit before risky player/playlist edits so Javy can reset.
+**Git:** local only, `main` at `9347401` plus uncommitted player/catalog work. No GitHub remote. Commit before risky player/playlist edits so Javy can reset. Imaging is ChatGPT’s lane — do not generate new plates.
 
 ---
 
@@ -16,7 +16,8 @@ cd /Users/javyai/Documents/CODEX/2026-08-15/bajo-el-secador
 python3 -m http.server 8876 --bind 127.0.0.1
 ```
 
-Live: http://127.0.0.1:8876/  
+Live: http://localhost:8876/  
+Do **not** use `127.0.0.1` — YouTube returns embed error 150 on the numeric origin. `index.html` redirects 127.0.0.1 → localhost.  
 Rooms: `#salon` `#barberia` `#colmado`  
 A server on `:8876` may already be running.
 
@@ -52,9 +53,8 @@ Monetize later via the room/brand, not by stealing ads off the videos.
   css/styles.css
   js/player.js
   public/salon.json          110 tracks  first: Juan Gabriel — Amor Eterno
-  public/barberia.json        70 tracks  first: Aventura — Obsesión
+  public/barberia.json        68 tracks  first: Aventura — Obsesión
   public/colmado.json         81 tracks  first: Juan Luis Guerra — A Pedir Su Mano
-  public/tracks.json          STALE 42-track leftover. Site does not load this.
   assets/salon.jpg            Codex DSA-3 plate (~2400×1600 jpeg)
   assets/barberia.jpg
   assets/colmado.jpg
@@ -86,9 +86,9 @@ Live plates came from:
 
 - Full-bleed CSS `background-size: cover` (not `<img>`). Dual `.hero` layers, 0.7s opacity crossfade.
 - Safari `theme-color` + `apple-mobile-web-app-status-bar-style: black-translucent` updates per room.
-- Center Fraunces wordmark, two-line lockup, **currently all-caps upright** (`BAJO EL` / `SECADOR`). Room chips + kicker already uppercase.
+- Center Fraunces wordmark, two-line lockup, **mixed case upright** (`Bajo el` / `secador`). Kicker + room chips stay uppercase.
 - Clock: local TZ greeting (`buenos días` / `tardes` / `noches`) + time + long `es-DO` date.
-- YouTube pill with play icon + up-right arrow (saloon.wtf pattern). No Spotify pill.
+- YT Music pill with play icon + up-right arrow (saloon.wtf pattern). Same playlist IDs, `music.youtube.com`. No Spotify pill. Hidden player stays on youtube.com embeds.
 - Glass dock: 80×80 spinning vinyl, title, artist, seek, prev/play/next.
 - Hidden official YouTube IFrame API. Dual hosts `#yt-player-a` / `#yt-player-b`.
 - Authored mix order (`shuffle: false`). `buildQueue()` is now `catalog.slice()` so JSON order is play order.
@@ -104,7 +104,7 @@ Live plates came from:
 
 **Art.** DSA-3.0 Tropical Chorus + the Codex dsa3 plates. Rejected: airport, glitter, photoreal, magazine type, cartoon grins, cinematic AI film-look, kids-book gouache, copying saloon.wtf’s red shop. Film stills in `~/Downloads/IMG_1911.HEIC`… are mood only. **Stop generating images** unless he asks. Use the three plates.
 
-**Type.** He thought italic sentence case looked weird and asked about all-caps. Caps shipped. Later design read: **we should have dropped italic and kept mixed case** — kicker + nav are already caps; the wordmark should be the only speaking line. He has not approved putting mixed case back. Ask before changing.
+**Type.** Mixed-case upright Fraunces is back on the wordmark. Kicker + nav stay caps. Do not return to all-caps lockup unless he asks.
 
 **Name.** Keep Bajo el secador. Not En la secadora.
 
@@ -114,40 +114,25 @@ Live plates came from:
 
 ---
 
-## Secador opener (what Play must start)
+## Openers (first 15 = this official clip’s YouTube views)
 
-JSON order, first 15:
+Secador starts: Juan Gabriel — Así Fue  
+Silla starts: Romeo Santos — Propuesta Indecente  
+Esquina starts: Son by Four — A Puro Dolor (Yiyo Sarante salsa hits now in this room; Chiquito Team Band merengue/salsa too)  
 
-1. Juan Gabriel — Amor Eterno (`RgKqxLAhRKE`)
-2. Luis Miguel — Suave (`ksoI-1X9sr4`)
-3. Ana Gabriel — Simplemente Amigos (`kkF5eGMxwEQ`)
-4. Olga Tañón — Como Olvidar (`OkOJGgqcwro`)
-5. Selena — Como La Flor (`N3tdl7-puY4`)
-6. José José — El Triste
-7. Rocío Dúrcal — La Gata Bajo La Lluvia
-8. Amanda Miguel — El Me Mintió
-9. Thalía — Amor a La Mexicana
-10. Luis Miguel — La Incondicional
-11. Milly Quezada — Volvió Juanita
-12. Ana Gabriel — Evidencias
-13. Chayanne — Dejaría Todo
-14. Selena — Amor Prohibido
-15. Marco Antonio Solís — Si No Te Hubieras Ido
-
-Silla opens: Obsesión → Propuesta Indecente → Darte un Beso…  
-Esquina opens: A Pedir Su Mano → El Cantante → Suavemente…
+Rest of each catalog keeps prior order after the promoted 15. Artist stacking is allowed (founder’s view-rank rule).
 
 ---
 
 ## YouTube playlists (Javy, unlisted)
 
-Site pills point here. **These lists are stale** vs the cleaned JSON (old collector rips + chart-pass extras still on YT).
+Site pills point here. Rewritten 2026-08-15 to match `public/*.json` (intros first). Re-run `scripts/sync-youtube-playlists.py` after catalog edits. Chrome must be signed into Javy’s YouTube.
 
 | Room | Playlist |
 |---|---|
-| Secador | https://www.youtube.com/playlist?list=PLHGerkzq-_SQ |
-| Silla | https://www.youtube.com/playlist?list=PLUXmVaLcUP14 |
-| Esquina | https://www.youtube.com/playlist?list=PLHayRTekRcmM |
+| Secador | https://music.youtube.com/playlist?list=PLHGerkzq-_SQ |
+| Silla | https://music.youtube.com/playlist?list=PLUXmVaLcUP14 |
+| Esquina | https://music.youtube.com/playlist?list=PLHayRTekRcmM |
 
 Unused leftover: `PLO_FA7afLkTI` (old 42-video list). Do not delete unless he says so.
 
@@ -185,12 +170,10 @@ Do not “fix” silence by hunting a random song.
 
 ## P1 — after audio is honest
 
-1. **Type.** Ask Javy: restore mixed-case two-line lockup (upright Fraunces, no italic, no `uppercase`) vs keep current caps. Design rec is mixed case.
-2. **Rewrite the three YouTube playlists** to match `public/*.json` ids (same order). Headed signed-in Chromium + innertube edit, or he does it once by hand from the id lists.
-3. **Title/id audit.** Several mid-list **labels do not match the playing video** (resolver recovered the wrong song, art was then matched to the video). Examples from the cover pass: listed “Ku-Ku-Ku” plays Dominicana; “Horoscopo” plays Me Sabe A Poco; “Hasta El Palo” is a mix. Fix: oembed each id, rename or replace id, keep official 1M+ rule.
-4. **Init git.** No history exists.
-5. **PWA / OG / apple-touch-icon.** Saloon has `site.webmanifest` + `opengraph.png`. We 404 favicon. Optional.
-6. **Do not build Spotify.** Do not build global “everyone hears the same song” unless he asks (needs a backend). Online count is local `BroadcastChannel` only (`bes-presence`) — say so if he notices it is not worldwide.
+1. **YouTube playlists.** Rewrite with `python3 scripts/sync-youtube-playlists.py` (Chrome must be signed into Javy’s YouTube). First 15 of each JSON are locked intros (`intro: true`).
+2. **Title/id audit (done 2026-08-15).** Unsafe collector swaps reverted. Keep-play labels renamed to the official song that actually plays. First 15 of each room untouched. Dropped El Chaval mix + Antony Lunes batalla (barbería 68).
+3. **PWA / OG / apple-touch-icon.** Saloon has `site.webmanifest` + `opengraph.png`. We 404 favicon. ChatGPT owns imaging — wait for icons.
+4. **Do not build Spotify.** Do not build global “everyone hears the same song” unless he asks (needs a backend). Online count is local `BroadcastChannel` only (`bes-presence`) — say so if he notices it is not worldwide.
 
 ---
 

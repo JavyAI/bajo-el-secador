@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bajo el secador">
+  <defs>
+    <radialGradient id="wall" cx="36%" cy="28%" r="78%">
+      <stop offset="0%" stop-color="#1b5552"/>
+      <stop offset="46%" stop-color="#133d3c"/>
+      <stop offset="100%" stop-color="#0a2728"/>
+    </radialGradient>
+    <linearGradient id="hood" x1="28%" y1="6%" x2="78%" y2="88%">
+      <stop offset="0%" stop-color="#f8edd4"/>
+      <stop offset="28%" stop-color="#efd4a4"/>
+      <stop offset="62%" stop-color="#d99454"/>
+      <stop offset="100%" stop-color="#a35810"/>
+    </linearGradient>
+    <linearGradient id="lip" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#f4efe4"/>
+      <stop offset="45%" stop-color="#c9b89a"/>
+      <stop offset="100%" stop-color="#8a7a62"/>
+    </linearGradient>
+    <radialGradient id="cave" cx="48%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#3a2412"/>
+      <stop offset="42%" stop-color="#1a1210"/>
+      <stop offset="100%" stop-color="#0b2c2e"/>
+    </radialGradient>
+    <radialGradient id="lamp" cx="42%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#f6d78a"/>
+      <stop offset="45%" stop-color="#d99454"/>
+      <stop offset="100%" stop-color="#a35810"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#f3e2c2"/>
+      <stop offset="55%" stop-color="#e0c090"/>
+      <stop offset="100%" stop-color="#c49a58"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <ellipse cx="256" cy="412" rx="92" ry="18" fill="#081c1d" opacity=".35"/>
+  <path fill="url(#hood)" d="M146 268c0-86 44-154 110-154s110 68 110 154v6c0 8-6 14-14 14H160c-8 0-14-6-14-14z"/>
+  <path fill="url(#cave)" d="M180 266c7-64 36-108 76-108s69 44 76 108z"/>
+  <path fill="url(#lip)" d="M180 266h152v10c0 4-3 7-7 7H187c-4 0-7-3-7-7z"/>
+  <circle cx="256" cy="214" r="22" fill="url(#lamp)"/>
+  <circle cx="249" cy="208" r="7" fill="#f8edd4" opacity=".85"/>
+  <rect x="240" y="278" width="32" height="74" rx="12" fill="url(#metal)"/>
+  <ellipse cx="256" cy="376" rx="84" ry="26" fill="url(#metal)"/>
+  <ellipse cx="256" cy="374" rx="46" ry="12" fill="#133d3c"/>
+</svg>
