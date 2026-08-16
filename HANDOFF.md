@@ -5,7 +5,7 @@ Finish the three-room Dominican listening site. Static HTML. Clone **saloon.wtf 
 Founder is Javy. Talk to him in product language. Do not invent a new concept.
 
 **Today:** 2026-08-15  
-**No git repo.** There are no commits to reset to. Init git and commit before you change more if you want restore points.
+**Git:** local only, `main` at `5121685` (`Initial snapshot of the three-room listening site.`). No GitHub remote. Commit before risky player/playlist edits so Javy can reset.
 
 ---
 
