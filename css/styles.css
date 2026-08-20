@@ -28,6 +28,7 @@ html,
 body {
   margin: 0;
   width: 100%;
+  height: 100%;
   min-width: 100%;
   min-height: 100%;
   min-height: 100lvh;
@@ -38,29 +39,12 @@ body {
 }
 
 body {
+  position: relative;
   overflow: hidden;
   color: var(--ink);
   font-family: Figtree, "Segoe UI", sans-serif;
   font-size: 15px;
   line-height: 1.35;
-  background-color: var(--theme);
-  transition: background-color 0.7s ease;
-}
-
-/* Safari 26 "Show color in tab bar" samples a position:fixed element
-   within 4px of the top, ≥90% wide, ≥3px tall, with background-color.
-   The painting is a cover image on top, so this bar is not visible. */
-.safari-chrome {
-  position: fixed;
-  top: 4px;
-  left: 0;
-  width: 100%;
-  height: 16px;
-  min-height: 16px;
-  margin: 0;
-  padding: 0;
-  z-index: 0;
-  pointer-events: none;
   background-color: var(--theme);
 }
 
@@ -94,23 +78,13 @@ a {
 }
 
 .hero-stack {
-  position: fixed;
+  position: absolute;
   inset: 0;
   z-index: 1;
-  display: grid;
-  place-items: center;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
-  background-color: var(--theme);
-  container-type: size;
-}
-
-.hero-frame {
-  position: relative;
-  aspect-ratio: 2560 / 1435;
-  width: min(100vw, calc(100dvh * 2560 / 1435));
-  width: min(100%, calc(100cqh * 2560 / 1435));
-  max-width: 100%;
-  max-height: 100%;
+  background-color: transparent;
 }
 
 .hero {
@@ -118,8 +92,8 @@ a {
   inset: 0;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: center top;
   opacity: 0;
   transition: opacity 0.7s ease;
 }
@@ -130,62 +104,62 @@ a {
 
 .hero[data-scene="colmado"] {
   background-image: url("../assets/colmado.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="secador"] {
   background-image: url("../assets/salon.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="barberia"] {
   background-image: url("../assets/barberia.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="limpieza"] {
   background-image: url("../assets/limpieza.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="galeria"] {
   background-image: url("../assets/galeria.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="malecon"] {
   background-image: url("../assets/malecon.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="colmado-hoy"] {
   background-image: url("../assets/colmado-hoy.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="secador-hoy"] {
   background-image: url("../assets/salon-hoy.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="barberia-hoy"] {
   background-image: url("../assets/barberia-hoy.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="limpieza-hoy"] {
   background-image: url("../assets/limpieza-hoy.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="galeria-hoy"] {
   background-image: url("../assets/galeria-hoy.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero[data-scene="malecon-hoy"] {
   background-image: url("../assets/malecon-hoy.jpg?v=74");
-  background-position: 50% 50%;
+  background-position: 50% 0%;
 }
 
 .hero__veil {
@@ -553,6 +527,19 @@ body.is-playing .cover {
   min-width: 0;
   max-width: 100%;
   overflow: hidden;
+}
+
+.station {
+  margin: 0 0 1px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.78);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .title {

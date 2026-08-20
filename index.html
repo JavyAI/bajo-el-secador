@@ -24,7 +24,7 @@
   <meta name="twitter:title" content="Sopita">
   <meta name="twitter:description" content="En el colmado. En el secador. En la barbería.">
   <meta name="twitter:image" content="assets/sopita-og-1200x630.png?v=33">
-  <title>Sopita</title>
+  <title>Sopita Colmado</title>
   <script>
     if (location.hostname === "127.0.0.1") {
       location.replace("http://localhost:" + (location.port || "80") + location.pathname + location.search + location.hash);
@@ -44,8 +44,8 @@
       var era = /(?:\?|&)hoy=1(?:&|$)/.test(location.search) ? "hoy" : "ayer";
       var room = THEMES[id] || THEMES.colmado;
       var color = room[era];
-      document.documentElement.style.backgroundColor = color;
       document.documentElement.style.setProperty("--theme", color);
+      document.documentElement.style.backgroundColor = color;
       document.documentElement.style.colorScheme = era === "hoy" ? "dark" : "light";
       document.querySelectorAll('meta[name="theme-color"]').forEach(function (node) {
         node.setAttribute("content", color);
@@ -59,22 +59,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png?v=33">
   <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48.png?v=33">
   <link rel="apple-touch-icon" href="apple-touch-icon.png?v=33" sizes="180x180">
-  <link rel="manifest" href="site.webmanifest?v=34">
+  <link rel="manifest" href="site.webmanifest?v=35">
   <link rel="preload" as="image" href="assets/colmado.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://i.ytimg.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=79">
+  <link rel="stylesheet" href="css/styles.css?v=84">
 </head>
 <body data-room="colmado">
-  <div class="safari-chrome" aria-hidden="true"></div>
   <div class="hero-stack" aria-hidden="true">
-    <div class="hero-frame">
-      <div class="hero is-on" id="hero-a" data-scene="colmado"></div>
-      <div class="hero" id="hero-b"></div>
-      <div class="hero__veil"></div>
-    </div>
+    <div class="hero is-on" id="hero-a" data-scene="colmado"></div>
+    <div class="hero" id="hero-b"></div>
+    <div class="hero__veil"></div>
   </div>
 
   <div id="yt-host" aria-hidden="true">
@@ -95,11 +92,11 @@
   </div>
 
   <div class="links">
-    <a class="pill" id="lista-link" href="https://music.youtube.com/playlist?list=PLHayRTekRcmM" target="_blank" rel="noopener noreferrer" aria-label="Abrir Sopita Colmado en YouTube Music">
+    <a class="pill" id="lista-link" href="https://music.youtube.com/playlist?list=PLHayRTekRcmM" target="_blank" rel="noopener noreferrer" aria-label="Abrir en YouTube Music">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
         <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2.2a7.8 7.8 0 1 1 0 15.6 7.8 7.8 0 0 1 0-15.6zM10 8.5v7l6-3.5-6-3.5z"/>
       </svg>
-      <span class="pill__label">Sopita Colmado</span>
+      <span class="pill__label">YT Music</span>
       <span class="pill__go" aria-hidden="true">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14M13 6l6 6-6 6"/>
@@ -136,6 +133,7 @@
         <img class="cover" id="cover" src="assets/covers/_koz_f4mthE.jpg" alt="" width="80" height="80" decoding="async">
       </div>
       <div class="meta">
+        <p class="station" id="station">Sopita Colmado</p>
         <a class="title" id="title" href="https://www.youtube.com/watch?v=_koz_f4mthE" target="_blank" rel="noopener noreferrer">A Pedir Su Mano</a>
         <p class="artist" id="artist">Juan Luis Guerra</p>
         <div class="seek-wrap">
@@ -171,6 +169,6 @@
     <p class="noscript">Hace falta JavaScript para oír la radio.</p>
   </noscript>
 
-  <script src="js/player.js?v=63" defer></script>
+  <script src="js/player.js?v=68" defer></script>
 </body>
 </html>

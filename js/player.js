@@ -17,6 +17,7 @@
       tracksHoy: "public/hoy/colmado.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLHayRTekRcmM",
       listaHoy: "https://music.youtube.com/playlist?list=PLMM8k16VoC48",
+      station: "Sopita Colmado",
       listaNameAyer: "Sopita Colmado",
       listaNameHoy: "Sopita Colmado de noche",
     },
@@ -31,6 +32,7 @@
       tracksHoy: "public/hoy/secador.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLHGerkzq-_SQ",
       listaHoy: "https://music.youtube.com/playlist?list=PLACceZspwhQ0",
+      station: "Sopita Salón",
       listaNameAyer: "Sopita Secador",
       listaNameHoy: "Sopita Secador de noche",
     },
@@ -45,6 +47,7 @@
       tracksHoy: "public/hoy/silla.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLUXmVaLcUP14",
       listaHoy: "https://music.youtube.com/playlist?list=PLImw53Bm1wPs",
+      station: "Sopita Barbería",
       listaNameAyer: "Sopita Barbería",
       listaNameHoy: "Sopita Barbería de noche",
     },
@@ -59,6 +62,7 @@
       tracksHoy: "public/hoy/limpieza.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLPt3jPOVTIrw",
       listaHoy: "https://music.youtube.com/playlist?list=PLSWbYr5HUAh4",
+      station: "Sopita Limpieza",
       listaNameAyer: "Sopita Limpieza",
       listaNameHoy: "Sopita Limpieza de noche",
     },
@@ -73,6 +77,7 @@
       tracksHoy: "public/hoy/galeria.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLTiOeTSTBfaA",
       listaHoy: "https://music.youtube.com/playlist?list=PLWR_iWAPDJuw",
+      station: "Sopita Galería",
       listaNameAyer: "Sopita Galería",
       listaNameHoy: "Sopita Galería de noche",
     },
@@ -87,6 +92,7 @@
       tracksHoy: "public/hoy/malecon.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLaCzYI1iMq6E",
       listaHoy: "https://music.youtube.com/playlist?list=PLIbXKGSQVP3c",
+      station: "Sopita Malecón",
       listaNameAyer: "Sopita Malecón",
       listaNameHoy: "Sopita Malecón de noche",
     },
@@ -106,6 +112,7 @@
 
   const el = {
     cover: document.getElementById("cover"),
+    station: document.getElementById("station"),
     title: document.getElementById("title"),
     artist: document.getElementById("artist"),
     lista: document.getElementById("lista-link"),
@@ -371,10 +378,6 @@
     document.documentElement.style.backgroundColor = color;
     document.documentElement.style.colorScheme = night ? "dark" : "light";
     document.body.style.backgroundColor = color;
-    const chrome = document.querySelector(".safari-chrome");
-    if (chrome) chrome.style.backgroundColor = color;
-    const stack = document.querySelector(".hero-stack");
-    if (stack) stack.style.backgroundColor = color;
     // Safari only notices a new theme-color node, not a content= mutation.
     document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
     const medias = [null, "(prefers-color-scheme: light)", "(prefers-color-scheme: dark)"];
@@ -457,12 +460,15 @@
   }
 
   function paint(track) {
+    const station = stationName(state.room);
+    if (el.station) el.station.textContent = station;
     if (!track) {
       el.title.textContent = "En la espera";
       el.title.removeAttribute("href");
       el.title.removeAttribute("aria-label");
-      el.artist.textContent = state.room;
+      el.artist.textContent = station;
       el.cover.removeAttribute("src");
+      document.title = station;
       return;
     }
     el.title.textContent = track.title;
@@ -473,8 +479,8 @@
     el.elapsed.textContent = "0:00";
     el.duration.textContent = "0:00";
     el.seek.value = "0";
-    announce(`${track.artist}. ${track.title}.`);
-    document.title = `${track.title} · ${ROOMS[state.room].name}`;
+    announce(`${station}. ${track.artist}. ${track.title}.`);
+    document.title = `${station} · ${track.title}`;
   }
 
   function greetingFor(hour) {
@@ -526,10 +532,9 @@
     return era === "hoy" ? room.listaHoy : room.listaAyer;
   }
 
-  function listaName(id, era) {
+  function stationName(id) {
     const room = ROOMS[id];
-    if (!room) return "Sopita";
-    return era === "hoy" ? room.listaNameHoy : room.listaNameAyer;
+    return (room && room.station) || "Sopita";
   }
 
   function paintRoomChrome(id) {
@@ -543,11 +548,11 @@
     if (texts[1]) texts[1].textContent = lines[1] || "";
     el.wordmark.setAttribute("aria-label", room.name);
     el.kicker.textContent = room.kicker;
-    document.title = "Sopita · " + room.name;
-    const listName = listaName(id, state.era);
+    if (el.station) el.station.textContent = stationName(id);
+    document.title = stationName(id);
     el.lista.href = listaUrl(id, state.era);
-    if (el.listaLabel) el.listaLabel.textContent = listName;
-    el.lista.setAttribute("aria-label", "Abrir " + listName + " en YouTube Music");
+    if (el.listaLabel) el.listaLabel.textContent = "YT Music";
+    el.lista.setAttribute("aria-label", "Abrir en YouTube Music");
     crossfadeScene(id);
     for (const a of el.rooms) {
       a.classList.toggle("is-on", a.dataset.room === id);
