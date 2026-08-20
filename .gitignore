@@ -1,6 +1,7 @@
 .DS_Store
 .omc/
 .grok/
+.firecrawl/
 *.log
 .cache/
 nanobanana-output/

@@ -1,39 +1,43 @@
-# Bajo el secador
+# Sopita — En el colmado
 
-Three rooms, one page. Codex plates in the back. Hidden official YouTube audio. Same bones as [saloon.wtf](https://saloon.wtf) — not its art, logo, or music.
+Six rooms, one page. Deluxe plates in the back. Hidden official YouTube audio. Lists live on YouTube Music; the on-page player loads those playlists.
 
 ```bash
 cd /Users/javyai/Documents/CODEX/2026-08-15/bajo-el-secador
-python3 -m http.server 8876 --bind 127.0.0.1
+python3 -m http.server 8876 --bind 0.0.0.0
 ```
 
 Use **localhost**, not `127.0.0.1`. YouTube blocks embeds from the numeric address (error 150).
 
 Open http://localhost:8876/
 
-| Hash | Room | Mix | First song |
-|---|---|---|---|
-| `#salon` | Bajo el secador | 110 · baladas y merengue | Juan Gabriel — Amor Eterno |
-| `#barberia` | En la silla | 68 · bachata | Aventura — Obsesión |
-| `#colmado` | En la esquina | 86 · salsa y merengue | Juan Luis Guerra — A Pedir Su Mano |
+| Hash | Station | List |
+|---|---|---|
+| `#colmado` | Sopita Colmado | De día / De noche |
+| `#secador` | Sopita Salón | De día / De noche |
+| `#barberia` | Sopita Barbería | De día / De noche |
+| `#limpieza` | Sopita Limpieza | De día / De noche |
+| `#galeria` | Sopita Galería | De día / De noche |
+| `#malecon` | Sopita Malecón | De día / De noche |
 
-Clock top-left. Presence top-center (this origin, live tabs only). YouTube Music pill top-right. Wordmark in the quiet band of each painting. Glass player at the bottom: spinning circular art, authored order, no shuffle.
+Clock top-left. Presence top-center (same browser origin only, not a global count). YT Music pill top-right. Glass player at the bottom.
 
-Sala de espera. Radio de salón. El video de YouTube no se ve: solo se oye.
+Edit a list on YouTube, then switch room or reload. The player fetches the playlist from YouTube on each room load.
 
-Hard-refresh after JS/CSS/JSON edits (`Cmd+Shift+R`). Debug overlay: **Shift+D**.
+Hard-refresh after JS/CSS edits (`Cmd+Shift+R`). Debug overlay: **Shift+D**.
 
 ## Qué hay
 
 - `index.html` — página única
 - `css/styles.css` — Fraunces + Figtree, glass dock, full-bleed plates
-- `js/player.js` — IFrame API oficial, dos hosts 480×270 fuera de pantalla, fade entre salas
-- `public/salon.json` / `barberia.json` / `colmado.json` — orden de la radio
-- `assets/{salon,barberia,colmado}.jpg` — placas Codex DSA-3.0
-- `assets/covers/` — carátulas cuadradas de catálogo (iTunes/Deezer)
+- `js/player.js` — IFrame API oficial, playlists de YouTube, fade entre salas
+- `public/playlists.json` — IDs de las 12 listas
+- `assets/{colmado,salon,barberia,limpieza,galeria,malecon}{,-hoy}.jpg` — placas
 
-El pill abre las mismas listas en YouTube Music (`PLHGerkzq-_SQ`, `PLUXmVaLcUP14`, `PLHayRTekRcmM`). El reproductor de la página sigue usando embeds oficiales de YouTube. Las primeras 15 de cada sala son los bangers de entrada.
+## Hosting (miles de oyentes)
 
-Añadir a la pantalla de inicio: Safari usa `apple-touch-icon.png` (el secador de casco) y el `theme-color` de cada sala.
+`python3 -m http.server` is only for LAN. For ~5000 people at once, put the static site on a CDN (Cloudflare Pages, Netlify, or S3 + CloudFront) from this repo. `_headers` sets long cache on `/assets`, `/css`, `/js`.
 
-Hace falta un servidor local. Abrir `index.html` como archivo no carga las listas. El primer toque en reproducir arranca el audio (regla de autoplay del navegador).
+Audio is YouTube’s problem: each visitor’s browser talks to YouTube, not our origin. Our origin serves HTML, CSS, JS, and one plate (~1 MB). That is what a CDN is for.
+
+Do not expect the “aquí” number to show 5000. It only counts tabs on the same origin in the same browser. A real presence count needs a tiny backend.

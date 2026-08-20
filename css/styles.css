@@ -3,11 +3,17 @@
   --muted: rgba(255, 255, 255, 0.7);
   --glass: transparent;
   --glass-edge: rgba(255, 255, 255, 0.18);
-  --theme: #eaba4e;
-  --safe-t: max(20px, env(safe-area-inset-top));
-  --safe-r: max(20px, env(safe-area-inset-right));
-  --safe-b: max(24px, env(safe-area-inset-bottom));
-  --safe-l: max(20px, env(safe-area-inset-left));
+  --theme: #b8750c;
+  --safe-t: max(12px, env(safe-area-inset-top, 0px));
+  --safe-r: max(16px, env(safe-area-inset-right, 0px));
+  --safe-b: max(12px, env(safe-area-inset-bottom, 0px));
+  --safe-l: max(16px, env(safe-area-inset-left, 0px));
+  --chrome-top: 0px;
+  --chrome-bottom: 0px;
+  --hud-top: max(72px, calc(var(--safe-t) + var(--chrome-top) + 52px));
+  --hud-bottom: max(120px, calc(var(--safe-b) + var(--chrome-bottom) + 108px));
+  --stage-top-bleed: 0px;
+  --stage-bottom-bleed: 0px;
   --wordmark-size: clamp(4.5rem, 19vw, 7.75rem);
   --wordmark-lh: 0.86;
   --wordmark-prefix: 0.5;
@@ -16,6 +22,9 @@
   );
   --type: 16px;
   --type-sm: 14px;
+  --safari-top-bleed: 80px;
+  --safari-bottom-bleed: 140px;
+  --safari-scroll-offset: 80px;
 }
 
 *,
@@ -31,11 +40,14 @@ body {
   height: 100%;
   min-width: 100%;
   min-height: 100%;
+  min-height: 100dvh;
   min-height: 100lvh;
   min-height: 100vh;
   min-height: -webkit-fill-available;
   overflow-x: hidden;
   background-color: var(--theme);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -48,12 +60,12 @@ body {
   background-color: var(--theme);
 }
 
-body[data-room="colmado"] { --theme: #eaba4e; }
+body[data-room="colmado"] { --theme: #b8750c; }
 body[data-room="secador"] { --theme: #ae4e2a; }
 body[data-room="barberia"] { --theme: #c42818; }
-body[data-room="limpieza"] { --theme: #1aa3b8; }
-body[data-room="galeria"] { --theme: #4a9e6e; }
-body[data-room="malecon"] { --theme: #5aa3c8; }
+body[data-room="limpieza"] { --theme: #0a7382; }
+body[data-room="galeria"] { --theme: #1f7045; }
+body[data-room="malecon"] { --theme: #0e5f96; }
 body[data-room="colmado"][data-era="hoy"] { --theme: #2a1e06; }
 body[data-room="secador"][data-era="hoy"] { --theme: #12122a; }
 body[data-room="barberia"][data-era="hoy"] { --theme: #8a1e12; }
@@ -77,10 +89,112 @@ a {
   text-decoration: none;
 }
 
+/* Photo stack is absolute so it cannot steal Safari 26's toolbar sample
+   (a full-viewport position:fixed layer with a solid background-color
+   beats <body>, then Liquid Glass lenses the photo instead of the hex). */
+.safari-shell {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+/* Safari 26 reads background-color on a qualifying fixed/sticky strip.
+   visibility:hidden is still sampled; opacity:0 / display:none / z-index:-1 are not. */
+#theme-probe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  min-height: 12px;
+  z-index: 2147483646;
+  pointer-events: none;
+  visibility: hidden;
+  background-color: var(--theme);
+}
+
+/* Touch: photo is a fixed plate that covers the large viewport
+   (behind collapsing browser chrome). iOS Safari in-tab gets extra
+   bleed + a pinned scroll so Liquid Glass sees real pixels. */
+@media (pointer: coarse) {
+  .safari-shell,
+  .hero-stack,
+  .hero,
+  .hero__veil {
+    position: fixed;
+    top: calc(-1 * var(--stage-top-bleed));
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    height: calc(100lvh + var(--stage-top-bleed) + var(--stage-bottom-bleed));
+    min-height: calc(100dvh + var(--stage-top-bleed) + var(--stage-bottom-bleed));
+    min-height: -webkit-fill-available;
+    background-color: transparent;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  @media (pointer: coarse) {
+    @media not all and (display-mode: standalone) {
+      :root {
+        --chrome-top: 54px;
+        --chrome-bottom: 84px;
+        --stage-top-bleed: 80px;
+        --stage-bottom-bleed: 140px;
+        --safari-scroll-offset: 80px;
+      }
+
+      html {
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        overscroll-behavior: none;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      body {
+        height: auto;
+        min-height: calc(100dvh + var(--safari-scroll-offset));
+        padding-top: var(--safari-scroll-offset);
+        overflow: visible;
+      }
+
+      #theme-probe {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (display-mode: standalone) {
+  :root {
+    --chrome-top: 0px;
+    --chrome-bottom: 0px;
+    --stage-top-bleed: env(safe-area-inset-top, 0px);
+    --stage-bottom-bleed: env(safe-area-inset-bottom, 0px);
+    --safari-scroll-offset: 0px;
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 0;
+  }
+
+  #theme-probe {
+    display: none;
+  }
+}
+
 .hero-stack {
   position: absolute;
   inset: 0;
-  z-index: 1;
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -202,7 +316,7 @@ a {
   position: fixed;
   z-index: 20;
   left: var(--safe-l);
-  top: var(--safe-t);
+  top: calc(var(--safe-t) + var(--chrome-top));
   max-width: 16rem;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
@@ -237,7 +351,7 @@ a {
   position: fixed;
   z-index: 20;
   left: 50%;
-  top: var(--safe-t);
+  top: calc(var(--safe-t) + var(--chrome-top));
   transform: translateX(-50%);
   display: inline-flex;
   align-items: center;
@@ -252,8 +366,11 @@ a {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #4ade80;
-  box-shadow: 0 0 8px rgba(74, 222, 128, 0.9);
+  background: #22e36a;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.35),
+    0 0 10px rgba(34, 227, 106, 1),
+    0 0 18px rgba(34, 227, 106, 0.65);
 }
 
 .presence__dot::after {
@@ -261,14 +378,17 @@ a {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background: #4ade80;
+  background: #22e36a;
   animation: ping 1.4s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 body[data-era="hoy"] .presence__dot,
 body[data-era="hoy"] .presence__dot::after {
   background: #e8b45a;
-  box-shadow: 0 0 10px rgba(232, 180, 90, 0.85);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.28),
+    0 0 10px rgba(232, 180, 90, 1),
+    0 0 18px rgba(232, 180, 90, 0.65);
 }
 
 .presence__n {
@@ -283,18 +403,22 @@ body[data-era="hoy"] .presence__dot::after {
   position: fixed;
   z-index: 20;
   right: var(--safe-r);
-  top: var(--safe-t);
+  top: calc(var(--safe-t) + var(--chrome-top));
 }
 
 .pill {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 16px 10px 14px;
+  height: 36px;
+  padding: 8px 14px 8px 12px;
   border-radius: 999px;
-  font-size: var(--type);
+  color: #fff;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
   font-weight: 500;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  line-height: 20px;
+  filter: drop-shadow(0 1px 6px rgba(0, 0, 0, 0.5));
 }
 
 .pill__label {
@@ -324,33 +448,45 @@ body[data-era="hoy"] .presence__dot::after {
 }
 
 .center {
-  position: relative;
-  z-index: 2;
-  margin-top: 14vh;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  top: var(--hud-top);
+  bottom: var(--hud-bottom);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
+  justify-content: flex-start;
+  padding: clamp(2px, 2.4dvh, 22px) 24px 0;
   text-align: center;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.center a {
+  pointer-events: auto;
 }
 
 .kicker {
   margin: 0 0 8px;
   width: min(36rem, 100%);
-  height: 1.25em;
+  min-height: 1.25em;
   font-size: 0.8125rem;
   font-weight: 500;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-align: center;
 }
 
 .wordmark {
   margin: 0;
-  width: min(36rem, 60vw);
+  width: min(36rem, calc(100% - 48px));
   min-width: 0;
   line-height: 0;
   overflow: visible;
@@ -402,7 +538,7 @@ body[data-era="hoy"] .presence__dot::after {
   white-space: nowrap;
   min-height: 40px;
   padding: 8px 7px;
-  font-size: clamp(0.58rem, 1.55vw, 0.72rem);
+  font-size: clamp(0.62rem, 1.45vw, 0.84rem);
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -453,16 +589,93 @@ body[data-era="hoy"] .eras a.is-on {
   box-shadow: inset 0 -2px 0 #f3d5a0;
 }
 
+body[data-room="colmado"] .kicker,
+body[data-room="secador"] .kicker,
+body[data-room="barberia"] .kicker,
+body[data-room="limpieza"] .kicker {
+  font-weight: 600;
+  color: #fff;
+  text-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.85),
+    0 2px 8px rgba(0, 0, 0, 0.55);
+}
+
+body[data-room="colmado"] .wordmark svg,
+body[data-room="secador"] .wordmark svg,
+body[data-room="barberia"] .wordmark svg,
+body[data-room="limpieza"] .wordmark svg {
+  filter:
+    drop-shadow(0 1px 0 rgba(0, 0, 0, 0.72))
+    drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5))
+    drop-shadow(0 6px 16px rgba(0, 0, 0, 0.42));
+}
+
+body[data-room="colmado"] .rooms a,
+body[data-room="secador"] .rooms a,
+body[data-room="barberia"] .rooms a,
+body[data-room="limpieza"] .rooms a {
+  color: rgba(255, 255, 255, 0.78);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+}
+
+body[data-room="colmado"] .eras a,
+body[data-room="secador"] .eras a,
+body[data-room="barberia"] .eras a,
+body[data-room="limpieza"] .eras a {
+  color: rgba(255, 255, 255, 0.72);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+}
+
+body[data-room="colmado"] .rooms a:hover,
+body[data-room="colmado"] .rooms a.is-on,
+body[data-room="secador"] .rooms a:hover,
+body[data-room="secador"] .rooms a.is-on,
+body[data-room="barberia"] .rooms a:hover,
+body[data-room="barberia"] .rooms a.is-on,
+body[data-room="limpieza"] .rooms a:hover,
+body[data-room="limpieza"] .rooms a.is-on,
+body[data-room="colmado"] .eras a:hover,
+body[data-room="colmado"] .eras a.is-on,
+body[data-room="secador"] .eras a:hover,
+body[data-room="secador"] .eras a.is-on,
+body[data-room="barberia"] .eras a:hover,
+body[data-room="barberia"] .eras a.is-on,
+body[data-room="limpieza"] .eras a:hover,
+body[data-room="limpieza"] .eras a.is-on {
+  color: #fff;
+}
+
+body[data-room="colmado"] .rooms a.is-on,
+body[data-room="secador"] .rooms a.is-on,
+body[data-room="barberia"] .rooms a.is-on,
+body[data-room="limpieza"] .rooms a.is-on,
+body[data-room="colmado"] .eras a.is-on,
+body[data-room="secador"] .eras a.is-on,
+body[data-room="barberia"] .eras a.is-on,
+body[data-room="limpieza"] .eras a.is-on {
+  font-weight: 600;
+  text-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.75),
+    0 0 10px rgba(255, 255, 255, 0.28);
+}
+
+body[data-era="hoy"][data-room="colmado"] .eras a.is-on,
+body[data-era="hoy"][data-room="secador"] .eras a.is-on,
+body[data-era="hoy"][data-room="barberia"] .eras a.is-on,
+body[data-era="hoy"][data-room="limpieza"] .eras a.is-on {
+  color: #f6e2b8;
+}
+
 .dock {
   position: fixed;
   z-index: 20;
   left: 0;
   right: 0;
-  bottom: max(28px, env(safe-area-inset-bottom), 5vh);
+  bottom: max(16px, var(--safe-b), var(--chrome-bottom));
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 max(24px, var(--safe-r)) 0 max(24px, var(--safe-l));
+  padding: 0 max(16px, var(--safe-r)) 0 max(16px, var(--safe-l));
 }
 
 .player {
@@ -792,25 +1005,85 @@ body:not(.is-playing) .play .ico-pause {
   }
 
   .center {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .wordmark {
-    width: min(36rem, 92vw);
+    width: min(36rem, calc(100% - 32px));
   }
 
   :root {
     --wordmark-size: clamp(3.15rem, 15vw, 5.25rem);
+    --hud-top: max(64px, calc(var(--safe-t) + var(--chrome-top) + 44px));
+    --hud-bottom: max(112px, calc(var(--safe-b) + var(--chrome-bottom) + 96px));
   }
 
   .rooms {
     gap: 0;
     max-width: none;
+    justify-content: space-between;
   }
 
   .rooms a {
-    padding: 8px 3px;
-    letter-spacing: 0.03em;
+    padding: 8px 2px;
+    letter-spacing: 0.02em;
+  }
+}
+
+@media (max-width: 360px) {
+  .rooms a {
+    padding: 8px 1px;
+    letter-spacing: 0.01em;
+    font-size: 0.56rem;
+  }
+}
+
+@media (max-height: 520px) {
+  :root {
+    --hud-top: max(36px, calc(var(--safe-t) + var(--chrome-top) + 18px));
+    --hud-bottom: max(96px, calc(var(--safe-b) + var(--chrome-bottom) + 88px));
+    --wordmark-size: clamp(2.4rem, 12vh, 4.5rem);
+  }
+
+  .clock__hi,
+  .clock__date {
+    display: none;
+  }
+
+  .presence__label {
+    display: none;
+  }
+
+  .vinyl,
+  .cover {
+    width: 56px;
+    height: 56px;
+  }
+
+  .player {
+    padding: 8px 12px 8px 8px;
+    gap: 10px;
+  }
+
+  .center {
+    padding-top: 0;
+  }
+
+  .wordmark {
+    width: min(20rem, 52vw);
+  }
+
+  .kicker {
+    margin-bottom: 2px;
+  }
+
+  .rooms {
+    margin-top: 6px;
+  }
+
+  .eras {
+    margin-top: 2px;
   }
 }
 

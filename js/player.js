@@ -10,7 +10,7 @@
       name: "En el colmado",
       lockup: ["En el", "colmado"],
       kicker: "La esquina",
-      theme: "#eaba4e",
+      theme: "#b8750c",
       themeHoy: "#2a1e06",
       plateHoy: true,
       tracksAyer: "public/ayer/colmado.json",
@@ -55,7 +55,7 @@
       name: "En la limpieza",
       lockup: ["En la", "limpieza"],
       kicker: "El domingo",
-      theme: "#1aa3b8",
+      theme: "#0a7382",
       themeHoy: "#1a3a40",
       plateHoy: true,
       tracksAyer: "public/ayer/limpieza.json",
@@ -69,8 +69,8 @@
     galeria: {
       name: "En la galería",
       lockup: ["En la", "galería"],
-      kicker: "El Cibao",
-      theme: "#4a9e6e",
+      kicker: "El Campo",
+      theme: "#1f7045",
       themeHoy: "#1e4e5a",
       plateHoy: true,
       tracksAyer: "public/ayer/galeria.json",
@@ -85,7 +85,7 @@
       name: "En el malecón",
       lockup: ["En el", "malecón"],
       kicker: "El paseo",
-      theme: "#5aa3c8",
+      theme: "#0e5f96",
       themeHoy: "#061e42",
       plateHoy: true,
       tracksAyer: "public/ayer/malecon.json",
@@ -108,6 +108,7 @@
     vitilla: "colmado",
     marquesina: "limpieza",
     cibao: "galeria",
+    campo: "galeria",
   };
 
   const el = {
@@ -136,6 +137,10 @@
     rooms: Array.from(document.querySelectorAll(".rooms a")),
     eras: Array.from(document.querySelectorAll(".eras a")),
     themes: Array.from(document.querySelectorAll('meta[name="theme-color"]')),
+    tileColor: document.querySelector('meta[name="msapplication-TileColor"]'),
+    navColor: document.querySelector('meta[name="msapplication-navbutton-color"]'),
+    shell: document.getElementById("safari-shell"),
+    probe: document.getElementById("theme-probe"),
     maskIcon: document.querySelector('link[rel="mask-icon"]'),
     dbg: document.getElementById("dbg"),
     dbgBody: document.getElementById("dbg-body"),
@@ -166,6 +171,8 @@
     loadGen: 0,
     fadeGen: 0,
     mixing: false,
+    playlistId: null,
+    playerListId: null,
     masterVolume: 100,
     volumeWorks: null,
     advancing: false,
@@ -356,11 +363,6 @@
     return state.queue[state.index] || null;
   }
 
-  function buildQueue() {
-    state.queue = state.catalog.slice();
-    state.index = 0;
-  }
-
   function sceneKey(id) {
     const room = ROOMS[id];
     return state.era === "hoy" && room && room.plateHoy ? id + "-hoy" : id;
@@ -372,13 +374,28 @@
     return state.era === "hoy" && room.themeHoy ? room.themeHoy : room.theme;
   }
 
+  function remountProbe(color) {
+    const prev = document.getElementById("theme-probe");
+    const probe = document.createElement("div");
+    probe.id = "theme-probe";
+    probe.setAttribute("aria-hidden", "true");
+    probe.dataset.theme = `${state.room}-${state.era}`;
+    probe.style.backgroundColor = color;
+    if (prev) prev.replaceWith(probe);
+    else document.body.insertBefore(probe, document.body.firstChild);
+    el.probe = probe;
+  }
+
   function setTheme(color) {
     const night = state.era === "hoy";
     document.documentElement.style.setProperty("--theme", color);
     document.documentElement.style.backgroundColor = color;
-    document.documentElement.style.colorScheme = night ? "dark" : "light";
+    document.body.style.setProperty("--theme", color);
     document.body.style.backgroundColor = color;
-    // Safari only notices a new theme-color node, not a content= mutation.
+    document.documentElement.style.colorScheme = night ? "dark" : "light";
+    remountProbe(color);
+    // Chrome/Android/PWA read theme-color. Safari 26 ignores it and
+    // samples a full-width fixed strip instead (#theme-probe).
     document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
     const medias = [null, "(prefers-color-scheme: light)", "(prefers-color-scheme: dark)"];
     const nodes = medias.map((media) => {
@@ -390,6 +407,8 @@
       return meta;
     });
     el.themes = nodes;
+    if (el.tileColor) el.tileColor.setAttribute("content", color);
+    if (el.navColor) el.navColor.setAttribute("content", color);
     let scheme = document.querySelector('meta[name="color-scheme"]');
     if (!scheme) {
       scheme = document.createElement("meta");
@@ -532,6 +551,76 @@
     return era === "hoy" ? room.listaHoy : room.listaAyer;
   }
 
+  function playlistIdOf(id, era) {
+    const url = listaUrl(id, era) || "";
+    const match = url.match(/[?&]list=([A-Za-z0-9_-]+)/);
+    return match ? match[1] : null;
+  }
+
+  function metaFor(id) {
+    const hit = state.catalog.find((track) => track.id === id);
+    if (hit) return Object.assign({}, hit);
+    return {
+      id,
+      artist: "",
+      title: "",
+      youtube: `https://www.youtube.com/watch?v=${id}`,
+      artwork: `https://i.ytimg.com/vi/${id}/mqdefault.jpg`,
+      artworkLarge: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+    };
+  }
+
+  function hydrateTrack(track, data) {
+    if (!track || !data) return;
+    if (data.title && (!track.title || track.title === track.id)) track.title = data.title;
+    if (data.author && !track.artist) {
+      track.artist = String(data.author).replace(/\s*-\s*Topic$/, "");
+    }
+  }
+
+  function applyPlaylistFromPlayer(player) {
+    if (!player) return;
+    let ids = [];
+    try {
+      ids = (player.getPlaylist && player.getPlaylist()) || [];
+    } catch {
+      ids = [];
+    }
+    ids = ids.filter((id) => /^[A-Za-z0-9_-]{11}$/.test(id));
+    if (ids.length) {
+      let idx = 0;
+      try {
+        idx = player.getPlaylistIndex() || 0;
+      } catch {
+        idx = 0;
+      }
+      state.queue = ids.map((id) => metaFor(id));
+      if (idx >= 0 && idx < state.queue.length) state.index = idx;
+    } else {
+      const vid = videoIdOf(player);
+      if (vid) {
+        const hit = state.queue.findIndex((track) => track.id === vid);
+        if (hit >= 0) state.index = hit;
+        else {
+          state.queue = [metaFor(vid)];
+          state.index = 0;
+        }
+      }
+    }
+    try {
+      hydrateTrack(current(), player.getVideoData && player.getVideoData());
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function scriptName(id, era) {
+    const room = ROOMS[id];
+    if (!room) return "Sopita";
+    const which = era || state.era;
+    return (which === "hoy" ? room.listaNameHoy : room.listaNameAyer) || room.station || "Sopita";
+  }
+
   function stationName(id) {
     const room = ROOMS[id];
     return (room && room.station) || "Sopita";
@@ -591,46 +680,75 @@
     return parsed;
   }
 
-  function prefetchRooms() {
-    for (const id of Object.keys(ROOMS)) {
+  function catalogFirstId(id, era) {
+    const parsed = state.catalogs[`${id}:${era}`];
+    const track = parsed && parsed.catalog && parsed.catalog[0];
+    return track && track.id ? track.id : null;
+  }
+
+  function prefetchCatalogs() {
+    Object.keys(ROOMS).forEach((id) => {
       fetchRoom(id, "ayer").catch(() => {});
       fetchRoom(id, "hoy").catch(() => {});
-    }
+    });
   }
 
   async function loadRoom(id, autoplay) {
     const room = ROOMS[id];
     if (!room) return;
     const era = eraFromUrl();
-    if (id === state.room && era === state.era && state.catalog.length) {
+    const pid = playlistIdOf(id, era);
+    if (
+      id === state.room &&
+      era === state.era &&
+      state.playlistId === pid &&
+      state.playerListId === pid &&
+      state.player
+    ) {
       if (autoplay) await playCurrent();
       return;
     }
     const gen = ++state.loadGen;
-    const fromRoom = state.room;
-    const fromEra = state.era;
     state.room = id;
     state.era = era;
+    state.playlistId = pid;
+    state.index = 0;
+    state.loop = true;
+    state.queue = [];
     paintRoomChrome(id);
-    let parsed;
-    try {
-      parsed = await fetchRoom(id, era);
-    } catch {
-      if (gen !== state.loadGen) return;
-      announce("No se pudo cargar la lista.");
+    const cached = state.catalogs[`${id}:${era}`];
+    if (cached && cached.catalog && cached.catalog.length) {
+      state.catalog = cached.catalog;
+      state.queue = cached.catalog.slice();
+      state.index = 0;
+      paint(current());
+    } else {
+      paint(null);
+    }
+    if (!pid) {
+      announce("No hay lista de YouTube.");
       return;
     }
-    if (gen !== state.loadGen) return;
-    state.catalog = parsed.catalog;
-    state.loop = parsed.loop;
-    buildQueue();
-    paint(current());
-    if (autoplay && current()) {
-      state.wanted = "play";
-      const live = state.playing || ytState() === 1;
-      if (live && (fromRoom !== id || fromEra !== era)) await mixInto(current(), gen);
-      else await ensurePlayer();
+    fetchRoom(id, era)
+      .then((parsed) => {
+        if (gen !== state.loadGen) return;
+        state.catalog = parsed.catalog;
+        if (!state.queue.length && parsed.catalog.length) {
+          state.queue = parsed.catalog.slice();
+          state.index = 0;
+          paint(current());
+        } else if (state.queue.length) {
+          state.queue = state.queue.map((track) => metaFor(track.id));
+          paint(current());
+        }
+      })
+      .catch(() => {});
+    if (autoplay) state.wanted = "play";
+    if (window.YT && window.YT.Player) {
+      swapToPlaylist(pid, catalogFirstId(id, era));
+      return;
     }
+    await ensurePlayer();
   }
 
   function ytState(player) {
@@ -702,6 +820,8 @@
         return;
       }
       if (isActive && !state.mixing) {
+        applyPlaylistFromPlayer(event.target);
+        if (current()) paint(current());
         setPlayingUi(true);
         state.wanted = "play";
         startPoll();
@@ -721,6 +841,21 @@
       }
     } else if (event.data === YTref.PlayerState.ENDED) {
       if (isActive && !state.mixing) {
+        if (state.playlistId) {
+          const p = event.target;
+          setTimeout(() => {
+            if (state.mixing || slot !== state.activeSlot) return;
+            if (ytState(p) === YTref.PlayerState.ENDED && p.nextVideo) {
+              try {
+                p.nextVideo();
+                if (state.wanted === "play") p.playVideo();
+              } catch {
+                /* ignore */
+              }
+            }
+          }, 400);
+          return;
+        }
         if (isRealEnd(event.target)) {
           dbg("real-end", "");
           go(1, { fromEnd: true });
@@ -729,7 +864,10 @@
           nudgePlay(event.target, "ended");
         }
       }
-    } else if (event.data === YTref.PlayerState.CUED && state.wanted === "play") {
+    } else if (event.data === YTref.PlayerState.CUED) {
+      applyPlaylistFromPlayer(event.target);
+      if (current()) paint(current());
+      if (state.wanted !== "play") return;
       const p = slotPlayer(slot);
       if (p && (isActive || state.mixing)) {
         try {
@@ -764,21 +902,29 @@
     dbg("fail", `${reason} ${hits}`);
     if (hits < 3) {
       const player = state.player;
-      if (player && player.loadVideoById) {
-        state.loadedAt = Date.now();
-        try {
-          player.loadVideoById(track.id);
-          setVol(player, state.masterVolume);
-          player.playVideo();
-        } catch {
-          /* ignore */
-        }
+      state.loadedAt = Date.now();
+      try {
+        if (state.playlistId && player && player.playVideoAt) player.playVideoAt(state.index || 0);
+        else if (player && player.loadVideoById) player.loadVideoById(track.id);
+        setVol(player, state.masterVolume);
+        player.playVideo();
+      } catch {
+        /* ignore */
       }
       return;
     }
     if (state.advancing) return;
     dbg("skip", reason);
-    announce(`No se pudo reproducir ${track.title}.`);
+    announce(`No se pudo reproducir ${track.title || "esta pieza"}.`);
+    if (state.playlistId && state.player && state.player.nextVideo) {
+      try {
+        state.player.nextVideo();
+        state.player.playVideo();
+      } catch {
+        go(1, { fromEnd: true });
+      }
+      return;
+    }
     go(1, { fromEnd: true });
   }
 
@@ -797,30 +943,113 @@
     failForward(`active-error:${code}`);
   }
 
-  function createPlayer(slot, videoId) {
-    const player = new window.YT.Player(`yt-player-${slot}`, {
+  function mountId(slot) {
+    return `yt-player-${slot}`;
+  }
+
+  function remountSlot(slot) {
+    const id = mountId(slot);
+    const host = document.getElementById("yt-host");
+    const old = document.getElementById(id);
+    if (old) old.remove();
+    const div = document.createElement("div");
+    div.id = id;
+    host.appendChild(div);
+    return id;
+  }
+
+  function destroySlot(slot) {
+    const player = state.players[slot];
+    if (player) {
+      try {
+        if (player.stopVideo) player.stopVideo();
+      } catch {
+        /* ignore */
+      }
+      try {
+        player.destroy();
+      } catch {
+        /* ignore */
+      }
+    }
+    state.players[slot] = null;
+    if (state.player === player) state.player = null;
+    remountSlot(slot);
+  }
+
+  function destroyPlayers() {
+    cancelMix();
+    state.playerListId = null;
+    destroySlot("a");
+    destroySlot("b");
+    state.activeSlot = "a";
+    state.player = null;
+  }
+
+  function swapToPlaylist(playlistId, videoId) {
+    destroyPlayers();
+    if (!playlistId || !window.YT || !window.YT.Player) return;
+    state.loadedAt = Date.now();
+    state.playerListId = playlistId;
+    createPlayer(state.activeSlot, videoId || catalogFirstId(state.room, state.era), playlistId);
+  }
+
+  function playerHasSrc(player) {
+    try {
+      const iframe = player && player.getIframe && player.getIframe();
+      return !!(iframe && iframe.getAttribute("src"));
+    } catch {
+      return false;
+    }
+  }
+
+  function loadRoomPlaylist(player, playlistId, index) {
+    if (!player || !playlistId) return;
+    try {
+      player.loadPlaylist({
+        list: playlistId,
+        listType: "playlist",
+        index: index || 0,
+      });
+      if (player.setLoop) player.setLoop(true);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function createPlayer(slot, videoId, playlistId) {
+    remountSlot(slot);
+    const playerVars = Object.assign(
+      {
+        autoplay: slot === state.activeSlot && state.wanted === "play" ? 1 : 0,
+        controls: 0,
+        disablekb: 1,
+        fs: 0,
+        modestbranding: 1,
+        rel: 0,
+        playsinline: 1,
+        iv_load_policy: 3,
+        enablejsapi: 1,
+      },
+      /^\d+\.\d+\.\d+\.\d+$/.test(location.hostname) ? {} : { origin: location.origin }
+    );
+    if (playlistId) {
+      playerVars.listType = "playlist";
+      playerVars.list = playlistId;
+      playerVars.loop = 1;
+    }
+    const opts = {
       width: 480,
       height: 270,
-      videoId,
       host: "https://www.youtube.com",
-      playerVars: Object.assign(
-        {
-          autoplay: slot === state.activeSlot && state.wanted === "play" ? 1 : 0,
-          controls: 0,
-          disablekb: 1,
-          fs: 0,
-          modestbranding: 1,
-          rel: 0,
-          playsinline: 1,
-          iv_load_policy: 3,
-        },
-        /^\d+\.\d+\.\d+\.\d+$/.test(location.hostname) ? {} : { origin: location.origin }
-      ),
+      playerVars,
       events: {
         onReady(event) {
           hideIframe(event.target);
           const incoming = slot !== state.activeSlot;
           setVol(event.target, incoming ? 0 : 100);
+          applyPlaylistFromPlayer(event.target);
+          if (current()) paint(current());
           if (state.wanted === "play" && !incoming) {
             setVol(event.target, state.masterVolume);
             event.target.playVideo();
@@ -829,9 +1058,14 @@
         onStateChange: (event) => onPlayerState(slot, event),
         onError: (event) => onPlayerError(slot, event),
       },
-    });
+    };
+    if (videoId) opts.videoId = videoId;
+    const player = new window.YT.Player(mountId(slot), opts);
     state.players[slot] = player;
-    if (slot === state.activeSlot) state.player = player;
+    if (slot === state.activeSlot) {
+      state.player = player;
+      if (playlistId) state.playerListId = playlistId;
+    }
     hideIframe(player);
     return player;
   }
@@ -866,22 +1100,43 @@
   }
 
   async function ensurePlayer() {
+    const pid = state.playlistId;
     const track = current();
-    if (!track) return;
+    if (!pid && !track) return;
     await loadApi();
+    if (state.player && !playerHasSrc(state.player)) {
+      destroySlot(state.activeSlot);
+      state.playerListId = null;
+    }
+    if (pid) {
+      const firstId = (current() && current().id) || catalogFirstId(state.room, state.era);
+      if (!state.player || state.playerListId !== pid || !playerHasSrc(state.player)) {
+        swapToPlaylist(pid, firstId);
+        return;
+      }
+      if (state.wanted === "play") {
+        try {
+          if (state.player.unMute) state.player.unMute();
+          setVol(state.player, state.masterVolume);
+          state.player.playVideo();
+        } catch {
+          /* ignore */
+        }
+      }
+      hideIframe(state.player);
+      return;
+    }
     if (!state.player) {
       state.loadedAt = Date.now();
-      createPlayer(state.activeSlot, track.id);
+      createPlayer(state.activeSlot, track && track.id, null);
       return;
     }
     const loaded = state.player.getVideoData ? state.player.getVideoData() : null;
     if (!loaded || loaded.video_id !== track.id) {
       state.loadedAt = Date.now();
       state.player.loadVideoById(track.id);
-      if (state.wanted === "play") state.player.playVideo();
-    } else if (state.wanted === "play") {
-      state.player.playVideo();
     }
+    if (state.wanted === "play") state.player.playVideo();
     setVol(state.player, state.masterVolume);
     hideIframe(state.player);
   }
@@ -911,15 +1166,21 @@
     });
   }
 
-  async function cueIncoming(track) {
+  async function cueIncoming(track, playlistId) {
     const slot = idleSlot();
     await loadApi();
+    const pid = playlistId || state.playlistId;
     let incoming = slotPlayer(slot);
-    if (!incoming) incoming = createPlayer(slot, track.id);
+    if (!incoming) incoming = createPlayer(slot, track && track.id, pid);
     else {
       try {
-        if (incoming.cueVideoById) incoming.cueVideoById(track.id);
-        else incoming.loadVideoById(track.id);
+        if (pid && incoming.loadPlaylist) {
+          incoming.loadPlaylist({ list: pid, listType: "playlist", index: 0 });
+          if (incoming.setLoop) incoming.setLoop(true);
+        } else if (track) {
+          if (incoming.cueVideoById) incoming.cueVideoById(track.id);
+          else incoming.loadVideoById(track.id);
+        }
       } catch {
         return { slot, incoming: null };
       }
@@ -931,7 +1192,7 @@
     } catch {
       /* idle must not play under the outgoing song */
     }
-    state.expectIncoming = track.id;
+    state.expectIncoming = track ? track.id : null;
     await waitUntil(incoming, (p) => typeof p.playVideo === "function", 1500);
     return { slot, incoming };
   }
@@ -975,7 +1236,7 @@
   }
 
   async function mixInto(track, gen) {
-    if (!track) return;
+    if (!track && !state.playlistId) return;
     if (gen !== state.loadGen) return;
     const outgoing = state.player;
     if (!outgoing) {
@@ -989,7 +1250,7 @@
     const outMs = reducedMotion() ? FADE_REDUCED_MS : FADE_OUT_MS;
     const inMs = reducedMotion() ? FADE_REDUCED_MS : FADE_IN_MS;
 
-    const { slot, incoming } = await cueIncoming(track);
+    const { slot, incoming } = await cueIncoming(track, state.playlistId);
     if (token !== state.fadeGen || gen !== state.loadGen) return;
 
     const fadedOut = state.volumeWorks === false
@@ -1062,10 +1323,8 @@
   }
 
   async function playCurrent() {
-    const track = current();
-    if (!track) return;
     state.wanted = "play";
-    paint(track);
+    if (current()) paint(current());
     try {
       await ensurePlayer();
     } catch {
@@ -1098,8 +1357,6 @@
 
   async function go(step, opts = {}) {
     const fromEnd = Boolean(opts.fromEnd);
-    const len = state.queue.length;
-    if (!len) return;
     if (fromEnd && state.advancing) return;
     if (fromEnd) state.advancing = true;
     if (state.mixing) {
@@ -1119,10 +1376,32 @@
       if (cur > RESTART_SEC) {
         player.seekTo(0, true);
         if (state.wanted === "play") player.playVideo();
+        if (fromEnd) state.advancing = false;
         return;
       }
     }
 
+    const player = state.player;
+    if (state.playlistId && player) {
+      try {
+        if (step > 0 && player.nextVideo) player.nextVideo();
+        else if (step < 0 && player.previousVideo) player.previousVideo();
+        if (state.wanted === "play" || fromEnd) {
+          state.wanted = "play";
+          player.playVideo();
+        }
+      } catch {
+        /* fall through to queued ids */
+      }
+      if (fromEnd) state.advancing = false;
+      return;
+    }
+
+    const len = state.queue.length;
+    if (!len) {
+      if (fromEnd) state.advancing = false;
+      return;
+    }
     let next = state.index + step;
     if (next >= len) {
       if (!state.loop && fromEnd) {
@@ -1131,7 +1410,6 @@
         state.advancing = false;
         return;
       }
-      buildQueue();
       next = 0;
     } else if (next < 0) {
       next = state.loop ? len - 1 : 0;
@@ -1218,7 +1496,7 @@
       arm();
       if (event && event.target && event.target.closest && event.target.closest("#btn-play, .controls, a, input")) return;
       if (state.wanted === "idle") state.wanted = "play";
-      if (current() && state.wanted === "play") playCurrent();
+      if (state.wanted === "play") playCurrent();
     };
     document.addEventListener("pointerdown", startFromGesture, { once: true });
     window.addEventListener("keydown", (event) => {
@@ -1318,7 +1596,27 @@
     });
   }
 
+  function pinIosSafariChrome() {
+    const ios = window.CSS && CSS.supports("-webkit-touch-callout", "none");
+    const coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+    const standalone =
+      (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) ||
+      window.navigator.standalone;
+    if (!ios || !coarse || standalone) return;
+    const raw = getComputedStyle(document.documentElement).getPropertyValue("--safari-scroll-offset");
+    const offset = Number.parseFloat(raw) || 80;
+    if (!offset) return;
+    const lock = () => {
+      if (Math.abs(window.scrollY - offset) > 2) window.scrollTo(0, offset);
+    };
+    window.scrollTo(0, offset);
+    window.addEventListener("scroll", lock, { passive: true });
+    window.addEventListener("resize", lock);
+    window.addEventListener("orientationchange", () => setTimeout(lock, 80));
+  }
+
   async function boot() {
+    pinIosSafariChrome();
     bind();
     absolutizeShareImages();
     tickClock();
@@ -1326,8 +1624,8 @@
     startPresence();
     startWatchdog();
     setDebug(debugOn());
+    prefetchCatalogs();
     loadApi().catch(() => {});
-    prefetchRooms();
     await loadRoom(roomFromHash(), false);
   }
 
