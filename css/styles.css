@@ -679,6 +679,9 @@ body[data-era="hoy"][data-room="limpieza"] .eras a.is-on {
 }
 
 .player {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -689,14 +692,19 @@ body[data-era="hoy"][data-room="limpieza"] .eras a.is-on {
   box-sizing: border-box;
   padding: 12px 20px 12px 12px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.045);
-  background: color-mix(in srgb, var(--theme) 34%, rgba(12, 10, 8, 0.52));
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(14px) saturate(1.55);
-  -webkit-backdrop-filter: blur(14px) saturate(1.55);
+  background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.08) 46%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  border: 1px solid var(--glass-edge);
+  backdrop-filter: blur(42px) saturate(1.85);
+  -webkit-backdrop-filter: blur(42px) saturate(1.85);
   box-shadow:
-    0 8px 40px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    0 10px 40px rgba(0, 0, 0, 0.38),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.06);
 }
 
 .vinyl {
