@@ -271,19 +271,18 @@ a {
 
 #yt-host {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 200px;
-  height: 200px;
-  opacity: 0;
+  left: -9999px;
+  top: 0;
+  width: 240px;
+  height: 135px;
   overflow: hidden;
   pointer-events: none;
   z-index: 0;
 }
 
 #yt-host iframe {
-  width: 200px !important;
-  height: 200px !important;
+  width: 240px !important;
+  height: 135px !important;
 }
 
 .clock {

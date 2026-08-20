@@ -745,7 +745,7 @@
       .catch(() => {});
     if (autoplay) state.wanted = "play";
     if (window.YT && window.YT.Player) {
-      swapToPlaylist(pid, catalogFirstId(id, era));
+      retuneToPlaylist(pid, catalogFirstId(id, era));
       return;
     }
     await ensurePlayer();
@@ -986,12 +986,49 @@
     state.player = null;
   }
 
+  function kickPlay(player) {
+    if (!player || state.wanted !== "play") return;
+    const go = () => {
+      try {
+        if (player.unMute) player.unMute();
+        setVol(player, state.masterVolume);
+        if (player.playVideo) player.playVideo();
+      } catch {
+        /* iOS may reject until the iframe is ready */
+      }
+    };
+    go();
+    requestAnimationFrame(go);
+    setTimeout(go, 0);
+    setTimeout(go, 150);
+    setTimeout(go, 400);
+  }
+
+  function retuneToPlaylist(playlistId, videoId) {
+    if (!playlistId || !window.YT || !window.YT.Player) return;
+    const player = state.player;
+    const canReuse = player && typeof player.loadPlaylist === "function" && playerHasSrc(player);
+    if (canReuse) {
+      cancelMix();
+      const other = slotPlayer(idleSlot());
+      if (other && other !== player) stopPlayer(other);
+      state.loadedAt = Date.now();
+      state.playerListId = playlistId;
+      loadRoomPlaylist(player, playlistId, 0);
+      kickPlay(player);
+      hideIframe(player);
+      return;
+    }
+    swapToPlaylist(playlistId, videoId);
+  }
+
   function swapToPlaylist(playlistId, videoId) {
     destroyPlayers();
     if (!playlistId || !window.YT || !window.YT.Player) return;
     state.loadedAt = Date.now();
     state.playerListId = playlistId;
     createPlayer(state.activeSlot, videoId || catalogFirstId(state.room, state.era), playlistId);
+    kickPlay(state.player);
   }
 
   function playerHasSrc(player) {
@@ -1111,18 +1148,10 @@
     if (pid) {
       const firstId = (current() && current().id) || catalogFirstId(state.room, state.era);
       if (!state.player || state.playerListId !== pid || !playerHasSrc(state.player)) {
-        swapToPlaylist(pid, firstId);
+        retuneToPlaylist(pid, firstId);
         return;
       }
-      if (state.wanted === "play") {
-        try {
-          if (state.player.unMute) state.player.unMute();
-          setVol(state.player, state.masterVolume);
-          state.player.playVideo();
-        } catch {
-          /* ignore */
-        }
-      }
+      if (state.wanted === "play") kickPlay(state.player);
       hideIframe(state.player);
       return;
     }
@@ -1545,11 +1574,16 @@
       if (track) fallbackCover(track);
     });
     for (const a of el.rooms) {
-      a.addEventListener("click", () => {
+      a.addEventListener("click", (event) => {
+        event.preventDefault();
         const id = a.dataset.room;
         if (!ROOMS[id]) return;
         state.armed = true;
         state.wanted = "play";
+        const hash = "#" + id;
+        if (location.hash !== hash) {
+          history.pushState(null, "", location.pathname + location.search + hash);
+        }
         if (id === state.room) playCurrent();
         else loadRoom(id, true);
       });
