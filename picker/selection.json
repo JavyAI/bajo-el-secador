@@ -1,0 +1,47 @@
+{
+  "lockedAt": "2026-08-17T03:42:31.748Z",
+  "rooms": {
+    "colmado": {
+      "file": "DSA15-01-en-la-esquina-day-wide-v6-master-candidate.png",
+      "abs": "/Users/javyai/Documents/CODEX/2026-08-16/en-la-esquina-four-state/outputs/DSA15-01-en-la-esquina-day-wide-v6-master-candidate.png",
+      "src": "src/colmado/DSA15-01-en-la-esquina-day-wide-v6-master-candidate.png",
+      "thumb": "thumbs/colmado/DSA15-01-en-la-esquina-day-wide-v6-master-candidate.jpg",
+      "conversation": "en-la-esquina-four-state"
+    },
+    "secador": {
+      "file": "el-secador-s2-la-hora-viva-happy-v2.png",
+      "abs": "/Users/javyai/Documents/CODEX/2026-08-16/el-secador-dominican-salon/outputs/el-secador-s2-la-hora-viva-happy-v2.png",
+      "src": "src/secador/el-secador-s2-la-hora-viva-happy-v2.png",
+      "thumb": "thumbs/secador/el-secador-s2-la-hora-viva-happy-v2.jpg",
+      "conversation": "el-secador-dominican-salon"
+    },
+    "barberia": {
+      "file": "en-la-silla-founder-selected-interior-source.png",
+      "abs": "/Users/javyai/Documents/CODEX/2026-08-16/en-la-silla-dominican-barberia/outputs/en-la-silla-founder-selected-interior-source.png",
+      "src": "src/barberia/en-la-silla-founder-selected-interior-source.png",
+      "thumb": "thumbs/barberia/en-la-silla-founder-selected-interior-source.jpg",
+      "conversation": "en-la-silla-dominican-barberia"
+    },
+    "limpieza": {
+      "file": "todo-en-su-sitio-circa-1992-wide-v1.png",
+      "abs": "/Users/javyai/Documents/CODEX/2026-08-16/domingo-de-limpieza/outputs/todo-en-su-sitio-circa-1992-wide-v1.png",
+      "src": "src/limpieza/todo-en-su-sitio-circa-1992-wide-v1.png",
+      "thumb": "thumbs/limpieza/todo-en-su-sitio-circa-1992-wide-v1.jpg",
+      "conversation": "domingo-de-limpieza"
+    },
+    "galeria": {
+      "file": "RADIO-EN-LA-GALERIA-R4B-1994-DAY-ANCHOR-01.png",
+      "abs": "/Users/javyai/Documents/CODEX/2026-08-16/radio-en-la-galeria/outputs/RADIO-EN-LA-GALERIA-R4B-1994-DAY-ANCHOR-01.png",
+      "src": "src/galeria/RADIO-EN-LA-GALERIA-R4B-1994-DAY-ANCHOR-01.png",
+      "thumb": "thumbs/galeria/RADIO-EN-LA-GALERIA-R4B-1994-DAY-ANCHOR-01.jpg",
+      "conversation": "radio-en-la-galeria"
+    },
+    "malecon": {
+      "file": "enamorados-malecon-la-tarde-wide-v3-candidate-09.png",
+      "abs": "/Users/javyai/Documents/CODEX/2026-08-16/enamorados-del-malecon/outputs/enamorados-malecon-la-tarde-wide-v3-candidate-09.png",
+      "src": "src/malecon/enamorados-malecon-la-tarde-wide-v3-candidate-09.png",
+      "thumb": "thumbs/malecon/enamorados-malecon-la-tarde-wide-v3-candidate-09.jpg",
+      "conversation": "enamorados-del-malecon"
+    }
+  }
+}

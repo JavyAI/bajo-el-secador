@@ -1,0 +1,911 @@
+{
+  "name": "malecon",
+  "room": "malecon",
+  "era": "ayer",
+  "shuffle": false,
+  "loop": true,
+  "introCount": 15,
+  "count": 100,
+  "tracks": [
+    {
+      "id": "v0ckuv1xBm0",
+      "artist": "Juan Luis Guerra",
+      "title": "Burbujas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
+      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
+      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg",
+      "intro": true
+    },
+    {
+      "id": "iK3BlAZAtPs",
+      "artist": "Chayanne",
+      "title": "Completamente Enamorados",
+      "youtube": "https://www.youtube.com/watch?v=iK3BlAZAtPs",
+      "artwork": "assets/covers/iK3BlAZAtPs.jpg",
+      "artworkLarge": "assets/covers/iK3BlAZAtPs.jpg",
+      "intro": true
+    },
+    {
+      "id": "T_oE3qkbo5s",
+      "artist": "Luis Miguel",
+      "title": "No Sé Tú",
+      "youtube": "https://www.youtube.com/watch?v=T_oE3qkbo5s",
+      "artwork": "assets/covers/T_oE3qkbo5s.jpg",
+      "artworkLarge": "assets/covers/T_oE3qkbo5s.jpg",
+      "intro": true
+    },
+    {
+      "id": "2LiZyAIVmbs",
+      "artist": "Juan Luis Guerra",
+      "title": "Bachata Rosa",
+      "youtube": "https://www.youtube.com/watch?v=2LiZyAIVmbs",
+      "artwork": "assets/covers/2LiZyAIVmbs.jpg",
+      "artworkLarge": "assets/covers/2LiZyAIVmbs.jpg",
+      "intro": true
+    },
+    {
+      "id": "NdKhS4MMCEo",
+      "artist": "Luis Miguel",
+      "title": "Somos Novios",
+      "youtube": "https://www.youtube.com/watch?v=NdKhS4MMCEo",
+      "artwork": "https://i.ytimg.com/vi/NdKhS4MMCEo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/NdKhS4MMCEo/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "8sCWmb8f-BY",
+      "artist": "Monchy y Alexandra",
+      "title": "Te Quiero Igual Que Ayer",
+      "youtube": "https://www.youtube.com/watch?v=8sCWmb8f-BY",
+      "artwork": "assets/covers/8sCWmb8f-BY.jpg",
+      "artworkLarge": "assets/covers/8sCWmb8f-BY.jpg",
+      "intro": true
+    },
+    {
+      "id": "9oLBY9QqTAQ",
+      "artist": "Fonseca",
+      "title": "Te Mando Flores",
+      "youtube": "https://www.youtube.com/watch?v=9oLBY9QqTAQ",
+      "artwork": "https://i.ytimg.com/vi/9oLBY9QqTAQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/9oLBY9QqTAQ/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "j3ObHjm1fAE",
+      "artist": "Chayanne",
+      "title": "Tiempo de Vals",
+      "youtube": "https://www.youtube.com/watch?v=j3ObHjm1fAE",
+      "artwork": "https://i.ytimg.com/vi/j3ObHjm1fAE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/j3ObHjm1fAE/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "QTYJkS6bTOQ",
+      "artist": "Ricardo Montaner",
+      "title": "Tan Enamorados",
+      "youtube": "https://www.youtube.com/watch?v=QTYJkS6bTOQ",
+      "artwork": "assets/covers/QTYJkS6bTOQ.jpg",
+      "artworkLarge": "assets/covers/QTYJkS6bTOQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "XFRfrPkfghY",
+      "artist": "Aventura",
+      "title": "La Boda",
+      "youtube": "https://www.youtube.com/watch?v=XFRfrPkfghY",
+      "artwork": "https://i.ytimg.com/vi/XFRfrPkfghY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/XFRfrPkfghY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "QGQTLN_RCmI",
+      "artist": "Ricardo Montaner",
+      "title": "Castillo Azul",
+      "youtube": "https://www.youtube.com/watch?v=QGQTLN_RCmI",
+      "artwork": "https://i.ytimg.com/vi/QGQTLN_RCmI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/QGQTLN_RCmI/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "NPo0gfThXeA",
+      "artist": "Sergio Dalma",
+      "title": "Bailar Pegados",
+      "youtube": "https://www.youtube.com/watch?v=NPo0gfThXeA",
+      "artwork": "https://i.ytimg.com/vi/NPo0gfThXeA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/NPo0gfThXeA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "ohumtiwSo9E",
+      "artist": "Monchy y Alexandra",
+      "title": "Hasta El Fin",
+      "youtube": "https://www.youtube.com/watch?v=ohumtiwSo9E",
+      "artwork": "https://i.ytimg.com/vi/ohumtiwSo9E/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ohumtiwSo9E/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "00QVU7voMq8",
+      "artist": "Fonseca",
+      "title": "Eres Mi Sueño",
+      "youtube": "https://www.youtube.com/watch?v=00QVU7voMq8",
+      "artwork": "https://i.ytimg.com/vi/00QVU7voMq8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/00QVU7voMq8/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "v6aicYYG59I",
+      "artist": "Aventura",
+      "title": "Te Invito",
+      "youtube": "https://www.youtube.com/watch?v=v6aicYYG59I",
+      "artwork": "https://i.ytimg.com/vi/v6aicYYG59I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/v6aicYYG59I/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "hNDtsPMX7p0",
+      "artist": "Franco De Vita",
+      "title": "Te Amo",
+      "youtube": "https://www.youtube.com/watch?v=hNDtsPMX7p0",
+      "artwork": "assets/covers/hNDtsPMX7p0.jpg",
+      "artworkLarge": "assets/covers/hNDtsPMX7p0.jpg",
+      "intro": false
+    },
+    {
+      "id": "uBwk106e3es",
+      "artist": "Aventura",
+      "title": "Un Beso",
+      "youtube": "https://www.youtube.com/watch?v=uBwk106e3es",
+      "artwork": "assets/covers/uBwk106e3es.jpg",
+      "artworkLarge": "assets/covers/uBwk106e3es.jpg",
+      "intro": false
+    },
+    {
+      "id": "-hoZpSoKAYE",
+      "artist": "Sin Bandera",
+      "title": "Entra En Mi Vida",
+      "youtube": "https://www.youtube.com/watch?v=-hoZpSoKAYE",
+      "artwork": "https://i.ytimg.com/vi/-hoZpSoKAYE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/-hoZpSoKAYE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "nYWcy7z0QmU",
+      "artist": "Enrique Iglesias",
+      "title": "Enamorado Por Primera Vez",
+      "youtube": "https://www.youtube.com/watch?v=nYWcy7z0QmU",
+      "artwork": "assets/covers/nYWcy7z0QmU.jpg",
+      "artworkLarge": "assets/covers/nYWcy7z0QmU.jpg",
+      "intro": false
+    },
+    {
+      "id": "-zgDXIi1uYw",
+      "artist": "Bacilos",
+      "title": "Caraluna",
+      "youtube": "https://www.youtube.com/watch?v=-zgDXIi1uYw",
+      "artwork": "https://i.ytimg.com/vi/-zgDXIi1uYw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/-zgDXIi1uYw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "giAE7Yz7gHI",
+      "artist": "Luis Miguel",
+      "title": "Por Debajo de la Mesa",
+      "youtube": "https://www.youtube.com/watch?v=giAE7Yz7gHI",
+      "artwork": "https://i.ytimg.com/vi/giAE7Yz7gHI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/giAE7Yz7gHI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "iajZ1R5dIXU",
+      "artist": "Cristian Castro",
+      "title": "Por Amarte Así",
+      "youtube": "https://www.youtube.com/watch?v=iajZ1R5dIXU",
+      "artwork": "https://i.ytimg.com/vi/iajZ1R5dIXU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/iajZ1R5dIXU/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "p7QYo-9SlP0",
+      "artist": "Ricky Martin",
+      "title": "Vuelve",
+      "youtube": "https://www.youtube.com/watch?v=p7QYo-9SlP0",
+      "artwork": "assets/covers/p7QYo-9SlP0.jpg",
+      "artworkLarge": "assets/covers/p7QYo-9SlP0.jpg",
+      "intro": false
+    },
+    {
+      "id": "KYZlT2iYRh8",
+      "artist": "Chayanne",
+      "title": "Un Siglo Sin Ti",
+      "youtube": "https://www.youtube.com/watch?v=KYZlT2iYRh8",
+      "artwork": "https://i.ytimg.com/vi/KYZlT2iYRh8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/KYZlT2iYRh8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "LvgEpio1-kA",
+      "artist": "Juan Luis Guerra",
+      "title": "Como Abeja al Panal",
+      "youtube": "https://www.youtube.com/watch?v=LvgEpio1-kA",
+      "artwork": "https://i.ytimg.com/vi/LvgEpio1-kA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/LvgEpio1-kA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "0m5SXO8qK78",
+      "artist": "Monchy y Alexandra",
+      "title": "Dos Locos",
+      "youtube": "https://www.youtube.com/watch?v=0m5SXO8qK78",
+      "artwork": "assets/covers/0m5SXO8qK78.jpg",
+      "artworkLarge": "assets/covers/0m5SXO8qK78.jpg",
+      "intro": false
+    },
+    {
+      "id": "2MjvxB1_lmo",
+      "artist": "Sin Bandera",
+      "title": "Kilómetros",
+      "youtube": "https://www.youtube.com/watch?v=2MjvxB1_lmo",
+      "artwork": "https://i.ytimg.com/vi/2MjvxB1_lmo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2MjvxB1_lmo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "29NM6ySmwfQ",
+      "artist": "Cristian Castro",
+      "title": "Azul",
+      "youtube": "https://www.youtube.com/watch?v=29NM6ySmwfQ",
+      "artwork": "assets/covers/29NM6ySmwfQ.jpg",
+      "artworkLarge": "assets/covers/29NM6ySmwfQ.jpg",
+      "intro": false
+    },
+    {
+      "id": "YkVbgpXXR0M",
+      "artist": "Chayanne",
+      "title": "Yo Te Amo",
+      "youtube": "https://www.youtube.com/watch?v=YkVbgpXXR0M",
+      "artwork": "https://i.ytimg.com/vi/YkVbgpXXR0M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YkVbgpXXR0M/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "sxbKoqz9bNM",
+      "artist": "Juan Luis Guerra",
+      "title": "Estrellitas y Duendes",
+      "youtube": "https://www.youtube.com/watch?v=sxbKoqz9bNM",
+      "artwork": "https://i.ytimg.com/vi/sxbKoqz9bNM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/sxbKoqz9bNM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "jamgjQ-CTI8",
+      "artist": "Ricardo Montaner",
+      "title": "Bésame",
+      "youtube": "https://www.youtube.com/watch?v=jamgjQ-CTI8",
+      "artwork": "https://i.ytimg.com/vi/jamgjQ-CTI8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jamgjQ-CTI8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "dY8MG-Qf7tk",
+      "artist": "Luis Miguel",
+      "title": "Entrégate",
+      "youtube": "https://www.youtube.com/watch?v=dY8MG-Qf7tk",
+      "artwork": "assets/covers/dY8MG-Qf7tk.jpg",
+      "artworkLarge": "assets/covers/dY8MG-Qf7tk.jpg",
+      "intro": false
+    },
+    {
+      "id": "jRxebPzoiMo",
+      "artist": "Juan Luis Guerra",
+      "title": "Frío Frío",
+      "youtube": "https://www.youtube.com/watch?v=jRxebPzoiMo",
+      "artwork": "https://i.ytimg.com/vi/jRxebPzoiMo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jRxebPzoiMo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "wTZ7A-h8yTs",
+      "artist": "Shakira",
+      "title": "Tú",
+      "youtube": "https://www.youtube.com/watch?v=wTZ7A-h8yTs",
+      "artwork": "https://i.ytimg.com/vi/wTZ7A-h8yTs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/wTZ7A-h8yTs/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "kAKVT1HWNsg",
+      "artist": "Son by Four",
+      "title": "A Puro Dolor",
+      "youtube": "https://www.youtube.com/watch?v=kAKVT1HWNsg",
+      "artwork": "assets/covers/kAKVT1HWNsg.jpg",
+      "artworkLarge": "assets/covers/kAKVT1HWNsg.jpg",
+      "intro": false
+    },
+    {
+      "id": "7IPVe1oywh0",
+      "artist": "Ricky Martin",
+      "title": "Te Extraño, Te Olvido, Te Amo",
+      "youtube": "https://www.youtube.com/watch?v=7IPVe1oywh0",
+      "artwork": "https://i.ytimg.com/vi/7IPVe1oywh0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7IPVe1oywh0/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "6hRlvcy3V9k",
+      "artist": "Franco De Vita",
+      "title": "Tú De Qué Vas",
+      "youtube": "https://www.youtube.com/watch?v=6hRlvcy3V9k",
+      "artwork": "https://i.ytimg.com/vi/6hRlvcy3V9k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6hRlvcy3V9k/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "kVtfXd_WdkA",
+      "artist": "Prince Royce",
+      "title": "Rechazame",
+      "youtube": "https://www.youtube.com/watch?v=kVtfXd_WdkA",
+      "artwork": "https://i.ytimg.com/vi/kVtfXd_WdkA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kVtfXd_WdkA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "z2pt4CN4rhc",
+      "artist": "Aventura",
+      "title": "Mi Corazoncito",
+      "youtube": "https://www.youtube.com/watch?v=z2pt4CN4rhc",
+      "artwork": "assets/covers/z2pt4CN4rhc.jpg",
+      "artworkLarge": "assets/covers/z2pt4CN4rhc.jpg",
+      "intro": false
+    },
+    {
+      "id": "Ubxb1u3izeM",
+      "artist": "Chayanne",
+      "title": "Atado a Tu Amor",
+      "youtube": "https://www.youtube.com/watch?v=Ubxb1u3izeM",
+      "artwork": "https://i.ytimg.com/vi/Ubxb1u3izeM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ubxb1u3izeM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "xA0DBcsfjTE",
+      "artist": "Monchy y Alexandra",
+      "title": "Hoja en Blanco",
+      "youtube": "https://www.youtube.com/watch?v=xA0DBcsfjTE",
+      "artwork": "assets/covers/xA0DBcsfjTE.jpg",
+      "artworkLarge": "assets/covers/xA0DBcsfjTE.jpg",
+      "intro": false
+    },
+    {
+      "id": "OThKTAVrUMQ",
+      "artist": "Luis Miguel",
+      "title": "Tengo Todo Excepto a Ti",
+      "youtube": "https://www.youtube.com/watch?v=OThKTAVrUMQ",
+      "artwork": "assets/covers/OThKTAVrUMQ.jpg",
+      "artworkLarge": "assets/covers/OThKTAVrUMQ.jpg",
+      "intro": false
+    },
+    {
+      "id": "ByU6ABQ1cp8",
+      "artist": "Monchy y Alexandra",
+      "title": "Perdidos",
+      "youtube": "https://www.youtube.com/watch?v=ByU6ABQ1cp8",
+      "artwork": "https://i.ytimg.com/vi/ByU6ABQ1cp8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ByU6ABQ1cp8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "3DV57Y4tEAM",
+      "artist": "Enrique Iglesias",
+      "title": "Experiencia Religiosa",
+      "youtube": "https://www.youtube.com/watch?v=3DV57Y4tEAM",
+      "artwork": "https://i.ytimg.com/vi/3DV57Y4tEAM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3DV57Y4tEAM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "jrkNik4AHTU",
+      "artist": "Ricardo Montaner",
+      "title": "La Cima del Cielo",
+      "youtube": "https://www.youtube.com/watch?v=jrkNik4AHTU",
+      "artwork": "assets/covers/jrkNik4AHTU.jpg",
+      "artworkLarge": "assets/covers/jrkNik4AHTU.jpg",
+      "intro": false
+    },
+    {
+      "id": "WllxyZpvVEs",
+      "artist": "Aventura",
+      "title": "Angelito",
+      "youtube": "https://www.youtube.com/watch?v=WllxyZpvVEs",
+      "artwork": "assets/covers/WllxyZpvVEs.jpg",
+      "artworkLarge": "assets/covers/WllxyZpvVEs.jpg",
+      "intro": false
+    },
+    {
+      "id": "lLiPh6kmFoU",
+      "artist": "Luis Miguel",
+      "title": "Contigo en la Distancia",
+      "youtube": "https://www.youtube.com/watch?v=lLiPh6kmFoU",
+      "artwork": "https://i.ytimg.com/vi/lLiPh6kmFoU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/lLiPh6kmFoU/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "GsI6V_DToHg",
+      "artist": "Chayanne",
+      "title": "Y Tú Te Vas",
+      "youtube": "https://www.youtube.com/watch?v=GsI6V_DToHg",
+      "artwork": "https://i.ytimg.com/vi/GsI6V_DToHg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/GsI6V_DToHg/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "_4NBD3SqBwg",
+      "artist": "Juan Luis Guerra",
+      "title": "Bachata en Fukuoka",
+      "youtube": "https://www.youtube.com/watch?v=_4NBD3SqBwg",
+      "artwork": "https://i.ytimg.com/vi/_4NBD3SqBwg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/_4NBD3SqBwg/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "XNGWDH-6yv8",
+      "artist": "Prince Royce",
+      "title": "Corazón Sin Cara",
+      "youtube": "https://www.youtube.com/watch?v=XNGWDH-6yv8",
+      "artwork": "https://i.ytimg.com/vi/XNGWDH-6yv8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/XNGWDH-6yv8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "gO8-9OWzPOQ",
+      "artist": "Camila",
+      "title": "Todo Cambió",
+      "youtube": "https://www.youtube.com/watch?v=gO8-9OWzPOQ",
+      "artwork": "https://i.ytimg.com/vi/gO8-9OWzPOQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gO8-9OWzPOQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "foyH-TEs9D0",
+      "artist": "Prince Royce",
+      "title": "Stand by Me",
+      "youtube": "https://www.youtube.com/watch?v=foyH-TEs9D0",
+      "artwork": "https://i.ytimg.com/vi/foyH-TEs9D0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/foyH-TEs9D0/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "DaDuJhparw8",
+      "artist": "Reik",
+      "title": "Inolvidable",
+      "youtube": "https://www.youtube.com/watch?v=DaDuJhparw8",
+      "artwork": "https://i.ytimg.com/vi/DaDuJhparw8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/DaDuJhparw8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "z0T-7j_pt6w",
+      "artist": "Alex Ubago",
+      "title": "Sin Miedo a Nada",
+      "youtube": "https://www.youtube.com/watch?v=z0T-7j_pt6w",
+      "artwork": "https://i.ytimg.com/vi/z0T-7j_pt6w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/z0T-7j_pt6w/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "0t5iCwpuD8I",
+      "artist": "Jon Secada",
+      "title": "Otro Día Más Sin Verte",
+      "youtube": "https://www.youtube.com/watch?v=0t5iCwpuD8I",
+      "artwork": "assets/covers/0t5iCwpuD8I.jpg",
+      "artworkLarge": "assets/covers/0t5iCwpuD8I.jpg",
+      "intro": false
+    },
+    {
+      "id": "u3wrqH2dXL0",
+      "artist": "Alejandro Fernández",
+      "title": "Me Dediqué a Perderte",
+      "youtube": "https://www.youtube.com/watch?v=u3wrqH2dXL0",
+      "artwork": "https://i.ytimg.com/vi/u3wrqH2dXL0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/u3wrqH2dXL0/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "aW13iWEktsA",
+      "artist": "Alejandro Sanz",
+      "title": "Corazón Partío",
+      "youtube": "https://www.youtube.com/watch?v=aW13iWEktsA",
+      "artwork": "https://i.ytimg.com/vi/aW13iWEktsA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/aW13iWEktsA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Fk5oL0mgI08",
+      "artist": "Sin Bandera",
+      "title": "Que Lloro",
+      "youtube": "https://www.youtube.com/watch?v=Fk5oL0mgI08",
+      "artwork": "https://i.ytimg.com/vi/Fk5oL0mgI08/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Fk5oL0mgI08/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "bqvBxdO0B1s",
+      "artist": "Juan Luis Guerra",
+      "title": "Quisiera",
+      "youtube": "https://www.youtube.com/watch?v=bqvBxdO0B1s",
+      "artwork": "https://i.ytimg.com/vi/bqvBxdO0B1s/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bqvBxdO0B1s/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "tg7QRlINFgQ",
+      "artist": "Sin Bandera",
+      "title": "Mientes Tan Bien",
+      "youtube": "https://www.youtube.com/watch?v=tg7QRlINFgQ",
+      "artwork": "https://i.ytimg.com/vi/tg7QRlINFgQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/tg7QRlINFgQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "3fJkFcw7CZ4",
+      "artist": "Luis Miguel",
+      "title": "O Tú o Ninguna",
+      "youtube": "https://www.youtube.com/watch?v=3fJkFcw7CZ4",
+      "artwork": "https://i.ytimg.com/vi/3fJkFcw7CZ4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3fJkFcw7CZ4/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "X3rdR2vlii4",
+      "artist": "Sin Bandera",
+      "title": "Suelta Mi Mano",
+      "youtube": "https://www.youtube.com/watch?v=X3rdR2vlii4",
+      "artwork": "https://i.ytimg.com/vi/X3rdR2vlii4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/X3rdR2vlii4/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "wEF19rvbH3I",
+      "artist": "Luis Miguel",
+      "title": "El Reloj",
+      "youtube": "https://www.youtube.com/watch?v=wEF19rvbH3I",
+      "artwork": "https://i.ytimg.com/vi/wEF19rvbH3I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/wEF19rvbH3I/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "uMrN1W4ryoE",
+      "artist": "Chayanne",
+      "title": "Dejaría Todo",
+      "youtube": "https://www.youtube.com/watch?v=uMrN1W4ryoE",
+      "artwork": "assets/covers/uMrN1W4ryoE.jpg",
+      "artworkLarge": "assets/covers/uMrN1W4ryoE.jpg",
+      "intro": false
+    },
+    {
+      "id": "kCv8ipMi-BE",
+      "artist": "Luis Miguel",
+      "title": "Hasta Que Me Olvides",
+      "youtube": "https://www.youtube.com/watch?v=kCv8ipMi-BE",
+      "artwork": "https://i.ytimg.com/vi/kCv8ipMi-BE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kCv8ipMi-BE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "elGZbcpGzdU",
+      "artist": "Aventura",
+      "title": "El Perdedor",
+      "youtube": "https://www.youtube.com/watch?v=elGZbcpGzdU",
+      "artwork": "https://i.ytimg.com/vi/elGZbcpGzdU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/elGZbcpGzdU/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "XuCd3Qj6C08",
+      "artist": "Franco De Vita",
+      "title": "Un Buen Perdedor",
+      "youtube": "https://www.youtube.com/watch?v=XuCd3Qj6C08",
+      "artwork": "assets/covers/XuCd3Qj6C08.jpg",
+      "artworkLarge": "assets/covers/XuCd3Qj6C08.jpg",
+      "intro": false
+    },
+    {
+      "id": "L_xc4YBmtOQ",
+      "artist": "Alex Ubago",
+      "title": "Aunque No Te Pueda Ver",
+      "youtube": "https://www.youtube.com/watch?v=L_xc4YBmtOQ",
+      "artwork": "https://i.ytimg.com/vi/L_xc4YBmtOQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/L_xc4YBmtOQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "GfFnQ2l2FxM",
+      "artist": "Monchy y Alexandra",
+      "title": "Polos Opuestos",
+      "youtube": "https://www.youtube.com/watch?v=GfFnQ2l2FxM",
+      "artwork": "https://i.ytimg.com/vi/GfFnQ2l2FxM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/GfFnQ2l2FxM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "fY36BMNDqbg",
+      "artist": "Aventura",
+      "title": "Su Veneno",
+      "youtube": "https://www.youtube.com/watch?v=fY36BMNDqbg",
+      "artwork": "https://i.ytimg.com/vi/fY36BMNDqbg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fY36BMNDqbg/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "dNR1ntnF2wg",
+      "artist": "Monchy y Alexandra",
+      "title": "Pasión",
+      "youtube": "https://www.youtube.com/watch?v=dNR1ntnF2wg",
+      "artwork": "https://i.ytimg.com/vi/dNR1ntnF2wg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/dNR1ntnF2wg/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "GHLVjriwzFg",
+      "artist": "Aventura",
+      "title": "Por Un Segundo",
+      "youtube": "https://www.youtube.com/watch?v=GHLVjriwzFg",
+      "artwork": "https://i.ytimg.com/vi/GHLVjriwzFg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/GHLVjriwzFg/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "B-4LuFAOMKQ",
+      "artist": "Monchy y Alexandra",
+      "title": "No Es Una Novela",
+      "youtube": "https://www.youtube.com/watch?v=B-4LuFAOMKQ",
+      "artwork": "https://i.ytimg.com/vi/B-4LuFAOMKQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/B-4LuFAOMKQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "kADoBrj4934",
+      "artist": "Aventura",
+      "title": "Todavía Me Amas",
+      "youtube": "https://www.youtube.com/watch?v=kADoBrj4934",
+      "artwork": "https://i.ytimg.com/vi/kADoBrj4934/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kADoBrj4934/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "FLYbAHFW5SY",
+      "artist": "Monchy y Alexandra",
+      "title": "Corazón Prendido",
+      "youtube": "https://www.youtube.com/watch?v=FLYbAHFW5SY",
+      "artwork": "https://i.ytimg.com/vi/FLYbAHFW5SY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FLYbAHFW5SY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "uPCZm2Tvjpo",
+      "artist": "Aventura",
+      "title": "Enséñame a Olvidar",
+      "youtube": "https://www.youtube.com/watch?v=uPCZm2Tvjpo",
+      "artwork": "https://i.ytimg.com/vi/uPCZm2Tvjpo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/uPCZm2Tvjpo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "ZM2KoVO0NSs",
+      "artist": "Juan Luis Guerra",
+      "title": "Si Tú Te Vas",
+      "youtube": "https://www.youtube.com/watch?v=ZM2KoVO0NSs",
+      "artwork": "https://i.ytimg.com/vi/ZM2KoVO0NSs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ZM2KoVO0NSs/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "TviYVNPCs2c",
+      "artist": "Aventura",
+      "title": "Cuando Volverás",
+      "youtube": "https://www.youtube.com/watch?v=TviYVNPCs2c",
+      "artwork": "https://i.ytimg.com/vi/TviYVNPCs2c/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TviYVNPCs2c/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "wOjzo02Tmck",
+      "artist": "Luis Miguel",
+      "title": "La Incondicional",
+      "youtube": "https://www.youtube.com/watch?v=wOjzo02Tmck",
+      "artwork": "https://i.ytimg.com/vi/wOjzo02Tmck/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/wOjzo02Tmck/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "l6LjNOYvhMk",
+      "artist": "Gloria Estefan",
+      "title": "Con Los Años Que Me Quedan",
+      "youtube": "https://www.youtube.com/watch?v=l6LjNOYvhMk",
+      "artwork": "assets/covers/l6LjNOYvhMk.jpg",
+      "artworkLarge": "assets/covers/l6LjNOYvhMk.jpg",
+      "intro": false
+    },
+    {
+      "id": "uLvvtQnQw8s",
+      "artist": "Pimpinela",
+      "title": "Olvídame y Pega la Vuelta",
+      "youtube": "https://www.youtube.com/watch?v=uLvvtQnQw8s",
+      "artwork": "https://i.ytimg.com/vi/uLvvtQnQw8s/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/uLvvtQnQw8s/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Spz1YgguUOM",
+      "artist": "Xtreme",
+      "title": "Te Extraño",
+      "youtube": "https://www.youtube.com/watch?v=Spz1YgguUOM",
+      "artwork": "assets/covers/Spz1YgguUOM.jpg",
+      "artworkLarge": "assets/covers/Spz1YgguUOM.jpg",
+      "intro": false
+    },
+    {
+      "id": "AtRjy0iB_1M",
+      "artist": "Daniel Santacruz",
+      "title": "Adónde Va El Amor",
+      "youtube": "https://www.youtube.com/watch?v=AtRjy0iB_1M",
+      "artwork": "https://i.ytimg.com/vi/AtRjy0iB_1M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/AtRjy0iB_1M/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "mZrM2Sd_7tg",
+      "artist": "Domenic Marte",
+      "title": "Ven Tú",
+      "youtube": "https://www.youtube.com/watch?v=mZrM2Sd_7tg",
+      "artwork": "assets/covers/mZrM2Sd_7tg.jpg",
+      "artworkLarge": "assets/covers/mZrM2Sd_7tg.jpg",
+      "intro": false
+    },
+    {
+      "id": "0ZcfOkrbUkI",
+      "artist": "Charlie Zaa",
+      "title": "Un Disco Más",
+      "youtube": "https://www.youtube.com/watch?v=0ZcfOkrbUkI",
+      "artwork": "https://i.ytimg.com/vi/0ZcfOkrbUkI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0ZcfOkrbUkI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "uwuKYJtVqLM",
+      "artist": "Andy Andy",
+      "title": "Qué Ironía",
+      "youtube": "https://www.youtube.com/watch?v=uwuKYJtVqLM",
+      "artwork": "assets/covers/uwuKYJtVqLM.jpg",
+      "artworkLarge": "assets/covers/uwuKYJtVqLM.jpg",
+      "intro": false
+    },
+    {
+      "id": "E4B8I2M0y-Y",
+      "artist": "Reik",
+      "title": "Noviembre Sin Ti",
+      "youtube": "https://www.youtube.com/watch?v=E4B8I2M0y-Y",
+      "artwork": "https://i.ytimg.com/vi/E4B8I2M0y-Y/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/E4B8I2M0y-Y/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "sLqg5DXeQxc",
+      "artist": "Ricky Martin",
+      "title": "Perdido Sin Ti",
+      "youtube": "https://www.youtube.com/watch?v=sLqg5DXeQxc",
+      "artwork": "https://i.ytimg.com/vi/sLqg5DXeQxc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/sLqg5DXeQxc/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Tu5tt_l_YEw",
+      "artist": "Cristian Castro",
+      "title": "Nunca Voy a Olvidarte",
+      "youtube": "https://www.youtube.com/watch?v=Tu5tt_l_YEw",
+      "artwork": "assets/covers/Tu5tt_l_YEw.jpg",
+      "artworkLarge": "assets/covers/Tu5tt_l_YEw.jpg",
+      "intro": false
+    },
+    {
+      "id": "pRrjt4htXlE",
+      "artist": "Enrique Iglesias",
+      "title": "Nunca Te Olvidaré",
+      "youtube": "https://www.youtube.com/watch?v=pRrjt4htXlE",
+      "artwork": "https://i.ytimg.com/vi/pRrjt4htXlE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/pRrjt4htXlE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "0i7-nNOCjiM",
+      "artist": "Reik",
+      "title": "Me Duele Amarte",
+      "youtube": "https://www.youtube.com/watch?v=0i7-nNOCjiM",
+      "artwork": "https://i.ytimg.com/vi/0i7-nNOCjiM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0i7-nNOCjiM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "AJXGjG9_ENI",
+      "artist": "Ricardo Montaner",
+      "title": "Me Va a Extrañar",
+      "youtube": "https://www.youtube.com/watch?v=AJXGjG9_ENI",
+      "artwork": "https://i.ytimg.com/vi/AJXGjG9_ENI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/AJXGjG9_ENI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "zZBLqpRoE_E",
+      "artist": "Luis Miguel",
+      "title": "Amarte Es Un Placer",
+      "youtube": "https://www.youtube.com/watch?v=zZBLqpRoE_E",
+      "artwork": "https://i.ytimg.com/vi/zZBLqpRoE_E/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zZBLqpRoE_E/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "QZKrLIoMyxY",
+      "artist": "Reik",
+      "title": "Yo Quisiera",
+      "youtube": "https://www.youtube.com/watch?v=QZKrLIoMyxY",
+      "artwork": "https://i.ytimg.com/vi/QZKrLIoMyxY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/QZKrLIoMyxY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "jlySoaI0DGI",
+      "artist": "Camila",
+      "title": "Coleccionista de Canciones",
+      "youtube": "https://www.youtube.com/watch?v=jlySoaI0DGI",
+      "artwork": "https://i.ytimg.com/vi/jlySoaI0DGI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jlySoaI0DGI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "EsfSuL-VFBw",
+      "artist": "Luis Fonsi, Aleks Syntek, Noel Schajris, David Bisbal",
+      "title": "Aquí Estoy Yo",
+      "youtube": "https://www.youtube.com/watch?v=EsfSuL-VFBw",
+      "artwork": "https://i.ytimg.com/vi/EsfSuL-VFBw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/EsfSuL-VFBw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "xftFxCYQTdk",
+      "artist": "Camila",
+      "title": "Mientes",
+      "youtube": "https://www.youtube.com/watch?v=xftFxCYQTdk",
+      "artwork": "https://i.ytimg.com/vi/xftFxCYQTdk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xftFxCYQTdk/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "n0xjCC4-RwI",
+      "artist": "Luis Miguel",
+      "title": "Te Necesito",
+      "youtube": "https://www.youtube.com/watch?v=n0xjCC4-RwI",
+      "artwork": "https://i.ytimg.com/vi/n0xjCC4-RwI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/n0xjCC4-RwI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "fge78Gv0f1E",
+      "artist": "Enrique Iglesias",
+      "title": "Si Tú Te Vas",
+      "youtube": "https://www.youtube.com/watch?v=fge78Gv0f1E",
+      "artwork": "https://i.ytimg.com/vi/fge78Gv0f1E/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fge78Gv0f1E/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "KstbkZwnTv0",
+      "artist": "Camila",
+      "title": "Aléjate de Mí",
+      "youtube": "https://www.youtube.com/watch?v=KstbkZwnTv0",
+      "artwork": "https://i.ytimg.com/vi/KstbkZwnTv0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/KstbkZwnTv0/mqdefault.jpg",
+      "intro": false
+    }
+  ]
+}

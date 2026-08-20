@@ -2,46 +2,79 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#133d3c">
-  <meta name="color-scheme" content="dark">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=overlays-content">
+  <meta name="theme-color" content="#eaba4e">
+  <meta name="theme-color" content="#eaba4e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#eaba4e" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Bajo el secador">
-  <meta name="description" content="Bajo el secador. En la silla. En la esquina.">
-  <meta property="og:title" content="Bajo el secador">
-  <meta property="og:description" content="Bajo el secador. En la silla. En la esquina.">
+  <meta name="apple-mobile-web-app-title" content="Sopita">
+  <meta name="description" content="En el colmado. En el secador. En la barbería.">
+  <meta property="og:title" content="Sopita">
+  <meta property="og:description" content="En el colmado. En el secador. En la barbería.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/og.jpg">
+  <meta property="og:image" content="assets/sopita-og-1200x630.png?v=33">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <link rel="image_src" href="assets/sopita-og-1200x630.png?v=33">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Bajo el secador">
-  <meta name="twitter:description" content="Bajo el secador. En la silla. En la esquina.">
-  <meta name="twitter:image" content="assets/og.jpg">
-  <title>Bajo el secador</title>
+  <meta name="twitter:title" content="Sopita">
+  <meta name="twitter:description" content="En el colmado. En el secador. En la barbería.">
+  <meta name="twitter:image" content="assets/sopita-og-1200x630.png?v=33">
+  <title>Sopita</title>
   <script>
     if (location.hostname === "127.0.0.1") {
       location.replace("http://localhost:" + (location.port || "80") + location.pathname + location.search + location.hash);
     }
+    (function () {
+      var THEMES = {
+        colmado: { ayer: "#eaba4e", hoy: "#2a1e06" },
+        secador: { ayer: "#ae4e2a", hoy: "#12122a" },
+        barberia: { ayer: "#c42818", hoy: "#8a1e12" },
+        limpieza: { ayer: "#1aa3b8", hoy: "#1a3a40" },
+        galeria: { ayer: "#4a9e6e", hoy: "#1e4e5a" },
+        malecon: { ayer: "#5aa3c8", hoy: "#061e42" }
+      };
+      var ALIAS = { salon: "secador", rolos: "secador", esquina: "colmado", silla: "barberia", deluxe: "barberia", "salon-deluxe": "barberia", vitilla: "colmado", marquesina: "limpieza", cibao: "galeria" };
+      var id = (location.hash || "#colmado").replace(/^#/, "").split(/[/?]/)[0];
+      if (ALIAS[id]) id = ALIAS[id];
+      var era = /(?:\?|&)hoy=1(?:&|$)/.test(location.search) ? "hoy" : "ayer";
+      var room = THEMES[id] || THEMES.colmado;
+      var color = room[era];
+      document.documentElement.style.backgroundColor = color;
+      document.documentElement.style.setProperty("--theme", color);
+      document.documentElement.style.colorScheme = era === "hoy" ? "dark" : "light";
+      document.querySelectorAll('meta[name="theme-color"]').forEach(function (node) {
+        node.setAttribute("content", color);
+      });
+      var scheme = document.querySelector('meta[name="color-scheme"]');
+      if (scheme) scheme.setAttribute("content", era === "hoy" ? "dark" : "light");
+    })();
   </script>
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
-  <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#133d3c">
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="favicon.ico?v=33" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png?v=33">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png?v=33">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon-48.png?v=33">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=33" sizes="180x180">
+  <link rel="manifest" href="site.webmanifest?v=34">
+  <link rel="preload" as="image" href="assets/colmado.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://i.ytimg.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=79">
 </head>
-<body data-room="salon">
+<body data-room="colmado">
+  <div class="safari-chrome" aria-hidden="true"></div>
   <div class="hero-stack" aria-hidden="true">
-    <div class="hero is-on" id="hero-a" data-scene="salon"></div>
-    <div class="hero" id="hero-b"></div>
-    <div class="hero__veil"></div>
+    <div class="hero-frame">
+      <div class="hero is-on" id="hero-a" data-scene="colmado"></div>
+      <div class="hero" id="hero-b"></div>
+      <div class="hero__veil"></div>
+    </div>
   </div>
 
   <div id="yt-host" aria-hidden="true">
@@ -58,17 +91,17 @@
   <div class="presence" aria-live="polite">
     <span class="presence__dot" aria-hidden="true"></span>
     <span class="presence__n" id="online">1</span>
-    <span class="presence__label">online</span>
+    <span class="presence__label">aquí</span>
   </div>
 
   <div class="links">
-    <a class="pill" id="lista-link" href="https://music.youtube.com/playlist?list=PLHGerkzq-_SQ" target="_blank" rel="noopener noreferrer" aria-label="Abrir en YouTube Music">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.104c-3.924 0-7.104-3.18-7.104-7.104S8.076 4.896 12 4.896s7.104 3.18 7.104 7.104-3.18 7.104-7.104 7.104zm0-13.332c-3.432 0-6.228 2.796-6.228 6.228S8.568 18.228 12 18.228s6.228-2.796 6.228-6.228S15.432 5.772 12 5.772zM9.684 15.54V8.46L15.816 12l-6.132 3.54z"/>
+    <a class="pill" id="lista-link" href="https://music.youtube.com/playlist?list=PLHayRTekRcmM" target="_blank" rel="noopener noreferrer" aria-label="Abrir Sopita Colmado en YouTube Music">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2.2a7.8 7.8 0 1 1 0 15.6 7.8 7.8 0 0 1 0-15.6zM10 8.5v7l6-3.5-6-3.5z"/>
       </svg>
-      <span class="pill__label">YT Music</span>
+      <span class="pill__label">Sopita Colmado</span>
       <span class="pill__go" aria-hidden="true">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14M13 6l6 6-6 6"/>
         </svg>
       </span>
@@ -76,23 +109,35 @@
   </div>
 
   <main class="center">
-    <p class="kicker" id="kicker">Baladas y merengue</p>
-    <h1 class="wordmark" id="wordmark"><span>Bajo el</span><span>secador</span></h1>
+    <p class="kicker" id="kicker">La esquina</p>
+    <h1 class="wordmark" id="wordmark" aria-label="En el colmado">
+      <svg viewBox="0 0 1000 250" aria-hidden="true">
+        <text class="wordmark__pre" x="500" y="78" text-anchor="middle">En el</text>
+        <text class="wordmark__name" x="500" y="228" text-anchor="middle">colmado</text>
+      </svg>
+    </h1>
     <nav class="rooms" aria-label="Salas">
-      <a href="#salon" data-room="salon" class="is-on">Secador</a>
-      <a href="#barberia" data-room="barberia">Silla</a>
-      <a href="#colmado" data-room="colmado">Esquina</a>
+      <a href="#colmado" data-room="colmado" class="is-on">Colmado</a>
+      <a href="#secador" data-room="secador">Secador</a>
+      <a href="#barberia" data-room="barberia">Barbería</a>
+      <a href="#limpieza" data-room="limpieza">Limpieza</a>
+      <a href="#galeria" data-room="galeria">Galería</a>
+      <a href="#malecon" data-room="malecon">Malecón</a>
+    </nav>
+    <nav class="eras" aria-label="Luz">
+      <a href="./" data-era="ayer" class="is-on">De día</a>
+      <a href="./?hoy=1" data-era="hoy">De noche</a>
     </nav>
   </main>
 
   <footer class="dock">
     <div class="player">
       <div class="vinyl" id="vinyl">
-        <img class="cover" id="cover" src="https://i.ytimg.com/vi/gr6RzMi4L3o/mqdefault.jpg" alt="" width="80" height="80">
+        <img class="cover" id="cover" src="assets/covers/_koz_f4mthE.jpg" alt="" width="80" height="80" decoding="async">
       </div>
       <div class="meta">
-        <a class="title" id="title" href="https://www.youtube.com/watch?v=RgKqxLAhRKE" target="_blank" rel="noopener noreferrer">Amor Eterno</a>
-        <p class="artist" id="artist">Juan Gabriel</p>
+        <a class="title" id="title" href="https://www.youtube.com/watch?v=_koz_f4mthE" target="_blank" rel="noopener noreferrer">A Pedir Su Mano</a>
+        <p class="artist" id="artist">Juan Luis Guerra</p>
         <div class="seek-wrap">
           <input type="range" id="seek" class="seek" min="0" max="1000" value="0" step="1" aria-label="Tiempo" disabled>
           <p class="times"><span id="elapsed">0:00</span> / <span id="duration">0:00</span></p>
@@ -126,6 +171,6 @@
     <p class="noscript">Hace falta JavaScript para oír la radio.</p>
   </noscript>
 
-  <script src="js/player.js?v=7" defer></script>
+  <script src="js/player.js?v=63" defer></script>
 </body>
 </html>

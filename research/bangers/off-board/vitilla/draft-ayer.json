@@ -1,0 +1,789 @@
+{
+  "room": "vitilla",
+  "era": "ayer",
+  "status": "off-board draft — not live. Not the finished 100-verify pass.",
+  "count": 78,
+  "introCount": 15,
+  "tracks": [
+    {
+      "id": "rOw9UxJyhII",
+      "artist": "Los Hermanos Rosario",
+      "title": "La Dueña del Swing",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=rOw9UxJyhII",
+      "artwork": "https://i.ytimg.com/vi/rOw9UxJyhII/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "1DbXzlhKS5s",
+      "artist": "Wilfrido Vargas",
+      "title": "El Africano",
+      "year": 1983,
+      "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
+      "artwork": "https://i.ytimg.com/vi/1DbXzlhKS5s/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "WPiEbYSF9kE",
+      "artist": "Elvis Crespo",
+      "title": "Suavemente",
+      "year": 1998,
+      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
+      "artwork": "https://i.ytimg.com/vi/WPiEbYSF9kE/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "4Qy0vs80T5M",
+      "artist": "Proyecto Uno",
+      "title": "El Tiburón",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=4Qy0vs80T5M",
+      "artwork": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "eLTvctdHftc",
+      "artist": "Kinito Méndez",
+      "title": "Cachamba",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=eLTvctdHftc",
+      "artwork": "https://i.ytimg.com/vi/eLTvctdHftc/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "ssOtmdQatGQ",
+      "artist": "Toño Rosario",
+      "title": "Kulikitaka",
+      "year": 2003,
+      "youtube": "https://www.youtube.com/watch?v=ssOtmdQatGQ",
+      "artwork": "https://i.ytimg.com/vi/ssOtmdQatGQ/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "x6Y3EFLtnFM",
+      "artist": "Fulanito",
+      "title": "Guallando",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=x6Y3EFLtnFM",
+      "artwork": "https://i.ytimg.com/vi/x6Y3EFLtnFM/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "BT8Afk8HDxY",
+      "artist": "Ilegales",
+      "title": "La Morena",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=BT8Afk8HDxY",
+      "artwork": "https://i.ytimg.com/vi/BT8Afk8HDxY/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "fs1Fg07CsQs",
+      "artist": "Wilfrido Vargas",
+      "title": "El Baile del Perrito",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=fs1Fg07CsQs",
+      "artwork": "https://i.ytimg.com/vi/fs1Fg07CsQs/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "McV4pBRb-Sg",
+      "artist": "Juan Luis Guerra",
+      "title": "La Bilirrubina",
+      "year": 1990,
+      "youtube": "https://www.youtube.com/watch?v=McV4pBRb-Sg",
+      "artwork": "https://i.ytimg.com/vi/McV4pBRb-Sg/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "m29uPaJ0Deo",
+      "artist": "Grupo Manía",
+      "title": "A Que Te Pego Mi Manía",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=m29uPaJ0Deo",
+      "artwork": "https://i.ytimg.com/vi/m29uPaJ0Deo/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "AJ_OX-w7G_Q",
+      "artist": "Sandy y Papo",
+      "title": "Mueve Mueve",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=AJ_OX-w7G_Q",
+      "artwork": "https://i.ytimg.com/vi/AJ_OX-w7G_Q/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "yGvStabyqIE",
+      "artist": "Las Chicas del Can",
+      "title": "El Negro No Puede",
+      "year": 1987,
+      "youtube": "https://www.youtube.com/watch?v=yGvStabyqIE",
+      "artwork": "https://i.ytimg.com/vi/yGvStabyqIE/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "OHY_UwId_0M",
+      "artist": "Fulanito",
+      "title": "El Cepillo",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=OHY_UwId_0M",
+      "artwork": "https://i.ytimg.com/vi/OHY_UwId_0M/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "vtizic9NnfY",
+      "artist": "Kinito Méndez",
+      "title": "El Baile del Sua Sua",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=vtizic9NnfY",
+      "artwork": "https://i.ytimg.com/vi/vtizic9NnfY/mqdefault.jpg",
+      "intro": true,
+      "verified": false
+    },
+    {
+      "id": "AhGe1rsLuQQ",
+      "artist": "Proyecto Uno",
+      "title": "Esta Pega'o",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=AhGe1rsLuQQ",
+      "artwork": "https://i.ytimg.com/vi/AhGe1rsLuQQ/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "3CqNeJLqvL0",
+      "artist": "Elvis Crespo",
+      "title": "Tu Sonrisa",
+      "year": 1998,
+      "youtube": "https://www.youtube.com/watch?v=3CqNeJLqvL0",
+      "artwork": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "JPU1_MNLZ1Y",
+      "artist": "Ilegales",
+      "title": "El Taqui Taqui",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=JPU1_MNLZ1Y",
+      "artwork": "https://i.ytimg.com/vi/JPU1_MNLZ1Y/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "3SJwKBxKuoM",
+      "artist": "Juan Luis Guerra",
+      "title": "La Cosquillita",
+      "year": 1994,
+      "youtube": "https://www.youtube.com/watch?v=3SJwKBxKuoM",
+      "artwork": "https://i.ytimg.com/vi/3SJwKBxKuoM/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "dElUL4hvbJE",
+      "artist": "Grupo Manía",
+      "title": "Linda Eh",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=dElUL4hvbJE",
+      "artwork": "https://i.ytimg.com/vi/dElUL4hvbJE/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "Ety4cES6hRQ",
+      "artist": "Proyecto Uno",
+      "title": "Brinca",
+      "year": 1991,
+      "youtube": "https://www.youtube.com/watch?v=Ety4cES6hRQ",
+      "artwork": "https://i.ytimg.com/vi/Ety4cES6hRQ/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "ipDNOrqLIHU",
+      "artist": "Toño Rosario",
+      "title": "Resistiré",
+      "year": 2009,
+      "youtube": "https://www.youtube.com/watch?v=ipDNOrqLIHU",
+      "artwork": "https://i.ytimg.com/vi/ipDNOrqLIHU/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "epndigKqzDs",
+      "artist": "Wilfrido Vargas",
+      "title": "El Jardinero",
+      "year": 1984,
+      "youtube": "https://www.youtube.com/watch?v=epndigKqzDs",
+      "artwork": "https://i.ytimg.com/vi/epndigKqzDs/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "_gGwBmmnYls",
+      "artist": "Las Chicas del Can",
+      "title": "Juana la Cubana",
+      "year": 1988,
+      "youtube": "https://www.youtube.com/watch?v=_gGwBmmnYls",
+      "artwork": "https://i.ytimg.com/vi/_gGwBmmnYls/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "_koz_f4mthE",
+      "artist": "Juan Luis Guerra",
+      "title": "A Pedir Su Mano",
+      "year": 1990,
+      "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
+      "artwork": "https://i.ytimg.com/vi/_koz_f4mthE/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "hBhIA8lDi2c",
+      "artist": "Elvis Crespo",
+      "title": "Píntame",
+      "year": 1999,
+      "youtube": "https://www.youtube.com/watch?v=hBhIA8lDi2c",
+      "artwork": "https://i.ytimg.com/vi/hBhIA8lDi2c/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "_u2m43WXQks",
+      "artist": "Ramón Orlando",
+      "title": "El Venao",
+      "year": 1992,
+      "youtube": "https://www.youtube.com/watch?v=_u2m43WXQks",
+      "artwork": "https://i.ytimg.com/vi/_u2m43WXQks/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "FChzlYpau0g",
+      "artist": "Olga Tañón",
+      "title": "Es Mentiroso",
+      "year": 1994,
+      "youtube": "https://www.youtube.com/watch?v=FChzlYpau0g",
+      "artwork": "https://i.ytimg.com/vi/FChzlYpau0g/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "aZVLvmjVOdo",
+      "artist": "Los Hermanos Rosario",
+      "title": "Morena Ven",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=aZVLvmjVOdo",
+      "artwork": "https://i.ytimg.com/vi/aZVLvmjVOdo/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "4iBwipKkX6k",
+      "artist": "Proyecto Uno",
+      "title": "25 Horas",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=4iBwipKkX6k",
+      "artwork": "https://i.ytimg.com/vi/4iBwipKkX6k/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "E6soE-1p3kw",
+      "artist": "Milly Quezada",
+      "title": "Volvió Juanita",
+      "year": 1984,
+      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
+      "artwork": "https://i.ytimg.com/vi/E6soE-1p3kw/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "yWSQxGppcFA",
+      "artist": "Eddy Herrera",
+      "title": "Pégame Tu Vicio",
+      "year": 2000,
+      "youtube": "https://www.youtube.com/watch?v=yWSQxGppcFA",
+      "artwork": "https://i.ytimg.com/vi/yWSQxGppcFA/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "V1jnol6o1kQ",
+      "artist": "Bonny Cepeda",
+      "title": "La Asesina",
+      "year": 1987,
+      "youtube": "https://www.youtube.com/watch?v=V1jnol6o1kQ",
+      "artwork": "https://i.ytimg.com/vi/V1jnol6o1kQ/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "ihZQAh4jr4M",
+      "artist": "Juan Luis Guerra",
+      "title": "Las Avispas",
+      "year": 2004,
+      "youtube": "https://www.youtube.com/watch?v=ihZQAh4jr4M",
+      "artwork": "https://i.ytimg.com/vi/ihZQAh4jr4M/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "95Wcl9ucitM",
+      "artist": "Sergio Vargas",
+      "title": "La Ventanita",
+      "year": 1991,
+      "youtube": "https://www.youtube.com/watch?v=95Wcl9ucitM",
+      "artwork": "https://i.ytimg.com/vi/95Wcl9ucitM/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "0fZ4NW7s0Nw",
+      "artist": "La Makina",
+      "title": "Nadie Se Muere",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=0fZ4NW7s0Nw",
+      "artwork": "https://i.ytimg.com/vi/0fZ4NW7s0Nw/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "Q_2rzu1f-eo",
+      "artist": "Elvis Crespo",
+      "title": "La Cerveza",
+      "year": 1998,
+      "youtube": "https://www.youtube.com/watch?v=Q_2rzu1f-eo",
+      "artwork": "https://i.ytimg.com/vi/Q_2rzu1f-eo/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "HOrPwEZLhD4",
+      "artist": "Kinito Méndez",
+      "title": "El Asilo",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=HOrPwEZLhD4",
+      "artwork": "https://i.ytimg.com/vi/HOrPwEZLhD4/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "SGy4pmOvKVI",
+      "artist": "Olga Tañón",
+      "title": "Bandolero",
+      "year": 1994,
+      "youtube": "https://www.youtube.com/watch?v=SGy4pmOvKVI",
+      "artwork": "https://i.ytimg.com/vi/SGy4pmOvKVI/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "lvfQWpvcE30",
+      "artist": "Los Hermanos Rosario",
+      "title": "Ella Se Fue",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=lvfQWpvcE30",
+      "artwork": "https://i.ytimg.com/vi/lvfQWpvcE30/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "uWIl86jzQqc",
+      "artist": "Johnny Ventura",
+      "title": "El Sueño",
+      "year": 1985,
+      "youtube": "https://www.youtube.com/watch?v=uWIl86jzQqc",
+      "artwork": "https://i.ytimg.com/vi/uWIl86jzQqc/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "tRpRavSeAac",
+      "artist": "Rikarena",
+      "title": "Ay!!",
+      "year": 1994,
+      "youtube": "https://www.youtube.com/watch?v=tRpRavSeAac",
+      "artwork": "https://i.ytimg.com/vi/tRpRavSeAac/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "eotdaHXYV3Y",
+      "artist": "Eddy Herrera",
+      "title": "Carolina",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=eotdaHXYV3Y",
+      "artwork": "https://i.ytimg.com/vi/eotdaHXYV3Y/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "bntQQjEnbPA",
+      "artist": "Wilfrido Vargas",
+      "title": "Abusadora",
+      "year": 1981,
+      "youtube": "https://www.youtube.com/watch?v=bntQQjEnbPA",
+      "artwork": "https://i.ytimg.com/vi/bntQQjEnbPA/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "uwQ-2yfnuRU",
+      "artist": "Gisselle y Sergio Vargas",
+      "title": "Perdóname, Olvídalo",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=uwQ-2yfnuRU",
+      "artwork": "https://i.ytimg.com/vi/uwQ-2yfnuRU/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "ydz-OjoIyuo",
+      "artist": "Los Hermanos Rosario",
+      "title": "Dominicana",
+      "year": 1994,
+      "youtube": "https://www.youtube.com/watch?v=ydz-OjoIyuo",
+      "artwork": "https://i.ytimg.com/vi/ydz-OjoIyuo/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "-cI_d6kRF1M",
+      "artist": "Olga Tañón",
+      "title": "Muchacho Malo",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=-cI_d6kRF1M",
+      "artwork": "https://i.ytimg.com/vi/-cI_d6kRF1M/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "qfgWkLAmKCM",
+      "artist": "Milly Quezada",
+      "title": "Tengo",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=qfgWkLAmKCM",
+      "artwork": "https://i.ytimg.com/vi/qfgWkLAmKCM/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "E0f3J0z2SBQ",
+      "artist": "Fernandito Villalona",
+      "title": "Cama y Mesa",
+      "year": 1983,
+      "youtube": "https://www.youtube.com/watch?v=E0f3J0z2SBQ",
+      "artwork": "https://i.ytimg.com/vi/E0f3J0z2SBQ/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "4VkOsc_pUHc",
+      "artist": "Proyecto Uno",
+      "title": "Latinos",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=4VkOsc_pUHc",
+      "artwork": "https://i.ytimg.com/vi/4VkOsc_pUHc/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "NYW9T4D7zLw",
+      "artist": "Elvis Crespo",
+      "title": "Nuestra Canción",
+      "year": 1998,
+      "youtube": "https://www.youtube.com/watch?v=NYW9T4D7zLw",
+      "artwork": "https://i.ytimg.com/vi/NYW9T4D7zLw/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "M3fdWamxjA0",
+      "artist": "Grupo Manía",
+      "title": "Me Miras y Te Miro",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=M3fdWamxjA0",
+      "artwork": "https://i.ytimg.com/vi/M3fdWamxjA0/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "zZTo7FYn0lI",
+      "artist": "Eddy Herrera",
+      "title": "Me Sabe A Poco",
+      "year": 2002,
+      "youtube": "https://www.youtube.com/watch?v=zZTo7FYn0lI",
+      "artwork": "https://i.ytimg.com/vi/zZTo7FYn0lI/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "9x_Zmt4S01s",
+      "artist": "Juan Luis Guerra",
+      "title": "La Guagua",
+      "year": 2010,
+      "youtube": "https://www.youtube.com/watch?v=9x_Zmt4S01s",
+      "artwork": "https://i.ytimg.com/vi/9x_Zmt4S01s/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "CokWGmuYduM",
+      "artist": "Proyecto Uno",
+      "title": "El Grillero",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=CokWGmuYduM",
+      "artwork": "https://i.ytimg.com/vi/CokWGmuYduM/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "jnkLAMVI0so",
+      "artist": "Grupo Manía",
+      "title": "Ojitos Bellos",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=jnkLAMVI0so",
+      "artwork": "https://i.ytimg.com/vi/jnkLAMVI0so/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "uzU3x_egiEk",
+      "artist": "Eddy Herrera",
+      "title": "Tú Eres Ajena",
+      "year": 1996,
+      "youtube": "https://www.youtube.com/watch?v=uzU3x_egiEk",
+      "artwork": "https://i.ytimg.com/vi/uzU3x_egiEk/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "tPTB0TRV3BA",
+      "artist": "Juan Luis Guerra",
+      "title": "El Costo de La Vida",
+      "year": 1992,
+      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
+      "artwork": "https://i.ytimg.com/vi/tPTB0TRV3BA/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "8QFzVz8whgQ",
+      "artist": "Rubby Pérez",
+      "title": "Volveré",
+      "year": 1987,
+      "youtube": "https://www.youtube.com/watch?v=8QFzVz8whgQ",
+      "artwork": "https://i.ytimg.com/vi/8QFzVz8whgQ/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "MwJSpVhqFT0",
+      "artist": "Fulanito",
+      "title": "La Novela",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=MwJSpVhqFT0",
+      "artwork": "https://i.ytimg.com/vi/MwJSpVhqFT0/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "sWF2rtxBs4k",
+      "artist": "Omega El Fuerte",
+      "title": "Si Te Vas",
+      "year": 2009,
+      "youtube": "https://www.youtube.com/watch?v=sWF2rtxBs4k",
+      "artwork": "https://i.ytimg.com/vi/sWF2rtxBs4k/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "bAqw7qQbbXU",
+      "artist": "Grupo Manía",
+      "title": "Adivina",
+      "year": 1999,
+      "youtube": "https://www.youtube.com/watch?v=bAqw7qQbbXU",
+      "artwork": "https://i.ytimg.com/vi/bAqw7qQbbXU/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "dDEVFQnBTp0",
+      "artist": "Juan Luis Guerra",
+      "title": "Ojalá Que Llueva Café",
+      "year": 1989,
+      "youtube": "https://www.youtube.com/watch?v=dDEVFQnBTp0",
+      "artwork": "https://i.ytimg.com/vi/dDEVFQnBTp0/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "3BcFam44YYE",
+      "artist": "Oro Sólido",
+      "title": "La Paleta",
+      "year": 1994,
+      "youtube": "https://www.youtube.com/watch?v=3BcFam44YYE",
+      "artwork": "https://i.ytimg.com/vi/3BcFam44YYE/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "f7-vEi-uPB8",
+      "artist": "Wilfrido Vargas",
+      "title": "Volveré",
+      "year": 1987,
+      "youtube": "https://www.youtube.com/watch?v=f7-vEi-uPB8",
+      "artwork": "https://i.ytimg.com/vi/f7-vEi-uPB8/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "49rim-OQ5p0",
+      "artist": "Elvis Crespo, Milly Quezada",
+      "title": "Para Darte Mi Vida",
+      "year": 1998,
+      "youtube": "https://www.youtube.com/watch?v=49rim-OQ5p0",
+      "artwork": "https://i.ytimg.com/vi/49rim-OQ5p0/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "KMtO-egYiFg",
+      "artist": "Los Toros Band",
+      "title": "Mi Primer Millón",
+      "year": 2003,
+      "youtube": "https://www.youtube.com/watch?v=KMtO-egYiFg",
+      "artwork": "https://i.ytimg.com/vi/KMtO-egYiFg/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "Gu2nonpFNCY",
+      "artist": "Johnny Ventura",
+      "title": "¿Pitaste?",
+      "year": 1993,
+      "youtube": "https://www.youtube.com/watch?v=Gu2nonpFNCY",
+      "artwork": "https://i.ytimg.com/vi/Gu2nonpFNCY/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "e7snJWtn5WI",
+      "artist": "Magic Juan, Eddy Herrera",
+      "title": "La Última Vez",
+      "year": 2004,
+      "youtube": "https://www.youtube.com/watch?v=e7snJWtn5WI",
+      "artwork": "https://i.ytimg.com/vi/e7snJWtn5WI/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "UzKAmOPS3wE",
+      "artist": "Manny Manuel",
+      "title": "Rey de Corazones",
+      "year": 1997,
+      "youtube": "https://www.youtube.com/watch?v=UzKAmOPS3wE",
+      "artwork": "https://i.ytimg.com/vi/UzKAmOPS3wE/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "iqTR3NT_vlk",
+      "artist": "Oro Sólido",
+      "title": "La Tanguita Roja",
+      "year": 1995,
+      "youtube": "https://www.youtube.com/watch?v=iqTR3NT_vlk",
+      "artwork": "https://i.ytimg.com/vi/iqTR3NT_vlk/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "fw9orjqEPOc",
+      "artist": "Elvis Crespo, Grupo Manía",
+      "title": "Linda Eh (Live Las Vegas)",
+      "year": 2008,
+      "youtube": "https://www.youtube.com/watch?v=fw9orjqEPOc",
+      "artwork": "https://i.ytimg.com/vi/fw9orjqEPOc/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "2kR2FrKOyhM",
+      "artist": "Toño Rosario",
+      "title": "Mujer De Todos, Mujer De Nadie",
+      "year": 2001,
+      "youtube": "https://www.youtube.com/watch?v=2kR2FrKOyhM",
+      "artwork": "https://i.ytimg.com/vi/2kR2FrKOyhM/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "Ksc-jNxOx4c",
+      "artist": "La Makina",
+      "title": "No Me Digas Que No",
+      "year": 1999,
+      "youtube": "https://www.youtube.com/watch?v=Ksc-jNxOx4c",
+      "artwork": "https://i.ytimg.com/vi/Ksc-jNxOx4c/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "yZaVBHYzWxU",
+      "artist": "Olga Tañón",
+      "title": "Hielo y Fuego",
+      "year": 1998,
+      "youtube": "https://www.youtube.com/watch?v=yZaVBHYzWxU",
+      "artwork": "https://i.ytimg.com/vi/yZaVBHYzWxU/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "uxZPwAedgFA",
+      "artist": "Los Hermanos Rosario",
+      "title": "Bomba",
+      "year": 1990,
+      "youtube": "https://www.youtube.com/watch?v=uxZPwAedgFA",
+      "artwork": "https://i.ytimg.com/vi/uxZPwAedgFA/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "mdndTRMvPu0",
+      "artist": "Pochy y Su Cocoband",
+      "title": "La Flaca",
+      "year": 2007,
+      "youtube": "https://www.youtube.com/watch?v=mdndTRMvPu0",
+      "artwork": "https://i.ytimg.com/vi/mdndTRMvPu0/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    },
+    {
+      "id": "DZtWoBZUsJg",
+      "artist": "Toño Rosario",
+      "title": "Tú Va Vei",
+      "year": 1999,
+      "youtube": "https://www.youtube.com/watch?v=DZtWoBZUsJg",
+      "artwork": "https://i.ytimg.com/vi/DZtWoBZUsJg/mqdefault.jpg",
+      "intro": false,
+      "verified": false
+    }
+  ]
+}

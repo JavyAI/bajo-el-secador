@@ -1,0 +1,36 @@
+Keep this exact illustration language. Do not invent a new style. Do not simplify into clip-art. The grain, the faceless blocks, the hard edges, the one beam, the sediment bands, and the print-muting must stay identical to the Deluxe Saloon source plate. Only the place, the people, and the ritual change.
+
+Flat vector-style digital illustration, mid-morning Caribbean light, Monday 17 August 2026, panoramic 16:9 landscape scene, 2560×1435.
+
+STYLE: Modern flat-shape editorial illustration — faceless figures (no facial features except mustaches/hair shapes), hard-edged geometric color blocks, no outlines, no gradients within shapes. Cel-shaded lighting with a single hard diagonal sunlight beam. Heavy film-grain/noise texture overlaid on the entire image for a risograph/print feel. Subtle chromatic muting like faded 1970s Bollywood poster meets contemporary flat design (Kyoto-poster / James Gilleard / Tom Haugomat style).
+
+COMPOSITION & FRAMING: Straight-on eye-level frontal elevation view — zero perspective convergence, orthographic/flat facade like a stage set, camera at standing pedestrian height across the street (~15 m distance, mid-wide shot equivalent to ~35mm lens flattened). Horizontal layering: dark asphalt road strip along the bottom edge, sunlit sidewalk band above it, the single-story building occupying the middle 60% of frame height, dense stacked background filling the upper band, narrow strip of clear cobalt sky top-right.
+
+Size/ratio: 2560×1435 (~16:9), designed as a full-bleed browser background; safe zones — title sits over the quiet wall or sky upper-center, player widget over the lower-center.
+
+Camera: straight-on frontal elevation, eye level, no vanishing-point perspective — depth is done entirely with overlapping layers and scale, not converging lines.
+
+Distance: mid-wide establishing shot, across-the-street distance; figures ~1/3 frame height.
+
+Centering: the focal action sits slightly right of true center (~55% across, lower-middle band); the composition balances a heavy mass top-left against a dark mass on the right in a rough Z-path: left mass → sunlit wall → sunbeam → focal action.
+
+Light: single hard diagonal beam upper-left → lower-right is the key compositional device; it is what isolates the focal action from the busy scene. Beam color is cream #F2E6CC, never pure yellow.
+
+Texture: uniform monochrome grain over everything (this is what sells the print/riso feel — apply as a final pass, not per-shape).
+
+PEOPLE — Muñeca Limé, stylized, never blurred:
+Every head is a polished ceramic oval. One flat skin tone. Intentional, like a Dominican faceless doll — not a smudge, not an erased photo, not a photoreal face.
+A mustache may be one clean graphic crescent. A laugh may be one small stylized open-mouth shape. No eyes drawn. No teeth. No blur.
+The portrait is the hair: cerquillo, short afro, tight curls, pink rollers, braids, colas, pañuelos. Sculpted hair masses.
+Skin is a Dominican range in the same scene: deep umber, mahogany, gold-brown, honey.
+Bodies have Caribbean weight. One verb per figure.
+
+LIGHTING: High Caribbean morning sun from upper-left, ~45° cream beam; long shadows falling right; deep cool teal-black shadows #14211E under awnings and inside.
+
+PALETTE — Bidó sun, not print-dust. Super beautiful Caribbean:
+turquesa de mar #12C4B0, flamboyán coral #FF4B2B, mango maduro #FFC107, bougainvillea #E91E8C, rosa barrio #FF8A80, palma viva #2E9B3A, cielo Caribe #1E9BE0, zinc #9AA3A8, crema #FFF3C4, sombra #14211E.
+Colors stay flat hard-edged blocks. Hot, not neon. Island Tuesday, not a resort ad.
+
+MOOD: Peaceful everyday street life, unhurried, nostalgic warmth, sun-drenched stillness — lofi-radio ambience. Barrio Tuesday, not a brochure.
+
+NO outlines, NO faces with eyes/mouths, NO photorealism, NO oil paint, NO soft airbrush gradients, NO neon saturation, NO resort props, NO painted words — only crisp flat shapes + uniform grain texture.

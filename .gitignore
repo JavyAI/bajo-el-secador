@@ -1,4 +1,10 @@
 .DS_Store
 .omc/
+.grok/
 *.log
 .cache/
+nanobanana-output/
+assets/_prev-*/
+assets/_codex-oil-ayer/
+assets/_imagine-restyles/
+tiktok/

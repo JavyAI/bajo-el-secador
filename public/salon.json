@@ -1,5 +1,5 @@
 {
-  "name": "Bajo el secador",
+  "name": "En el secador",
   "youtubePlaylist": "https://music.youtube.com/playlist?list=PLHGerkzq-_SQ",
   "shuffle": false,
   "loop": true,
@@ -78,12 +78,12 @@
       "intro": true
     },
     {
-      "id": "39kMo2cddgQ",
-      "artist": "Thalía",
-      "title": "Amor a La Mexicana",
-      "youtube": "https://www.youtube.com/watch?v=39kMo2cddgQ",
-      "artwork": "assets/covers/39kMo2cddgQ.jpg",
-      "artworkLarge": "assets/covers/39kMo2cddgQ.jpg",
+      "id": "XWr_fhIBeIU",
+      "artist": "Rocío Dúrcal",
+      "title": "Como Tu Mujer",
+      "youtube": "https://www.youtube.com/watch?v=XWr_fhIBeIU",
+      "artwork": "assets/covers/XWr_fhIBeIU.jpg",
+      "artworkLarge": "assets/covers/XWr_fhIBeIU.jpg",
       "intro": true
     },
     {
@@ -123,12 +123,12 @@
       "intro": true
     },
     {
-      "id": "sADUuDB2MzI",
+      "id": "FCi-Xp2TVoQ",
       "artist": "Selena",
-      "title": "Amor Prohibido",
-      "youtube": "https://www.youtube.com/watch?v=sADUuDB2MzI",
-      "artwork": "assets/covers/sADUuDB2MzI.jpg",
-      "artworkLarge": "assets/covers/sADUuDB2MzI.jpg",
+      "title": "No Me Queda Mas",
+      "youtube": "https://www.youtube.com/watch?v=FCi-Xp2TVoQ",
+      "artwork": "assets/covers/FCi-Xp2TVoQ.jpg",
+      "artworkLarge": "assets/covers/FCi-Xp2TVoQ.jpg",
       "intro": true
     },
     {
@@ -181,12 +181,12 @@
       "artworkLarge": "assets/covers/apFHxRBXkzg.jpg"
     },
     {
-      "id": "FCi-Xp2TVoQ",
+      "id": "sADUuDB2MzI",
       "artist": "Selena",
-      "title": "No Me Queda Mas",
-      "youtube": "https://www.youtube.com/watch?v=FCi-Xp2TVoQ",
-      "artwork": "assets/covers/FCi-Xp2TVoQ.jpg",
-      "artworkLarge": "assets/covers/FCi-Xp2TVoQ.jpg"
+      "title": "Amor Prohibido",
+      "youtube": "https://www.youtube.com/watch?v=sADUuDB2MzI",
+      "artwork": "assets/covers/sADUuDB2MzI.jpg",
+      "artworkLarge": "assets/covers/sADUuDB2MzI.jpg"
     },
     {
       "id": "gr6RzMi4L3o",
@@ -245,12 +245,12 @@
       "artworkLarge": "assets/covers/pCBfCmHQw58.jpg"
     },
     {
-      "id": "XWr_fhIBeIU",
-      "artist": "Rocío Dúrcal",
-      "title": "Como Tu Mujer",
-      "youtube": "https://www.youtube.com/watch?v=XWr_fhIBeIU",
-      "artwork": "assets/covers/XWr_fhIBeIU.jpg",
-      "artworkLarge": "assets/covers/XWr_fhIBeIU.jpg"
+      "id": "39kMo2cddgQ",
+      "artist": "Thalía",
+      "title": "Amor a La Mexicana",
+      "youtube": "https://www.youtube.com/watch?v=39kMo2cddgQ",
+      "artwork": "assets/covers/39kMo2cddgQ.jpg",
+      "artworkLarge": "assets/covers/39kMo2cddgQ.jpg"
     },
     {
       "id": "0xyfnlWs9QA",

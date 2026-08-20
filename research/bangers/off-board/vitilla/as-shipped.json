@@ -1,0 +1,177 @@
+{
+  "name": "Vitilla en el barrio",
+  "youtubePlaylist": "https://music.youtube.com/",
+  "shuffle": false,
+  "loop": true,
+  "introCount": 15,
+  "count": 19,
+  "tracks": [
+    {
+      "id": "rOw9UxJyhII",
+      "artist": "Los Hermanos Rosario",
+      "title": "La Dueña del Swing",
+      "youtube": "https://www.youtube.com/watch?v=rOw9UxJyhII",
+      "artwork": "assets/covers/rOw9UxJyhII.jpg",
+      "artworkLarge": "assets/covers/rOw9UxJyhII.jpg",
+      "intro": true
+    },
+    {
+      "id": "1DbXzlhKS5s",
+      "artist": "Wilfrido Vargas",
+      "title": "El Africano",
+      "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
+      "artwork": "assets/covers/1DbXzlhKS5s.jpg",
+      "artworkLarge": "assets/covers/1DbXzlhKS5s.jpg",
+      "intro": true
+    },
+    {
+      "id": "WPiEbYSF9kE",
+      "artist": "Elvis Crespo",
+      "title": "Suavemente",
+      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
+      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
+      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
+      "intro": true
+    },
+    {
+      "id": "4Qy0vs80T5M",
+      "artist": "Proyecto Uno",
+      "title": "El Tiburón",
+      "youtube": "https://www.youtube.com/watch?v=4Qy0vs80T5M",
+      "artwork": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "eLTvctdHftc",
+      "artist": "Kinito Mendez",
+      "title": "Cachamba",
+      "youtube": "https://www.youtube.com/watch?v=eLTvctdHftc",
+      "artwork": "assets/covers/eLTvctdHftc.jpg",
+      "artworkLarge": "assets/covers/eLTvctdHftc.jpg",
+      "intro": true
+    },
+    {
+      "id": "ssOtmdQatGQ",
+      "artist": "Toño Rosario",
+      "title": "Kulikitaka",
+      "youtube": "https://www.youtube.com/watch?v=ssOtmdQatGQ",
+      "artwork": "assets/covers/ssOtmdQatGQ.jpg",
+      "artworkLarge": "assets/covers/ssOtmdQatGQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "x6Y3EFLtnFM",
+      "artist": "Fulanito",
+      "title": "Guallando",
+      "youtube": "https://www.youtube.com/watch?v=x6Y3EFLtnFM",
+      "artwork": "assets/covers/x6Y3EFLtnFM.jpg",
+      "artworkLarge": "assets/covers/x6Y3EFLtnFM.jpg",
+      "intro": true
+    },
+    {
+      "id": "BT8Afk8HDxY",
+      "artist": "Ilegales",
+      "title": "La Morena",
+      "youtube": "https://www.youtube.com/watch?v=BT8Afk8HDxY",
+      "artwork": "assets/covers/BT8Afk8HDxY.jpg",
+      "artworkLarge": "assets/covers/BT8Afk8HDxY.jpg",
+      "intro": true
+    },
+    {
+      "id": "McV4pBRb-Sg",
+      "artist": "Juan Luis Guerra",
+      "title": "La Bilirrubina",
+      "youtube": "https://www.youtube.com/watch?v=McV4pBRb-Sg",
+      "artwork": "assets/covers/McV4pBRb-Sg.jpg",
+      "artworkLarge": "assets/covers/McV4pBRb-Sg.jpg",
+      "intro": true
+    },
+    {
+      "id": "95Wcl9ucitM",
+      "artist": "Sergio Vargas",
+      "title": "La Ventanita",
+      "youtube": "https://www.youtube.com/watch?v=95Wcl9ucitM",
+      "artwork": "assets/covers/95Wcl9ucitM.jpg",
+      "artworkLarge": "assets/covers/95Wcl9ucitM.jpg",
+      "intro": true
+    },
+    {
+      "id": "E6soE-1p3kw",
+      "artist": "Milly Quezada",
+      "title": "Volvio Juanita",
+      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
+      "artwork": "assets/covers/E6soE-1p3kw.jpg",
+      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg",
+      "intro": true
+    },
+    {
+      "id": "_koz_f4mthE",
+      "artist": "Juan Luis Guerra",
+      "title": "A Pedir Su Mano",
+      "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
+      "artwork": "assets/covers/_koz_f4mthE.jpg",
+      "artworkLarge": "assets/covers/_koz_f4mthE.jpg",
+      "intro": true
+    },
+    {
+      "id": "yGvStabyqIE",
+      "artist": "Las Chicas del Can",
+      "title": "El Negro No Puede",
+      "youtube": "https://www.youtube.com/watch?v=yGvStabyqIE",
+      "artwork": "assets/covers/yGvStabyqIE.jpg",
+      "artworkLarge": "assets/covers/yGvStabyqIE.jpg",
+      "intro": true
+    },
+    {
+      "id": "m29uPaJ0Deo",
+      "artist": "Grupo Mania",
+      "title": "A Que Te Pego Mi Mania",
+      "youtube": "https://www.youtube.com/watch?v=m29uPaJ0Deo",
+      "artwork": "assets/covers/m29uPaJ0Deo.jpg",
+      "artworkLarge": "assets/covers/m29uPaJ0Deo.jpg",
+      "intro": true
+    },
+    {
+      "id": "E0f3J0z2SBQ",
+      "artist": "Fernandito Villalona",
+      "title": "Cama y Mesa",
+      "youtube": "https://www.youtube.com/watch?v=E0f3J0z2SBQ",
+      "artwork": "assets/covers/E0f3J0z2SBQ.jpg",
+      "artworkLarge": "assets/covers/E0f3J0z2SBQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "zZTo7FYn0lI",
+      "artist": "Eddy Herrera",
+      "title": "Me Sabe A Poco",
+      "youtube": "https://www.youtube.com/watch?v=zZTo7FYn0lI",
+      "artwork": "assets/covers/zZTo7FYn0lI.jpg",
+      "artworkLarge": "assets/covers/zZTo7FYn0lI.jpg"
+    },
+    {
+      "id": "dDEVFQnBTp0",
+      "artist": "Juan Luis Guerra",
+      "title": "Ojala que Llueva Cafe",
+      "youtube": "https://www.youtube.com/watch?v=dDEVFQnBTp0",
+      "artwork": "assets/covers/dDEVFQnBTp0.jpg",
+      "artworkLarge": "assets/covers/dDEVFQnBTp0.jpg"
+    },
+    {
+      "id": "OkOJGgqcwro",
+      "artist": "Olga Tañón",
+      "title": "Como Olvidar",
+      "youtube": "https://www.youtube.com/watch?v=OkOJGgqcwro",
+      "artwork": "assets/covers/OkOJGgqcwro.jpg",
+      "artworkLarge": "assets/covers/OkOJGgqcwro.jpg"
+    },
+    {
+      "id": "tPTB0TRV3BA",
+      "artist": "Juan Luis Guerra",
+      "title": "El Costo de La Vida",
+      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
+      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
+      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg"
+    }
+  ]
+}

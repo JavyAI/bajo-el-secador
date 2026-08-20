@@ -1,0 +1,201 @@
+{
+  "name": "En la galería",
+  "youtubePlaylist": "https://music.youtube.com/",
+  "shuffle": false,
+  "loop": true,
+  "introCount": 15,
+  "count": 22,
+  "tracks": [
+    {
+      "id": "dDEVFQnBTp0",
+      "artist": "Juan Luis Guerra",
+      "title": "Ojala que Llueva Cafe",
+      "youtube": "https://www.youtube.com/watch?v=dDEVFQnBTp0",
+      "artwork": "assets/covers/dDEVFQnBTp0.jpg",
+      "artworkLarge": "assets/covers/dDEVFQnBTp0.jpg",
+      "intro": true
+    },
+    {
+      "id": "95Wcl9ucitM",
+      "artist": "Sergio Vargas",
+      "title": "La Ventanita",
+      "youtube": "https://www.youtube.com/watch?v=95Wcl9ucitM",
+      "artwork": "assets/covers/95Wcl9ucitM.jpg",
+      "artworkLarge": "assets/covers/95Wcl9ucitM.jpg",
+      "intro": true
+    },
+    {
+      "id": "E0f3J0z2SBQ",
+      "artist": "Fernandito Villalona",
+      "title": "Cama y Mesa",
+      "youtube": "https://www.youtube.com/watch?v=E0f3J0z2SBQ",
+      "artwork": "assets/covers/E0f3J0z2SBQ.jpg",
+      "artworkLarge": "assets/covers/E0f3J0z2SBQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "oADpF--uirA",
+      "artist": "Juan Gabriel",
+      "title": "Querida",
+      "youtube": "https://www.youtube.com/watch?v=oADpF--uirA",
+      "artwork": "assets/covers/oADpF--uirA.jpg",
+      "artworkLarge": "assets/covers/oADpF--uirA.jpg",
+      "intro": true
+    },
+    {
+      "id": "kkF5eGMxwEQ",
+      "artist": "Ana Gabriel",
+      "title": "Simplemente Amigos",
+      "youtube": "https://www.youtube.com/watch?v=kkF5eGMxwEQ",
+      "artwork": "assets/covers/kkF5eGMxwEQ.jpg",
+      "artworkLarge": "assets/covers/kkF5eGMxwEQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "dpxQbZsXgNw",
+      "artist": "Rocío Dúrcal",
+      "title": "Costumbres",
+      "youtube": "https://www.youtube.com/watch?v=dpxQbZsXgNw",
+      "artwork": "assets/covers/dpxQbZsXgNw.jpg",
+      "artworkLarge": "assets/covers/dpxQbZsXgNw.jpg",
+      "intro": true
+    },
+    {
+      "id": "9jQJfdQlYUk",
+      "artist": "José José",
+      "title": "Gavilán o Paloma",
+      "youtube": "https://www.youtube.com/watch?v=9jQJfdQlYUk",
+      "artwork": "assets/covers/9jQJfdQlYUk.jpg",
+      "artworkLarge": "assets/covers/9jQJfdQlYUk.jpg",
+      "intro": true
+    },
+    {
+      "id": "tPTB0TRV3BA",
+      "artist": "Juan Luis Guerra",
+      "title": "El Costo de La Vida",
+      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
+      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
+      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
+      "intro": true
+    },
+    {
+      "id": "0xyfnlWs9QA",
+      "artist": "Camilo Sesto",
+      "title": "Vivir Asi Es Morir de Amor",
+      "youtube": "https://www.youtube.com/watch?v=0xyfnlWs9QA",
+      "artwork": "assets/covers/0xyfnlWs9QA.jpg",
+      "artworkLarge": "assets/covers/0xyfnlWs9QA.jpg",
+      "intro": true
+    },
+    {
+      "id": "by4I_10HbX4",
+      "artist": "Luis Miguel",
+      "title": "La Incondicional",
+      "youtube": "https://www.youtube.com/watch?v=by4I_10HbX4",
+      "artwork": "assets/covers/by4I_10HbX4.jpg",
+      "artworkLarge": "assets/covers/by4I_10HbX4.jpg",
+      "intro": true
+    },
+    {
+      "id": "ugNQ5uIN09Q",
+      "artist": "Vicente Fernandez",
+      "title": "Volver Volver",
+      "youtube": "https://www.youtube.com/watch?v=ugNQ5uIN09Q",
+      "artwork": "assets/covers/ugNQ5uIN09Q.jpg",
+      "artworkLarge": "assets/covers/ugNQ5uIN09Q.jpg",
+      "intro": true
+    },
+    {
+      "id": "VyraXS0iMHw",
+      "artist": "Los Bukis",
+      "title": "Tu Carcel",
+      "youtube": "https://www.youtube.com/watch?v=VyraXS0iMHw",
+      "artwork": "assets/covers/VyraXS0iMHw.jpg",
+      "artworkLarge": "assets/covers/VyraXS0iMHw.jpg",
+      "intro": true
+    },
+    {
+      "id": "oObpxzkul3k",
+      "artist": "José José",
+      "title": "Lo Pasado Pasado",
+      "youtube": "https://www.youtube.com/watch?v=oObpxzkul3k",
+      "artwork": "assets/covers/oObpxzkul3k.jpg",
+      "artworkLarge": "assets/covers/oObpxzkul3k.jpg",
+      "intro": true
+    },
+    {
+      "id": "g5rsnxJWNkM",
+      "artist": "Juan Gabriel",
+      "title": "Se Me Olvido Otra Vez",
+      "youtube": "https://www.youtube.com/watch?v=g5rsnxJWNkM",
+      "artwork": "assets/covers/g5rsnxJWNkM.jpg",
+      "artworkLarge": "assets/covers/g5rsnxJWNkM.jpg",
+      "intro": true
+    },
+    {
+      "id": "1ddK89KqVe8",
+      "artist": "Myriam Hernandez",
+      "title": "El Hombre Que Yo Amo",
+      "youtube": "https://www.youtube.com/watch?v=1ddK89KqVe8",
+      "artwork": "assets/covers/1ddK89KqVe8.jpg",
+      "artworkLarge": "assets/covers/1ddK89KqVe8.jpg",
+      "intro": true
+    },
+    {
+      "id": "6e0XWqAeTwc",
+      "artist": "Jose Jose",
+      "title": "Y Quien Puede Ser",
+      "youtube": "https://www.youtube.com/watch?v=6e0XWqAeTwc",
+      "artwork": "assets/covers/6e0XWqAeTwc.jpg",
+      "artworkLarge": "assets/covers/6e0XWqAeTwc.jpg"
+    },
+    {
+      "id": "apFqJ49VstY",
+      "artist": "Daniela Romo",
+      "title": "Yo No Te Pido La Luna",
+      "youtube": "https://www.youtube.com/watch?v=apFqJ49VstY",
+      "artwork": "assets/covers/apFqJ49VstY.jpg",
+      "artworkLarge": "assets/covers/apFqJ49VstY.jpg"
+    },
+    {
+      "id": "gr6RzMi4L3o",
+      "artist": "Ana Gabriel",
+      "title": "No Te Hago Falta",
+      "youtube": "https://www.youtube.com/watch?v=gr6RzMi4L3o",
+      "artwork": "assets/covers/gr6RzMi4L3o.jpg",
+      "artworkLarge": "assets/covers/gr6RzMi4L3o.jpg"
+    },
+    {
+      "id": "p7QYo-9SlP0",
+      "artist": "Ricky Martin",
+      "title": "Vuelve",
+      "youtube": "https://www.youtube.com/watch?v=p7QYo-9SlP0",
+      "artwork": "assets/covers/p7QYo-9SlP0.jpg",
+      "artworkLarge": "assets/covers/p7QYo-9SlP0.jpg"
+    },
+    {
+      "id": "29NM6ySmwfQ",
+      "artist": "Cristian Castro",
+      "title": "Azul",
+      "youtube": "https://www.youtube.com/watch?v=29NM6ySmwfQ",
+      "artwork": "assets/covers/29NM6ySmwfQ.jpg",
+      "artworkLarge": "assets/covers/29NM6ySmwfQ.jpg"
+    },
+    {
+      "id": "pCBfCmHQw58",
+      "artist": "Luis Miguel",
+      "title": "Ahora Te Puedes Marchar",
+      "youtube": "https://www.youtube.com/watch?v=pCBfCmHQw58",
+      "artwork": "assets/covers/pCBfCmHQw58.jpg",
+      "artworkLarge": "assets/covers/pCBfCmHQw58.jpg"
+    },
+    {
+      "id": "2LiZyAIVmbs",
+      "artist": "Juan Luis Guerra",
+      "title": "Bachata Rosa",
+      "youtube": "https://www.youtube.com/watch?v=2LiZyAIVmbs",
+      "artwork": "assets/covers/2LiZyAIVmbs.jpg",
+      "artworkLarge": "assets/covers/2LiZyAIVmbs.jpg"
+    }
+  ]
+}

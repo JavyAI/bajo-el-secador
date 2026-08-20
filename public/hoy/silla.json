@@ -1,0 +1,911 @@
+{
+  "name": "silla",
+  "room": "silla",
+  "era": "hoy",
+  "shuffle": false,
+  "loop": true,
+  "introCount": 15,
+  "count": 100,
+  "tracks": [
+    {
+      "id": "QFs3PIZb3js",
+      "artist": "Romeo Santos",
+      "title": "Propuesta Indecente",
+      "youtube": "https://www.youtube.com/watch?v=QFs3PIZb3js",
+      "artwork": "assets/covers/QFs3PIZb3js.jpg",
+      "artworkLarge": "assets/covers/QFs3PIZb3js.jpg",
+      "intro": true
+    },
+    {
+      "id": "bdOXnTbyk0g",
+      "artist": "Prince Royce",
+      "title": "Darte un Beso",
+      "youtube": "https://www.youtube.com/watch?v=bdOXnTbyk0g",
+      "artwork": "assets/covers/bdOXnTbyk0g.jpg",
+      "artworkLarge": "assets/covers/bdOXnTbyk0g.jpg",
+      "intro": true
+    },
+    {
+      "id": "XlmaJ-yU46U",
+      "artist": "Aventura",
+      "title": "Inmortal",
+      "youtube": "https://www.youtube.com/watch?v=XlmaJ-yU46U",
+      "artwork": "https://i.ytimg.com/vi/XlmaJ-yU46U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/XlmaJ-yU46U/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "MB23TtaeiQY",
+      "artist": "Zacarías Ferreira",
+      "title": "La Asesina",
+      "youtube": "https://www.youtube.com/watch?v=MB23TtaeiQY",
+      "artwork": "https://i.ytimg.com/vi/MB23TtaeiQY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/MB23TtaeiQY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "8iPcqtHoR3U",
+      "artist": "Romeo Santos",
+      "title": "Eres Mía",
+      "youtube": "https://www.youtube.com/watch?v=8iPcqtHoR3U",
+      "artwork": "https://i.ytimg.com/vi/8iPcqtHoR3U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/8iPcqtHoR3U/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "iuugCBK3RRI",
+      "artist": "Antony Santos",
+      "title": "Creíste",
+      "youtube": "https://www.youtube.com/watch?v=iuugCBK3RRI",
+      "artwork": "https://i.ytimg.com/vi/iuugCBK3RRI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/iuugCBK3RRI/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "yUAZxs3qY3Y",
+      "artist": "Prince Royce",
+      "title": "Te Robaré",
+      "youtube": "https://www.youtube.com/watch?v=yUAZxs3qY3Y",
+      "artwork": "https://i.ytimg.com/vi/yUAZxs3qY3Y/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/yUAZxs3qY3Y/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "Y2KVvROYQrc",
+      "artist": "Zacarías Ferreira",
+      "title": "El Intruso",
+      "youtube": "https://www.youtube.com/watch?v=Y2KVvROYQrc",
+      "artwork": "https://i.ytimg.com/vi/Y2KVvROYQrc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Y2KVvROYQrc/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "mhHqonzsuoA",
+      "artist": "Romeo Santos",
+      "title": "Imitadora",
+      "youtube": "https://www.youtube.com/watch?v=mhHqonzsuoA",
+      "artwork": "assets/covers/mhHqonzsuoA.jpg",
+      "artworkLarge": "assets/covers/mhHqonzsuoA.jpg",
+      "intro": true
+    },
+    {
+      "id": "AL_Ogy2TTXs",
+      "artist": "El Chaval de la Bachata",
+      "title": "Dile A Él",
+      "youtube": "https://www.youtube.com/watch?v=AL_Ogy2TTXs",
+      "artwork": "https://i.ytimg.com/vi/AL_Ogy2TTXs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/AL_Ogy2TTXs/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "cOy4siyFp0U",
+      "artist": "Romeo Santos, Raulín Rodríguez",
+      "title": "La Demanda",
+      "youtube": "https://www.youtube.com/watch?v=cOy4siyFp0U",
+      "artwork": "https://i.ytimg.com/vi/cOy4siyFp0U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/cOy4siyFp0U/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "qurynQHSPhw",
+      "artist": "Frank Reyes",
+      "title": "Mejor Que a Ti Me Va",
+      "youtube": "https://www.youtube.com/watch?v=qurynQHSPhw",
+      "artwork": "https://i.ytimg.com/vi/qurynQHSPhw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qurynQHSPhw/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "1p0QyZIf93I",
+      "artist": "Romeo Santos, Antony Santos, Luis Vargas, Raulín Rodríguez",
+      "title": "Debate de 4",
+      "youtube": "https://www.youtube.com/watch?v=1p0QyZIf93I",
+      "artwork": "https://i.ytimg.com/vi/1p0QyZIf93I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1p0QyZIf93I/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "Bbu6K6DWQAA",
+      "artist": "Raulín Rodríguez",
+      "title": "Corazón Con Candado",
+      "youtube": "https://www.youtube.com/watch?v=Bbu6K6DWQAA",
+      "artwork": "https://i.ytimg.com/vi/Bbu6K6DWQAA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Bbu6K6DWQAA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "RfTcYeNdZHY",
+      "artist": "Héctor Acosta",
+      "title": "Amorcito Enfermito",
+      "youtube": "https://www.youtube.com/watch?v=RfTcYeNdZHY",
+      "artwork": "https://i.ytimg.com/vi/RfTcYeNdZHY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/RfTcYeNdZHY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "OST41MmjdTQ",
+      "artist": "Prince Royce",
+      "title": "El Amor Que Perdimos",
+      "youtube": "https://www.youtube.com/watch?v=OST41MmjdTQ",
+      "artwork": "https://i.ytimg.com/vi/OST41MmjdTQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/OST41MmjdTQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "D3qMNNgvsII",
+      "artist": "Zacarías Ferreira",
+      "title": "Ya No Te Buscaré",
+      "youtube": "https://www.youtube.com/watch?v=D3qMNNgvsII",
+      "artwork": "https://i.ytimg.com/vi/D3qMNNgvsII/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/D3qMNNgvsII/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "ROzZSmaxDz8",
+      "artist": "Prince Royce",
+      "title": "Las Cosas Pequeñas",
+      "youtube": "https://www.youtube.com/watch?v=ROzZSmaxDz8",
+      "artwork": "https://i.ytimg.com/vi/ROzZSmaxDz8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ROzZSmaxDz8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "ErgETXYYtC4",
+      "artist": "Antony Santos",
+      "title": "Se Acabó el Abuso",
+      "youtube": "https://www.youtube.com/watch?v=ErgETXYYtC4",
+      "artwork": "https://i.ytimg.com/vi/ErgETXYYtC4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ErgETXYYtC4/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "CkNSGnekpBA",
+      "artist": "Romeo Santos, Frank Reyes",
+      "title": "Payasos",
+      "youtube": "https://www.youtube.com/watch?v=CkNSGnekpBA",
+      "artwork": "https://i.ytimg.com/vi/CkNSGnekpBA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/CkNSGnekpBA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "cKtdb8ttsg4",
+      "artist": "El Chaval de la Bachata",
+      "title": "El Último Golpe",
+      "youtube": "https://www.youtube.com/watch?v=cKtdb8ttsg4",
+      "artwork": "https://i.ytimg.com/vi/cKtdb8ttsg4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/cKtdb8ttsg4/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "jk4HYngf65w",
+      "artist": "Romeo Santos",
+      "title": "Cancioncitas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=jk4HYngf65w",
+      "artwork": "assets/covers/jk4HYngf65w.jpg",
+      "artworkLarge": "assets/covers/jk4HYngf65w.jpg",
+      "intro": false
+    },
+    {
+      "id": "kCcljqz-wEY",
+      "artist": "Zacarías Ferreira",
+      "title": "Si Pudiera",
+      "youtube": "https://www.youtube.com/watch?v=kCcljqz-wEY",
+      "artwork": "https://i.ytimg.com/vi/kCcljqz-wEY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kCcljqz-wEY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "8zcZC4HVr68",
+      "artist": "Romeo Santos, El Chaval de la Bachata",
+      "title": "Canalla",
+      "youtube": "https://www.youtube.com/watch?v=8zcZC4HVr68",
+      "artwork": "https://i.ytimg.com/vi/8zcZC4HVr68/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/8zcZC4HVr68/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "YrN5Z-Aj3QE",
+      "artist": "Héctor Acosta",
+      "title": "Me Duele La Cabeza",
+      "youtube": "https://www.youtube.com/watch?v=YrN5Z-Aj3QE",
+      "artwork": "https://i.ytimg.com/vi/YrN5Z-Aj3QE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YrN5Z-Aj3QE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "4eCL0l9iD5A",
+      "artist": "Romeo Santos",
+      "title": "Hilito",
+      "youtube": "https://www.youtube.com/watch?v=4eCL0l9iD5A",
+      "artwork": "assets/covers/4eCL0l9iD5A.jpg",
+      "artworkLarge": "assets/covers/4eCL0l9iD5A.jpg",
+      "intro": false
+    },
+    {
+      "id": "PFMXOl3AQF0",
+      "artist": "Frank Reyes",
+      "title": "Egoísta",
+      "youtube": "https://www.youtube.com/watch?v=PFMXOl3AQF0",
+      "artwork": "https://i.ytimg.com/vi/PFMXOl3AQF0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/PFMXOl3AQF0/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "hpzT6Wq6pKY",
+      "artist": "Prince Royce",
+      "title": "Incondicional",
+      "youtube": "https://www.youtube.com/watch?v=hpzT6Wq6pKY",
+      "artwork": "https://i.ytimg.com/vi/hpzT6Wq6pKY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hpzT6Wq6pKY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "0w1eAAmOU4k",
+      "artist": "Antony Santos, Romeo Santos",
+      "title": "Bellas",
+      "youtube": "https://www.youtube.com/watch?v=0w1eAAmOU4k",
+      "artwork": "https://i.ytimg.com/vi/0w1eAAmOU4k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0w1eAAmOU4k/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "OuVhfYqb2fs",
+      "artist": "Zacarías Ferreira",
+      "title": "La Mejor de Todas",
+      "youtube": "https://www.youtube.com/watch?v=OuVhfYqb2fs",
+      "artwork": "https://i.ytimg.com/vi/OuVhfYqb2fs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/OuVhfYqb2fs/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Ktq4zATPFsI",
+      "artist": "Romeo Santos",
+      "title": "Héroe Favorito",
+      "youtube": "https://www.youtube.com/watch?v=Ktq4zATPFsI",
+      "artwork": "https://i.ytimg.com/vi/Ktq4zATPFsI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ktq4zATPFsI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "E01fpwK9zZo",
+      "artist": "Raulín Rodríguez",
+      "title": "Cómo Serás Tú",
+      "youtube": "https://www.youtube.com/watch?v=E01fpwK9zZo",
+      "artwork": "https://i.ytimg.com/vi/E01fpwK9zZo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/E01fpwK9zZo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "MkcXU_kn8dw",
+      "artist": "Romeo Santos",
+      "title": "7 Días",
+      "youtube": "https://www.youtube.com/watch?v=MkcXU_kn8dw",
+      "artwork": "https://i.ytimg.com/vi/MkcXU_kn8dw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/MkcXU_kn8dw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "1Tg_xhYHqpQ",
+      "artist": "El Chaval de la Bachata",
+      "title": "Se Te Hizo Tarde",
+      "youtube": "https://www.youtube.com/watch?v=1Tg_xhYHqpQ",
+      "artwork": "https://i.ytimg.com/vi/1Tg_xhYHqpQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1Tg_xhYHqpQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "OdaIbTUGmHM",
+      "artist": "Prince Royce",
+      "title": "La Carretera",
+      "youtube": "https://www.youtube.com/watch?v=OdaIbTUGmHM",
+      "artwork": "https://i.ytimg.com/vi/OdaIbTUGmHM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/OdaIbTUGmHM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "kKuBFuDFS_4",
+      "artist": "Antony Santos",
+      "title": "El Eco de Tu Adiós",
+      "youtube": "https://www.youtube.com/watch?v=kKuBFuDFS_4",
+      "artwork": "https://i.ytimg.com/vi/kKuBFuDFS_4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kKuBFuDFS_4/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "2aZeb5709TE",
+      "artist": "Romeo Santos, Luis Vargas",
+      "title": "Los Últimos",
+      "youtube": "https://www.youtube.com/watch?v=2aZeb5709TE",
+      "artwork": "https://i.ytimg.com/vi/2aZeb5709TE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2aZeb5709TE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "mclq1x1Q7FM",
+      "artist": "Zacarías Ferreira",
+      "title": "En Peligro de Extinción",
+      "youtube": "https://www.youtube.com/watch?v=mclq1x1Q7FM",
+      "artwork": "https://i.ytimg.com/vi/mclq1x1Q7FM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/mclq1x1Q7FM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "qjkb9_AJCLo",
+      "artist": "Prince Royce",
+      "title": "Carita de Inocente (ALTER EGO)",
+      "youtube": "https://www.youtube.com/watch?v=qjkb9_AJCLo",
+      "artwork": "https://i.ytimg.com/vi/qjkb9_AJCLo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qjkb9_AJCLo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "TF7DZgRM_cw",
+      "artist": "Luis Vargas",
+      "title": "Yo Tengo Un Ángel",
+      "youtube": "https://www.youtube.com/watch?v=TF7DZgRM_cw",
+      "artwork": "https://i.ytimg.com/vi/TF7DZgRM_cw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TF7DZgRM_cw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "rvmtQvA_cmM",
+      "artist": "Romeo Santos",
+      "title": "Sus Huellas",
+      "youtube": "https://www.youtube.com/watch?v=rvmtQvA_cmM",
+      "artwork": "https://i.ytimg.com/vi/rvmtQvA_cmM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/rvmtQvA_cmM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "0-M3MkMCSso",
+      "artist": "Antony Santos",
+      "title": "A Fuerza de Dolor",
+      "youtube": "https://www.youtube.com/watch?v=0-M3MkMCSso",
+      "artwork": "https://i.ytimg.com/vi/0-M3MkMCSso/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0-M3MkMCSso/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "-lDsqOsJL7k",
+      "artist": "Prince Royce",
+      "title": "Culpa al Corazón",
+      "youtube": "https://www.youtube.com/watch?v=-lDsqOsJL7k",
+      "artwork": "https://i.ytimg.com/vi/-lDsqOsJL7k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/-lDsqOsJL7k/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "oLBTkf7jm0Q",
+      "artist": "Romeo Santos, Zacarías Ferreira",
+      "title": "Me Quedo",
+      "youtube": "https://www.youtube.com/watch?v=oLBTkf7jm0Q",
+      "artwork": "https://i.ytimg.com/vi/oLBTkf7jm0Q/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/oLBTkf7jm0Q/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "7ZCa6wELRVc",
+      "artist": "Raulín Rodríguez",
+      "title": "Mi Gran Amor",
+      "youtube": "https://www.youtube.com/watch?v=7ZCa6wELRVc",
+      "artwork": "https://i.ytimg.com/vi/7ZCa6wELRVc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7ZCa6wELRVc/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "kVtfXd_WdkA",
+      "artist": "Prince Royce",
+      "title": "Rechazame",
+      "youtube": "https://www.youtube.com/watch?v=kVtfXd_WdkA",
+      "artwork": "https://i.ytimg.com/vi/kVtfXd_WdkA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kVtfXd_WdkA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "FdDaPzhTIQs",
+      "artist": "Luis Vargas",
+      "title": "Mal Herido",
+      "youtube": "https://www.youtube.com/watch?v=FdDaPzhTIQs",
+      "artwork": "https://i.ytimg.com/vi/FdDaPzhTIQs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FdDaPzhTIQs/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "iZMOccjasnE",
+      "artist": "Frank Reyes",
+      "title": "Quién Te Dio El Derecho",
+      "youtube": "https://www.youtube.com/watch?v=iZMOccjasnE",
+      "artwork": "https://i.ytimg.com/vi/iZMOccjasnE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/iZMOccjasnE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "5MjbxCOy1Bo",
+      "artist": "El Chaval de la Bachata",
+      "title": "La Locura de Tu Amor",
+      "youtube": "https://www.youtube.com/watch?v=5MjbxCOy1Bo",
+      "artwork": "https://i.ytimg.com/vi/5MjbxCOy1Bo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/5MjbxCOy1Bo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "59_5CFuPvPc",
+      "artist": "Zacarías Ferreira",
+      "title": "Me Sobran Las Palabras",
+      "youtube": "https://www.youtube.com/watch?v=59_5CFuPvPc",
+      "artwork": "https://i.ytimg.com/vi/59_5CFuPvPc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/59_5CFuPvPc/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "ZB7mMiILVmQ",
+      "artist": "Frank Reyes",
+      "title": "El Tubi",
+      "youtube": "https://www.youtube.com/watch?v=ZB7mMiILVmQ",
+      "artwork": "https://i.ytimg.com/vi/ZB7mMiILVmQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ZB7mMiILVmQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "9PCjVwJo3EI",
+      "artist": "Prince Royce",
+      "title": "Te Me Vas",
+      "youtube": "https://www.youtube.com/watch?v=9PCjVwJo3EI",
+      "artwork": "https://i.ytimg.com/vi/9PCjVwJo3EI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/9PCjVwJo3EI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "COh7Al7hpPA",
+      "artist": "Luis Segura, Romeo Santos",
+      "title": "Como Yo",
+      "youtube": "https://www.youtube.com/watch?v=COh7Al7hpPA",
+      "artwork": "https://i.ytimg.com/vi/COh7Al7hpPA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/COh7Al7hpPA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "ed6XePWlMPY",
+      "artist": "Luis Vargas",
+      "title": "Tarde Te Arrepientes",
+      "youtube": "https://www.youtube.com/watch?v=ed6XePWlMPY",
+      "artwork": "https://i.ytimg.com/vi/ed6XePWlMPY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ed6XePWlMPY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "2wHa_op488g",
+      "artist": "Frank Reyes",
+      "title": "Como Hojas al Viento",
+      "youtube": "https://www.youtube.com/watch?v=2wHa_op488g",
+      "artwork": "https://i.ytimg.com/vi/2wHa_op488g/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2wHa_op488g/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "yUu6bxxRUGI",
+      "artist": "Zacarías Ferreira",
+      "title": "Todos Juntos",
+      "youtube": "https://www.youtube.com/watch?v=yUu6bxxRUGI",
+      "artwork": "https://i.ytimg.com/vi/yUu6bxxRUGI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/yUu6bxxRUGI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "0tAWnSebr_8",
+      "artist": "Raulín Rodríguez",
+      "title": "Hablamos En La Cama",
+      "youtube": "https://www.youtube.com/watch?v=0tAWnSebr_8",
+      "artwork": "https://i.ytimg.com/vi/0tAWnSebr_8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0tAWnSebr_8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "T4tGJ4MISNw",
+      "artist": "Zacarías Ferreira",
+      "title": "10 Segundos",
+      "youtube": "https://www.youtube.com/watch?v=T4tGJ4MISNw",
+      "artwork": "https://i.ytimg.com/vi/T4tGJ4MISNw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/T4tGJ4MISNw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "FAL0qiSuH0Q",
+      "artist": "Luis Miguel del Amargue",
+      "title": "A Un Milímetro de Ti",
+      "youtube": "https://www.youtube.com/watch?v=FAL0qiSuH0Q",
+      "artwork": "https://i.ytimg.com/vi/FAL0qiSuH0Q/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FAL0qiSuH0Q/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Sq4In2ZvhTw",
+      "artist": "Frank Reyes",
+      "title": "Me Haces Mucha Falta Amor",
+      "youtube": "https://www.youtube.com/watch?v=Sq4In2ZvhTw",
+      "artwork": "https://i.ytimg.com/vi/Sq4In2ZvhTw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Sq4In2ZvhTw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "1-K9OwST2ZU",
+      "artist": "Antony Santos, Los Sufridos",
+      "title": "Lleno Contigo",
+      "youtube": "https://www.youtube.com/watch?v=1-K9OwST2ZU",
+      "artwork": "https://i.ytimg.com/vi/1-K9OwST2ZU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1-K9OwST2ZU/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "mp-g0oAGrOw",
+      "artist": "Héctor Acosta",
+      "title": "Si No Me Falla El Corazón",
+      "youtube": "https://www.youtube.com/watch?v=mp-g0oAGrOw",
+      "artwork": "https://i.ytimg.com/vi/mp-g0oAGrOw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/mp-g0oAGrOw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "17fGLPG4Wtw",
+      "artist": "Antony Santos",
+      "title": "Ay Chichi",
+      "youtube": "https://www.youtube.com/watch?v=17fGLPG4Wtw",
+      "artwork": "https://i.ytimg.com/vi/17fGLPG4Wtw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/17fGLPG4Wtw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "F_l_I-QlcyE",
+      "artist": "Héctor Acosta",
+      "title": "Ya Fue Bastante",
+      "youtube": "https://www.youtube.com/watch?v=F_l_I-QlcyE",
+      "artwork": "https://i.ytimg.com/vi/F_l_I-QlcyE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/F_l_I-QlcyE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "J9tC0cPsz3g",
+      "artist": "Kiko Rodríguez",
+      "title": "Yo Fui el Primero",
+      "youtube": "https://www.youtube.com/watch?v=J9tC0cPsz3g",
+      "artwork": "https://i.ytimg.com/vi/J9tC0cPsz3g/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/J9tC0cPsz3g/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "hiFrZxa78tM",
+      "artist": "Joe Veras",
+      "title": "Todo Cansa",
+      "youtube": "https://www.youtube.com/watch?v=hiFrZxa78tM",
+      "artwork": "https://i.ytimg.com/vi/hiFrZxa78tM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hiFrZxa78tM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "xm-Z_2XpPFY",
+      "artist": "Kiko Rodríguez",
+      "title": "La Boda (Me Arrepentí)",
+      "youtube": "https://www.youtube.com/watch?v=xm-Z_2XpPFY",
+      "artwork": "https://i.ytimg.com/vi/xm-Z_2XpPFY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xm-Z_2XpPFY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "L48Mw2W6v6Q",
+      "artist": "Joe Veras",
+      "title": "Tu Excusa",
+      "youtube": "https://www.youtube.com/watch?v=L48Mw2W6v6Q",
+      "artwork": "https://i.ytimg.com/vi/L48Mw2W6v6Q/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/L48Mw2W6v6Q/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Ra5xGEPlIjw",
+      "artist": "Kiko Rodríguez",
+      "title": "Usted No Sabe",
+      "youtube": "https://www.youtube.com/watch?v=Ra5xGEPlIjw",
+      "artwork": "https://i.ytimg.com/vi/Ra5xGEPlIjw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ra5xGEPlIjw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "I68EMkzz3jI",
+      "artist": "Joe Veras",
+      "title": "Aunque No Sea Conmigo",
+      "youtube": "https://www.youtube.com/watch?v=I68EMkzz3jI",
+      "artwork": "https://i.ytimg.com/vi/I68EMkzz3jI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/I68EMkzz3jI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Xr_jslGVFvo",
+      "artist": "Grupo Extra",
+      "title": "Me Emborracharé",
+      "youtube": "https://www.youtube.com/watch?v=Xr_jslGVFvo",
+      "artwork": "https://i.ytimg.com/vi/Xr_jslGVFvo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Xr_jslGVFvo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "tP_XZ0teEno",
+      "artist": "Yoskar Sarante, El Chaval de la Bachata",
+      "title": "Tres Veces",
+      "youtube": "https://www.youtube.com/watch?v=tP_XZ0teEno",
+      "artwork": "https://i.ytimg.com/vi/tP_XZ0teEno/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/tP_XZ0teEno/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "IFfLjoKsHX0",
+      "artist": "Grupo Extra",
+      "title": "Qué Mal Te Hice Yo",
+      "youtube": "https://www.youtube.com/watch?v=IFfLjoKsHX0",
+      "artwork": "https://i.ytimg.com/vi/IFfLjoKsHX0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/IFfLjoKsHX0/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "CDv6lGEaWTo",
+      "artist": "Henry Santos",
+      "title": "Por Nada",
+      "youtube": "https://www.youtube.com/watch?v=CDv6lGEaWTo",
+      "artwork": "assets/covers/CDv6lGEaWTo.jpg",
+      "artworkLarge": "assets/covers/CDv6lGEaWTo.jpg",
+      "intro": false
+    },
+    {
+      "id": "W1_7r-7D74I",
+      "artist": "Grupo Extra",
+      "title": "Te Vas",
+      "youtube": "https://www.youtube.com/watch?v=W1_7r-7D74I",
+      "artwork": "https://i.ytimg.com/vi/W1_7r-7D74I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/W1_7r-7D74I/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "DiZEZg93U1E",
+      "artist": "Elvis Martínez",
+      "title": "Ambición",
+      "youtube": "https://www.youtube.com/watch?v=DiZEZg93U1E",
+      "artwork": "https://i.ytimg.com/vi/DiZEZg93U1E/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/DiZEZg93U1E/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "nKN8tTN-_O0",
+      "artist": "Grupo Extra",
+      "title": "Tengo Una Necesidad",
+      "youtube": "https://www.youtube.com/watch?v=nKN8tTN-_O0",
+      "artwork": "https://i.ytimg.com/vi/nKN8tTN-_O0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/nKN8tTN-_O0/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "R5V-A-iu9dg",
+      "artist": "Henry Santos, Pavel Núñez",
+      "title": "Te Di",
+      "youtube": "https://www.youtube.com/watch?v=R5V-A-iu9dg",
+      "artwork": "https://i.ytimg.com/vi/R5V-A-iu9dg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/R5V-A-iu9dg/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "9kbFdKX1rJw",
+      "artist": "Grupo Extra",
+      "title": "Lejos de Ti",
+      "youtube": "https://www.youtube.com/watch?v=9kbFdKX1rJw",
+      "artwork": "https://i.ytimg.com/vi/9kbFdKX1rJw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/9kbFdKX1rJw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "1S7SJcEKfuY",
+      "artist": "Elvis Martínez",
+      "title": "Tú Sabes Bien",
+      "youtube": "https://www.youtube.com/watch?v=1S7SJcEKfuY",
+      "artwork": "https://i.ytimg.com/vi/1S7SJcEKfuY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1S7SJcEKfuY/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Q2HftVyi6wc",
+      "artist": "Grupo Extra, Lirow",
+      "title": "Cuando Te Vuelva a Ver",
+      "youtube": "https://www.youtube.com/watch?v=Q2HftVyi6wc",
+      "artwork": "https://i.ytimg.com/vi/Q2HftVyi6wc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Q2HftVyi6wc/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "DjEttgmfNCU",
+      "artist": "Henry Santos, JFab, Paola Fabre",
+      "title": "Cuando Te Toco",
+      "youtube": "https://www.youtube.com/watch?v=DjEttgmfNCU",
+      "artwork": "https://i.ytimg.com/vi/DjEttgmfNCU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/DjEttgmfNCU/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Lpj2epjATXM",
+      "artist": "Yoskar Sarante",
+      "title": "Quién Eres Tú",
+      "youtube": "https://www.youtube.com/watch?v=Lpj2epjATXM",
+      "artwork": "https://i.ytimg.com/vi/Lpj2epjATXM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Lpj2epjATXM/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "2Y6uAa6Jnpw",
+      "artist": "Henry Santos",
+      "title": "Poquito A Poquito",
+      "youtube": "https://www.youtube.com/watch?v=2Y6uAa6Jnpw",
+      "artwork": "https://i.ytimg.com/vi/2Y6uAa6Jnpw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2Y6uAa6Jnpw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "m9Xxk7pXE3s",
+      "artist": "Elvis Martínez",
+      "title": "Rica",
+      "youtube": "https://www.youtube.com/watch?v=m9Xxk7pXE3s",
+      "artwork": "https://i.ytimg.com/vi/m9Xxk7pXE3s/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/m9Xxk7pXE3s/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "J9QmUNZOh7I",
+      "artist": "Daniel Santacruz",
+      "title": "Casablanca",
+      "youtube": "https://www.youtube.com/watch?v=J9QmUNZOh7I",
+      "artwork": "https://i.ytimg.com/vi/J9QmUNZOh7I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/J9QmUNZOh7I/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "VJSBbSlykM8",
+      "artist": "Teodoro Reyes",
+      "title": "El Huequito",
+      "youtube": "https://www.youtube.com/watch?v=VJSBbSlykM8",
+      "artwork": "https://i.ytimg.com/vi/VJSBbSlykM8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/VJSBbSlykM8/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "Vl7RmqGztbk",
+      "artist": "Daniel Santacruz",
+      "title": "Bachata en Nueva York",
+      "youtube": "https://www.youtube.com/watch?v=Vl7RmqGztbk",
+      "artwork": "https://i.ytimg.com/vi/Vl7RmqGztbk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Vl7RmqGztbk/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "4GU0sTsIpzo",
+      "artist": "Teodoro Reyes",
+      "title": "Mis Dos Estrellas",
+      "youtube": "https://www.youtube.com/watch?v=4GU0sTsIpzo",
+      "artwork": "https://i.ytimg.com/vi/4GU0sTsIpzo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4GU0sTsIpzo/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "p2YCzaZNRqQ",
+      "artist": "Daniel Santacruz",
+      "title": "No Me Sueltes",
+      "youtube": "https://www.youtube.com/watch?v=p2YCzaZNRqQ",
+      "artwork": "https://i.ytimg.com/vi/p2YCzaZNRqQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/p2YCzaZNRqQ/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "z285rG7DkhA",
+      "artist": "Teodoro Reyes",
+      "title": "Me Dejó Por Otro",
+      "youtube": "https://www.youtube.com/watch?v=z285rG7DkhA",
+      "artwork": "https://i.ytimg.com/vi/z285rG7DkhA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/z285rG7DkhA/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "tNw9Rc3GbcE",
+      "artist": "Daniel Santacruz",
+      "title": "Desnudos",
+      "youtube": "https://www.youtube.com/watch?v=tNw9Rc3GbcE",
+      "artwork": "https://i.ytimg.com/vi/tNw9Rc3GbcE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/tNw9Rc3GbcE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "uUeNpTC7UWI",
+      "artist": "Pinto Picasso",
+      "title": "No Me Toca",
+      "youtube": "https://www.youtube.com/watch?v=uUeNpTC7UWI",
+      "artwork": "https://i.ytimg.com/vi/uUeNpTC7UWI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/uUeNpTC7UWI/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "b0vDALH-CUw",
+      "artist": "Kewin Cosmos",
+      "title": "Déjame Tenerte",
+      "youtube": "https://www.youtube.com/watch?v=b0vDALH-CUw",
+      "artwork": "https://i.ytimg.com/vi/b0vDALH-CUw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/b0vDALH-CUw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "g81JtMbrJtw",
+      "artist": "Pinto Picasso",
+      "title": "París",
+      "youtube": "https://www.youtube.com/watch?v=g81JtMbrJtw",
+      "artwork": "https://i.ytimg.com/vi/g81JtMbrJtw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/g81JtMbrJtw/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "S50Vs_y1W2A",
+      "artist": "Kewin Cosmos",
+      "title": "La Vecina",
+      "youtube": "https://www.youtube.com/watch?v=S50Vs_y1W2A",
+      "artwork": "https://i.ytimg.com/vi/S50Vs_y1W2A/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/S50Vs_y1W2A/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "eshFzjIZZzA",
+      "artist": "Bachata Heightz, Héctor Acosta",
+      "title": "Me Puedo Matar",
+      "youtube": "https://www.youtube.com/watch?v=eshFzjIZZzA",
+      "artwork": "assets/covers/eshFzjIZZzA.jpg",
+      "artworkLarge": "assets/covers/eshFzjIZZzA.jpg",
+      "intro": false
+    },
+    {
+      "id": "bOltNO3gw64",
+      "artist": "Zacarías Ferreira",
+      "title": "No Me Entendió",
+      "youtube": "https://www.youtube.com/watch?v=bOltNO3gw64",
+      "artwork": "https://i.ytimg.com/vi/bOltNO3gw64/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bOltNO3gw64/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "k4UMOZ_Ec28",
+      "artist": "El Chaval de la Bachata",
+      "title": "Te Puedes Quedar",
+      "youtube": "https://www.youtube.com/watch?v=k4UMOZ_Ec28",
+      "artwork": "https://i.ytimg.com/vi/k4UMOZ_Ec28/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/k4UMOZ_Ec28/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "ntOjtjk7qTo",
+      "artist": "Frank Reyes",
+      "title": "Aventurero",
+      "youtube": "https://www.youtube.com/watch?v=ntOjtjk7qTo",
+      "artwork": "https://i.ytimg.com/vi/ntOjtjk7qTo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ntOjtjk7qTo/mqdefault.jpg",
+      "intro": false
+    }
+  ]
+}

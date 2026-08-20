@@ -1,0 +1,86 @@
+{
+  "colmado": {
+    "ayer": {
+      "id": "PLHayRTekRcmM",
+      "name": "Sopita Colmado",
+      "url": "https://music.youtube.com/playlist?list=PLHayRTekRcmM",
+      "catalog": "public/ayer/colmado.json"
+    },
+    "hoy": {
+      "id": "PLMM8k16VoC48",
+      "name": "Sopita Colmado de noche",
+      "url": "https://music.youtube.com/playlist?list=PLMM8k16VoC48",
+      "catalog": "public/hoy/colmado.json"
+    }
+  },
+  "secador": {
+    "ayer": {
+      "id": "PLHGerkzq-_SQ",
+      "name": "Sopita Secador",
+      "url": "https://music.youtube.com/playlist?list=PLHGerkzq-_SQ",
+      "catalog": "public/ayer/secador.json"
+    },
+    "hoy": {
+      "id": "PLACceZspwhQ0",
+      "name": "Sopita Secador de noche",
+      "url": "https://music.youtube.com/playlist?list=PLACceZspwhQ0",
+      "catalog": "public/hoy/secador.json"
+    }
+  },
+  "barberia": {
+    "ayer": {
+      "id": "PLUXmVaLcUP14",
+      "name": "Sopita Barbería",
+      "url": "https://music.youtube.com/playlist?list=PLUXmVaLcUP14",
+      "catalog": "public/ayer/silla.json"
+    },
+    "hoy": {
+      "id": "PLImw53Bm1wPs",
+      "name": "Sopita Barbería de noche",
+      "url": "https://music.youtube.com/playlist?list=PLImw53Bm1wPs",
+      "catalog": "public/hoy/silla.json"
+    }
+  },
+  "limpieza": {
+    "ayer": {
+      "id": "PLPt3jPOVTIrw",
+      "name": "Sopita Limpieza",
+      "url": "https://music.youtube.com/playlist?list=PLPt3jPOVTIrw",
+      "catalog": "public/ayer/limpieza.json"
+    },
+    "hoy": {
+      "id": "PLSWbYr5HUAh4",
+      "name": "Sopita Limpieza de noche",
+      "url": "https://music.youtube.com/playlist?list=PLSWbYr5HUAh4",
+      "catalog": "public/hoy/limpieza.json"
+    }
+  },
+  "galeria": {
+    "ayer": {
+      "id": "PLTiOeTSTBfaA",
+      "name": "Sopita Galería",
+      "url": "https://music.youtube.com/playlist?list=PLTiOeTSTBfaA",
+      "catalog": "public/ayer/galeria.json"
+    },
+    "hoy": {
+      "id": "PLWR_iWAPDJuw",
+      "name": "Sopita Galería de noche",
+      "url": "https://music.youtube.com/playlist?list=PLWR_iWAPDJuw",
+      "catalog": "public/hoy/galeria.json"
+    }
+  },
+  "malecon": {
+    "ayer": {
+      "id": "PLaCzYI1iMq6E",
+      "name": "Sopita Malecón",
+      "url": "https://music.youtube.com/playlist?list=PLaCzYI1iMq6E",
+      "catalog": "public/ayer/malecon.json"
+    },
+    "hoy": {
+      "id": "PLIbXKGSQVP3c",
+      "name": "Sopita Malecón de noche",
+      "url": "https://music.youtube.com/playlist?list=PLIbXKGSQVP3c",
+      "catalog": "public/hoy/malecon.json"
+    }
+  }
+}

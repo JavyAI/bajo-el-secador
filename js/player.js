@@ -6,30 +6,102 @@
   const FADE_REDUCED_MS = 200;
 
   const ROOMS = {
-    salon: {
-      name: "Bajo el secador",
-      lockup: ["Bajo el", "secador"],
-      kicker: "Baladas y merengue",
-      theme: "#133d3c",
-      tracks: "public/salon.json",
-      lista: "https://music.youtube.com/playlist?list=PLHGerkzq-_SQ",
+    colmado: {
+      name: "En el colmado",
+      lockup: ["En el", "colmado"],
+      kicker: "La esquina",
+      theme: "#eaba4e",
+      themeHoy: "#2a1e06",
+      plateHoy: true,
+      tracksAyer: "public/ayer/colmado.json",
+      tracksHoy: "public/hoy/colmado.json",
+      listaAyer: "https://music.youtube.com/playlist?list=PLHayRTekRcmM",
+      listaHoy: "https://music.youtube.com/playlist?list=PLMM8k16VoC48",
+      listaNameAyer: "Sopita Colmado",
+      listaNameHoy: "Sopita Colmado de noche",
+    },
+    secador: {
+      name: "En el secador",
+      lockup: ["En el", "secador"],
+      kicker: "El chisme",
+      theme: "#ae4e2a",
+      themeHoy: "#12122a",
+      plateHoy: true,
+      tracksAyer: "public/ayer/secador.json",
+      tracksHoy: "public/hoy/secador.json",
+      listaAyer: "https://music.youtube.com/playlist?list=PLHGerkzq-_SQ",
+      listaHoy: "https://music.youtube.com/playlist?list=PLACceZspwhQ0",
+      listaNameAyer: "Sopita Secador",
+      listaNameHoy: "Sopita Secador de noche",
     },
     barberia: {
-      name: "En la silla",
-      lockup: ["En la", "silla"],
-      kicker: "Bachata",
-      theme: "#043368",
-      tracks: "public/barberia.json",
-      lista: "https://music.youtube.com/playlist?list=PLUXmVaLcUP14",
+      name: "En la barbería",
+      lockup: ["En la", "barbería"],
+      kicker: "La silla",
+      theme: "#c42818",
+      themeHoy: "#8a1e12",
+      plateHoy: true,
+      tracksAyer: "public/ayer/silla.json",
+      tracksHoy: "public/hoy/silla.json",
+      listaAyer: "https://music.youtube.com/playlist?list=PLUXmVaLcUP14",
+      listaHoy: "https://music.youtube.com/playlist?list=PLImw53Bm1wPs",
+      listaNameAyer: "Sopita Barbería",
+      listaNameHoy: "Sopita Barbería de noche",
     },
-    colmado: {
-      name: "En la esquina",
-      lockup: ["En la", "esquina"],
-      kicker: "Salsa y merengue",
-      theme: "#224028",
-      tracks: "public/colmado.json",
-      lista: "https://music.youtube.com/playlist?list=PLHayRTekRcmM",
+    limpieza: {
+      name: "En la limpieza",
+      lockup: ["En la", "limpieza"],
+      kicker: "El domingo",
+      theme: "#1aa3b8",
+      themeHoy: "#1a3a40",
+      plateHoy: true,
+      tracksAyer: "public/ayer/limpieza.json",
+      tracksHoy: "public/hoy/limpieza.json",
+      listaAyer: "https://music.youtube.com/playlist?list=PLPt3jPOVTIrw",
+      listaHoy: "https://music.youtube.com/playlist?list=PLSWbYr5HUAh4",
+      listaNameAyer: "Sopita Limpieza",
+      listaNameHoy: "Sopita Limpieza de noche",
     },
+    galeria: {
+      name: "En la galería",
+      lockup: ["En la", "galería"],
+      kicker: "El Cibao",
+      theme: "#4a9e6e",
+      themeHoy: "#1e4e5a",
+      plateHoy: true,
+      tracksAyer: "public/ayer/galeria.json",
+      tracksHoy: "public/hoy/galeria.json",
+      listaAyer: "https://music.youtube.com/playlist?list=PLTiOeTSTBfaA",
+      listaHoy: "https://music.youtube.com/playlist?list=PLWR_iWAPDJuw",
+      listaNameAyer: "Sopita Galería",
+      listaNameHoy: "Sopita Galería de noche",
+    },
+    malecon: {
+      name: "En el malecón",
+      lockup: ["En el", "malecón"],
+      kicker: "El paseo",
+      theme: "#5aa3c8",
+      themeHoy: "#061e42",
+      plateHoy: true,
+      tracksAyer: "public/ayer/malecon.json",
+      tracksHoy: "public/hoy/malecon.json",
+      listaAyer: "https://music.youtube.com/playlist?list=PLaCzYI1iMq6E",
+      listaHoy: "https://music.youtube.com/playlist?list=PLIbXKGSQVP3c",
+      listaNameAyer: "Sopita Malecón",
+      listaNameHoy: "Sopita Malecón de noche",
+    },
+  };
+
+  const HASH_ALIAS = {
+    salon: "secador",
+    rolos: "secador",
+    esquina: "colmado",
+    silla: "barberia",
+    deluxe: "barberia",
+    "salon-deluxe": "barberia",
+    vitilla: "colmado",
+    marquesina: "limpieza",
+    cibao: "galeria",
   };
 
   const el = {
@@ -37,6 +109,7 @@
     title: document.getElementById("title"),
     artist: document.getElementById("artist"),
     lista: document.getElementById("lista-link"),
+    listaLabel: document.querySelector("#lista-link .pill__label"),
     play: document.getElementById("btn-play"),
     prev: document.getElementById("btn-prev"),
     next: document.getElementById("btn-next"),
@@ -54,6 +127,7 @@
     heroA: document.getElementById("hero-a"),
     heroB: document.getElementById("hero-b"),
     rooms: Array.from(document.querySelectorAll(".rooms a")),
+    eras: Array.from(document.querySelectorAll(".eras a")),
     themes: Array.from(document.querySelectorAll('meta[name="theme-color"]')),
     maskIcon: document.querySelector('link[rel="mask-icon"]'),
     dbg: document.getElementById("dbg"),
@@ -62,7 +136,8 @@
   };
 
   const state = {
-    room: "salon",
+    room: "colmado",
+    era: "ayer",
     catalog: [],
     catalogs: {},
     queue: [],
@@ -279,22 +354,55 @@
     state.index = 0;
   }
 
+  function sceneKey(id) {
+    const room = ROOMS[id];
+    return state.era === "hoy" && room && room.plateHoy ? id + "-hoy" : id;
+  }
+
+  function themeOf(id) {
+    const room = ROOMS[id];
+    if (!room) return "#727959";
+    return state.era === "hoy" && room.themeHoy ? room.themeHoy : room.theme;
+  }
+
   function setTheme(color) {
+    const night = state.era === "hoy";
     document.documentElement.style.setProperty("--theme", color);
-    document.querySelectorAll('meta[name="theme-color"]').forEach((meta) => meta.remove());
-    const meta = document.createElement("meta");
-    meta.setAttribute("name", "theme-color");
-    meta.setAttribute("content", color);
-    document.head.appendChild(meta);
-    el.themes = [meta];
+    document.documentElement.style.backgroundColor = color;
+    document.documentElement.style.colorScheme = night ? "dark" : "light";
+    document.body.style.backgroundColor = color;
+    const chrome = document.querySelector(".safari-chrome");
+    if (chrome) chrome.style.backgroundColor = color;
+    const stack = document.querySelector(".hero-stack");
+    if (stack) stack.style.backgroundColor = color;
+    // Safari only notices a new theme-color node, not a content= mutation.
+    document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
+    const medias = [null, "(prefers-color-scheme: light)", "(prefers-color-scheme: dark)"];
+    const nodes = medias.map((media) => {
+      const meta = document.createElement("meta");
+      meta.setAttribute("name", "theme-color");
+      meta.setAttribute("content", color);
+      if (media) meta.setAttribute("media", media);
+      document.head.insertBefore(meta, document.head.firstChild);
+      return meta;
+    });
+    el.themes = nodes;
+    let scheme = document.querySelector('meta[name="color-scheme"]');
+    if (!scheme) {
+      scheme = document.createElement("meta");
+      scheme.setAttribute("name", "color-scheme");
+      document.head.appendChild(scheme);
+    }
+    scheme.setAttribute("content", night ? "dark" : "light");
     if (el.maskIcon) el.maskIcon.setAttribute("color", color);
   }
 
   function crossfadeScene(id) {
+    const scene = sceneKey(id);
     const front = state.frontHero === "a" ? el.heroA : el.heroB;
     const back = state.frontHero === "a" ? el.heroB : el.heroA;
-    if (front.dataset.scene === id) return;
-    back.dataset.scene = id;
+    if (front.dataset.scene === scene) return;
+    back.dataset.scene = scene;
     back.classList.add("is-on");
     front.classList.remove("is-on");
     state.frontHero = state.frontHero === "a" ? "b" : "a";
@@ -390,26 +498,62 @@
   }
 
   function roomFromHash() {
-    const id = (location.hash || "#salon").slice(1);
-    return ROOMS[id] ? id : "salon";
+    const raw = (location.hash || "#colmado").slice(1);
+    const id = HASH_ALIAS[raw] || raw;
+    return ROOMS[id] ? id : "colmado";
+  }
+
+  function eraFromUrl() {
+    return new URLSearchParams(location.search).get("hoy") === "1" ? "hoy" : "ayer";
+  }
+
+  function writeEraUrl(era, push) {
+    const url = new URL(location.href);
+    if (era === "hoy") url.searchParams.set("hoy", "1");
+    else url.searchParams.delete("hoy");
+    const next = url.pathname + url.search + location.hash;
+    if (push) history.pushState(null, "", next);
+    else history.replaceState(null, "", next);
+  }
+
+  function catalogUrl(id, era) {
+    const room = ROOMS[id];
+    return era === "hoy" ? room.tracksHoy : room.tracksAyer;
+  }
+
+  function listaUrl(id, era) {
+    const room = ROOMS[id];
+    return era === "hoy" ? room.listaHoy : room.listaAyer;
+  }
+
+  function listaName(id, era) {
+    const room = ROOMS[id];
+    if (!room) return "Sopita";
+    return era === "hoy" ? room.listaNameHoy : room.listaNameAyer;
   }
 
   function paintRoomChrome(id) {
     const room = ROOMS[id];
     document.body.dataset.room = id;
-    setTheme(room.theme);
-    el.wordmark.replaceChildren(
-      ...(room.lockup || [room.name]).map((line) => {
-        const span = document.createElement("span");
-        span.textContent = line;
-        return span;
-      })
-    );
+    document.body.dataset.era = state.era;
+    setTheme(themeOf(id));
+    const lines = room.lockup || [room.name];
+    const texts = el.wordmark.querySelectorAll("text");
+    if (texts[0]) texts[0].textContent = lines[0] || "";
+    if (texts[1]) texts[1].textContent = lines[1] || "";
+    el.wordmark.setAttribute("aria-label", room.name);
     el.kicker.textContent = room.kicker;
-    el.lista.href = room.lista;
+    document.title = "Sopita · " + room.name;
+    const listName = listaName(id, state.era);
+    el.lista.href = listaUrl(id, state.era);
+    if (el.listaLabel) el.listaLabel.textContent = listName;
+    el.lista.setAttribute("aria-label", "Abrir " + listName + " en YouTube Music");
     crossfadeScene(id);
     for (const a of el.rooms) {
       a.classList.toggle("is-on", a.dataset.room === id);
+    }
+    for (const a of el.eras) {
+      a.classList.toggle("is-on", a.dataset.era === state.era);
     }
   }
 
@@ -432,40 +576,40 @@
     return { catalog, loop: !data || data.loop !== false };
   }
 
-  async function fetchRoom(id) {
-    if (state.catalogs[id]) return state.catalogs[id];
-    const room = ROOMS[id];
-    const res = await fetch(room.tracks, { cache: "no-store" });
+  async function fetchRoom(id, era) {
+    const key = `${id}:${era}`;
+    if (state.catalogs[key]) return state.catalogs[key];
+    const res = await fetch(catalogUrl(id, era), { cache: "no-store" });
     if (!res.ok) throw new Error(String(res.status));
     const parsed = normalizeTracks(await res.json());
-    state.catalogs[id] = parsed;
+    state.catalogs[key] = parsed;
     return parsed;
   }
 
   function prefetchRooms() {
     for (const id of Object.keys(ROOMS)) {
-      if (state.catalogs[id]) continue;
-      fetchRoom(id).catch(() => {});
+      fetchRoom(id, "ayer").catch(() => {});
+      fetchRoom(id, "hoy").catch(() => {});
     }
   }
 
   async function loadRoom(id, autoplay) {
     const room = ROOMS[id];
     if (!room) return;
-    if (id === state.room) {
-      if (state.catalog.length) {
-        if (autoplay) await playCurrent();
-        return;
-      }
-      if (state.loadGen) return;
+    const era = eraFromUrl();
+    if (id === state.room && era === state.era && state.catalog.length) {
+      if (autoplay) await playCurrent();
+      return;
     }
     const gen = ++state.loadGen;
     const fromRoom = state.room;
+    const fromEra = state.era;
     state.room = id;
+    state.era = era;
     paintRoomChrome(id);
     let parsed;
     try {
-      parsed = await fetchRoom(id);
+      parsed = await fetchRoom(id, era);
     } catch {
       if (gen !== state.loadGen) return;
       announce("No se pudo cargar la lista.");
@@ -479,7 +623,7 @@
     if (autoplay && current()) {
       state.wanted = "play";
       const live = state.playing || ytState() === 1;
-      if (live && fromRoom !== id) await mixInto(current(), gen);
+      if (live && (fromRoom !== id || fromEra !== era)) await mixInto(current(), gen);
       else await ensurePlayer();
     }
   }
@@ -654,17 +798,19 @@
       height: 270,
       videoId,
       host: "https://www.youtube.com",
-      playerVars: {
-        autoplay: slot === state.activeSlot ? 1 : 0,
-        controls: 0,
-        disablekb: 1,
-        fs: 0,
-        modestbranding: 1,
-        rel: 0,
-        playsinline: 1,
-        iv_load_policy: 3,
-        origin: location.origin,
-      },
+      playerVars: Object.assign(
+        {
+          autoplay: slot === state.activeSlot && state.wanted === "play" ? 1 : 0,
+          controls: 0,
+          disablekb: 1,
+          fs: 0,
+          modestbranding: 1,
+          rel: 0,
+          playsinline: 1,
+          iv_load_policy: 3,
+        },
+        /^\d+\.\d+\.\d+\.\d+$/.test(location.hostname) ? {} : { origin: location.origin }
+      ),
       events: {
         onReady(event) {
           hideIframe(event.target);
@@ -1063,7 +1209,13 @@
     const arm = () => {
       state.armed = true;
     };
-    document.addEventListener("pointerdown", arm, { once: true });
+    const startFromGesture = (event) => {
+      arm();
+      if (event && event.target && event.target.closest && event.target.closest("#btn-play, .controls, a, input")) return;
+      if (state.wanted === "idle") state.wanted = "play";
+      if (current() && state.wanted === "play") playCurrent();
+    };
+    document.addEventListener("pointerdown", startFromGesture, { once: true });
     window.addEventListener("keydown", (event) => {
       if (event.key === "D" && event.shiftKey && !event.metaKey && !event.ctrlKey && !event.altKey) {
         event.preventDefault();
@@ -1114,12 +1266,27 @@
         const id = a.dataset.room;
         if (!ROOMS[id]) return;
         state.armed = true;
-        if (id !== state.room) loadRoom(id, true);
+        state.wanted = "play";
+        if (id === state.room) playCurrent();
+        else loadRoom(id, true);
+      });
+    }
+    for (const a of el.eras) {
+      a.addEventListener("click", (event) => {
+        event.preventDefault();
+        const era = a.dataset.era === "hoy" ? "hoy" : "ayer";
+        if (era === state.era) return;
+        state.armed = true;
+        writeEraUrl(era, true);
+        loadRoom(state.room, true);
       });
     }
     window.addEventListener("hashchange", () => {
       const next = roomFromHash();
       if (next !== state.room) loadRoom(next, state.armed);
+    });
+    window.addEventListener("popstate", () => {
+      loadRoom(roomFromHash(), state.armed);
     });
     if ("mediaSession" in navigator) {
       const bindSession = (action, handler) => {
@@ -1137,9 +1304,12 @@
   }
 
   function absolutizeShareImages() {
-    const href = new URL("assets/og.jpg", location.href).href;
-    document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"]').forEach((tag) => {
-      tag.setAttribute("content", href);
+    document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"], link[rel="image_src"]').forEach((tag) => {
+      const raw = tag.getAttribute("content") || tag.getAttribute("href");
+      if (!raw) return;
+      const href = new URL(raw, location.href).href;
+      if (tag.hasAttribute("content")) tag.setAttribute("content", href);
+      else tag.setAttribute("href", href);
     });
   }
 
@@ -1151,8 +1321,9 @@
     startPresence();
     startWatchdog();
     setDebug(debugOn());
-    await loadRoom(roomFromHash(), false);
+    loadApi().catch(() => {});
     prefetchRooms();
+    await loadRoom(roomFromHash(), false);
   }
 
   boot();

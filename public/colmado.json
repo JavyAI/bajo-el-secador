@@ -1,5 +1,5 @@
 {
-  "name": "En la esquina",
+  "name": "En el colmado",
   "youtubePlaylist": "https://music.youtube.com/playlist?list=PLHayRTekRcmM",
   "shuffle": false,
   "loop": true,
@@ -69,12 +69,12 @@
       "intro": true
     },
     {
-      "id": "2LiZyAIVmbs",
+      "id": "McV4pBRb-Sg",
       "artist": "Juan Luis Guerra",
-      "title": "Bachata Rosa",
-      "youtube": "https://www.youtube.com/watch?v=2LiZyAIVmbs",
-      "artwork": "assets/covers/2LiZyAIVmbs.jpg",
-      "artworkLarge": "assets/covers/2LiZyAIVmbs.jpg",
+      "title": "La Bilirrubina",
+      "youtube": "https://www.youtube.com/watch?v=McV4pBRb-Sg",
+      "artwork": "assets/covers/McV4pBRb-Sg.jpg",
+      "artworkLarge": "assets/covers/McV4pBRb-Sg.jpg",
       "intro": true
     },
     {
@@ -123,30 +123,22 @@
       "intro": true
     },
     {
-      "id": "EhBwGUityKo",
-      "artist": "Grupo Niche",
-      "title": "Cali Pachanguero",
-      "youtube": "https://www.youtube.com/watch?v=EhBwGUityKo",
-      "artwork": "assets/covers/EhBwGUityKo.jpg",
-      "artworkLarge": "assets/covers/EhBwGUityKo.jpg",
+      "id": "y08MAPIACBY",
+      "artist": "Cuco Valoy",
+      "title": "Juliana",
+      "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
+      "artwork": "assets/covers/y08MAPIACBY.jpg",
+      "artworkLarge": "assets/covers/y08MAPIACBY.jpg",
       "intro": true
     },
     {
-      "id": "v0ckuv1xBm0",
+      "id": "tPTB0TRV3BA",
       "artist": "Juan Luis Guerra",
-      "title": "Burbujas de Amor",
-      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
-      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
-      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg",
+      "title": "El Costo de La Vida",
+      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
+      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
+      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
       "intro": true
-    },
-    {
-      "id": "kAKVT1HWNsg",
-      "artist": "Son by Four",
-      "title": "A Puro Dolor",
-      "youtube": "https://www.youtube.com/watch?v=kAKVT1HWNsg",
-      "artwork": "assets/covers/kAKVT1HWNsg.jpg",
-      "artworkLarge": "assets/covers/kAKVT1HWNsg.jpg"
     },
     {
       "id": "ExCIp6TOnJw",
@@ -229,6 +221,22 @@
       "artworkLarge": "assets/covers/JXLNr85yoKk.jpg"
     },
     {
+      "id": "u6Q5Lu0Sq3g",
+      "artist": "Chiquito Team Band",
+      "title": "La Llamada De Mi Ex",
+      "youtube": "https://www.youtube.com/watch?v=u6Q5Lu0Sq3g",
+      "artwork": "assets/covers/u6Q5Lu0Sq3g.jpg",
+      "artworkLarge": "assets/covers/u6Q5Lu0Sq3g.jpg"
+    },
+    {
+      "id": "8820jXsE4kQ",
+      "artist": "Chiquito Team Band",
+      "title": "Lejos De Ti",
+      "youtube": "https://www.youtube.com/watch?v=8820jXsE4kQ",
+      "artwork": "assets/covers/8820jXsE4kQ.jpg",
+      "artworkLarge": "assets/covers/8820jXsE4kQ.jpg"
+    },
+    {
       "id": "UwnmzIgNzyU",
       "artist": "Grupo Niche",
       "title": "Una Aventura",
@@ -251,6 +259,14 @@
       "youtube": "https://www.youtube.com/watch?v=af9gVqE9-E8",
       "artwork": "assets/covers/af9gVqE9-E8.jpg",
       "artworkLarge": "assets/covers/af9gVqE9-E8.jpg"
+    },
+    {
+      "id": "kAKVT1HWNsg",
+      "artist": "Son by Four",
+      "title": "A Puro Dolor",
+      "youtube": "https://www.youtube.com/watch?v=kAKVT1HWNsg",
+      "artwork": "assets/covers/kAKVT1HWNsg.jpg",
+      "artworkLarge": "assets/covers/kAKVT1HWNsg.jpg"
     },
     {
       "id": "MAq9y0bxTX0",
@@ -365,12 +381,12 @@
       "artworkLarge": "assets/covers/95Wcl9ucitM.jpg"
     },
     {
-      "id": "McV4pBRb-Sg",
+      "id": "2LiZyAIVmbs",
       "artist": "Juan Luis Guerra",
-      "title": "La Bilirrubina",
-      "youtube": "https://www.youtube.com/watch?v=McV4pBRb-Sg",
-      "artwork": "assets/covers/McV4pBRb-Sg.jpg",
-      "artworkLarge": "assets/covers/McV4pBRb-Sg.jpg"
+      "title": "Bachata Rosa",
+      "youtube": "https://www.youtube.com/watch?v=2LiZyAIVmbs",
+      "artwork": "assets/covers/2LiZyAIVmbs.jpg",
+      "artworkLarge": "assets/covers/2LiZyAIVmbs.jpg"
     },
     {
       "id": "fDj-CSQDbsY",
@@ -517,12 +533,12 @@
       "artworkLarge": "assets/covers/s_U6G68NYec.jpg"
     },
     {
-      "id": "y08MAPIACBY",
-      "artist": "Cuco Valoy",
-      "title": "Juliana",
-      "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
-      "artwork": "assets/covers/y08MAPIACBY.jpg",
-      "artworkLarge": "assets/covers/y08MAPIACBY.jpg"
+      "id": "EhBwGUityKo",
+      "artist": "Grupo Niche",
+      "title": "Cali Pachanguero",
+      "youtube": "https://www.youtube.com/watch?v=EhBwGUityKo",
+      "artwork": "assets/covers/EhBwGUityKo.jpg",
+      "artworkLarge": "assets/covers/EhBwGUityKo.jpg"
     },
     {
       "id": "e494zPaEc6A",
@@ -621,12 +637,12 @@
       "artworkLarge": "assets/covers/bibVirPrCD4.jpg"
     },
     {
-      "id": "tPTB0TRV3BA",
+      "id": "v0ckuv1xBm0",
       "artist": "Juan Luis Guerra",
-      "title": "El Costo de La Vida",
-      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
-      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
-      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg"
+      "title": "Burbujas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
+      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
+      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg"
     },
     {
       "id": "ISvXRDB8iwE",
@@ -691,22 +707,6 @@
       "youtube": "https://www.youtube.com/watch?v=KP_TJdAiGLE",
       "artwork": "assets/covers/KP_TJdAiGLE.jpg",
       "artworkLarge": "assets/covers/KP_TJdAiGLE.jpg"
-    },
-    {
-      "id": "u6Q5Lu0Sq3g",
-      "artist": "Chiquito Team Band",
-      "title": "La Llamada De Mi Ex",
-      "youtube": "https://www.youtube.com/watch?v=u6Q5Lu0Sq3g",
-      "artwork": "assets/covers/u6Q5Lu0Sq3g.jpg",
-      "artworkLarge": "assets/covers/u6Q5Lu0Sq3g.jpg"
-    },
-    {
-      "id": "8820jXsE4kQ",
-      "artist": "Chiquito Team Band",
-      "title": "Lejos De Ti",
-      "youtube": "https://www.youtube.com/watch?v=8820jXsE4kQ",
-      "artwork": "assets/covers/8820jXsE4kQ.jpg",
-      "artworkLarge": "assets/covers/8820jXsE4kQ.jpg"
     }
   ],
   "introCount": 15
