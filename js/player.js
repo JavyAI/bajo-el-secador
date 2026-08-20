@@ -1596,27 +1596,7 @@
     });
   }
 
-  function pinIosSafariChrome() {
-    const ios = window.CSS && CSS.supports("-webkit-touch-callout", "none");
-    const coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
-    const standalone =
-      (window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) ||
-      window.navigator.standalone;
-    if (!ios || !coarse || standalone) return;
-    const raw = getComputedStyle(document.documentElement).getPropertyValue("--safari-scroll-offset");
-    const offset = Number.parseFloat(raw) || 80;
-    if (!offset) return;
-    const lock = () => {
-      if (Math.abs(window.scrollY - offset) > 2) window.scrollTo(0, offset);
-    };
-    window.scrollTo(0, offset);
-    window.addEventListener("scroll", lock, { passive: true });
-    window.addEventListener("resize", lock);
-    window.addEventListener("orientationchange", () => setTimeout(lock, 80));
-  }
-
   async function boot() {
-    pinIosSafariChrome();
     bind();
     absolutizeShareImages();
     tickClock();
