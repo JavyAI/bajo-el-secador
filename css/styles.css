@@ -1085,26 +1085,49 @@ body:not(.is-playing) .play .ico-pause {
   }
 }
 
-/* Last cascade: phone fill. Earlier .hero { position:absolute; inset:0 }
-   plus background-position: 50% 0% beat the coarse block, so a 16:9
-   plate on a tall phone showed the shop in the lower half. Do not use
-   inset:0 together with height:100lvh (Safari drops one). Dock stays. */
+/* Last cascade: phone fill. Stretch the plate with inset only — never
+   inset + height:100lvh together (Safari drops one and leaves theme
+   bands). cover fills the box; a light scale crops sky without punching
+   into a wall slab. Dock stays. */
 @media (pointer: coarse) {
+  html,
+  body {
+    height: 100%;
+    min-height: 100%;
+    min-height: 100dvh;
+    min-height: 100lvh;
+    min-height: -webkit-fill-available;
+    overflow: hidden;
+    padding: 0;
+  }
+
   .safari-shell,
   .hero-stack,
   .hero,
   .hero__veil {
     position: fixed;
-    inset: unset;
     top: 0;
-    right: auto;
-    bottom: auto;
+    right: 0;
+    bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100lvh;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    min-height: 100svh;
     min-height: 100dvh;
+    min-height: 100lvh;
     min-height: -webkit-fill-available;
     background-color: transparent;
+  }
+
+  .hero-stack,
+  .hero {
+    overflow: hidden;
+  }
+
+  .hero {
+    background-size: cover;
   }
 
   .dock {
@@ -1114,43 +1137,94 @@ body:not(.is-playing) .play .ico-pause {
 
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 480px) {
   .hero {
-    background-size: auto 142%;
-    background-position: 50% 68%;
+    background-size: cover;
+    background-position: 50% 58%;
+    transform: scale(1.16);
+    transform-origin: 50% 60%;
   }
 
   .hero[data-scene="colmado"],
   .hero[data-scene="colmado-hoy"] {
-    background-size: auto 146%;
-    background-position: 48% 72%;
+    background-position: 48% 60%;
+    transform: scale(1.18);
+    transform-origin: 48% 62%;
   }
 
   .hero[data-scene="secador"],
   .hero[data-scene="secador-hoy"] {
-    background-size: auto 136%;
-    background-position: 50% 58%;
+    background-position: 50% 52%;
+    transform: scale(1.12);
+    transform-origin: 50% 52%;
   }
 
   .hero[data-scene="barberia"],
   .hero[data-scene="barberia-hoy"] {
-    background-size: auto 142%;
-    background-position: 50% 70%;
+    background-position: 50% 58%;
+    transform: scale(1.16);
+    transform-origin: 50% 60%;
   }
 
   .hero[data-scene="limpieza"],
   .hero[data-scene="limpieza-hoy"] {
-    background-size: auto 140%;
-    background-position: 36% 66%;
+    background-position: 42% 56%;
+    transform: scale(1.14);
+    transform-origin: 40% 56%;
   }
 
   .hero[data-scene="galeria"],
   .hero[data-scene="galeria-hoy"] {
-    background-size: auto 134%;
-    background-position: 50% 60%;
+    background-position: 50% 54%;
+    transform: scale(1.1);
+    transform-origin: 50% 54%;
   }
 
   .hero[data-scene="malecon"],
   .hero[data-scene="malecon-hoy"] {
-    background-size: auto 152%;
-    background-position: 46% 74%;
+    background-position: 48% 55%;
+    transform: scale(1.18);
+    transform-origin: 48% 52%;
+  }
+}
+
+@media (pointer: coarse) and (orientation: portrait) and (max-width: 480px) and (max-aspect-ratio: 0.48) {
+  .hero {
+    transform: scale(1.2);
+    transform-origin: 50% 62%;
+  }
+
+  .hero[data-scene="colmado"],
+  .hero[data-scene="colmado-hoy"] {
+    transform: scale(1.2);
+    transform-origin: 50% 60%;
+  }
+
+  .hero[data-scene="secador"],
+  .hero[data-scene="secador-hoy"] {
+    transform: scale(1.14);
+    transform-origin: 50% 52%;
+  }
+
+  .hero[data-scene="barberia"],
+  .hero[data-scene="barberia-hoy"] {
+    transform: scale(1.2);
+    transform-origin: 50% 60%;
+  }
+
+  .hero[data-scene="limpieza"],
+  .hero[data-scene="limpieza-hoy"] {
+    transform: scale(1.16);
+    transform-origin: 42% 56%;
+  }
+
+  .hero[data-scene="galeria"],
+  .hero[data-scene="galeria-hoy"] {
+    transform: scale(1.12);
+    transform-origin: 50% 54%;
+  }
+
+  .hero[data-scene="malecon"],
+  .hero[data-scene="malecon-hoy"] {
+    transform: scale(1.2);
+    transform-origin: 50% 52%;
   }
 }
