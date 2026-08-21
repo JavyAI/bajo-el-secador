@@ -156,6 +156,7 @@
     index: 0,
     loop: true,
     playing: false,
+    playFromCatalog: false,
     wanted: "idle",
     player: null,
     players: { a: null, b: null },
@@ -580,6 +581,19 @@
 
   function applyPlaylistFromPlayer(player) {
     if (!player) return;
+    if (state.playFromCatalog) {
+      const vid = videoIdOf(player);
+      if (vid) {
+        const hit = state.queue.findIndex((track) => track.id === vid);
+        if (hit >= 0) state.index = hit;
+      }
+      try {
+        hydrateTrack(current(), player.getVideoData && player.getVideoData());
+      } catch {
+        /* ignore */
+      }
+      return;
+    }
     let ids = [];
     try {
       ids = (player.getPlaylist && player.getPlaylist()) || [];
@@ -841,7 +855,7 @@
       }
     } else if (event.data === YTref.PlayerState.ENDED) {
       if (isActive && !state.mixing) {
-        if (state.playlistId) {
+        if (state.playlistId && !state.playFromCatalog) {
           const p = event.target;
           setTimeout(() => {
             if (state.mixing || slot !== state.activeSlot) return;
@@ -1004,22 +1018,36 @@
     setTimeout(go, 400);
   }
 
+  function queueIds() {
+    const rows = state.queue.length ? state.queue : state.catalog || [];
+    return rows.map((track) => track && track.id).filter((id) => /^[A-Za-z0-9_-]{11}$/.test(id));
+  }
+
   function retuneToPlaylist(playlistId, videoId) {
     if (!playlistId || !window.YT || !window.YT.Player) return;
     const player = state.player;
-    const canReuse = player && typeof player.loadPlaylist === "function" && playerHasSrc(player);
+    const ids = queueIds();
+    const first = videoId || ids[0] || catalogFirstId(state.room, state.era);
+    const canReuse = player && playerHasSrc(player);
     if (canReuse) {
       cancelMix();
       const other = slotPlayer(idleSlot());
       if (other && other !== player) stopPlayer(other);
       state.loadedAt = Date.now();
       state.playerListId = playlistId;
-      loadRoomPlaylist(player, playlistId, 0);
+      state.playFromCatalog = true;
+      state.index = 0;
+      try {
+        if (first && player.loadVideoById) player.loadVideoById(first);
+      } catch {
+        /* kickPlay retries */
+      }
       kickPlay(player);
       hideIframe(player);
       return;
     }
-    swapToPlaylist(playlistId, videoId);
+    state.playFromCatalog = true;
+    swapToPlaylist(playlistId, first);
   }
 
   function swapToPlaylist(playlistId, videoId) {
@@ -1411,7 +1439,7 @@
     }
 
     const player = state.player;
-    if (state.playlistId && player) {
+    if (state.playlistId && player && !state.playFromCatalog) {
       try {
         if (step > 0 && player.nextVideo) player.nextVideo();
         else if (step < 0 && player.previousVideo) player.previousVideo();
@@ -1473,17 +1501,51 @@
   }
 
   function startPresence() {
-    const channel = "bes-presence";
-    const id = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-    const peers = new Map();
-    const bc = "BroadcastChannel" in window ? new BroadcastChannel(channel) : null;
-
-    function render() {
-      el.online.textContent = String(1 + peers.size);
+    const key = "sopita-aqui";
+    let id = "";
+    try {
+      id = sessionStorage.getItem(key) || "";
+      if (!id) {
+        id = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+        sessionStorage.setItem(key, id);
+      }
+    } catch {
+      id = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
     }
 
-    function ping() {
-      if (bc) bc.postMessage({ type: "here", id });
+    const peers = new Map();
+    const bc = "BroadcastChannel" in window ? new BroadcastChannel("bes-presence") : null;
+    let serverOn = true;
+
+    function show(n) {
+      const count = Math.max(1, Number(n) || 1);
+      if (el.online) el.online.textContent = String(count);
+    }
+
+    function localCount() {
+      return 1 + peers.size;
+    }
+
+    async function beat() {
+      if (!serverOn) {
+        show(localCount());
+        return;
+      }
+      try {
+        const res = await fetch("/api/aqui", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ id }),
+          keepalive: true,
+        });
+        if (!res.ok) throw new Error(String(res.status));
+        const data = await res.json();
+        if (!data || typeof data.n !== "number") throw new Error("bad");
+        show(data.n);
+      } catch {
+        serverOn = false;
+        show(localCount());
+      }
     }
 
     if (bc) {
@@ -1492,29 +1554,30 @@
         if (!msg.id || msg.id === id) return;
         if (msg.type === "here" || msg.type === "hello") {
           peers.set(msg.id, Date.now());
-          if (msg.type === "hello") ping();
-          render();
+          if (msg.type === "hello") bc.postMessage({ type: "here", id });
         }
-        if (msg.type === "bye") {
-          peers.delete(msg.id);
-          render();
-        }
+        if (msg.type === "bye") peers.delete(msg.id);
+        if (!serverOn) show(localCount());
       };
       bc.postMessage({ type: "hello", id });
-      ping();
-      setInterval(() => {
-        const cut = Date.now() - 8000;
-        for (const [peer, at] of peers) {
-          if (at < cut) peers.delete(peer);
-        }
-        ping();
-        render();
-      }, 2500);
-      window.addEventListener("pagehide", () => {
-        bc.postMessage({ type: "bye", id });
-      });
     }
-    render();
+
+    beat();
+    setInterval(() => {
+      const cut = Date.now() - 8000;
+      for (const [peer, at] of peers) {
+        if (at < cut) peers.delete(peer);
+      }
+      if (bc && !serverOn) bc.postMessage({ type: "here", id });
+      beat();
+    }, 4000);
+
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) beat();
+    });
+    window.addEventListener("pagehide", () => {
+      if (bc) bc.postMessage({ type: "bye", id });
+    });
   }
 
   function bind() {
