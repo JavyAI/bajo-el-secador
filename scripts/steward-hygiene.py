@@ -21,16 +21,16 @@ ROOMS = [
 ]
 
 AUTHED = {
-    ("colmado", "ayer"): "McV4pBRb-Sg",
-    ("colmado", "hoy"): "u6Q5Lu0Sq3g",
+    ("colmado", "ayer"): "WPiEbYSF9kE",
+    ("colmado", "hoy"): "h6sbZalmiu4",
     ("secador", "ayer"): "FwZTgDjRLM0",
     ("secador", "hoy"): "XEvKn-QgAY0",
-    ("barberia", "ayer"): "oVLS7QGWlGw",
-    ("barberia", "hoy"): "MB23TtaeiQY",
+    ("barberia", "ayer"): "SEjw5rdyvVg",
+    ("barberia", "hoy"): "QFs3PIZb3js",
     ("limpieza", "ayer"): "3LCEzvkwWwI",
     ("limpieza", "hoy"): "SagA6H4LWjI",
-    ("galeria", "ayer"): "95Wcl9ucitM",
-    ("galeria", "hoy"): "ea4ovC_B6ow",
+    ("galeria", "ayer"): "tPTB0TRV3BA",
+    ("galeria", "hoy"): "I9cCPQVPv8o",
     ("malecon", "ayer"): "iK3BlAZAtPs",
     ("malecon", "hoy"): "Mtau4v6foHA",
 }

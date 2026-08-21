@@ -8,6 +8,15 @@
   "count": 100,
   "tracks": [
     {
+      "id": "WPiEbYSF9kE",
+      "artist": "Elvis Crespo",
+      "title": "Suavemente",
+      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
+      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
+      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
+      "intro": true
+    },
+    {
       "id": "McV4pBRb-Sg",
       "artist": "Juan Luis Guerra",
       "title": "La Bilirrubina",
@@ -23,15 +32,6 @@
       "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
       "artwork": "assets/covers/1DbXzlhKS5s.jpg",
       "artworkLarge": "assets/covers/1DbXzlhKS5s.jpg",
-      "intro": true
-    },
-    {
-      "id": "WPiEbYSF9kE",
-      "artist": "Elvis Crespo",
-      "title": "Suavemente",
-      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
-      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
-      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
       "intro": true
     },
     {

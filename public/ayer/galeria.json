@@ -8,6 +8,15 @@
   "count": 100,
   "tracks": [
     {
+      "id": "tPTB0TRV3BA",
+      "artist": "Juan Luis Guerra",
+      "title": "El Costo de la Vida",
+      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
+      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
+      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
+      "intro": true
+    },
+    {
       "id": "95Wcl9ucitM",
       "artist": "Sergio Vargas",
       "title": "La Ventanita",
@@ -44,12 +53,12 @@
       "intro": true
     },
     {
-      "id": "tPTB0TRV3BA",
+      "id": "xE8gFafKTWU",
       "artist": "Juan Luis Guerra",
-      "title": "El Costo de la Vida",
-      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
-      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
-      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
+      "title": "En el Cielo No Hay Hospital",
+      "youtube": "https://www.youtube.com/watch?v=xE8gFafKTWU",
+      "artwork": "https://i.ytimg.com/vi/xE8gFafKTWU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xE8gFafKTWU/mqdefault.jpg",
       "intro": true
     },
     {
@@ -140,24 +149,6 @@
       "youtube": "https://www.youtube.com/watch?v=29NM6ySmwfQ",
       "artwork": "assets/covers/29NM6ySmwfQ.jpg",
       "artworkLarge": "assets/covers/29NM6ySmwfQ.jpg",
-      "intro": true
-    },
-    {
-      "id": "xE8gFafKTWU",
-      "artist": "Juan Luis Guerra",
-      "title": "En el Cielo No Hay Hospital",
-      "youtube": "https://www.youtube.com/watch?v=xE8gFafKTWU",
-      "artwork": "https://i.ytimg.com/vi/xE8gFafKTWU/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/xE8gFafKTWU/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "td2K3taR3bc",
-      "artist": "Cristian Castro",
-      "title": "Lloran las Rosas",
-      "youtube": "https://www.youtube.com/watch?v=td2K3taR3bc",
-      "artwork": "https://i.ytimg.com/vi/td2K3taR3bc/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/td2K3taR3bc/mqdefault.jpg",
       "intro": false
     },
     {
@@ -167,6 +158,15 @@
       "youtube": "https://www.youtube.com/watch?v=mIszekfGw3Q",
       "artwork": "assets/covers/mIszekfGw3Q.jpg",
       "artworkLarge": "assets/covers/mIszekfGw3Q.jpg",
+      "intro": false
+    },
+    {
+      "id": "td2K3taR3bc",
+      "artist": "Cristian Castro",
+      "title": "Lloran las Rosas",
+      "youtube": "https://www.youtube.com/watch?v=td2K3taR3bc",
+      "artwork": "https://i.ytimg.com/vi/td2K3taR3bc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/td2K3taR3bc/mqdefault.jpg",
       "intro": false
     },
     {

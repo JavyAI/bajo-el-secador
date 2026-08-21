@@ -26,6 +26,15 @@
       "intro": true
     },
     {
+      "id": "b1cbgrcBrY0",
+      "artist": "José José",
+      "title": "El Triste",
+      "youtube": "https://www.youtube.com/watch?v=b1cbgrcBrY0",
+      "artwork": "assets/covers/b1cbgrcBrY0.jpg",
+      "artworkLarge": "assets/covers/b1cbgrcBrY0.jpg",
+      "intro": true
+    },
+    {
       "id": "RgKqxLAhRKE",
       "artist": "Juan Gabriel",
       "title": "Amor Eterno",
@@ -41,15 +50,6 @@
       "youtube": "https://www.youtube.com/watch?v=kkF5eGMxwEQ",
       "artwork": "assets/covers/kkF5eGMxwEQ.jpg",
       "artworkLarge": "assets/covers/kkF5eGMxwEQ.jpg",
-      "intro": true
-    },
-    {
-      "id": "b1cbgrcBrY0",
-      "artist": "José José",
-      "title": "El Triste",
-      "youtube": "https://www.youtube.com/watch?v=b1cbgrcBrY0",
-      "artwork": "assets/covers/b1cbgrcBrY0.jpg",
-      "artworkLarge": "assets/covers/b1cbgrcBrY0.jpg",
       "intro": true
     },
     {

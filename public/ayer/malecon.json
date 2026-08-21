@@ -53,6 +53,15 @@
       "intro": true
     },
     {
+      "id": "hNDtsPMX7p0",
+      "artist": "Franco De Vita",
+      "title": "Te Amo",
+      "youtube": "https://www.youtube.com/watch?v=hNDtsPMX7p0",
+      "artwork": "assets/covers/hNDtsPMX7p0.jpg",
+      "artworkLarge": "assets/covers/hNDtsPMX7p0.jpg",
+      "intro": true
+    },
+    {
       "id": "NdKhS4MMCEo",
       "artist": "Luis Miguel",
       "title": "Somos Novios",
@@ -140,24 +149,6 @@
       "youtube": "https://www.youtube.com/watch?v=v6aicYYG59I",
       "artwork": "https://i.ytimg.com/vi/v6aicYYG59I/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/v6aicYYG59I/mqdefault.jpg",
-      "intro": true
-    },
-    {
-      "id": "hNDtsPMX7p0",
-      "artist": "Franco De Vita",
-      "title": "Te Amo",
-      "youtube": "https://www.youtube.com/watch?v=hNDtsPMX7p0",
-      "artwork": "assets/covers/hNDtsPMX7p0.jpg",
-      "artworkLarge": "assets/covers/hNDtsPMX7p0.jpg",
-      "intro": false
-    },
-    {
-      "id": "uBwk106e3es",
-      "artist": "Aventura",
-      "title": "Un Beso",
-      "youtube": "https://www.youtube.com/watch?v=uBwk106e3es",
-      "artwork": "assets/covers/uBwk106e3es.jpg",
-      "artworkLarge": "assets/covers/uBwk106e3es.jpg",
       "intro": false
     },
     {
@@ -167,6 +158,15 @@
       "youtube": "https://www.youtube.com/watch?v=-hoZpSoKAYE",
       "artwork": "https://i.ytimg.com/vi/-hoZpSoKAYE/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/-hoZpSoKAYE/mqdefault.jpg",
+      "intro": false
+    },
+    {
+      "id": "uBwk106e3es",
+      "artist": "Aventura",
+      "title": "Un Beso",
+      "youtube": "https://www.youtube.com/watch?v=uBwk106e3es",
+      "artwork": "assets/covers/uBwk106e3es.jpg",
+      "artworkLarge": "assets/covers/uBwk106e3es.jpg",
       "intro": false
     },
     {

@@ -34,14 +34,14 @@ Some voices own a genre. They may appear more than once.
 
 | Room | El Ayer | El Presente |
 |---|---|---|
-| Colmado | Juan Luis Guerra — *La Bilirrubina* `McV4pBRb-Sg` | Chiquito Team Band — *La Llamada De Mi Ex* `u6Q5Lu0Sq3g` |
+| Colmado | Elvis Crespo — *Suavemente* `WPiEbYSF9kE` | Elvis Crespo — *Abracadabra* `h6sbZalmiu4` |
 | Secador | Selena — *Como La Flor* `FwZTgDjRLM0` | Prince Royce, Shakira — *Deja Vu* `XEvKn-QgAY0` |
-| Barbería | Antony Santos — *Voy Pa'llá* `oVLS7QGWlGw` | Zacarías Ferreira — *La Asesina* `MB23TtaeiQY` |
+| Barbería | Aventura — *Obsesión* `SEjw5rdyvVg` | Romeo Santos — *Propuesta Indecente* `QFs3PIZb3js` |
 | Limpieza | Toño Rosario — *Kulikitaka* `3LCEzvkwWwI` | Los Hermanos Rosario — *Pasarela* `SagA6H4LWjI` |
-| Galería | Sergio Vargas — *La Ventanita* `95Wcl9ucitM` | Vicente García — *Carmesí* `ea4ovC_B6ow` |
+| Galería | Juan Luis Guerra — *El Costo de la Vida* `tPTB0TRV3BA` | Ricardo Arjona, Gaby Moreno — *Fuiste Tú* `I9cCPQVPv8o` |
 | Malecón | Chayanne — *Completamente Enamorados* `iK3BlAZAtPs` | Carlos Vives, Sebastián Yatra — *Robarte un Beso* `Mtau4v6foHA` |
 
-Walked 2026-08-21: first 15 seconds that stop the room, not view-rank / TikTok. Previous #1s stay in the first 5.
+Always bombs: slot #1 is the 15-second body hit for that room. Charts can name a candidate (*Suavemente* is Hot Latin #1). They do not auto-win if the room refuses (*Despacito*, *La Gozadera*).
 
 Forgotten / overtaken #1 sits **in** the 15, never as opener.
 

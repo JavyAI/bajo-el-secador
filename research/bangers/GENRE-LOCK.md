@@ -33,7 +33,7 @@ Eras (already locked):
 | **IN** | Bachata **típica / amargue** first (Antony, Vargas, Raulín, Segura, Frank, Monchy, Yoskar, Alex Bueno, Luis Miguel del Amargue). Then Aventura-era (1999–2010) |
 | **OUT** | Salsa dura, merengue de fiesta, dryer balada as the spine, English R&B-bachata (Toby Love), Don Omar-led *Ella y Yo* as opener | Chart pop-bachata (Turizo), *Promise* / *Odio* / *You*, dembow |
 
-**Temperature:** the coin in the machine. Mayimbe before Royce. *Voy Pa'llá* opens AYER; *Obsesión* stays in the first 5.
+**Temperature:** the coin in the machine. Mayimbe before Royce. Always bombs: *Obsesión* opens AYER.
 
 ---
 

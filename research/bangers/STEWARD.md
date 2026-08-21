@@ -25,6 +25,10 @@ Protect yesterday. Keep each room’s door sounding like that room. Flag hygiene
 
 Wow in 15 seconds **in this room**. Official YouTube views pick the clip inside the pool. TikTok/Shorts may confirm a catalog song is still a sound. They must not insert tracks or reorder a door.
 
+## Always bombs
+
+Slot #1 is the 15-second body bomb for that room. Billboard can confirm a merengue bomb (*Suavemente* Hot Latin #1 × 6). It cannot put *La Gozadera* on the colmado.
+
 ## Last pass
 
-2026-08-21 walk — Javy rejected virality-as-#1. First 5 of each list reopened on **wow in 15 seconds in this room**. Old #1s stay in the first 5, not the throne. First-5 ids still unique. No consecutive leads. Live JSON updated.
+2026-08-21 — always bombs. Colmado de día opens *Suavemente*. First-5 unique. No consecutive leads.

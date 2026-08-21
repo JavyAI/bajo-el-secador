@@ -35,21 +35,21 @@
       "intro": true
     },
     {
-      "id": "E6soE-1p3kw",
-      "artist": "Milly Quezada",
-      "title": "Volvió Juanita",
-      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
-      "artwork": "assets/covers/E6soE-1p3kw.jpg",
-      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg",
-      "intro": true
-    },
-    {
       "id": "lvfQWpvcE30",
       "artist": "Los Hermanos Rosario",
       "title": "Ella Se Fue",
       "youtube": "https://www.youtube.com/watch?v=lvfQWpvcE30",
       "artwork": "assets/covers/lvfQWpvcE30.jpg",
       "artworkLarge": "assets/covers/lvfQWpvcE30.jpg",
+      "intro": true
+    },
+    {
+      "id": "E6soE-1p3kw",
+      "artist": "Milly Quezada",
+      "title": "Volvió Juanita",
+      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
+      "artwork": "assets/covers/E6soE-1p3kw.jpg",
+      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg",
       "intro": true
     },
     {
