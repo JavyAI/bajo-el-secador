@@ -177,6 +177,9 @@
     masterVolume: 100,
     volumeWorks: null,
     advancing: false,
+    startedId: null,
+    peakTime: 0,
+    wantId: null,
     expectIncoming: null,
     lastFailAt: 0,
     loadedAt: 0,
@@ -268,11 +271,21 @@
       const s = ytState(player);
       if (s === 1 || s === 3) {
         if (s === 1) state.nudgeCount = 0;
+        markPlayback(player);
+        const id = videoIdOf(player);
+        if (state.wantId && id && id !== state.wantId) {
+          try {
+            player.loadVideoById(state.wantId);
+          } catch {
+            /* ignore */
+          }
+          playWhenOnTrack(player, state.wantId);
+        }
         return;
       }
       if (s === 0) {
         if (state.advancing) return;
-        if (songPlayedLongEnough(player)) {
+        if (shouldAdvance(player)) {
           go(1, { fromEnd: true });
           return;
         }
@@ -291,9 +304,103 @@
     }
   }
 
-  function songPlayedLongEnough(player) {
+  function markPlayback(player) {
+    const vid = videoIdOf(player);
+    if (!vid) return;
+    let t = 0;
+    try {
+      t = (player.getCurrentTime && player.getCurrentTime()) || 0;
+    } catch {
+      t = 0;
+    }
+    if (vid !== state.startedId) {
+      state.startedId = vid;
+      state.startedAt = Date.now();
+      state.peakTime = t;
+      return;
+    }
+    if (t > state.peakTime) state.peakTime = t;
+  }
+
+  function shouldAdvance(player) {
+    if ((state.peakTime || 0) >= 8) return true;
     const playedMs = Date.now() - (state.startedAt || 0);
-    return playedMs >= 8000 || isRealEnd(player);
+    if (state.startedAt && playedMs >= 8000) return true;
+    return isRealEnd(player);
+  }
+
+  function songPlayedLongEnough(player) {
+    return shouldAdvance(player);
+  }
+
+  // playVideo() on an ENDED player restarts that same video. Wait until
+  // loadVideoById has actually switched ids, then play.
+  function playWhenOnTrack(player, wantId) {
+    if (!player || !wantId || state.wanted !== "play") return;
+    const t0 = Date.now();
+    const tick = () => {
+      if (state.wanted !== "play") return;
+      if (state.player && player !== state.player && !state.mixing) return;
+      const id = videoIdOf(player);
+      const s = ytState(player);
+      if (id === wantId) {
+        if (s !== 1 && s !== 3) {
+          try {
+            if (player.unMute) player.unMute();
+            setVol(player, state.masterVolume);
+            player.playVideo();
+          } catch {
+            /* ignore */
+          }
+        }
+        return;
+      }
+      if (Date.now() - t0 > 1600) {
+        try {
+          player.loadVideoById(wantId);
+        } catch {
+          /* ignore */
+        }
+        return;
+      }
+      setTimeout(tick, 70);
+    };
+    setTimeout(tick, 40);
+  }
+
+  // playVideo() on an ENDED player restarts that same video. Wait until
+  // loadVideoById has actually switched ids, then play.
+  function playWhenOnTrack(player, wantId) {
+    if (!player || !wantId || state.wanted !== "play") return;
+    const t0 = Date.now();
+    const tick = () => {
+      if (state.wanted !== "play") return;
+      if (state.player && player !== state.player && !state.mixing) return;
+      const id = videoIdOf(player);
+      const s = ytState(player);
+      if (id === wantId) {
+        if (s !== 1 && s !== 3) {
+          try {
+            if (player.unMute) player.unMute();
+            setVol(player, state.masterVolume);
+            player.playVideo();
+          } catch {
+            /* ignore */
+          }
+        }
+        return;
+      }
+      if (Date.now() - t0 > 1600) {
+        try {
+          player.loadVideoById(wantId);
+        } catch {
+          /* ignore */
+        }
+        return;
+      }
+      setTimeout(tick, 70);
+    };
+    setTimeout(tick, 40);
   }
 
   function reducedMotion() {
@@ -746,6 +853,7 @@
       state.catalog = cached.catalog;
       state.queue = cached.catalog.slice();
       state.index = 0;
+      state.playFromCatalog = true;
       paint(current());
     } else {
       paint(null);
@@ -758,6 +866,7 @@
       .then((parsed) => {
         if (gen !== state.loadGen) return;
         state.catalog = parsed.catalog;
+        if (parsed.catalog.length) state.playFromCatalog = true;
         if (!state.queue.length && parsed.catalog.length) {
           state.queue = parsed.catalog.slice();
           state.index = 0;
@@ -805,6 +914,7 @@
     } catch {
       return;
     }
+    markPlayback(player);
     state.duration = dur;
     el.elapsed.textContent = fmt(cur);
     el.duration.textContent = fmt(dur);
@@ -845,7 +955,20 @@
         return;
       }
       if (isActive && !state.mixing) {
+        const vid = videoIdOf(event.target);
+        if (state.wantId && vid && vid !== state.wantId) {
+          dbg("stale-playing", vid);
+          try {
+            event.target.loadVideoById(state.wantId);
+          } catch {
+            /* ignore */
+          }
+          playWhenOnTrack(event.target, state.wantId);
+          return;
+        }
+        if (state.wantId && vid === state.wantId) state.wantId = null;
         state.advancing = false;
+        markPlayback(event.target);
         applyPlaylistFromPlayer(event.target);
         if (current()) paint(current());
         setPlayingUi(true);
@@ -869,7 +992,8 @@
       if (!isActive || state.mixing) return;
       if (state.wanted !== "play") return;
       if (state.advancing) return;
-      if (songPlayedLongEnough(event.target)) {
+      markPlayback(event.target);
+      if (shouldAdvance(event.target)) {
         dbg("real-end", "");
         go(1, { fromEnd: true });
         return;
@@ -1035,6 +1159,7 @@
       state.playerListId = playlistId;
       state.playFromCatalog = true;
       state.index = 0;
+      state.wantId = first || null;
       try {
         if (first && player.loadVideoById) player.loadVideoById(first);
       } catch {
@@ -1096,11 +1221,6 @@
       },
       /^\d+\.\d+\.\d+\.\d+$/.test(location.hostname) ? {} : { origin: location.origin }
     );
-    if (playlistId) {
-      playerVars.listType = "playlist";
-      playerVars.list = playlistId;
-      playerVars.loop = 0;
-    }
     const opts = {
       width: 480,
       height: 270,
@@ -1252,7 +1372,7 @@
       try {
         if (pid && incoming.loadPlaylist) {
           incoming.loadPlaylist({ list: pid, listType: "playlist", index: 0 });
-          if (incoming.setLoop) incoming.setLoop(true);
+          if (incoming.setLoop) incoming.setLoop(false);
         } else if (track) {
           if (incoming.cueVideoById) incoming.cueVideoById(track.id);
           else incoming.loadVideoById(track.id);
@@ -1464,7 +1584,7 @@
     }
 
     const player = state.player;
-    if (state.playlistId && player && !state.playFromCatalog) {
+    if (state.playlistId && player && !state.playFromCatalog && state.queue.length < 2) {
       try {
         if (step > 0 && player.nextVideo) player.nextVideo();
         else if (step < 0 && player.previousVideo) player.previousVideo();
@@ -1504,12 +1624,13 @@
         state.wanted = "play";
         const p = state.player;
         if (state.playFromCatalog && p && track && p.loadVideoById) {
+          state.wantId = track.id;
           try {
             p.loadVideoById(track.id);
           } catch {
             /* ignore */
           }
-          kickPlay(p);
+          playWhenOnTrack(p, track.id);
         } else {
           await ensurePlayer();
         }
