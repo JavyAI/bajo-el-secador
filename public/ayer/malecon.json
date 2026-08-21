@@ -8,15 +8,6 @@
   "count": 100,
   "tracks": [
     {
-      "id": "v0ckuv1xBm0",
-      "artist": "Juan Luis Guerra",
-      "title": "Burbujas de Amor",
-      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
-      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
-      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg",
-      "intro": true
-    },
-    {
       "id": "iK3BlAZAtPs",
       "artist": "Chayanne",
       "title": "Completamente Enamorados",
@@ -35,6 +26,24 @@
       "intro": true
     },
     {
+      "id": "v0ckuv1xBm0",
+      "artist": "Juan Luis Guerra",
+      "title": "Burbujas de Amor",
+      "youtube": "https://www.youtube.com/watch?v=v0ckuv1xBm0",
+      "artwork": "assets/covers/v0ckuv1xBm0.jpg",
+      "artworkLarge": "assets/covers/v0ckuv1xBm0.jpg",
+      "intro": true
+    },
+    {
+      "id": "8sCWmb8f-BY",
+      "artist": "Monchy y Alexandra",
+      "title": "Te Quiero Igual Que Ayer",
+      "youtube": "https://www.youtube.com/watch?v=8sCWmb8f-BY",
+      "artwork": "assets/covers/8sCWmb8f-BY.jpg",
+      "artworkLarge": "assets/covers/8sCWmb8f-BY.jpg",
+      "intro": true
+    },
+    {
       "id": "2LiZyAIVmbs",
       "artist": "Juan Luis Guerra",
       "title": "Bachata Rosa",
@@ -50,15 +59,6 @@
       "youtube": "https://www.youtube.com/watch?v=NdKhS4MMCEo",
       "artwork": "https://i.ytimg.com/vi/NdKhS4MMCEo/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/NdKhS4MMCEo/mqdefault.jpg",
-      "intro": true
-    },
-    {
-      "id": "8sCWmb8f-BY",
-      "artist": "Monchy y Alexandra",
-      "title": "Te Quiero Igual Que Ayer",
-      "youtube": "https://www.youtube.com/watch?v=8sCWmb8f-BY",
-      "artwork": "assets/covers/8sCWmb8f-BY.jpg",
-      "artworkLarge": "assets/covers/8sCWmb8f-BY.jpg",
       "intro": true
     },
     {

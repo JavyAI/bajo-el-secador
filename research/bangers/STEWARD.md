@@ -27,4 +27,4 @@ Wow in 15 seconds **in this room**. Official YouTube views pick the clip inside 
 
 ## Last pass
 
-2026-08-21 — first-5 unique across 12; no consecutive leads; lists frozen. Watch (not fix): Barbería HOY Romeo 5× in the 15; Galería AYER JLG 4× in the 15; Colmado HOY Yiyo 4× in the 15 (house pair). *Volvió Juanita* quiet on TikTok, loud on Sunday — keep.
+2026-08-21 walk — Javy rejected virality-as-#1. First 5 of each list reopened on **wow in 15 seconds in this room**. Old #1s stay in the first 5, not the throne. First-5 ids still unique. No consecutive leads. Live JSON updated.

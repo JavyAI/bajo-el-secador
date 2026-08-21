@@ -8,30 +8,12 @@
   "count": 100,
   "tracks": [
     {
-      "id": "_koz_f4mthE",
+      "id": "McV4pBRb-Sg",
       "artist": "Juan Luis Guerra",
-      "title": "A Pedir Su Mano",
-      "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
-      "artwork": "assets/covers/_koz_f4mthE.jpg",
-      "artworkLarge": "assets/covers/_koz_f4mthE.jpg",
-      "intro": true
-    },
-    {
-      "id": "WPiEbYSF9kE",
-      "artist": "Elvis Crespo",
-      "title": "Suavemente",
-      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
-      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
-      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
-      "intro": true
-    },
-    {
-      "id": "frsVQWSINAI",
-      "artist": "El Gran Combo",
-      "title": "Me Liberé",
-      "youtube": "https://www.youtube.com/watch?v=frsVQWSINAI",
-      "artwork": "assets/covers/frsVQWSINAI.jpg",
-      "artworkLarge": "assets/covers/frsVQWSINAI.jpg",
+      "title": "La Bilirrubina",
+      "youtube": "https://www.youtube.com/watch?v=McV4pBRb-Sg",
+      "artwork": "assets/covers/McV4pBRb-Sg.jpg",
+      "artworkLarge": "assets/covers/McV4pBRb-Sg.jpg",
       "intro": true
     },
     {
@@ -44,6 +26,15 @@
       "intro": true
     },
     {
+      "id": "WPiEbYSF9kE",
+      "artist": "Elvis Crespo",
+      "title": "Suavemente",
+      "youtube": "https://www.youtube.com/watch?v=WPiEbYSF9kE",
+      "artwork": "assets/covers/WPiEbYSF9kE.jpg",
+      "artworkLarge": "assets/covers/WPiEbYSF9kE.jpg",
+      "intro": true
+    },
+    {
       "id": "oWBf9hfW_4Y",
       "artist": "Joe Arroyo",
       "title": "Rebelión",
@@ -53,12 +44,21 @@
       "intro": true
     },
     {
-      "id": "McV4pBRb-Sg",
+      "id": "_koz_f4mthE",
       "artist": "Juan Luis Guerra",
-      "title": "La Bilirrubina",
-      "youtube": "https://www.youtube.com/watch?v=McV4pBRb-Sg",
-      "artwork": "assets/covers/McV4pBRb-Sg.jpg",
-      "artworkLarge": "assets/covers/McV4pBRb-Sg.jpg",
+      "title": "A Pedir Su Mano",
+      "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
+      "artwork": "assets/covers/_koz_f4mthE.jpg",
+      "artworkLarge": "assets/covers/_koz_f4mthE.jpg",
+      "intro": true
+    },
+    {
+      "id": "frsVQWSINAI",
+      "artist": "El Gran Combo",
+      "title": "Me Liberé",
+      "youtube": "https://www.youtube.com/watch?v=frsVQWSINAI",
+      "artwork": "assets/covers/frsVQWSINAI.jpg",
+      "artworkLarge": "assets/covers/frsVQWSINAI.jpg",
       "intro": true
     },
     {

@@ -8,15 +8,6 @@
   "count": 100,
   "tracks": [
     {
-      "id": "dDEVFQnBTp0",
-      "artist": "Juan Luis Guerra",
-      "title": "Ojalá Que Llueva Café",
-      "youtube": "https://www.youtube.com/watch?v=dDEVFQnBTp0",
-      "artwork": "assets/covers/dDEVFQnBTp0.jpg",
-      "artworkLarge": "assets/covers/dDEVFQnBTp0.jpg",
-      "intro": true
-    },
-    {
       "id": "95Wcl9ucitM",
       "artist": "Sergio Vargas",
       "title": "La Ventanita",
@@ -32,6 +23,33 @@
       "youtube": "https://www.youtube.com/watch?v=E0f3J0z2SBQ",
       "artwork": "assets/covers/E0f3J0z2SBQ.jpg",
       "artworkLarge": "assets/covers/E0f3J0z2SBQ.jpg",
+      "intro": true
+    },
+    {
+      "id": "dDEVFQnBTp0",
+      "artist": "Juan Luis Guerra",
+      "title": "Ojalá Que Llueva Café",
+      "youtube": "https://www.youtube.com/watch?v=dDEVFQnBTp0",
+      "artwork": "assets/covers/dDEVFQnBTp0.jpg",
+      "artworkLarge": "assets/covers/dDEVFQnBTp0.jpg",
+      "intro": true
+    },
+    {
+      "id": "xaKLn_z9R_k",
+      "artist": "Fernandito Villalona",
+      "title": "Tabaco y Ron",
+      "youtube": "https://www.youtube.com/watch?v=xaKLn_z9R_k",
+      "artwork": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "tPTB0TRV3BA",
+      "artist": "Juan Luis Guerra",
+      "title": "El Costo de la Vida",
+      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
+      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
+      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
       "intro": true
     },
     {
@@ -62,30 +80,12 @@
       "intro": true
     },
     {
-      "id": "xaKLn_z9R_k",
-      "artist": "Fernandito Villalona",
-      "title": "Tabaco y Ron",
-      "youtube": "https://www.youtube.com/watch?v=xaKLn_z9R_k",
-      "artwork": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
-      "intro": true
-    },
-    {
       "id": "kr2B1RoWrlE",
       "artist": "José Luis Perales",
       "title": "Y Cómo Es Él",
       "youtube": "https://www.youtube.com/watch?v=kr2B1RoWrlE",
       "artwork": "https://i.ytimg.com/vi/kr2B1RoWrlE/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/kr2B1RoWrlE/mqdefault.jpg",
-      "intro": true
-    },
-    {
-      "id": "tPTB0TRV3BA",
-      "artist": "Juan Luis Guerra",
-      "title": "El Costo de la Vida",
-      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
-      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
-      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
       "intro": true
     },
     {

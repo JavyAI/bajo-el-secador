@@ -21,18 +21,18 @@ ROOMS = [
 ]
 
 AUTHED = {
-    ("colmado", "ayer"): "_koz_f4mthE",
-    ("colmado", "hoy"): "ExCIp6TOnJw",
-    ("secador", "ayer"): "RgKqxLAhRKE",
-    ("secador", "hoy"): "Uws510cVia4",
-    ("barberia", "ayer"): "SEjw5rdyvVg",
-    ("barberia", "hoy"): "QFs3PIZb3js",
-    ("limpieza", "ayer"): "E6soE-1p3kw",
-    ("limpieza", "hoy"): "hal7rXfJj5o",
-    ("galeria", "ayer"): "dDEVFQnBTp0",
-    ("galeria", "hoy"): "ncByymoHQRI",
-    ("malecon", "ayer"): "v0ckuv1xBm0",
-    ("malecon", "hoy"): "DriCCFRQlj8",
+    ("colmado", "ayer"): "McV4pBRb-Sg",
+    ("colmado", "hoy"): "u6Q5Lu0Sq3g",
+    ("secador", "ayer"): "FwZTgDjRLM0",
+    ("secador", "hoy"): "XEvKn-QgAY0",
+    ("barberia", "ayer"): "oVLS7QGWlGw",
+    ("barberia", "hoy"): "MB23TtaeiQY",
+    ("limpieza", "ayer"): "3LCEzvkwWwI",
+    ("limpieza", "hoy"): "SagA6H4LWjI",
+    ("galeria", "ayer"): "95Wcl9ucitM",
+    ("galeria", "hoy"): "ea4ovC_B6ow",
+    ("malecon", "ayer"): "iK3BlAZAtPs",
+    ("malecon", "hoy"): "Mtau4v6foHA",
 }
 
 

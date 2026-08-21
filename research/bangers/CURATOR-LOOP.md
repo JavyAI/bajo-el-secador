@@ -30,16 +30,18 @@ Some voices own a genre. They may appear more than once.
 - First 15: at most **two** of the same lead, unless the lock names a house pair (Yiyo / Chiquito alternate on Colmado El Presente; JLG may appear twice on Galería; Romeo / Royce may alternate on Barbería / Malecón El Presente).
 - In the 100: a king may go to **18**. Anyone else stays ≤ **12**. A dump (Romeo 40) is a fail.
 
-## Authored #1s — do not move
+## Authored #1s — hold until Javy walks them
 
 | Room | El Ayer | El Presente |
 |---|---|---|
-| Colmado | Juan Luis Guerra — *A Pedir Su Mano* `_koz_f4mthE` | Yiyo Sarante — *Manos de Tijera* `ExCIp6TOnJw` |
-| Secador | Juan Gabriel — *Amor Eterno* `RgKqxLAhRKE` | Ha*Ash — *Lo Aprendí de Ti* `Uws510cVia4` |
-| Barbería | Aventura — *Obsesión* `SEjw5rdyvVg` | Romeo Santos — *Propuesta Indecente* `QFs3PIZb3js` |
-| Limpieza | Milly Quezada — *Volvió Juanita* `E6soE-1p3kw` | Toño Rosario — *Dale Vieja Dale* `hal7rXfJj5o` |
-| Galería | Juan Luis Guerra — *Ojalá Que Llueva Café* `dDEVFQnBTp0` | Juan Luis Guerra — *Tus Besos* `ncByymoHQRI` |
-| Malecón | Juan Luis Guerra — *Burbujas de Amor* `v0ckuv1xBm0` | Camilo, Evaluna Montaner — *Índigo* `DriCCFRQlj8` |
+| Colmado | Juan Luis Guerra — *La Bilirrubina* `McV4pBRb-Sg` | Chiquito Team Band — *La Llamada De Mi Ex* `u6Q5Lu0Sq3g` |
+| Secador | Selena — *Como La Flor* `FwZTgDjRLM0` | Prince Royce, Shakira — *Deja Vu* `XEvKn-QgAY0` |
+| Barbería | Antony Santos — *Voy Pa'llá* `oVLS7QGWlGw` | Zacarías Ferreira — *La Asesina* `MB23TtaeiQY` |
+| Limpieza | Toño Rosario — *Kulikitaka* `3LCEzvkwWwI` | Los Hermanos Rosario — *Pasarela* `SagA6H4LWjI` |
+| Galería | Sergio Vargas — *La Ventanita* `95Wcl9ucitM` | Vicente García — *Carmesí* `ea4ovC_B6ow` |
+| Malecón | Chayanne — *Completamente Enamorados* `iK3BlAZAtPs` | Carlos Vives, Sebastián Yatra — *Robarte un Beso* `Mtau4v6foHA` |
+
+Walked 2026-08-21: first 15 seconds that stop the room, not view-rank / TikTok. Previous #1s stay in the first 5.
 
 Forgotten / overtaken #1 sits **in** the 15, never as opener.
 
