@@ -13,7 +13,7 @@
 - Official YouTube only (VEVO / artist / label Topic / Fania / Warner / Karen / JN / Planet).
 - 11-char id. No lyrics, karaoke, DJ mixes, AI, sped-up.
 - No consecutive same artist.
-- Authored #1s stay: Secador *Amor Eterno* · Silla *Obsesión* · Colmado *A Pedir Su Mano* · Marquesina *Dueña del Swing* · Malecón *Burbujas*.
+- Authored #1s stay until walked. 2026-08-21 walk: Colmado *La Bilirrubina* · Secador *Como La Flor* · Barbería *Voy Pa'llá* · Limpieza *Kulikitaka* · Galería *La Ventanita* · Malecón *Completamente Enamorados*. Previous openers remain in each first 5.
 - Cover must work on the vinyl: prefer existing `assets/covers/{id}.jpg` or a real `i.ytimg.com/vi/{id}/mqdefault.jpg` (not a 404, not a letterboxed-only ghost).
 
 ## 100
