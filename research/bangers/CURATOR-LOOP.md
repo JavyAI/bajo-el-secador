@@ -1,5 +1,7 @@
 # Curator loop — doorway first
 
+Standing steward (on demand, report only): `research/bangers/STEWARD.md`. Do not promote live JSON without Javy.
+
 One curator per live room. Both eras. Loop until the door is close to 100.
 
 ## Live rooms only
