@@ -270,7 +270,13 @@
         if (s === 1) state.nudgeCount = 0;
         return;
       }
-      if (s === 0 && isRealEnd(player)) return;
+      if (s === 0) {
+        if (state.advancing) return;
+        if (songPlayedLongEnough(player)) {
+          go(1, { fromEnd: true });
+          return;
+        }
+      }
       nudgePlay(player, `watchdog:${YT_NAME[String(s)] || s}`);
     }, 1600);
   }
@@ -283,6 +289,11 @@
     } catch {
       return false;
     }
+  }
+
+  function songPlayedLongEnough(player) {
+    const playedMs = Date.now() - (state.startedAt || 0);
+    return playedMs >= 8000 || isRealEnd(player);
   }
 
   function reducedMotion() {
@@ -834,6 +845,7 @@
         return;
       }
       if (isActive && !state.mixing) {
+        state.advancing = false;
         applyPlaylistFromPlayer(event.target);
         if (current()) paint(current());
         setPlayingUi(true);
@@ -854,30 +866,16 @@
         readTime();
       }
     } else if (event.data === YTref.PlayerState.ENDED) {
-      if (isActive && !state.mixing) {
-        if (state.playlistId && !state.playFromCatalog) {
-          const p = event.target;
-          setTimeout(() => {
-            if (state.mixing || slot !== state.activeSlot) return;
-            if (ytState(p) === YTref.PlayerState.ENDED && p.nextVideo) {
-              try {
-                p.nextVideo();
-                if (state.wanted === "play") p.playVideo();
-              } catch {
-                /* ignore */
-              }
-            }
-          }, 400);
-          return;
-        }
-        if (isRealEnd(event.target)) {
-          dbg("real-end", "");
-          go(1, { fromEnd: true });
-        } else if (state.wanted === "play") {
-          dbg("fake-end", "resume");
-          nudgePlay(event.target, "ended");
-        }
+      if (!isActive || state.mixing) return;
+      if (state.wanted !== "play") return;
+      if (state.advancing) return;
+      if (songPlayedLongEnough(event.target)) {
+        dbg("real-end", "");
+        go(1, { fromEnd: true });
+        return;
       }
+      dbg("fake-end", "resume");
+      nudgePlay(event.target, "ended");
     } else if (event.data === YTref.PlayerState.CUED) {
       applyPlaylistFromPlayer(event.target);
       if (current()) paint(current());
@@ -1076,7 +1074,7 @@
         listType: "playlist",
         index: index || 0,
       });
-      if (player.setLoop) player.setLoop(true);
+      if (player.setLoop) player.setLoop(false);
     } catch {
       /* ignore */
     }
@@ -1101,7 +1099,7 @@
     if (playlistId) {
       playerVars.listType = "playlist";
       playerVars.list = playlistId;
-      playerVars.loop = 1;
+      playerVars.loop = 0;
     }
     const opts = {
       width: 480,
@@ -1111,6 +1109,11 @@
       events: {
         onReady(event) {
           hideIframe(event.target);
+          try {
+            if (event.target.setLoop) event.target.setLoop(false);
+          } catch {
+            /* ignore */
+          }
           const incoming = slot !== state.activeSlot;
           setVol(event.target, incoming ? 0 : 100);
           applyPlaylistFromPlayer(event.target);
@@ -1174,9 +1177,25 @@
       state.playerListId = null;
     }
     if (pid) {
-      const firstId = (current() && current().id) || catalogFirstId(state.room, state.era);
-      if (!state.player || state.playerListId !== pid || !playerHasSrc(state.player)) {
-        retuneToPlaylist(pid, firstId);
+      const trackId = (track && track.id) || catalogFirstId(state.room, state.era);
+      if (!state.player || !playerHasSrc(state.player)) {
+        retuneToPlaylist(pid, trackId);
+        return;
+      }
+      const loaded = videoIdOf(state.player);
+      if (state.playFromCatalog && trackId && loaded !== trackId) {
+        state.loadedAt = Date.now();
+        try {
+          state.player.loadVideoById(trackId);
+        } catch {
+          /* ignore */
+        }
+        kickPlay(state.player);
+        hideIframe(state.player);
+        return;
+      }
+      if (state.playerListId !== pid) {
+        retuneToPlaylist(pid, trackId);
         return;
       }
       if (state.wanted === "play") kickPlay(state.player);
@@ -1415,7 +1434,13 @@
   async function go(step, opts = {}) {
     const fromEnd = Boolean(opts.fromEnd);
     if (fromEnd && state.advancing) return;
-    if (fromEnd) state.advancing = true;
+    if (fromEnd) {
+      state.advancing = true;
+      clearTimeout(state.advanceTimer);
+      state.advanceTimer = setTimeout(() => {
+        state.advancing = false;
+      }, 5000);
+    }
     if (state.mixing) {
       const incoming = slotPlayer(idleSlot());
       if (incoming && ytState(incoming) === 1) adoptIncoming(idleSlot(), incoming);
@@ -1472,14 +1497,25 @@
       next = state.loop ? len - 1 : 0;
     }
     state.index = next;
-    paint(current());
+    const track = current();
+    paint(track);
     try {
       if (state.wanted === "play" || fromEnd) {
         state.wanted = "play";
-        await ensurePlayer();
+        const p = state.player;
+        if (state.playFromCatalog && p && track && p.loadVideoById) {
+          try {
+            p.loadVideoById(track.id);
+          } catch {
+            /* ignore */
+          }
+          kickPlay(p);
+        } else {
+          await ensurePlayer();
+        }
       }
       syncMediaSession();
-    } finally {
+    } catch {
       if (fromEnd) state.advancing = false;
     }
   }
