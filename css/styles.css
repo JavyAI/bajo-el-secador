@@ -1,5 +1,5 @@
 :root {
-  --ink: #fff;
+  --ink: #ffffff;
   --muted: rgba(255, 255, 255, 0.7);
   --glass: transparent;
   --glass-edge: rgba(255, 255, 255, 0.18);
@@ -293,6 +293,7 @@ a {
   max-width: 16rem;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
+  color: #fff;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
   line-height: 1.25;
 }
@@ -305,7 +306,7 @@ a {
   font-size: var(--type-sm);
   letter-spacing: 0.04em;
   text-transform: lowercase;
-  color: rgba(255, 255, 255, 0.72);
+  color: #fff;
 }
 
 .clock__time {
@@ -331,6 +332,7 @@ a {
   gap: 8px;
   font-size: 14px;
   font-weight: 500;
+  color: #fff;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -450,6 +452,7 @@ body[data-era="hoy"] .presence__dot::after {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #fff;
+  -webkit-text-fill-color: #fff;
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
   white-space: nowrap;
   overflow: hidden;
@@ -470,13 +473,14 @@ body[data-era="hoy"] .presence__dot::after {
   width: 100%;
   height: auto;
   overflow: visible;
-  filter:
-    drop-shadow(0 2px 0 rgba(0, 0, 0, 0.45))
-    drop-shadow(0 4px 24px rgba(0, 0, 0, 0.5));
+  color: #fff;
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.5));
 }
 
 .wordmark text {
   fill: #fff;
+  fill-opacity: 1;
+  stroke: none;
   font-family: Fraunces, "Times New Roman", serif;
   font-optical-sizing: none;
 }
@@ -568,19 +572,8 @@ body[data-room="barberia"] .kicker,
 body[data-room="limpieza"] .kicker {
   font-weight: 600;
   color: #fff;
-  text-shadow:
-    0 1px 1px rgba(0, 0, 0, 0.85),
-    0 2px 8px rgba(0, 0, 0, 0.55);
-}
-
-body[data-room="colmado"] .wordmark svg,
-body[data-room="secador"] .wordmark svg,
-body[data-room="barberia"] .wordmark svg,
-body[data-room="limpieza"] .wordmark svg {
-  filter:
-    drop-shadow(0 1px 0 rgba(0, 0, 0, 0.72))
-    drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5))
-    drop-shadow(0 6px 16px rgba(0, 0, 0, 0.42));
+  -webkit-text-fill-color: #fff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 body[data-room="colmado"] .rooms a,
@@ -627,9 +620,8 @@ body[data-room="secador"] .eras a.is-on,
 body[data-room="barberia"] .eras a.is-on,
 body[data-room="limpieza"] .eras a.is-on {
   font-weight: 600;
-  text-shadow:
-    0 1px 1px rgba(0, 0, 0, 0.75),
-    0 0 10px rgba(255, 255, 255, 0.28);
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 body[data-era="hoy"][data-room="colmado"] .eras a.is-on,
