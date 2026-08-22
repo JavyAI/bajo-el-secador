@@ -131,6 +131,7 @@
     clockDate: document.getElementById("clock-date"),
     online: document.getElementById("online"),
     wordmark: document.getElementById("wordmark"),
+    script: document.getElementById("script"),
     kicker: document.getElementById("kicker"),
     heroA: document.getElementById("hero-a"),
     heroB: document.getElementById("hero-b"),
@@ -767,7 +768,8 @@
     if (texts[0]) texts[0].textContent = lines[0] || "";
     if (texts[1]) texts[1].textContent = lines[1] || "";
     el.wordmark.setAttribute("aria-label", room.name);
-    el.kicker.textContent = scriptName(id);
+    if (el.script) el.script.textContent = scriptName(id);
+    el.kicker.textContent = room.kicker;
     if (el.station) el.station.textContent = scriptName(id);
     document.title = scriptName(id);
     el.lista.href = listaUrl(id, state.era);
