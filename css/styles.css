@@ -110,10 +110,9 @@ a {
   background-color: var(--theme);
 }
 
-/* Phone: bleed the plate under Safari’s header and footer. A 100lvh
-   box that starts at top:0 still sits BETWEEN the chrome, so the
-   theme color shows as bands. Pull the photo up and past the bars.
-   Do not extra-zoom — that cropped the people. */
+/* Phone: size the plate to the visible webview (100dvh). A taller
+   100lvh+bleed box made cover crop the people. JS pinPlate() matches
+   visualViewport exactly. */
 @media (pointer: coarse) {
   :root {
     --hud-top: max(56px, calc(var(--safe-t) + 44px));
@@ -122,9 +121,9 @@ a {
 
   html,
   body {
-    background-color: transparent !important;
+    background-color: #000 !important;
     height: 100%;
-    min-height: 100lvh;
+    min-height: 100dvh;
     overflow: hidden;
     padding: 0;
     overscroll-behavior: none;
@@ -139,14 +138,15 @@ a {
   .hero,
   .hero__veil {
     position: fixed;
-    top: -140px;
+    top: 0;
     right: 0;
     left: 0;
     bottom: auto;
     width: 100%;
-    height: calc(100lvh + 280px);
-    min-height: calc(100lvh + 280px);
+    height: 100dvh;
+    min-height: 100dvh;
     background-color: transparent;
+    transform: none;
   }
 
   .hero-stack,

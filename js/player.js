@@ -520,15 +520,15 @@
     const phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
     document.documentElement.style.setProperty("--theme", color);
     document.body.style.setProperty("--theme", color);
-    document.documentElement.style.backgroundColor = phone ? "transparent" : color;
-    document.body.style.backgroundColor = phone ? "transparent" : color;
-    document.documentElement.style.colorScheme = night ? "dark" : "light";
+    document.documentElement.style.backgroundColor = phone ? "#000" : color;
+    document.body.style.backgroundColor = phone ? "#000" : color;
+    document.documentElement.style.colorScheme = phone || night ? "dark" : "light";
     remountProbe(color);
     // Chrome/Android/PWA read theme-color. Safari 26 ignores it and
     // samples a full-width fixed strip instead (#theme-probe).
     document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
     const medias = [null, "(prefers-color-scheme: light)", "(prefers-color-scheme: dark)"];
-    const chrome = phone ? "transparent" : color;
+    const chrome = phone ? "#000000" : color;
     const nodes = medias.map((media) => {
       const meta = document.createElement("meta");
       meta.setAttribute("name", "theme-color");
@@ -546,7 +546,7 @@
       scheme.setAttribute("name", "color-scheme");
       document.head.appendChild(scheme);
     }
-    scheme.setAttribute("content", night ? "dark" : "light");
+    scheme.setAttribute("content", phone || night ? "dark" : "light");
     if (el.maskIcon) el.maskIcon.setAttribute("color", color);
   }
 
@@ -1757,6 +1757,37 @@
     });
   }
 
+  function pinPlate() {
+    if (!(window.matchMedia && window.matchMedia("(pointer: coarse)").matches)) return;
+    const vv = window.visualViewport;
+    const top = vv ? Math.round(vv.offsetTop) : 0;
+    const left = vv ? Math.round(vv.offsetLeft) : 0;
+    const width = Math.round((vv && vv.width) || window.innerWidth);
+    const height = Math.round((vv && vv.height) || window.innerHeight);
+    document.querySelectorAll(".safari-shell, .hero-stack, .hero, .hero__veil").forEach((node) => {
+      node.style.top = `${top}px`;
+      node.style.left = `${left}px`;
+      node.style.width = `${width}px`;
+      node.style.height = `${height}px`;
+      node.style.right = "auto";
+      node.style.bottom = "auto";
+      node.style.minHeight = "0";
+      node.style.transform = "none";
+    });
+  }
+
+  function watchPlate() {
+    pinPlate();
+    if (window.visualViewport) {
+      visualViewport.addEventListener("resize", pinPlate);
+      visualViewport.addEventListener("scroll", pinPlate);
+    }
+    window.addEventListener("orientationchange", () => {
+      setTimeout(pinPlate, 250);
+    });
+    window.addEventListener("resize", pinPlate);
+  }
+
   function bind() {
     const arm = () => {
       state.armed = true;
@@ -1872,6 +1903,7 @@
 
   async function boot() {
     bind();
+    watchPlate();
     absolutizeShareImages();
     tickClock();
     setInterval(tickClock, 1000);
