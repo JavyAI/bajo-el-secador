@@ -248,8 +248,13 @@
     el.dbgBody.textContent = `${head}\n${lines}`;
   }
 
+  function pageIsHidden() {
+    return Boolean(document.hidden || document.webkitHidden);
+  }
+
   function nudgePlay(player, why) {
     if (!player || state.wanted !== "play" || state.mixing) return;
+    if (pageIsHidden()) return;
     state.nudgeCount += 1;
     dbg("nudge", `${why} #${state.nudgeCount}`);
     try {
@@ -261,9 +266,15 @@
     }
   }
 
+  function resumeIfWanted(why) {
+    if (pageIsHidden() || state.wanted !== "play") return;
+    nudgePlay(state.player, why);
+  }
+
   function startWatchdog() {
     if (state.watchdog) return;
     state.watchdog = setInterval(() => {
+      if (pageIsHidden()) return;
       if (state.wanted !== "play" || state.mixing || state.seeking) return;
       const player = state.player;
       if (!player) return;
@@ -976,6 +987,10 @@
       }
     } else if (event.data === YTref.PlayerState.PAUSED) {
       if (isActive && !state.mixing && state.wanted === "play") {
+        if (pageIsHidden()) {
+          dbg("bg-pause", "hold");
+          return;
+        }
         dbg("fake-pause", "resume");
         nudgePlay(event.target, "pause");
         return;
@@ -1727,8 +1742,14 @@
     }, 4000);
 
     document.addEventListener("visibilitychange", () => {
-      if (!document.hidden) beat();
+      if (!pageIsHidden()) {
+        beat();
+        resumeIfWanted("foreground");
+      }
     });
+    window.addEventListener("pageshow", () => resumeIfWanted("pageshow"));
+    window.addEventListener("focus", () => resumeIfWanted("focus"));
+    document.addEventListener("resume", () => resumeIfWanted("resume"));
     window.addEventListener("pagehide", () => {
       if (bc) bc.postMessage({ type: "bye", id });
     });

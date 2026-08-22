@@ -270,11 +270,12 @@ a {
 
 #yt-host {
   position: fixed;
-  left: -9999px;
-  top: 0;
-  width: 240px;
-  height: 135px;
+  left: 0;
+  bottom: 0;
+  width: 480px;
+  height: 270px;
   overflow: hidden;
+  opacity: 0.01;
   pointer-events: none;
   z-index: 0;
 }
