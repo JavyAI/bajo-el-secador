@@ -117,9 +117,9 @@ a {
    body { overflow: hidden } blocks that path. */
 @media screen and (max-width: 650px) {
   :root {
-    --safari-top-bleed: 62px;
-    --safari-bottom-bleed: 136px;
-    --safari-scroll-offset: 62px;
+    --safari-top-bleed: max(62px, env(safe-area-inset-top, 0px));
+    --safari-bottom-bleed: max(136px, calc(100lvh - 100svh + 24px));
+    --safari-scroll-offset: var(--safari-top-bleed);
     --hud-top: max(56px, calc(var(--safe-t) + 44px));
     --hud-bottom: max(112px, calc(var(--safe-b) + 100px));
   }
@@ -189,6 +189,24 @@ a {
     overflow: hidden;
     background-color: transparent;
     transform: none;
+  }
+
+  /* Keep the dim gradient off the pixels Safari frosts in the
+     status bar and bottom toolbar. The veil sitting in that strip
+     is extra haze on Pro Max. */
+  .hero__veil {
+    top: var(--safari-top-bleed);
+    right: 0;
+    bottom: var(--safari-bottom-bleed);
+    left: 0;
+    height: auto;
+    background: linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 28%,
+      rgba(0, 0, 0, 0.18) 72%,
+      transparent 100%
+    );
   }
 
   .hero {
