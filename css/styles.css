@@ -110,10 +110,10 @@ a {
   background-color: var(--theme);
 }
 
-/* Phone/tablet: photo is 100lvh from the top of the screen — never
-   inset:0 plus height:100lvh (Safari drops one and leaves theme bands
-   in the toolbar/footer). 100dvh is the gap between Safari chrome;
-   100lvh is the whole phone. */
+/* Phone: bleed the plate under Safari’s header and footer. A 100lvh
+   box that starts at top:0 still sits BETWEEN the chrome, so the
+   theme color shows as bands. Pull the photo up and past the bars.
+   Do not extra-zoom — that cropped the people. */
 @media (pointer: coarse) {
   :root {
     --hud-top: max(56px, calc(var(--safe-t) + 44px));
@@ -122,12 +122,12 @@ a {
 
   html,
   body {
-    height: -webkit-fill-available;
-    height: 100lvh;
-    min-height: -webkit-fill-available;
+    background-color: transparent !important;
+    height: 100%;
     min-height: 100lvh;
     overflow: hidden;
     padding: 0;
+    overscroll-behavior: none;
   }
 
   #theme-probe {
@@ -139,15 +139,13 @@ a {
   .hero,
   .hero__veil {
     position: fixed;
-    top: 0;
+    top: -140px;
     right: 0;
     left: 0;
     bottom: auto;
     width: 100%;
-    height: -webkit-fill-available;
-    height: 100lvh;
-    min-height: -webkit-fill-available;
-    min-height: 100lvh;
+    height: calc(100lvh + 280px);
+    min-height: calc(100lvh + 280px);
     background-color: transparent;
   }
 
@@ -158,6 +156,8 @@ a {
 
   .hero {
     background-size: cover;
+    background-position: 50% 50%;
+    transform: none;
   }
 
   .dock {
@@ -1061,93 +1061,37 @@ body:not(.is-playing) .play .ico-pause {
 @media (pointer: coarse) and (orientation: portrait) and (max-width: 480px) {
   .hero {
     background-size: cover;
-    background-position: 50% 58%;
-    transform: scale(1.16);
-    transform-origin: 50% 60%;
+    background-position: 50% 50%;
+    transform: none;
   }
 
   .hero[data-scene="colmado"],
   .hero[data-scene="colmado-hoy"] {
-    background-position: 48% 60%;
-    transform: scale(1.18);
-    transform-origin: 48% 62%;
+    background-position: 50% 55%;
   }
 
   .hero[data-scene="secador"],
   .hero[data-scene="secador-hoy"] {
+    background-position: 50% 48%;
+  }
+
+  .hero[data-scene="barberia"],
+  .hero[data-scene="barberia-hoy"] {
     background-position: 50% 52%;
-    transform: scale(1.12);
-    transform-origin: 50% 52%;
-  }
-
-  .hero[data-scene="barberia"],
-  .hero[data-scene="barberia-hoy"] {
-    background-position: 50% 58%;
-    transform: scale(1.16);
-    transform-origin: 50% 60%;
   }
 
   .hero[data-scene="limpieza"],
   .hero[data-scene="limpieza-hoy"] {
-    background-position: 42% 56%;
-    transform: scale(1.14);
-    transform-origin: 40% 56%;
+    background-position: 42% 50%;
   }
 
   .hero[data-scene="galeria"],
   .hero[data-scene="galeria-hoy"] {
-    background-position: 50% 54%;
-    transform: scale(1.1);
-    transform-origin: 50% 54%;
+    background-position: 50% 48%;
   }
 
   .hero[data-scene="malecon"],
   .hero[data-scene="malecon-hoy"] {
-    background-position: 48% 55%;
-    transform: scale(1.18);
-    transform-origin: 48% 52%;
-  }
-}
-
-@media (pointer: coarse) and (orientation: portrait) and (max-width: 480px) and (max-aspect-ratio: 0.48) {
-  .hero {
-    transform: scale(1.2);
-    transform-origin: 50% 62%;
-  }
-
-  .hero[data-scene="colmado"],
-  .hero[data-scene="colmado-hoy"] {
-    transform: scale(1.2);
-    transform-origin: 50% 60%;
-  }
-
-  .hero[data-scene="secador"],
-  .hero[data-scene="secador-hoy"] {
-    transform: scale(1.14);
-    transform-origin: 50% 52%;
-  }
-
-  .hero[data-scene="barberia"],
-  .hero[data-scene="barberia-hoy"] {
-    transform: scale(1.2);
-    transform-origin: 50% 60%;
-  }
-
-  .hero[data-scene="limpieza"],
-  .hero[data-scene="limpieza-hoy"] {
-    transform: scale(1.16);
-    transform-origin: 42% 56%;
-  }
-
-  .hero[data-scene="galeria"],
-  .hero[data-scene="galeria-hoy"] {
-    transform: scale(1.12);
-    transform-origin: 50% 54%;
-  }
-
-  .hero[data-scene="malecon"],
-  .hero[data-scene="malecon-hoy"] {
-    transform: scale(1.2);
-    transform-origin: 50% 52%;
+    background-position: 48% 50%;
   }
 }

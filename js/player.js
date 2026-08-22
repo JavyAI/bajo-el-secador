@@ -517,27 +517,29 @@
 
   function setTheme(color) {
     const night = state.era === "hoy";
+    const phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
     document.documentElement.style.setProperty("--theme", color);
-    document.documentElement.style.backgroundColor = color;
     document.body.style.setProperty("--theme", color);
-    document.body.style.backgroundColor = color;
+    document.documentElement.style.backgroundColor = phone ? "transparent" : color;
+    document.body.style.backgroundColor = phone ? "transparent" : color;
     document.documentElement.style.colorScheme = night ? "dark" : "light";
     remountProbe(color);
     // Chrome/Android/PWA read theme-color. Safari 26 ignores it and
     // samples a full-width fixed strip instead (#theme-probe).
     document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
     const medias = [null, "(prefers-color-scheme: light)", "(prefers-color-scheme: dark)"];
+    const chrome = phone ? "transparent" : color;
     const nodes = medias.map((media) => {
       const meta = document.createElement("meta");
       meta.setAttribute("name", "theme-color");
-      meta.setAttribute("content", color);
+      meta.setAttribute("content", chrome);
       if (media) meta.setAttribute("media", media);
       document.head.insertBefore(meta, document.head.firstChild);
       return meta;
     });
     el.themes = nodes;
-    if (el.tileColor) el.tileColor.setAttribute("content", color);
-    if (el.navColor) el.navColor.setAttribute("content", color);
+    if (el.tileColor) el.tileColor.setAttribute("content", chrome);
+    if (el.navColor) el.navColor.setAttribute("content", chrome);
     let scheme = document.querySelector('meta[name="color-scheme"]');
     if (!scheme) {
       scheme = document.createElement("meta");

@@ -47,10 +47,11 @@
       var room = THEMES[id] || THEMES.colmado;
       var color = room[era];
       document.documentElement.style.setProperty("--theme", color);
-      document.documentElement.style.backgroundColor = color;
       document.documentElement.style.colorScheme = era === "hoy" ? "dark" : "light";
+      var phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+      document.documentElement.style.backgroundColor = phone ? "transparent" : color;
       document.querySelectorAll('meta[name="theme-color"], meta[name="msapplication-TileColor"], meta[name="msapplication-navbutton-color"]').forEach(function (node) {
-        node.setAttribute("content", color);
+        node.setAttribute("content", phone ? "transparent" : color);
       });
       var scheme = document.querySelector('meta[name="color-scheme"]');
       if (scheme) scheme.setAttribute("content", era === "hoy" ? "dark" : "light");
@@ -69,7 +70,7 @@
   <link rel="preconnect" href="https://i.ytimg.com">
   <link rel="preconnect" href="https://www.youtube.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=123">
+  <link rel="stylesheet" href="css/styles.css?v=124">
 </head>
 <body data-room="colmado" data-era="ayer">
   <div id="theme-probe" aria-hidden="true"></div>
@@ -86,7 +87,7 @@
       if (!t) return;
       document.body.dataset.room = t.id;
       document.body.dataset.era = t.era;
-      document.body.style.backgroundColor = t.color;
+      document.body.style.backgroundColor = (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) ? "transparent" : t.color;
       var probe = document.getElementById("theme-probe");
       if (probe) probe.style.backgroundColor = t.color;
     })();
@@ -186,6 +187,6 @@
     <p class="noscript">Hace falta JavaScript para oír la radio.</p>
   </noscript>
 
-  <script src="js/player.js?v=98" defer></script>
+  <script src="js/player.js?v=99" defer></script>
 </body>
 </html>
