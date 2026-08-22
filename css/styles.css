@@ -264,8 +264,7 @@ a {
   pointer-events: none;
 }
 
-.wordmark,
-.kicker {
+.wordmark {
   transition: opacity 0.35s ease;
 }
 
@@ -443,23 +442,6 @@ body[data-era="hoy"] .presence__dot::after {
   pointer-events: auto;
 }
 
-.kicker {
-  margin: 0 0 8px;
-  width: min(36rem, 100%);
-  min-height: 1.25em;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #fff;
-  -webkit-text-fill-color: #fff;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-align: center;
-}
-
 .wordmark {
   margin: 0;
   width: min(36rem, calc(100% - 48px));
@@ -564,16 +546,6 @@ body[data-era="hoy"] .presence__dot::after {
 body[data-era="hoy"] .eras a.is-on {
   color: #f6e2b8;
   box-shadow: inset 0 -2px 0 #f3d5a0;
-}
-
-body[data-room="colmado"] .kicker,
-body[data-room="secador"] .kicker,
-body[data-room="barberia"] .kicker,
-body[data-room="limpieza"] .kicker {
-  font-weight: 600;
-  color: #fff;
-  -webkit-text-fill-color: #fff;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
 body[data-room="colmado"] .rooms a,
@@ -1055,10 +1027,6 @@ body:not(.is-playing) .play .ico-pause {
 
   .wordmark {
     width: min(20rem, 52vw);
-  }
-
-  .kicker {
-    margin-bottom: 2px;
   }
 
   .rooms {
