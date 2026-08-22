@@ -8,12 +8,12 @@
   "count": 100,
   "tracks": [
     {
-      "id": "FwZTgDjRLM0",
+      "id": "JsUt2jsLM1k",
       "artist": "Selena",
       "title": "Como La Flor",
-      "youtube": "https://www.youtube.com/watch?v=FwZTgDjRLM0",
-      "artwork": "https://i.ytimg.com/vi/FwZTgDjRLM0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/FwZTgDjRLM0/mqdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=JsUt2jsLM1k",
+      "artwork": "assets/covers/JsUt2jsLM1k.jpg",
+      "artworkLarge": "assets/covers/JsUt2jsLM1k.jpg",
       "intro": true
     },
     {
@@ -35,12 +35,12 @@
       "intro": true
     },
     {
-      "id": "RgKqxLAhRKE",
+      "id": "En513tpSrHw",
       "artist": "Juan Gabriel",
       "title": "Amor Eterno",
-      "youtube": "https://www.youtube.com/watch?v=RgKqxLAhRKE",
-      "artwork": "assets/covers/RgKqxLAhRKE.jpg",
-      "artworkLarge": "assets/covers/RgKqxLAhRKE.jpg",
+      "youtube": "https://www.youtube.com/watch?v=En513tpSrHw",
+      "artwork": "assets/covers/En513tpSrHw.jpg",
+      "artworkLarge": "assets/covers/En513tpSrHw.jpg",
       "intro": true
     },
     {
@@ -80,12 +80,12 @@
       "intro": true
     },
     {
-      "id": "0O4CLgXvbjU",
+      "id": "oma7ePrAiew",
       "artist": "Juan Gabriel",
       "title": "Así Fue",
-      "youtube": "https://www.youtube.com/watch?v=0O4CLgXvbjU",
-      "artwork": "assets/covers/0O4CLgXvbjU.jpg",
-      "artworkLarge": "assets/covers/0O4CLgXvbjU.jpg",
+      "youtube": "https://www.youtube.com/watch?v=oma7ePrAiew",
+      "artwork": "assets/covers/oma7ePrAiew.jpg",
+      "artworkLarge": "assets/covers/oma7ePrAiew.jpg",
       "intro": true
     },
     {
@@ -98,12 +98,12 @@
       "intro": true
     },
     {
-      "id": "ga5Bo4YdgH4",
+      "id": "vjh_J1ZXObE",
       "artist": "Juan Gabriel",
       "title": "Hasta Que Te Conocí",
-      "youtube": "https://www.youtube.com/watch?v=ga5Bo4YdgH4",
-      "artwork": "assets/covers/ga5Bo4YdgH4.jpg",
-      "artworkLarge": "assets/covers/ga5Bo4YdgH4.jpg",
+      "youtube": "https://www.youtube.com/watch?v=vjh_J1ZXObE",
+      "artwork": "assets/covers/vjh_J1ZXObE.jpg",
+      "artworkLarge": "assets/covers/vjh_J1ZXObE.jpg",
       "intro": true
     },
     {
@@ -134,12 +134,12 @@
       "intro": true
     },
     {
-      "id": "tOVHj4zuRTU",
+      "id": "gH8oCh1nn88",
       "artist": "Marco Antonio Solís",
       "title": "Si No Te Hubieras Ido",
-      "youtube": "https://www.youtube.com/watch?v=tOVHj4zuRTU",
-      "artwork": "assets/covers/tOVHj4zuRTU.jpg",
-      "artworkLarge": "assets/covers/tOVHj4zuRTU.jpg",
+      "youtube": "https://www.youtube.com/watch?v=gH8oCh1nn88",
+      "artwork": "assets/covers/gH8oCh1nn88.jpg",
+      "artworkLarge": "assets/covers/gH8oCh1nn88.jpg",
       "intro": true
     },
     {
@@ -206,12 +206,12 @@
       "intro": false
     },
     {
-      "id": "_tNVEhSelH0",
+      "id": "h5N8wDy25F0",
       "artist": "Juan Gabriel",
       "title": "Abrázame Muy Fuerte",
-      "youtube": "https://www.youtube.com/watch?v=_tNVEhSelH0",
-      "artwork": "assets/covers/_tNVEhSelH0.jpg",
-      "artworkLarge": "assets/covers/_tNVEhSelH0.jpg",
+      "youtube": "https://www.youtube.com/watch?v=h5N8wDy25F0",
+      "artwork": "assets/covers/h5N8wDy25F0.jpg",
+      "artworkLarge": "assets/covers/h5N8wDy25F0.jpg",
       "intro": false
     },
     {
@@ -431,12 +431,12 @@
       "intro": false
     },
     {
-      "id": "F07ngnis2ig",
+      "id": "rjN794i-bmo",
       "artist": "Ana Gabriel",
       "title": "Es Demasiado Tarde",
-      "youtube": "https://www.youtube.com/watch?v=F07ngnis2ig",
-      "artwork": "assets/covers/F07ngnis2ig.jpg",
-      "artworkLarge": "assets/covers/F07ngnis2ig.jpg",
+      "youtube": "https://www.youtube.com/watch?v=rjN794i-bmo",
+      "artwork": "assets/covers/rjN794i-bmo.jpg",
+      "artworkLarge": "assets/covers/rjN794i-bmo.jpg",
       "intro": false
     },
     {
@@ -485,21 +485,21 @@
       "intro": false
     },
     {
-      "id": "kb0Z5pxtd7w",
+      "id": "Kl97K0E9dmY",
       "artist": "Ana Gabriel",
       "title": "Destino",
-      "youtube": "https://www.youtube.com/watch?v=kb0Z5pxtd7w",
-      "artwork": "assets/covers/kb0Z5pxtd7w.jpg",
-      "artworkLarge": "assets/covers/kb0Z5pxtd7w.jpg",
+      "youtube": "https://www.youtube.com/watch?v=Kl97K0E9dmY",
+      "artwork": "assets/covers/Kl97K0E9dmY.jpg",
+      "artworkLarge": "assets/covers/Kl97K0E9dmY.jpg",
       "intro": false
     },
     {
-      "id": "RzJ3QjBsqM0",
+      "id": "ZxMbfrfbChU",
       "artist": "José José",
       "title": "Amar y Querer",
-      "youtube": "https://www.youtube.com/watch?v=RzJ3QjBsqM0",
-      "artwork": "assets/covers/RzJ3QjBsqM0.jpg",
-      "artworkLarge": "assets/covers/RzJ3QjBsqM0.jpg",
+      "youtube": "https://www.youtube.com/watch?v=ZxMbfrfbChU",
+      "artwork": "assets/covers/ZxMbfrfbChU.jpg",
+      "artworkLarge": "assets/covers/ZxMbfrfbChU.jpg",
       "intro": false
     },
     {
@@ -521,12 +521,12 @@
       "intro": false
     },
     {
-      "id": "g5rsnxJWNkM",
+      "id": "ojfAAqxfmaI",
       "artist": "Juan Gabriel",
       "title": "Se Me Olvidó Otra Vez",
-      "youtube": "https://www.youtube.com/watch?v=g5rsnxJWNkM",
-      "artwork": "assets/covers/g5rsnxJWNkM.jpg",
-      "artworkLarge": "assets/covers/g5rsnxJWNkM.jpg",
+      "youtube": "https://www.youtube.com/watch?v=ojfAAqxfmaI",
+      "artwork": "assets/covers/ojfAAqxfmaI.jpg",
+      "artworkLarge": "assets/covers/ojfAAqxfmaI.jpg",
       "intro": false
     },
     {
@@ -539,12 +539,12 @@
       "intro": false
     },
     {
-      "id": "GRo0nnF5OXY",
+      "id": "utC60_EDDRE",
       "artist": "Juan Gabriel",
       "title": "Te Sigo Amando",
-      "youtube": "https://www.youtube.com/watch?v=GRo0nnF5OXY",
-      "artwork": "assets/covers/GRo0nnF5OXY.jpg",
-      "artworkLarge": "assets/covers/GRo0nnF5OXY.jpg",
+      "youtube": "https://www.youtube.com/watch?v=utC60_EDDRE",
+      "artwork": "assets/covers/utC60_EDDRE.jpg",
+      "artworkLarge": "assets/covers/utC60_EDDRE.jpg",
       "intro": false
     },
     {
@@ -575,12 +575,12 @@
       "intro": false
     },
     {
-      "id": "mKT_QQmNmhM",
+      "id": "iZTI0UMzgR0",
       "artist": "Juan Gabriel",
       "title": "He Venido a Pedirte Perdón",
-      "youtube": "https://www.youtube.com/watch?v=mKT_QQmNmhM",
-      "artwork": "assets/covers/mKT_QQmNmhM.jpg",
-      "artworkLarge": "assets/covers/mKT_QQmNmhM.jpg",
+      "youtube": "https://www.youtube.com/watch?v=iZTI0UMzgR0",
+      "artwork": "assets/covers/iZTI0UMzgR0.jpg",
+      "artworkLarge": "assets/covers/iZTI0UMzgR0.jpg",
       "intro": false
     },
     {
@@ -593,12 +593,12 @@
       "intro": false
     },
     {
-      "id": "eF41Pz61eaQ",
+      "id": "ApXZ4IVkQY0",
       "artist": "Juan Gabriel",
       "title": "Yo No Nací Para Amar",
-      "youtube": "https://www.youtube.com/watch?v=eF41Pz61eaQ",
-      "artwork": "assets/covers/eF41Pz61eaQ.jpg",
-      "artworkLarge": "assets/covers/eF41Pz61eaQ.jpg",
+      "youtube": "https://www.youtube.com/watch?v=ApXZ4IVkQY0",
+      "artwork": "assets/covers/ApXZ4IVkQY0.jpg",
+      "artworkLarge": "assets/covers/ApXZ4IVkQY0.jpg",
       "intro": false
     },
     {
@@ -764,12 +764,12 @@
       "intro": false
     },
     {
-      "id": "uosNDHwGI0c",
+      "id": "a0D8_WWqoGM",
       "artist": "Marisela",
       "title": "Completamente Tuya",
-      "youtube": "https://www.youtube.com/watch?v=uosNDHwGI0c",
-      "artwork": "assets/covers/uosNDHwGI0c.jpg",
-      "artworkLarge": "assets/covers/uosNDHwGI0c.jpg",
+      "youtube": "https://www.youtube.com/watch?v=a0D8_WWqoGM",
+      "artwork": "assets/covers/a0D8_WWqoGM.jpg",
+      "artworkLarge": "assets/covers/a0D8_WWqoGM.jpg",
       "intro": false
     },
     {
@@ -854,12 +854,12 @@
       "intro": false
     },
     {
-      "id": "K6qJcrVmomY",
+      "id": "U18TaFgLVXw",
       "artist": "Daniela Romo",
       "title": "Todo Todo Todo",
-      "youtube": "https://www.youtube.com/watch?v=K6qJcrVmomY",
-      "artwork": "assets/covers/K6qJcrVmomY.jpg",
-      "artworkLarge": "assets/covers/K6qJcrVmomY.jpg",
+      "youtube": "https://www.youtube.com/watch?v=U18TaFgLVXw",
+      "artwork": "assets/covers/U18TaFgLVXw.jpg",
+      "artworkLarge": "assets/covers/U18TaFgLVXw.jpg",
       "intro": false
     },
     {

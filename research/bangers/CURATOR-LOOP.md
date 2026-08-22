@@ -35,7 +35,7 @@ Some voices own a genre. They may appear more than once.
 | Room | El Ayer | El Presente |
 |---|---|---|
 | Colmado | Elvis Crespo — *Suavemente* `WPiEbYSF9kE` | Elvis Crespo — *Abracadabra* `h6sbZalmiu4` |
-| Secador | Selena — *Como La Flor* `FwZTgDjRLM0` | Prince Royce, Shakira — *Deja Vu* `XEvKn-QgAY0` |
+| Secador | Selena — *Como La Flor* `JsUt2jsLM1k` | Prince Royce, Shakira — *Deja Vu* `XEvKn-QgAY0` |
 | Barbería | Aventura — *Obsesión* `SEjw5rdyvVg` | Romeo Santos — *Propuesta Indecente* `QFs3PIZb3js` |
 | Limpieza | Toño Rosario — *Kulikitaka* `3LCEzvkwWwI` | Los Hermanos Rosario — *Pasarela* `SagA6H4LWjI` |
 | Galería | Juan Luis Guerra — *El Costo de la Vida* `tPTB0TRV3BA` | Ricardo Arjona, Gaby Moreno — *Fuiste Tú* `I9cCPQVPv8o` |

@@ -288,6 +288,13 @@ def rewrite(label, pid, want, jar, sapisid):
 
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--room", action="append", help="Limit to room id, repeatable")
+    args = parser.parse_args()
+    only = set(args.room or [])
+
     jar = cookies()
     sapisid = sapisid_value(jar)
     if not sapisid:
@@ -297,6 +304,8 @@ def main():
     results = {}
 
     for room in ROOMS:
+        if only and room["id"] not in only:
+            continue
         room_id = room["id"]
         saved_room = saved.get(room_id) or {}
         out_room = {}
