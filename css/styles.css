@@ -110,9 +110,9 @@ a {
   background-color: var(--theme);
 }
 
-/* Phone: size the plate to the visible webview (100dvh). A taller
-   100lvh+bleed box made cover crop the people. JS pinPlate() matches
-   visualViewport exactly. */
+/* Phone: full-device plate (100lvh) so Safari 26 glass sits ON the
+   photo instead of reserving a theme/black/white band. Do not size to
+   visualViewport — that locks the painting into the hole between bars. */
 @media (pointer: coarse) {
   :root {
     --hud-top: max(56px, calc(var(--safe-t) + 44px));
@@ -121,10 +121,11 @@ a {
 
   html,
   body {
-    background-color: #000 !important;
-    height: 100%;
-    min-height: 100dvh;
-    overflow: hidden;
+    background-color: transparent !important;
+    height: 100lvh;
+    min-height: 100lvh;
+    overflow-x: hidden;
+    overflow-y: hidden;
     padding: 0;
     overscroll-behavior: none;
   }
@@ -143,8 +144,8 @@ a {
     left: 0;
     bottom: auto;
     width: 100%;
-    height: 100dvh;
-    min-height: 100dvh;
+    height: 100lvh;
+    min-height: 100lvh;
     background-color: transparent;
     transform: none;
   }
@@ -161,7 +162,7 @@ a {
   }
 
   .dock {
-    bottom: max(10px, var(--safe-b));
+    bottom: max(12px, var(--safe-b));
   }
 }
 
