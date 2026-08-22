@@ -754,8 +754,7 @@
   }
 
   function stationName(id) {
-    const room = ROOMS[id];
-    return (room && room.station) || "Sopita";
+    return scriptName(id);
   }
 
   function paintRoomChrome(id) {
@@ -768,12 +767,12 @@
     if (texts[0]) texts[0].textContent = lines[0] || "";
     if (texts[1]) texts[1].textContent = lines[1] || "";
     el.wordmark.setAttribute("aria-label", room.name);
-    el.kicker.textContent = room.kicker;
-    if (el.station) el.station.textContent = stationName(id);
-    document.title = stationName(id);
+    el.kicker.textContent = scriptName(id);
+    if (el.station) el.station.textContent = scriptName(id);
+    document.title = scriptName(id);
     el.lista.href = listaUrl(id, state.era);
     if (el.listaLabel) el.listaLabel.textContent = "YT Music";
-    el.lista.setAttribute("aria-label", "Abrir en YouTube Music");
+    el.lista.setAttribute("aria-label", `Abrir ${scriptName(id)} en YouTube Music`);
     crossfadeScene(id);
     for (const a of el.rooms) {
       a.classList.toggle("is-on", a.dataset.room === id);
