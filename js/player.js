@@ -515,15 +515,78 @@
     el.probe = probe;
   }
 
+  const PLATES = {
+    colmado: "assets/colmado.jpg?v=74",
+    secador: "assets/salon.jpg?v=74",
+    barberia: "assets/barberia.jpg?v=74",
+    limpieza: "assets/limpieza.jpg?v=74",
+    galeria: "assets/galeria.jpg?v=74",
+    malecon: "assets/malecon.jpg?v=74",
+    "colmado-hoy": "assets/colmado-hoy.jpg?v=74",
+    "secador-hoy": "assets/salon-hoy.jpg?v=74",
+    "barberia-hoy": "assets/barberia-hoy.jpg?v=74",
+    "limpieza-hoy": "assets/limpieza-hoy.jpg?v=74",
+    "galeria-hoy": "assets/galeria-hoy.jpg?v=74",
+    "malecon-hoy": "assets/malecon-hoy.jpg?v=74",
+  };
+
+  function isCoarsePhone() {
+    return Boolean(window.matchMedia && window.matchMedia("(max-width: 650px)").matches);
+  }
+
+  function safariScrollOffset() {
+    if (!isCoarsePhone()) return 0;
+    const raw = getComputedStyle(document.documentElement).getPropertyValue("--safari-scroll-offset");
+    const n = Number.parseFloat(raw);
+    return Number.isFinite(n) ? n : 62;
+  }
+
+  function pinSafariRunway() {
+    const offset = safariScrollOffset();
+    if (!offset) return;
+    if (Math.abs(window.scrollY - offset) > 1) window.scrollTo(0, offset);
+  }
+
+  function bindSafariRunway() {
+    if (!isCoarsePhone()) return;
+    pinSafariRunway();
+    window.addEventListener("scroll", pinSafariRunway, { passive: true });
+    window.addEventListener("resize", pinSafariRunway);
+    window.addEventListener("orientationchange", () => setTimeout(pinSafariRunway, 80));
+    if (window.visualViewport) {
+      visualViewport.addEventListener("resize", pinSafariRunway);
+      visualViewport.addEventListener("scroll", pinSafariRunway);
+    }
+    document.addEventListener(
+      "touchmove",
+      (event) => {
+        if (!isCoarsePhone()) return;
+        if (event.target.closest(".dock, .player, .rooms, .eras, .pill, button, input, a, .seek-wrap")) {
+          return;
+        }
+        event.preventDefault();
+      },
+      { passive: false }
+    );
+    setTimeout(pinSafariRunway, 50);
+    setTimeout(pinSafariRunway, 300);
+    setTimeout(pinSafariRunway, 800);
+  }
+
   function setTheme(color) {
     const night = state.era === "hoy";
-    const phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
     document.documentElement.style.setProperty("--theme", color);
     document.body.style.setProperty("--theme", color);
-    document.documentElement.style.backgroundColor = phone ? "transparent" : color;
-    document.body.style.backgroundColor = phone ? "transparent" : color;
-    document.documentElement.style.colorScheme = phone || night ? "dark" : "light";
+    if (isCoarsePhone()) {
+      document.documentElement.style.backgroundColor = "";
+      document.body.style.backgroundColor = "";
+    } else {
+      document.documentElement.style.backgroundColor = color;
+      document.body.style.backgroundColor = color;
+    }
+    document.documentElement.style.colorScheme = night ? "dark" : "light";
     remountProbe(color);
+    pinSafariRunway();
     // Chrome/Android/PWA read theme-color. Safari 26 ignores it and
     // samples a full-width fixed strip instead (#theme-probe).
     document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
@@ -546,16 +609,26 @@
       scheme.setAttribute("name", "color-scheme");
       document.head.appendChild(scheme);
     }
-    scheme.setAttribute("content", phone || night ? "dark" : "light");
+    scheme.setAttribute("content", night ? "dark" : "light");
     if (el.maskIcon) el.maskIcon.setAttribute("color", color);
+  }
+
+  function setHeroPhoto(node, scene) {
+    if (!node) return;
+    const photo = node.querySelector(".hero__photo");
+    if (photo) photo.src = PLATES[scene] || PLATES.colmado;
   }
 
   function crossfadeScene(id) {
     const scene = sceneKey(id);
     const front = state.frontHero === "a" ? el.heroA : el.heroB;
     const back = state.frontHero === "a" ? el.heroB : el.heroA;
-    if (front.dataset.scene === scene) return;
+    if (front.dataset.scene === scene) {
+      setHeroPhoto(front, scene);
+      return;
+    }
     back.dataset.scene = scene;
+    setHeroPhoto(back, scene);
     back.classList.add("is-on");
     front.classList.remove("is-on");
     state.frontHero = state.frontHero === "a" ? "b" : "a";
@@ -1747,9 +1820,13 @@
       if (!pageIsHidden()) {
         beat();
         resumeIfWanted("foreground");
+        pinSafariRunway();
       }
     });
-    window.addEventListener("pageshow", () => resumeIfWanted("pageshow"));
+    window.addEventListener("pageshow", () => {
+      resumeIfWanted("pageshow");
+      pinSafariRunway();
+    });
     window.addEventListener("focus", () => resumeIfWanted("focus"));
     document.addEventListener("resume", () => resumeIfWanted("resume"));
     window.addEventListener("pagehide", () => {
@@ -1872,6 +1949,7 @@
 
   async function boot() {
     bind();
+    bindSafariRunway();
     absolutizeShareImages();
     tickClock();
     setInterval(tickClock, 1000);

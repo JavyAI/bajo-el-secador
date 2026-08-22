@@ -110,55 +110,113 @@ a {
   background-color: var(--theme);
 }
 
-/* Phone: full-device plate (100lvh) so Safari 26 glass sits ON the
-   photo instead of reserving a theme/black/white band. Do not size to
-   visualViewport — that locks the painting into the hole between bars. */
-@media (pointer: coarse) {
+/* Phone / iOS 26 Safari: at scrollY=0 the chrome samples a solid
+   root color (gold / white / black bars). After a non-zero scroll,
+   it composites real photo pixels through Liquid Glass. Keep a short
+   runway, bleed the plate past the visual viewport, lock scroll there.
+   body { overflow: hidden } blocks that path. */
+@media screen and (max-width: 650px) {
   :root {
+    --safari-top-bleed: 62px;
+    --safari-bottom-bleed: 136px;
+    --safari-scroll-offset: 62px;
     --hud-top: max(56px, calc(var(--safe-t) + 44px));
     --hud-bottom: max(112px, calc(var(--safe-b) + 100px));
   }
 
-  html,
+  html {
+    height: auto !important;
+    min-height: calc(100dvh + var(--safari-scroll-offset) + var(--safari-bottom-bleed)) !important;
+    overflow-x: auto !important;
+    overflow-y: scroll !important;
+    overscroll-behavior: none;
+    background-color: var(--chrome, #665e51) !important;
+    padding: 0;
+  }
+
   body {
-    background-color: transparent !important;
-    height: 100lvh;
-    min-height: 100lvh;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    height: auto !important;
+    min-height: calc(100dvh + var(--safari-scroll-offset) + var(--safari-bottom-bleed)) !important;
+    overflow: visible !important;
     padding: 0;
     overscroll-behavior: none;
+    background-color: var(--chrome, #665e51) !important;
   }
+
+  body[data-room="colmado"] { --chrome: #665e51; }
+  body[data-room="secador"] { --chrome: #926a43; }
+  body[data-room="barberia"] { --chrome: #2b2d28; }
+  body[data-room="limpieza"] { --chrome: #5d5d3f; }
+  body[data-room="galeria"] { --chrome: #666043; }
+  body[data-room="malecon"] { --chrome: #74606f; }
+  body[data-room="colmado"][data-era="hoy"] { --chrome: #11151c; }
+  body[data-room="secador"][data-era="hoy"] { --chrome: #07183d; }
+  body[data-room="barberia"][data-era="hoy"] { --chrome: #141d30; }
+  body[data-room="limpieza"][data-era="hoy"] { --chrome: #283535; }
+  body[data-room="galeria"][data-era="hoy"] { --chrome: #1e2a35; }
+  body[data-room="malecon"][data-era="hoy"] { --chrome: #263b62; }
 
   #theme-probe {
     display: none !important;
   }
 
-  .safari-shell,
-  .hero-stack,
-  .hero,
-  .hero__veil {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: auto;
+  .safari-shell {
+    position: relative;
+    inset: auto;
+    z-index: 2;
     width: 100%;
-    height: 100lvh;
-    min-height: 100lvh;
+    height: 100dvh;
+    min-height: 100dvh;
+    margin: var(--safari-scroll-offset) 0 0;
+    overflow: visible;
     background-color: transparent;
     transform: none;
   }
 
-  .hero-stack,
-  .hero {
+  .hero-stack {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: calc(100dvh + var(--safari-top-bleed) + var(--safari-bottom-bleed));
+    min-height: 0;
+    margin-top: calc(-1 * var(--safari-top-bleed));
+    overflow: visible;
+    background-color: transparent;
+    transform: none;
+  }
+
+  .hero,
+  .hero__veil {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
     overflow: hidden;
+    background-color: transparent;
+    transform: none;
   }
 
   .hero {
     background-size: cover;
     background-position: 50% 50%;
-    transform: none;
+  }
+
+  .hero__photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    pointer-events: none;
+  }
+
+  #yt-host {
+    left: 8px;
+    bottom: 16px;
+    width: 240px;
+    height: 135px;
   }
 
   .dock {
@@ -167,15 +225,32 @@ a {
 }
 
 @media (display-mode: standalone) {
+  :root {
+    --safari-top-bleed: 0px;
+    --safari-bottom-bleed: 0px;
+    --safari-scroll-offset: 0px;
+  }
+
   html,
   body {
     height: 100%;
+    min-height: 100dvh;
     overflow: hidden;
     padding: 0;
   }
 
   #theme-probe {
     display: none !important;
+  }
+
+  .safari-shell,
+  .hero-stack {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
   }
 }
 
@@ -201,6 +276,16 @@ a {
 
 .hero.is-on {
   opacity: 1;
+}
+
+.hero__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+  pointer-events: none;
 }
 
 .hero[data-scene="colmado"] {
@@ -1094,5 +1179,35 @@ body:not(.is-playing) .play .ico-pause {
   .hero[data-scene="malecon"],
   .hero[data-scene="malecon-hoy"] {
     background-position: 48% 50%;
+  }
+
+  .hero[data-scene="colmado"] .hero__photo,
+  .hero[data-scene="colmado-hoy"] .hero__photo {
+    object-position: 50% 55%;
+  }
+
+  .hero[data-scene="secador"] .hero__photo,
+  .hero[data-scene="secador-hoy"] .hero__photo {
+    object-position: 50% 48%;
+  }
+
+  .hero[data-scene="barberia"] .hero__photo,
+  .hero[data-scene="barberia-hoy"] .hero__photo {
+    object-position: 50% 52%;
+  }
+
+  .hero[data-scene="limpieza"] .hero__photo,
+  .hero[data-scene="limpieza-hoy"] .hero__photo {
+    object-position: 42% 50%;
+  }
+
+  .hero[data-scene="galeria"] .hero__photo,
+  .hero[data-scene="galeria-hoy"] .hero__photo {
+    object-position: 50% 48%;
+  }
+
+  .hero[data-scene="malecon"] .hero__photo,
+  .hero[data-scene="malecon-hoy"] .hero__photo {
+    object-position: 48% 50%;
   }
 }

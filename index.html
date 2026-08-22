@@ -47,14 +47,13 @@
       var room = THEMES[id] || THEMES.colmado;
       var color = room[era];
       document.documentElement.style.setProperty("--theme", color);
-      var phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
-      document.documentElement.style.colorScheme = phone || era === "hoy" ? "dark" : "light";
-      document.documentElement.style.backgroundColor = phone ? "transparent" : color;
+      document.documentElement.style.colorScheme = era === "hoy" ? "dark" : "light";
+      document.documentElement.style.backgroundColor = color;
       document.querySelectorAll('meta[name="theme-color"], meta[name="msapplication-TileColor"], meta[name="msapplication-navbutton-color"]').forEach(function (node) {
         node.setAttribute("content", color);
       });
       var scheme = document.querySelector('meta[name="color-scheme"]');
-      if (scheme) scheme.setAttribute("content", phone || era === "hoy" ? "dark" : "light");
+      if (scheme) scheme.setAttribute("content", era === "hoy" ? "dark" : "light");
       window.__SOPITA_THEME = { id: id, era: era, color: color };
     })();
   </script>
@@ -70,14 +69,18 @@
   <link rel="preconnect" href="https://i.ytimg.com">
   <link rel="preconnect" href="https://www.youtube.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=126">
+  <link rel="stylesheet" href="css/styles.css?v=132">
 </head>
 <body data-room="colmado" data-era="ayer">
   <div id="theme-probe" aria-hidden="true"></div>
   <div id="safari-shell" class="safari-shell" aria-hidden="true">
     <div class="hero-stack">
-      <div class="hero is-on" id="hero-a" data-scene="colmado"></div>
-      <div class="hero" id="hero-b"></div>
+      <div class="hero is-on" id="hero-a" data-scene="colmado">
+        <img class="hero__photo" src="assets/colmado.jpg?v=74" alt="" aria-hidden="true">
+      </div>
+      <div class="hero" id="hero-b">
+        <img class="hero__photo" alt="" aria-hidden="true">
+      </div>
       <div class="hero__veil"></div>
     </div>
   </div>
@@ -87,7 +90,7 @@
       if (!t) return;
       document.body.dataset.room = t.id;
       document.body.dataset.era = t.era;
-      document.body.style.backgroundColor = (window.matchMedia && window.matchMedia("(pointer: coarse)").matches) ? "transparent" : t.color;
+      document.body.style.backgroundColor = t.color;
       var probe = document.getElementById("theme-probe");
       if (probe) probe.style.backgroundColor = t.color;
     })();
@@ -187,6 +190,20 @@
     <p class="noscript">Hace falta JavaScript para oír la radio.</p>
   </noscript>
 
-  <script src="js/player.js?v=101" defer></script>
+  <script>
+    (function () {
+      function pin() {
+        var offset = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--safari-scroll-offset")) || 0;
+        if (offset && Math.abs(scrollY - offset) > 1) scrollTo(0, offset);
+      }
+      pin();
+      addEventListener("scroll", pin, { passive: true });
+      addEventListener("load", pin);
+      setTimeout(pin, 50);
+      setTimeout(pin, 300);
+      setTimeout(pin, 800);
+    })();
+  </script>
+  <script src="js/player.js?v=106" defer></script>
 </body>
 </html>
