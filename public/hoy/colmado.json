@@ -165,8 +165,8 @@
       "artist": "Manny Cruz, Los Hermanos Rosario",
       "title": "La Dueña del Swing",
       "youtube": "https://www.youtube.com/watch?v=4R7NmEa8s8M",
-      "artwork": "https://i.ytimg.com/vi/4R7NmEa8s8M/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/4R7NmEa8s8M/mqdefault.jpg",
+      "artwork": "assets/covers/4R7NmEa8s8M.jpg",
+      "artworkLarge": "assets/covers/4R7NmEa8s8M.jpg",
       "intro": false
     },
     {
@@ -476,12 +476,12 @@
       "intro": false
     },
     {
-      "id": "Nkloca2M6hU",
+      "id": "GT5l22yLxwA",
       "artist": "Juan Luis Guerra 4.40",
       "title": "Tú",
-      "youtube": "https://www.youtube.com/watch?v=Nkloca2M6hU",
-      "artwork": "https://i.ytimg.com/vi/Nkloca2M6hU/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Nkloca2M6hU/mqdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=GT5l22yLxwA",
+      "artwork": "assets/covers/GT5l22yLxwA.jpg",
+      "artworkLarge": "assets/covers/GT5l22yLxwA.jpg",
       "intro": false
     },
     {
@@ -593,12 +593,12 @@
       "intro": false
     },
     {
-      "id": "Z-HatOGVnbk",
+      "id": "0rJGcaA5Rb0",
       "artist": "Maykel Blanco y su Salsa Mayor",
       "title": "Ya Tú No Coronas",
-      "youtube": "https://www.youtube.com/watch?v=Z-HatOGVnbk",
-      "artwork": "https://i.ytimg.com/vi/Z-HatOGVnbk/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Z-HatOGVnbk/mqdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=0rJGcaA5Rb0",
+      "artwork": "assets/covers/0rJGcaA5Rb0.jpg",
+      "artworkLarge": "assets/covers/0rJGcaA5Rb0.jpg",
       "intro": false
     },
     {
@@ -687,8 +687,8 @@
       "artist": "Manny Cruz",
       "title": "OYE",
       "youtube": "https://www.youtube.com/watch?v=vEDn-xoL4Ss",
-      "artwork": "https://i.ytimg.com/vi/vEDn-xoL4Ss/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/vEDn-xoL4Ss/mqdefault.jpg",
+      "artwork": "assets/covers/vEDn-xoL4Ss.jpg",
+      "artworkLarge": "assets/covers/vEDn-xoL4Ss.jpg",
       "intro": false
     },
     {
@@ -818,12 +818,12 @@
       "intro": false
     },
     {
-      "id": "CtJzPo-OqnY",
+      "id": "HmIKs2Q3epY",
       "artist": "Eddy Herrera",
       "title": "Y Cómo Te Olvido",
-      "youtube": "https://www.youtube.com/watch?v=CtJzPo-OqnY",
-      "artwork": "https://i.ytimg.com/vi/CtJzPo-OqnY/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/CtJzPo-OqnY/mqdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=HmIKs2Q3epY",
+      "artwork": "assets/covers/HmIKs2Q3epY.jpg",
+      "artworkLarge": "assets/covers/HmIKs2Q3epY.jpg",
       "intro": false
     },
     {

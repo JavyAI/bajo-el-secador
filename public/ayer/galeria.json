@@ -381,8 +381,8 @@
       "artist": "Juan Luis Guerra",
       "title": "Woman del Callao",
       "youtube": "https://www.youtube.com/watch?v=kQgXAn5J7is",
-      "artwork": "https://i.ytimg.com/vi/kQgXAn5J7is/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/kQgXAn5J7is/mqdefault.jpg",
+      "artwork": "assets/covers/kQgXAn5J7is.jpg",
+      "artworkLarge": "assets/covers/kQgXAn5J7is.jpg",
       "intro": false
     },
     {
@@ -566,12 +566,12 @@
       "intro": false
     },
     {
-      "id": "dY8MG-Qf7tk",
+      "id": "1EujSlqzerA",
       "artist": "Luis Miguel",
       "title": "Entrégate",
-      "youtube": "https://www.youtube.com/watch?v=dY8MG-Qf7tk",
-      "artwork": "assets/covers/dY8MG-Qf7tk.jpg",
-      "artworkLarge": "assets/covers/dY8MG-Qf7tk.jpg",
+      "youtube": "https://www.youtube.com/watch?v=1EujSlqzerA",
+      "artwork": "assets/covers/1EujSlqzerA.jpg",
+      "artworkLarge": "assets/covers/1EujSlqzerA.jpg",
       "intro": false
     },
     {
@@ -611,12 +611,12 @@
       "intro": false
     },
     {
-      "id": "uZtXRgB95T4",
+      "id": "tM6mVF-Jtwo",
       "artist": "Amanda Miguel",
       "title": "Ámame Una Vez Más",
-      "youtube": "https://www.youtube.com/watch?v=uZtXRgB95T4",
-      "artwork": "assets/covers/uZtXRgB95T4.jpg",
-      "artworkLarge": "assets/covers/uZtXRgB95T4.jpg",
+      "youtube": "https://www.youtube.com/watch?v=tM6mVF-Jtwo",
+      "artwork": "assets/covers/tM6mVF-Jtwo.jpg",
+      "artworkLarge": "assets/covers/tM6mVF-Jtwo.jpg",
       "intro": false
     },
     {

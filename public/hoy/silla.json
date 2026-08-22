@@ -39,8 +39,8 @@
       "artist": "Zacarías Ferreira",
       "title": "La Asesina",
       "youtube": "https://www.youtube.com/watch?v=MB23TtaeiQY",
-      "artwork": "https://i.ytimg.com/vi/MB23TtaeiQY/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/MB23TtaeiQY/mqdefault.jpg",
+      "artwork": "assets/covers/MB23TtaeiQY.jpg",
+      "artworkLarge": "assets/covers/MB23TtaeiQY.jpg",
       "intro": true
     },
     {
@@ -102,8 +102,8 @@
       "artist": "El Chaval de la Bachata",
       "title": "Dile A Él",
       "youtube": "https://www.youtube.com/watch?v=AL_Ogy2TTXs",
-      "artwork": "https://i.ytimg.com/vi/AL_Ogy2TTXs/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/AL_Ogy2TTXs/mqdefault.jpg",
+      "artwork": "assets/covers/AL_Ogy2TTXs.jpg",
+      "artworkLarge": "assets/covers/AL_Ogy2TTXs.jpg",
       "intro": true
     },
     {
@@ -453,8 +453,8 @@
       "artist": "Zacarías Ferreira",
       "title": "Me Sobran Las Palabras",
       "youtube": "https://www.youtube.com/watch?v=59_5CFuPvPc",
-      "artwork": "https://i.ytimg.com/vi/59_5CFuPvPc/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/59_5CFuPvPc/mqdefault.jpg",
+      "artwork": "assets/covers/59_5CFuPvPc.jpg",
+      "artworkLarge": "assets/covers/59_5CFuPvPc.jpg",
       "intro": false
     },
     {
@@ -638,12 +638,12 @@
       "intro": false
     },
     {
-      "id": "Xr_jslGVFvo",
+      "id": "Www9T8noIIE",
       "artist": "Grupo Extra",
       "title": "Me Emborracharé",
-      "youtube": "https://www.youtube.com/watch?v=Xr_jslGVFvo",
-      "artwork": "https://i.ytimg.com/vi/Xr_jslGVFvo/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Xr_jslGVFvo/mqdefault.jpg",
+      "youtube": "https://www.youtube.com/watch?v=Www9T8noIIE",
+      "artwork": "assets/covers/Www9T8noIIE.jpg",
+      "artworkLarge": "assets/covers/Www9T8noIIE.jpg",
       "intro": false
     },
     {
@@ -750,8 +750,8 @@
       "artist": "Yoskar Sarante",
       "title": "Quién Eres Tú",
       "youtube": "https://www.youtube.com/watch?v=Lpj2epjATXM",
-      "artwork": "https://i.ytimg.com/vi/Lpj2epjATXM/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Lpj2epjATXM/mqdefault.jpg",
+      "artwork": "assets/covers/Lpj2epjATXM.jpg",
+      "artworkLarge": "assets/covers/Lpj2epjATXM.jpg",
       "intro": false
     },
     {
