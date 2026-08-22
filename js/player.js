@@ -614,9 +614,13 @@
   }
 
   function setHeroPhoto(node, scene) {
-    if (!node) return;
-    const photo = node.querySelector(".hero__photo");
-    if (photo) photo.src = PLATES[scene] || PLATES.colmado;
+    const src = PLATES[scene] || PLATES.colmado;
+    if (node) {
+      const photo = node.querySelector(".hero__photo");
+      if (photo) photo.src = src;
+    }
+    const plate = document.getElementById("plate-img");
+    if (plate && plate.src.indexOf(src) === -1) plate.src = src;
   }
 
   function crossfadeScene(id) {

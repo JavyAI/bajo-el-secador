@@ -130,7 +130,6 @@ a {
     overflow-x: auto !important;
     overflow-y: scroll !important;
     overscroll-behavior: none;
-    background-color: var(--chrome, #665e51) !important;
     padding: 0;
   }
 
@@ -140,21 +139,7 @@ a {
     overflow: visible !important;
     padding: 0;
     overscroll-behavior: none;
-    background-color: var(--chrome, #665e51) !important;
   }
-
-  body[data-room="colmado"] { --chrome: #665e51; }
-  body[data-room="secador"] { --chrome: #926a43; }
-  body[data-room="barberia"] { --chrome: #2b2d28; }
-  body[data-room="limpieza"] { --chrome: #5d5d3f; }
-  body[data-room="galeria"] { --chrome: #666043; }
-  body[data-room="malecon"] { --chrome: #74606f; }
-  body[data-room="colmado"][data-era="hoy"] { --chrome: #11151c; }
-  body[data-room="secador"][data-era="hoy"] { --chrome: #07183d; }
-  body[data-room="barberia"][data-era="hoy"] { --chrome: #141d30; }
-  body[data-room="limpieza"][data-era="hoy"] { --chrome: #283535; }
-  body[data-room="galeria"][data-era="hoy"] { --chrome: #1e2a35; }
-  body[data-room="malecon"][data-era="hoy"] { --chrome: #263b62; }
 
   #theme-probe {
     display: none !important;
@@ -178,11 +163,20 @@ a {
     inset: auto;
     width: 100%;
     height: calc(100dvh + var(--safari-top-bleed) + var(--safari-bottom-bleed));
-    min-height: 0;
+    min-height: calc(100dvh + var(--safari-top-bleed) + var(--safari-bottom-bleed));
     margin-top: calc(-1 * var(--safari-top-bleed));
     overflow: visible;
     background-color: transparent;
     transform: none;
+  }
+
+  .plate-img {
+    display: block;
+    width: 100%;
+    height: calc(100dvh + var(--safari-top-bleed) + var(--safari-bottom-bleed));
+    object-fit: cover;
+    object-position: 50% 50%;
+    pointer-events: none;
   }
 
   .hero,
@@ -214,13 +208,20 @@ a {
 
   #yt-host {
     left: 8px;
-    bottom: 16px;
-    width: 240px;
-    height: 135px;
+    top: 8px;
+    bottom: auto;
+    width: 160px;
+    height: 90px;
   }
 
   .dock {
-    bottom: max(12px, var(--safe-b));
+    left: 16px;
+    right: 16px;
+    width: auto;
+    bottom: max(24px, var(--safe-b));
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
   }
 }
 
@@ -281,6 +282,15 @@ a {
 .hero__photo {
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+  pointer-events: none;
+}
+
+.plate-img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
