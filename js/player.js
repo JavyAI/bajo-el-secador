@@ -576,8 +576,8 @@
     document.documentElement.style.setProperty("--theme", color);
     document.body.style.setProperty("--theme", color);
     if (isCoarsePhone()) {
-      document.documentElement.style.backgroundColor = "";
-      document.body.style.backgroundColor = "";
+      document.documentElement.style.backgroundColor = "#000";
+      document.body.style.backgroundColor = "#000";
     } else {
       document.documentElement.style.backgroundColor = color;
       document.body.style.backgroundColor = color;
@@ -589,7 +589,7 @@
     // samples a full-width fixed strip instead (#theme-probe).
     document.querySelectorAll('meta[name="theme-color"]').forEach((node) => node.remove());
     const medias = [null, "(prefers-color-scheme: light)", "(prefers-color-scheme: dark)"];
-    const chrome = color;
+    const chrome = isCoarsePhone() ? "#000000" : color;
     const nodes = medias.map((media) => {
       const meta = document.createElement("meta");
       meta.setAttribute("name", "theme-color");

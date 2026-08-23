@@ -46,11 +46,13 @@
       var era = /(?:\?|&)hoy=1(?:&|$)/.test(location.search) ? "hoy" : "ayer";
       var room = THEMES[id] || THEMES.colmado;
       var color = room[era];
+      var phone = window.matchMedia && window.matchMedia("(max-width: 650px)").matches;
+      var rootFill = phone ? "#000000" : color;
       document.documentElement.style.setProperty("--theme", color);
       document.documentElement.style.colorScheme = era === "hoy" ? "dark" : "light";
-      document.documentElement.style.backgroundColor = color;
+      document.documentElement.style.backgroundColor = rootFill;
       document.querySelectorAll('meta[name="theme-color"], meta[name="msapplication-TileColor"], meta[name="msapplication-navbutton-color"]').forEach(function (node) {
-        node.setAttribute("content", color);
+        node.setAttribute("content", rootFill);
       });
       var scheme = document.querySelector('meta[name="color-scheme"]');
       if (scheme) scheme.setAttribute("content", era === "hoy" ? "dark" : "light");
@@ -69,7 +71,7 @@
   <link rel="preconnect" href="https://i.ytimg.com">
   <link rel="preconnect" href="https://www.youtube.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=136">
+  <link rel="stylesheet" href="css/styles.css?v=137">
 </head>
 <body data-room="colmado" data-era="ayer">
   <div id="theme-probe" aria-hidden="true"></div>
@@ -91,9 +93,11 @@
       if (!t) return;
       document.body.dataset.room = t.id;
       document.body.dataset.era = t.era;
-      document.body.style.backgroundColor = t.color;
+      var phone = window.matchMedia && window.matchMedia("(max-width: 650px)").matches;
+      document.body.style.backgroundColor = phone ? "#000" : t.color;
+      document.documentElement.style.backgroundColor = phone ? "#000" : t.color;
       var probe = document.getElementById("theme-probe");
-      if (probe) probe.style.backgroundColor = t.color;
+      if (probe) probe.style.backgroundColor = phone ? "#000" : t.color;
     })();
   </script>
 
@@ -205,6 +209,6 @@
       setTimeout(pin, 800);
     })();
   </script>
-  <script src="js/player.js?v=108" defer></script>
+  <script src="js/player.js?v=109" defer></script>
 </body>
 </html>
