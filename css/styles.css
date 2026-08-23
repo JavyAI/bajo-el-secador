@@ -503,11 +503,19 @@ body[data-era="hoy"] .presence__dot::after {
 .links {
   position: fixed;
   z-index: 20;
+  left: auto;
   right: var(--safe-r);
   top: var(--safe-t);
+  width: max-content;
+  height: auto;
   display: flex;
   align-items: center;
   gap: 4px;
+  pointer-events: none;
+}
+
+.links a {
+  pointer-events: auto;
 }
 
 .pill {
@@ -559,7 +567,6 @@ body[data-era="hoy"] .presence__dot::after {
 
 #lista-link {
   padding-right: 6px;
-}
 }
 
 .center {
