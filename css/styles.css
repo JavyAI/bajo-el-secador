@@ -507,7 +507,7 @@ body[data-era="hoy"] .presence__dot::after {
   top: var(--safe-t);
   display: flex;
   align-items: center;
-  gap: 0;
+  gap: 4px;
 }
 
 .pill {
