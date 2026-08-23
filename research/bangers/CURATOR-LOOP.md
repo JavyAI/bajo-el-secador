@@ -37,11 +37,11 @@ Some voices own a genre. They may appear more than once.
 | Colmado | Elvis Crespo — *Suavemente* `WPiEbYSF9kE` | Elvis Crespo — *Abracadabra* `h6sbZalmiu4` |
 | Secador | Selena — *Como La Flor* `JsUt2jsLM1k` | Prince Royce, Shakira — *Deja Vu* `XEvKn-QgAY0` |
 | Barbería | Aventura — *Obsesión* `SEjw5rdyvVg` | Romeo Santos — *Propuesta Indecente* `QFs3PIZb3js` |
-| Limpieza | Toño Rosario — *Kulikitaka* `3LCEzvkwWwI` | Los Hermanos Rosario — *Pasarela* `SagA6H4LWjI` |
+| Limpieza | Toño Rosario — *Kulikitaka* `3LCEzvkwWwI` | Toño Rosario — *Dale Vieja Dale* `hal7rXfJj5o` |
 | Galería | Juan Luis Guerra — *El Costo de la Vida* `tPTB0TRV3BA` | Ricardo Arjona, Gaby Moreno — *Fuiste Tú* `I9cCPQVPv8o` |
 | Malecón | Chayanne — *Completamente Enamorados* `iK3BlAZAtPs` | Carlos Vives, Sebastián Yatra — *Robarte un Beso* `Mtau4v6foHA` |
 
-Always bombs: slot #1 is the 15-second body hit for that room. Charts can name a candidate (*Suavemente* is Hot Latin #1). They do not auto-win if the room refuses (*Despacito*, *La Gozadera*).
+Always bombs: slot #1 is the 15-second body hit for that room. Charts can name a candidate (*Suavemente* is Hot Latin #1). They do not auto-win if the room refuses (*Despacito*, *La Gozadera*). A dead official clip fails even if the title is the room (*Pasarela* on Limpieza de noche). Feel: `research/bangers/PRODUCER.md`.
 
 Forgotten / overtaken #1 sits **in** the 15, never as opener.
 

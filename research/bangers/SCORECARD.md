@@ -10,7 +10,7 @@ Score each live list. Then raise the lowest. 100 points.
 
 **Lead-share hygiene (10 of the 30):** ≤12 = 10 · ≤18 = 7 · ≤25 = 4 · >25 = 0.
 
-Views never pick #1. Official YouTube only.
+Views never pick #1. A dead official clip never keeps #1. Official YouTube only. Feel: `PRODUCER.md`.
 
 Live rooms only. Vitilla / Marquesina stay off the board.
 

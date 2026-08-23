@@ -15,6 +15,7 @@ Protect yesterday. Keep each room’s door sounding like that room. Flag hygiene
 
 | File | Owns |
 |---|---|
+| `PRODUCER.md` | Come-to-life door test · 12 hours · broader scope |
 | `GENRE-LOCK.md` | IN / OUT by room |
 | `ERA-LOCK.md` | AYER ~1980–2010 · HOY ~2011–now |
 | `CURATOR-LOOP.md` | #1s, first-5 uniqueness, king caps, official-only |
@@ -31,4 +32,4 @@ Slot #1 is the 15-second body bomb for that room. Billboard can confirm a mereng
 
 ## Last pass
 
-2026-08-21 — always bombs. Colmado de día opens *Suavemente*. First-5 unique. No consecutive leads.
+2026-08-23 — producer mindset. Limpieza de noche door walked to Toño *Dale Vieja Dale*. *Pasarela* stays in the first 5 (dead clip). First-5 unique. No consecutive leads.

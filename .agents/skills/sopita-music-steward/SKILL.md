@@ -29,12 +29,13 @@ On-disk Barbería is still `silla.json`. Hash is `#barberia`.
 
 Read, in order, only what the pass needs:
 
-1. `research/bangers/STEWARD.md`
-2. `research/bangers/GENRE-LOCK.md`
-3. `research/bangers/ERA-LOCK.md`
-4. `research/bangers/CURATOR-LOOP.md`
-5. `research/bangers/CURATION-SPEC.md`
-6. `research/bangers/SCORECARD.md`
+1. `research/bangers/PRODUCER.md`
+2. `research/bangers/STEWARD.md`
+3. `research/bangers/GENRE-LOCK.md`
+4. `research/bangers/ERA-LOCK.md`
+5. `research/bangers/CURATOR-LOOP.md`
+6. `research/bangers/CURATION-SPEC.md`
+7. `research/bangers/SCORECARD.md`
 
 Authored #1s, first-5 uniqueness, king caps, and official-only rules live in `CURATOR-LOOP.md`. IN/OUT by room lives in `GENRE-LOCK.md`.
 
