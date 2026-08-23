@@ -505,6 +505,9 @@ body[data-era="hoy"] .presence__dot::after {
   z-index: 20;
   right: var(--safe-r);
   top: var(--safe-t);
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
 
 .pill {
@@ -546,6 +549,12 @@ body[data-era="hoy"] .presence__dot::after {
 
 .pill:hover .pill__go {
   opacity: 0.9;
+}
+
+.pill--icon {
+  width: 36px;
+  padding: 0;
+  justify-content: center;
 }
 
 .center {
