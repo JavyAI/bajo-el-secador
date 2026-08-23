@@ -507,7 +507,7 @@ body[data-era="hoy"] .presence__dot::after {
   top: var(--safe-t);
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 0;
 }
 
 .pill {
@@ -552,9 +552,14 @@ body[data-era="hoy"] .presence__dot::after {
 }
 
 .pill--icon {
-  width: 36px;
+  width: 28px;
   padding: 0;
   justify-content: center;
+}
+
+#lista-link {
+  padding-right: 6px;
+}
 }
 
 .center {
@@ -1079,6 +1084,12 @@ body:not(.is-playing) .play .ico-pause {
   .pill__label,
   .pill__go {
     display: none;
+  }
+
+  #lista-link {
+    width: 28px;
+    padding: 0;
+    justify-content: center;
   }
 
   .center {
