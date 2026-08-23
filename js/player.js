@@ -254,7 +254,6 @@
 
   function nudgePlay(player, why) {
     if (!player || state.wanted !== "play" || state.mixing) return;
-    if (pageIsHidden()) return;
     state.nudgeCount += 1;
     dbg("nudge", `${why} #${state.nudgeCount}`);
     try {
@@ -267,14 +266,13 @@
   }
 
   function resumeIfWanted(why) {
-    if (pageIsHidden() || state.wanted !== "play") return;
+    if (state.wanted !== "play") return;
     nudgePlay(state.player, why);
   }
 
   function startWatchdog() {
     if (state.watchdog) return;
     state.watchdog = setInterval(() => {
-      if (pageIsHidden()) return;
       if (state.wanted !== "play" || state.mixing || state.seeking) return;
       const player = state.player;
       if (!player) return;
@@ -1066,12 +1064,8 @@
       }
     } else if (event.data === YTref.PlayerState.PAUSED) {
       if (isActive && !state.mixing && state.wanted === "play") {
-        if (pageIsHidden()) {
-          dbg("bg-pause", "hold");
-          return;
-        }
-        dbg("fake-pause", "resume");
-        nudgePlay(event.target, "pause");
+        dbg(pageIsHidden() ? "bg-pause" : "fake-pause", "resume");
+        nudgePlay(event.target, pageIsHidden() ? "bg-pause" : "pause");
         return;
       }
       if (isActive && !state.mixing) {
@@ -1821,11 +1815,13 @@
     }, 4000);
 
     document.addEventListener("visibilitychange", () => {
-      if (!pageIsHidden()) {
-        beat();
-        resumeIfWanted("foreground");
-        pinSafariRunway();
+      if (pageIsHidden()) {
+        resumeIfWanted("background");
+        return;
       }
+      beat();
+      resumeIfWanted("foreground");
+      pinSafariRunway();
     });
     window.addEventListener("pageshow", () => {
       resumeIfWanted("pageshow");
