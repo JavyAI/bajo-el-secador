@@ -17,12 +17,12 @@
       "intro": true
     },
     {
-      "id": "3VmoZrxXbmg",
-      "artist": "Marc Anthony",
-      "title": "Flor Pálida",
-      "youtube": "https://www.youtube.com/watch?v=3VmoZrxXbmg",
-      "artwork": "https://i.ytimg.com/vi/3VmoZrxXbmg/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/3VmoZrxXbmg/mqdefault.jpg",
+      "id": "u6Q5Lu0Sq3g",
+      "artist": "Chiquito Team Band",
+      "title": "La Llamada De Mi Ex",
+      "youtube": "https://www.youtube.com/watch?v=u6Q5Lu0Sq3g",
+      "artwork": "assets/covers/u6Q5Lu0Sq3g.jpg",
+      "artworkLarge": "assets/covers/u6Q5Lu0Sq3g.jpg",
       "intro": true
     },
     {
@@ -44,21 +44,12 @@
       "intro": true
     },
     {
-      "id": "u6Q5Lu0Sq3g",
-      "artist": "Chiquito Team Band",
-      "title": "La Llamada De Mi Ex",
-      "youtube": "https://www.youtube.com/watch?v=u6Q5Lu0Sq3g",
-      "artwork": "assets/covers/u6Q5Lu0Sq3g.jpg",
-      "artworkLarge": "assets/covers/u6Q5Lu0Sq3g.jpg",
-      "intro": true
-    },
-    {
-      "id": "YXnjy5YlDwk",
+      "id": "3VmoZrxXbmg",
       "artist": "Marc Anthony",
-      "title": "Vivir Mi Vida",
-      "youtube": "https://www.youtube.com/watch?v=YXnjy5YlDwk",
-      "artwork": "https://i.ytimg.com/vi/YXnjy5YlDwk/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/YXnjy5YlDwk/mqdefault.jpg",
+      "title": "Flor Pálida",
+      "youtube": "https://www.youtube.com/watch?v=3VmoZrxXbmg",
+      "artwork": "https://i.ytimg.com/vi/3VmoZrxXbmg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3VmoZrxXbmg/mqdefault.jpg",
       "intro": true
     },
     {
@@ -71,6 +62,15 @@
       "intro": true
     },
     {
+      "id": "YXnjy5YlDwk",
+      "artist": "Marc Anthony",
+      "title": "Vivir Mi Vida",
+      "youtube": "https://www.youtube.com/watch?v=YXnjy5YlDwk",
+      "artwork": "https://i.ytimg.com/vi/YXnjy5YlDwk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YXnjy5YlDwk/mqdefault.jpg",
+      "intro": true
+    },
+    {
       "id": "_oMfwHYSRIk",
       "artist": "Gente de Zona, Marc Anthony",
       "title": "Traidora",
@@ -80,12 +80,12 @@
       "intro": true
     },
     {
-      "id": "eHsR140M2no",
-      "artist": "Yiyo Sarante",
-      "title": "Qué Agonía",
-      "youtube": "https://www.youtube.com/watch?v=eHsR140M2no",
-      "artwork": "assets/covers/eHsR140M2no.jpg",
-      "artworkLarge": "assets/covers/eHsR140M2no.jpg",
+      "id": "CjLJdR6DXZ4",
+      "artist": "Víctor Manuelle",
+      "title": "No Quería Engañarte",
+      "youtube": "https://www.youtube.com/watch?v=CjLJdR6DXZ4",
+      "artwork": "https://i.ytimg.com/vi/CjLJdR6DXZ4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/CjLJdR6DXZ4/mqdefault.jpg",
       "intro": true
     },
     {
@@ -107,12 +107,12 @@
       "intro": true
     },
     {
-      "id": "CjLJdR6DXZ4",
-      "artist": "Víctor Manuelle",
-      "title": "No Quería Engañarte",
-      "youtube": "https://www.youtube.com/watch?v=CjLJdR6DXZ4",
-      "artwork": "https://i.ytimg.com/vi/CjLJdR6DXZ4/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/CjLJdR6DXZ4/mqdefault.jpg",
+      "id": "K3S96fUGrEY",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "Mambo 23",
+      "youtube": "https://www.youtube.com/watch?v=K3S96fUGrEY",
+      "artwork": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg",
       "intro": true
     },
     {
@@ -125,38 +125,70 @@
       "intro": true
     },
     {
-      "id": "ME92E6J8ubE",
-      "artist": "Daniela Darcourt",
-      "title": "Probablemente",
-      "youtube": "https://www.youtube.com/watch?v=ME92E6J8ubE",
-      "artwork": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg",
+      "id": "A0f-FDFpPZE",
+      "artist": "Chiquito Team Band",
+      "title": "Tengo Que Colgar",
+      "youtube": "https://www.youtube.com/watch?v=A0f-FDFpPZE",
+      "artwork": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg",
       "intro": true
     },
     {
-      "id": "RksYXExb0d0",
+      "id": "hpkaifThmOs",
       "artist": "Juan Luis Guerra 4.40",
-      "title": "Vale la Pena (Live)",
-      "youtube": "https://www.youtube.com/watch?v=RksYXExb0d0",
-      "artwork": "https://i.ytimg.com/vi/RksYXExb0d0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/RksYXExb0d0/mqdefault.jpg",
+      "title": "Kitipun",
+      "youtube": "https://www.youtube.com/watch?v=hpkaifThmOs",
+      "artwork": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg",
       "intro": true
     },
     {
-      "id": "VMp55KH_3wo",
-      "artist": "Gente de Zona, Marc Anthony",
-      "title": "La Gozadera",
-      "youtube": "https://www.youtube.com/watch?v=VMp55KH_3wo",
-      "artwork": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg"
+      "id": "qhOPeeZHSWE",
+      "artist": "Los Hermanos Rosario",
+      "title": "Nuevecita de Caja",
+      "youtube": "https://www.youtube.com/watch?v=qhOPeeZHSWE",
+      "artwork": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg"
     },
     {
-      "id": "BFaRWXEpFrs",
-      "artist": "Marc Anthony",
-      "title": "Tu Vida en la Mía",
-      "youtube": "https://www.youtube.com/watch?v=BFaRWXEpFrs",
-      "artwork": "https://i.ytimg.com/vi/BFaRWXEpFrs/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/BFaRWXEpFrs/mqdefault.jpg"
+      "id": "7ddBc_Jxbw0",
+      "artist": "Elvis Crespo, Fito Blanko",
+      "title": "Pegaito Suavecito",
+      "youtube": "https://www.youtube.com/watch?v=7ddBc_Jxbw0",
+      "artwork": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg"
+    },
+    {
+      "id": "wbwFizVMJyw",
+      "artist": "Chiquito Team Band",
+      "title": "Nos Desacatamos",
+      "youtube": "https://www.youtube.com/watch?v=wbwFizVMJyw",
+      "artwork": "https://i.ytimg.com/vi/wbwFizVMJyw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/wbwFizVMJyw/mqdefault.jpg"
+    },
+    {
+      "id": "WENJIxEfyaw",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "La Noviecita",
+      "youtube": "https://www.youtube.com/watch?v=WENJIxEfyaw",
+      "artwork": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg"
+    },
+    {
+      "id": "bWTfpdD4nRM",
+      "artist": "Olga Tañón",
+      "title": "Vivo La Vida",
+      "youtube": "https://www.youtube.com/watch?v=bWTfpdD4nRM",
+      "artwork": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg"
+    },
+    {
+      "id": "8820jXsE4kQ",
+      "artist": "Chiquito Team Band",
+      "title": "Lejos De Ti",
+      "youtube": "https://www.youtube.com/watch?v=8820jXsE4kQ",
+      "artwork": "assets/covers/8820jXsE4kQ.jpg",
+      "artworkLarge": "assets/covers/8820jXsE4kQ.jpg"
     },
     {
       "id": "JXLNr85yoKk",
@@ -175,12 +207,28 @@
       "artworkLarge": "https://i.ytimg.com/vi/AsCnKFzhFSA/mqdefault.jpg"
     },
     {
-      "id": "Eh5C2yHs_WU",
+      "id": "h3W9Om0RtVQ",
       "artist": "Yiyo Sarante",
-      "title": "Me Hubieras Dicho",
-      "youtube": "https://www.youtube.com/watch?v=Eh5C2yHs_WU",
-      "artwork": "https://i.ytimg.com/vi/Eh5C2yHs_WU/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Eh5C2yHs_WU/mqdefault.jpg"
+      "title": "Mejor Lo Hago Con La Mano",
+      "youtube": "https://www.youtube.com/watch?v=h3W9Om0RtVQ",
+      "artwork": "https://i.ytimg.com/vi/h3W9Om0RtVQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/h3W9Om0RtVQ/mqdefault.jpg"
+    },
+    {
+      "id": "1EarnVR8_Og",
+      "artist": "Marc Anthony",
+      "title": "Pa'lla Voy",
+      "youtube": "https://www.youtube.com/watch?v=1EarnVR8_Og",
+      "artwork": "https://i.ytimg.com/vi/1EarnVR8_Og/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1EarnVR8_Og/mqdefault.jpg"
+    },
+    {
+      "id": "eHsR140M2no",
+      "artist": "Yiyo Sarante",
+      "title": "Qué Agonía",
+      "youtube": "https://www.youtube.com/watch?v=eHsR140M2no",
+      "artwork": "assets/covers/eHsR140M2no.jpg",
+      "artworkLarge": "assets/covers/eHsR140M2no.jpg"
     },
     {
       "id": "-u6w90uQhTI",
@@ -199,28 +247,140 @@
       "artworkLarge": "https://i.ytimg.com/vi/YH6DvXUuYJk/mqdefault.jpg"
     },
     {
+      "id": "kjqMFOcRpuI",
+      "artist": "Marc Anthony",
+      "title": "Mala",
+      "youtube": "https://www.youtube.com/watch?v=kjqMFOcRpuI",
+      "artwork": "https://i.ytimg.com/vi/kjqMFOcRpuI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kjqMFOcRpuI/mqdefault.jpg"
+    },
+    {
+      "id": "virDlRWbA-w",
+      "artist": "Sergio George's Salsa Giants",
+      "title": "Bajo la Tormenta",
+      "youtube": "https://www.youtube.com/watch?v=virDlRWbA-w",
+      "artwork": "https://i.ytimg.com/vi/virDlRWbA-w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/virDlRWbA-w/mqdefault.jpg"
+    },
+    {
+      "id": "zn7XLCPbwfA",
+      "artist": "Víctor Manuelle, Yandel",
+      "title": "Imaginar",
+      "youtube": "https://www.youtube.com/watch?v=zn7XLCPbwfA",
+      "artwork": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg"
+    },
+    {
+      "id": "llIZRZXmZ8A",
+      "artist": "Maykel Blanco y su Salsa Mayor",
+      "title": "Dale Lo Que Lleva",
+      "youtube": "https://www.youtube.com/watch?v=llIZRZXmZ8A",
+      "artwork": "https://i.ytimg.com/vi/llIZRZXmZ8A/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/llIZRZXmZ8A/mqdefault.jpg"
+    },
+    {
+      "id": "-gCgSXFctOQ",
+      "artist": "Ilegales",
+      "title": "Meneo",
+      "youtube": "https://www.youtube.com/watch?v=-gCgSXFctOQ",
+      "artwork": "https://i.ytimg.com/vi/-gCgSXFctOQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/-gCgSXFctOQ/mqdefault.jpg"
+    },
+    {
+      "id": "foPuJr0S6Z0",
+      "artist": "Olga Tañón",
+      "title": "Todo Lo Que Sube y Baja",
+      "youtube": "https://www.youtube.com/watch?v=foPuJr0S6Z0",
+      "artwork": "https://i.ytimg.com/vi/foPuJr0S6Z0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/foPuJr0S6Z0/mqdefault.jpg"
+    },
+    {
+      "id": "JVnY9yR2sYk",
+      "artist": "Elvis Crespo, Ebenezer Guerra",
+      "title": "Luna Llena",
+      "youtube": "https://www.youtube.com/watch?v=JVnY9yR2sYk",
+      "artwork": "https://i.ytimg.com/vi/JVnY9yR2sYk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/JVnY9yR2sYk/mqdefault.jpg"
+    },
+    {
+      "id": "IKpVd1bzois",
+      "artist": "Ilegales, Manny Cruz",
+      "title": "Dime Que Sí",
+      "youtube": "https://www.youtube.com/watch?v=IKpVd1bzois",
+      "artwork": "https://i.ytimg.com/vi/IKpVd1bzois/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/IKpVd1bzois/mqdefault.jpg"
+    },
+    {
+      "id": "Vtq6gM4ztcA",
+      "artist": "La India, Jacob Forever",
+      "title": "Fuera Fuera",
+      "youtube": "https://www.youtube.com/watch?v=Vtq6gM4ztcA",
+      "artwork": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg"
+    },
+    {
+      "id": "PMPzgq9SSH8",
+      "artist": "Víctor Manuelle",
+      "title": "Agua Bendita",
+      "youtube": "https://www.youtube.com/watch?v=PMPzgq9SSH8",
+      "artwork": "https://i.ytimg.com/vi/PMPzgq9SSH8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/PMPzgq9SSH8/mqdefault.jpg"
+    },
+    {
+      "id": "RoGFYO32lEw",
+      "artist": "Havana D'Primera",
+      "title": "Pasaporte",
+      "youtube": "https://www.youtube.com/watch?v=RoGFYO32lEw",
+      "artwork": "https://i.ytimg.com/vi/RoGFYO32lEw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/RoGFYO32lEw/mqdefault.jpg"
+    },
+    {
+      "id": "VMp55KH_3wo",
+      "artist": "Gente de Zona, Marc Anthony",
+      "title": "La Gozadera",
+      "youtube": "https://www.youtube.com/watch?v=VMp55KH_3wo",
+      "artwork": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg"
+    },
+    {
+      "id": "ME92E6J8ubE",
+      "artist": "Daniela Darcourt",
+      "title": "Probablemente",
+      "youtube": "https://www.youtube.com/watch?v=ME92E6J8ubE",
+      "artwork": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg"
+    },
+    {
+      "id": "RksYXExb0d0",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "Vale la Pena (Live)",
+      "youtube": "https://www.youtube.com/watch?v=RksYXExb0d0",
+      "artwork": "https://i.ytimg.com/vi/RksYXExb0d0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/RksYXExb0d0/mqdefault.jpg"
+    },
+    {
+      "id": "BFaRWXEpFrs",
+      "artist": "Marc Anthony",
+      "title": "Tu Vida en la Mía",
+      "youtube": "https://www.youtube.com/watch?v=BFaRWXEpFrs",
+      "artwork": "https://i.ytimg.com/vi/BFaRWXEpFrs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/BFaRWXEpFrs/mqdefault.jpg"
+    },
+    {
+      "id": "Eh5C2yHs_WU",
+      "artist": "Yiyo Sarante",
+      "title": "Me Hubieras Dicho",
+      "youtube": "https://www.youtube.com/watch?v=Eh5C2yHs_WU",
+      "artwork": "https://i.ytimg.com/vi/Eh5C2yHs_WU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Eh5C2yHs_WU/mqdefault.jpg"
+    },
+    {
       "id": "t-7o7JXENzE",
       "artist": "Marc Anthony",
       "title": "Lo Que Te Di",
       "youtube": "https://www.youtube.com/watch?v=t-7o7JXENzE",
       "artwork": "https://i.ytimg.com/vi/t-7o7JXENzE/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/t-7o7JXENzE/mqdefault.jpg"
-    },
-    {
-      "id": "n1TPruTZsgo",
-      "artist": "Chiquito Team Band",
-      "title": "Si Quieres (Sin Rodeo Session)",
-      "youtube": "https://www.youtube.com/watch?v=n1TPruTZsgo",
-      "artwork": "https://i.ytimg.com/vi/n1TPruTZsgo/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/n1TPruTZsgo/mqdefault.jpg"
-    },
-    {
-      "id": "1EarnVR8_Og",
-      "artist": "Marc Anthony",
-      "title": "Pa'lla Voy",
-      "youtube": "https://www.youtube.com/watch?v=1EarnVR8_Og",
-      "artwork": "https://i.ytimg.com/vi/1EarnVR8_Og/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/1EarnVR8_Og/mqdefault.jpg"
     },
     {
       "id": "RwvKQtD6zGQ",
@@ -239,22 +399,6 @@
       "artworkLarge": "https://i.ytimg.com/vi/VUw4ZFzGhnM/mqdefault.jpg"
     },
     {
-      "id": "kjqMFOcRpuI",
-      "artist": "Marc Anthony",
-      "title": "Mala",
-      "youtube": "https://www.youtube.com/watch?v=kjqMFOcRpuI",
-      "artwork": "https://i.ytimg.com/vi/kjqMFOcRpuI/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/kjqMFOcRpuI/mqdefault.jpg"
-    },
-    {
-      "id": "virDlRWbA-w",
-      "artist": "Sergio George's Salsa Giants",
-      "title": "Bajo la Tormenta",
-      "youtube": "https://www.youtube.com/watch?v=virDlRWbA-w",
-      "artwork": "https://i.ytimg.com/vi/virDlRWbA-w/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/virDlRWbA-w/mqdefault.jpg"
-    },
-    {
       "id": "KEmKrvWULcY",
       "artist": "Chiquito Team Band",
       "title": "Perdóname (En Vivo NYC)",
@@ -271,44 +415,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/bUab_Wn2qCM/mqdefault.jpg"
     },
     {
-      "id": "hpkaifThmOs",
-      "artist": "Juan Luis Guerra 4.40",
-      "title": "Kitipun",
-      "youtube": "https://www.youtube.com/watch?v=hpkaifThmOs",
-      "artwork": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg"
-    },
-    {
-      "id": "llIZRZXmZ8A",
-      "artist": "Maykel Blanco y su Salsa Mayor",
-      "title": "Dale Lo Que Lleva",
-      "youtube": "https://www.youtube.com/watch?v=llIZRZXmZ8A",
-      "artwork": "https://i.ytimg.com/vi/llIZRZXmZ8A/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/llIZRZXmZ8A/mqdefault.jpg"
-    },
-    {
       "id": "SD51n7yOPpA",
       "artist": "Yiyo Sarante",
       "title": "Tres Semanas",
       "youtube": "https://www.youtube.com/watch?v=SD51n7yOPpA",
       "artwork": "https://i.ytimg.com/vi/SD51n7yOPpA/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/SD51n7yOPpA/mqdefault.jpg"
-    },
-    {
-      "id": "A0f-FDFpPZE",
-      "artist": "Chiquito Team Band",
-      "title": "Tengo Que Colgar",
-      "youtube": "https://www.youtube.com/watch?v=A0f-FDFpPZE",
-      "artwork": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg"
-    },
-    {
-      "id": "UVC9YL31Irw",
-      "artist": "Yiyo Sarante",
-      "title": "Sueños Con Alas",
-      "youtube": "https://www.youtube.com/watch?v=UVC9YL31Irw",
-      "artwork": "https://i.ytimg.com/vi/UVC9YL31Irw/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/UVC9YL31Irw/mqdefault.jpg"
     },
     {
       "id": "y2JJY1vm9go",
@@ -319,60 +431,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/y2JJY1vm9go/mqdefault.jpg"
     },
     {
-      "id": "zn7XLCPbwfA",
-      "artist": "Víctor Manuelle, Yandel",
-      "title": "Imaginar",
-      "youtube": "https://www.youtube.com/watch?v=zn7XLCPbwfA",
-      "artwork": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg"
-    },
-    {
-      "id": "7ddBc_Jxbw0",
-      "artist": "Elvis Crespo, Fito Blanko",
-      "title": "Pegaito Suavecito",
-      "youtube": "https://www.youtube.com/watch?v=7ddBc_Jxbw0",
-      "artwork": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg"
-    },
-    {
-      "id": "8820jXsE4kQ",
-      "artist": "Chiquito Team Band",
-      "title": "Lejos De Ti",
-      "youtube": "https://www.youtube.com/watch?v=8820jXsE4kQ",
-      "artwork": "assets/covers/8820jXsE4kQ.jpg",
-      "artworkLarge": "assets/covers/8820jXsE4kQ.jpg"
-    },
-    {
-      "id": "RoGFYO32lEw",
-      "artist": "Havana D'Primera",
-      "title": "Pasaporte",
-      "youtube": "https://www.youtube.com/watch?v=RoGFYO32lEw",
-      "artwork": "https://i.ytimg.com/vi/RoGFYO32lEw/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/RoGFYO32lEw/mqdefault.jpg"
-    },
-    {
       "id": "cCt1qAML8ZQ",
       "artist": "Marc Anthony",
       "title": "Hipocresía",
       "youtube": "https://www.youtube.com/watch?v=cCt1qAML8ZQ",
       "artwork": "https://i.ytimg.com/vi/cCt1qAML8ZQ/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/cCt1qAML8ZQ/mqdefault.jpg"
-    },
-    {
-      "id": "K3S96fUGrEY",
-      "artist": "Juan Luis Guerra 4.40",
-      "title": "Mambo 23",
-      "youtube": "https://www.youtube.com/watch?v=K3S96fUGrEY",
-      "artwork": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg"
-    },
-    {
-      "id": "foPuJr0S6Z0",
-      "artist": "Olga Tañón",
-      "title": "Todo Lo Que Sube y Baja",
-      "youtube": "https://www.youtube.com/watch?v=foPuJr0S6Z0",
-      "artwork": "https://i.ytimg.com/vi/foPuJr0S6Z0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/foPuJr0S6Z0/mqdefault.jpg"
     },
     {
       "id": "XPL0WSXnzIU",
@@ -383,36 +447,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/XPL0WSXnzIU/mqdefault.jpg"
     },
     {
-      "id": "bWTfpdD4nRM",
-      "artist": "Olga Tañón",
-      "title": "Vivo La Vida",
-      "youtube": "https://www.youtube.com/watch?v=bWTfpdD4nRM",
-      "artwork": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg"
-    },
-    {
       "id": "eYaUwMwkHkg",
       "artist": "Havana D'Primera",
       "title": "Tres Días",
       "youtube": "https://www.youtube.com/watch?v=eYaUwMwkHkg",
       "artwork": "https://i.ytimg.com/vi/eYaUwMwkHkg/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/eYaUwMwkHkg/mqdefault.jpg"
-    },
-    {
-      "id": "JVnY9yR2sYk",
-      "artist": "Elvis Crespo, Ebenezer Guerra",
-      "title": "Luna Llena",
-      "youtube": "https://www.youtube.com/watch?v=JVnY9yR2sYk",
-      "artwork": "https://i.ytimg.com/vi/JVnY9yR2sYk/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/JVnY9yR2sYk/mqdefault.jpg"
-    },
-    {
-      "id": "WENJIxEfyaw",
-      "artist": "Juan Luis Guerra 4.40",
-      "title": "La Noviecita",
-      "youtube": "https://www.youtube.com/watch?v=WENJIxEfyaw",
-      "artwork": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg"
     },
     {
       "id": "B2SLbC8fnfs",
@@ -423,12 +463,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/B2SLbC8fnfs/mqdefault.jpg"
     },
     {
-      "id": "PMPzgq9SSH8",
-      "artist": "Víctor Manuelle",
-      "title": "Agua Bendita",
-      "youtube": "https://www.youtube.com/watch?v=PMPzgq9SSH8",
-      "artwork": "https://i.ytimg.com/vi/PMPzgq9SSH8/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/PMPzgq9SSH8/mqdefault.jpg"
+      "id": "js-EY3QYzcI",
+      "artist": "Marc Anthony",
+      "title": "Espera",
+      "youtube": "https://www.youtube.com/watch?v=js-EY3QYzcI",
+      "artwork": "https://i.ytimg.com/vi/js-EY3QYzcI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/js-EY3QYzcI/mqdefault.jpg"
     },
     {
       "id": "h-Mft5aVAiM",
@@ -439,14 +479,6 @@
       "artworkLarge": "https://i.ytimg.com/vi/h-Mft5aVAiM/mqdefault.jpg"
     },
     {
-      "id": "js-EY3QYzcI",
-      "artist": "Marc Anthony",
-      "title": "Espera",
-      "youtube": "https://www.youtube.com/watch?v=js-EY3QYzcI",
-      "artwork": "https://i.ytimg.com/vi/js-EY3QYzcI/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/js-EY3QYzcI/mqdefault.jpg"
-    },
-    {
       "id": "zyDjrb5GWr8",
       "artist": "Manny Cruz",
       "title": "Santo Domingo",
@@ -455,12 +487,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/zyDjrb5GWr8/mqdefault.jpg"
     },
     {
-      "id": "Vtq6gM4ztcA",
-      "artist": "La India, Jacob Forever",
-      "title": "Fuera Fuera",
-      "youtube": "https://www.youtube.com/watch?v=Vtq6gM4ztcA",
-      "artwork": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg"
+      "id": "dyM5fHdbowM",
+      "artist": "Eddy Herrera",
+      "title": "Si Yo Se Lo Pido",
+      "youtube": "https://www.youtube.com/watch?v=dyM5fHdbowM",
+      "artwork": "https://i.ytimg.com/vi/dyM5fHdbowM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/dyM5fHdbowM/mqdefault.jpg"
     },
     {
       "id": "gqkSXYlKt6s",
@@ -469,22 +501,6 @@
       "youtube": "https://www.youtube.com/watch?v=gqkSXYlKt6s",
       "artwork": "https://i.ytimg.com/vi/gqkSXYlKt6s/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/gqkSXYlKt6s/mqdefault.jpg"
-    },
-    {
-      "id": "qhOPeeZHSWE",
-      "artist": "Los Hermanos Rosario",
-      "title": "Nuevecita de Caja",
-      "youtube": "https://www.youtube.com/watch?v=qhOPeeZHSWE",
-      "artwork": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg"
-    },
-    {
-      "id": "dyM5fHdbowM",
-      "artist": "Eddy Herrera",
-      "title": "Si Yo Se Lo Pido",
-      "youtube": "https://www.youtube.com/watch?v=dyM5fHdbowM",
-      "artwork": "https://i.ytimg.com/vi/dyM5fHdbowM/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/dyM5fHdbowM/mqdefault.jpg"
     },
     {
       "id": "S3YR063_bSc",
@@ -583,12 +599,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/S3h4xmU-qQM/mqdefault.jpg"
     },
     {
-      "id": "IKpVd1bzois",
-      "artist": "Ilegales, Manny Cruz",
-      "title": "Dime Que Sí",
-      "youtube": "https://www.youtube.com/watch?v=IKpVd1bzois",
-      "artwork": "https://i.ytimg.com/vi/IKpVd1bzois/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/IKpVd1bzois/mqdefault.jpg"
+      "id": "_4kTsEB484U",
+      "artist": "Chiquito Team Band",
+      "title": "Volveré",
+      "youtube": "https://www.youtube.com/watch?v=_4kTsEB484U",
+      "artwork": "https://i.ytimg.com/vi/_4kTsEB484U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/_4kTsEB484U/mqdefault.jpg"
     },
     {
       "id": "ym2clIz5t4A",
@@ -599,12 +615,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/ym2clIz5t4A/mqdefault.jpg"
     },
     {
-      "id": "_4kTsEB484U",
-      "artist": "Chiquito Team Band",
-      "title": "Volveré",
-      "youtube": "https://www.youtube.com/watch?v=_4kTsEB484U",
-      "artwork": "https://i.ytimg.com/vi/_4kTsEB484U/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/_4kTsEB484U/mqdefault.jpg"
+      "id": "P_xKX0NBTeQ",
+      "artist": "Eddy Herrera",
+      "title": "Si No Era Yo",
+      "youtube": "https://www.youtube.com/watch?v=P_xKX0NBTeQ",
+      "artwork": "https://i.ytimg.com/vi/P_xKX0NBTeQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/P_xKX0NBTeQ/mqdefault.jpg"
     },
     {
       "id": "sHRzCQEHpU8",
@@ -613,14 +629,6 @@
       "youtube": "https://www.youtube.com/watch?v=sHRzCQEHpU8",
       "artwork": "https://i.ytimg.com/vi/sHRzCQEHpU8/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/sHRzCQEHpU8/mqdefault.jpg"
-    },
-    {
-      "id": "P_xKX0NBTeQ",
-      "artist": "Eddy Herrera",
-      "title": "Si No Era Yo",
-      "youtube": "https://www.youtube.com/watch?v=P_xKX0NBTeQ",
-      "artwork": "https://i.ytimg.com/vi/P_xKX0NBTeQ/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/P_xKX0NBTeQ/mqdefault.jpg"
     },
     {
       "id": "2kR2FrKOyhM",
@@ -661,14 +669,6 @@
       "youtube": "https://www.youtube.com/watch?v=cenRb14_sMY",
       "artwork": "https://i.ytimg.com/vi/cenRb14_sMY/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/cenRb14_sMY/mqdefault.jpg"
-    },
-    {
-      "id": "-gCgSXFctOQ",
-      "artist": "Ilegales",
-      "title": "Meneo",
-      "youtube": "https://www.youtube.com/watch?v=-gCgSXFctOQ",
-      "artwork": "https://i.ytimg.com/vi/-gCgSXFctOQ/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/-gCgSXFctOQ/mqdefault.jpg"
     },
     {
       "id": "8nHXVTPDcDY",

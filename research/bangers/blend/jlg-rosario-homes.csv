@@ -1,0 +1,29 @@
+title,artist,era,current_colmado_slot,home_room,colmado_action,notes
+La Bilirrubina,Juan Luis Guerra,ayer,2,colmado,keep_in_15,Forgotten merengue bomb. Stays door.
+A Pedir Su Mano,Juan Luis Guerra,ayer,5,colmado,keep_in_15_move_to_4,JLG merengue. Not consecutive with Bilirrubina if slot 4.
+La Cosquillita,Juan Luis Guerra,ayer,limpieza#50,colmado,pull_to_16_20,Pambiche merengue. Missing on Colmado.
+Las Avispas,Juan Luis Guerra,ayer,limpieza#34,colmado,pull_to_16_20,2004 merengue. Missing on Colmado.
+La Guagua,Juan Luis Guerra,ayer,limpieza#27,colmado,pull_to_16_20,2010 date-edge merengue.
+El Niágara en Bicicleta (Live),Juan Luis Guerra,ayer,36,galeria,drop_or_after_80,Porch voice. Galería already has studio Niagara in the 15.
+Ojalá Que Llueva Café,Juan Luis Guerra,ayer,45,galeria,drop_or_after_80,Galería AYER #4.
+El Costo de La Vida,Juan Luis Guerra,ayer,47,galeria,drop_or_after_80,Galería AYER #1. Do not sauce Colmado.
+Burbujas de Amor,Juan Luis Guerra,ayer,malecon#3,malecon,not_on_colmado,Couple. Galería also has it at 92.
+Bachata Rosa,Juan Luis Guerra,ayer,malecon#5,malecon,not_on_colmado,Couple.
+Como Abeja al Panal,Juan Luis Guerra,ayer,malecon#25,malecon,not_on_colmado,Couple.
+Vale la Pena (Live),Juan Luis Guerra 4.40,hoy,15,galeria,out_of_colmado_15,Concert clip. Not tambora-first.
+Kitipun,Juan Luis Guerra 4.40,hoy,32,colmado,promote_16_20_or_hoy_door,2019 merengue on this corner. Limpieza HOY #11 guest OK.
+Mambo 23,Juan Luis Guerra 4.40,hoy,43,colmado,promote_to_hoy_12,Merengue. Buried.
+La Noviecita,Juan Luis Guerra 4.40,hoy,49,colmado,promote_16_20,Merengue. Galería HOY #91 / Malecón HOY #34 may keep after slot 5.
+I Love You More,Juan Luis Guerra 4.40,hoy,69,galeria/malecon,leave_tail_or_move,Not shout.
+Corazón Enamorado,Juan Luis Guerra 4.40,hoy,91,malecon,leave_or_move,Malecón HOY #8.
+Tú,Juan Luis Guerra 4.40,hoy,93,malecon,leave_or_move,Malecón HOY #32.
+La Dueña del Swing,Los Hermanos Rosario,ayer,16,limpieza+colmado_guest,promote_ayer_13,Sunday merengue. Limpieza AYER #44.
+Ella Se Fue,Los Hermanos Rosario,ayer,68,limpieza,colmado_after_40,Limpieza AYER #4.
+Dominicana,Los Hermanos Rosario,ayer,79,limpieza,colmado_after_40,Limpieza AYER #17.
+Kulikitaka,Toño Rosario,ayer,72,limpieza,do_not_promote,Limpieza AYER #1 (different id 3LCEzvkwWwI).
+Dale Vieja Dale,Toño Rosario,hoy,13,limpieza,keep_after_slot_5,Limpieza HOY #1. Colmado guest already legal.
+Pasarela,Los Hermanos Rosario,hoy,(not on colmado),limpieza,stay_limpieza_5,Dead official. Forgotten #1 there. Never Colmado door.
+Nuevecita de Caja,Los Hermanos Rosario,hoy,57,limpieza+colmado_guest,promote_hoy_16_20,HOY Rosario merengue. Limpieza HOY #72.
+Compréndeme,Toño Rosario,hoy,60,limpieza,colmado_tail,Not sauce.
+Mujer De Todos Mujer De Nadie,Toño Rosario,hoy,76,limpieza,colmado_tail,Not sauce.
+La Dueña del Swing (Manny remake),Manny Cruz Los Hermanos Rosario,hoy,78,limpieza,colmado_tail,Remake dump.

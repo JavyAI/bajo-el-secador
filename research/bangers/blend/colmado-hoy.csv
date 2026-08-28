@@ -1,0 +1,101 @@
+rank,id,artist,title,family,bpm_band,energy,home_if_not_colmado,transition,layer
+1,h6sbZalmiu4,Elvis Crespo,Abracadabra,merengue,128-150,peak,,,door
+2,u6Q5Lu0Sq3g,Chiquito Team Band,La Llamada De Mi Ex,merengue,128-150,peak,,,door
+3,ExCIp6TOnJw,Yiyo Sarante,Manos de Tijera,salsa,88-110 felt,peak,,JUMP,door
+4,QBaIMZ8QjcU,"Romeo Santos, Marc Anthony",Yo También,salsa,88-110 felt,peak,,,door
+5,3VmoZrxXbmg,Marc Anthony,Flor Pálida,salsa,88-110 felt,peak,,,door
+6,HYYjcRx2L30,Yiyo Sarante,Sin Esencia,salsa,88-110 felt,peak,,,door
+7,YXnjy5YlDwk,Marc Anthony,Vivir Mi Vida,salsa,88-110 felt,peak,,,door
+8,_oMfwHYSRIk,"Gente de Zona, Marc Anthony",Traidora,salsa,88-110 felt,peak,,,door
+9,CjLJdR6DXZ4,Víctor Manuelle,No Quería Engañarte,salsa,88-110 felt,peak,,,door
+10,lf8xoMhV8pI,Gente de Zona,Si No Vuelves,salsa,88-110 felt,peak,,,door
+11,Re93tMg6sfc,Olga Tañón,La Gran Fiesta,merengue,128-150,peak,,JUMP,door
+12,K3S96fUGrEY,Juan Luis Guerra 4.40,Mambo 23,merengue,128-150,peak,,,door
+13,hal7rXfJj5o,Toño Rosario,Dale Vieja Dale,merengue,128-150,peak,limpieza-door-guest,,door
+14,A0f-FDFpPZE,Chiquito Team Band,Tengo Que Colgar,merengue,128-150,peak,,,door
+15,hpkaifThmOs,Juan Luis Guerra 4.40,Kitipun,merengue,128-150,peak,,,door
+16,qhOPeeZHSWE,Los Hermanos Rosario,Nuevecita de Caja,merengue,128-150,peak,,,sauce
+17,7ddBc_Jxbw0,"Elvis Crespo, Fito Blanko",Pegaito Suavecito,merenhouse,120-132,peak,,,sauce
+18,wbwFizVMJyw,Chiquito Team Band,Nos Desacatamos,merengue,128-150,peak,,,sauce
+19,WENJIxEfyaw,Juan Luis Guerra 4.40,La Noviecita,merengue,128-150,peak,,,sauce
+20,bWTfpdD4nRM,Olga Tañón,Vivo La Vida,merengue,128-150,peak,,,sauce
+21,8820jXsE4kQ,Chiquito Team Band,Lejos De Ti,merengue,128-150,peak,,,sauce
+22,JXLNr85yoKk,Yiyo Sarante,Mi Todo,salsa,88-110 felt,peak,,JUMP,sauce
+23,AsCnKFzhFSA,Marc Anthony,Parecen Viernes,salsa,88-110 felt,peak,,,sauce
+24,h3W9Om0RtVQ,Yiyo Sarante,Mejor Lo Hago Con La Mano,salsa,88-110 felt,peak,,,sauce
+25,1EarnVR8_Og,Marc Anthony,Pa'lla Voy,salsa,88-110 felt,peak,,,sauce
+26,eHsR140M2no,Yiyo Sarante,Qué Agonía,salsa,88-110 felt,peak,,,sauce
+27,-u6w90uQhTI,Marc Anthony,Cambio de Piel,salsa,88-110 felt,peak,,,sauce
+28,YH6DvXUuYJk,Yiyo Sarante,Corazón de Acero,salsa,88-110 felt,peak,,,sauce
+29,kjqMFOcRpuI,Marc Anthony,Mala,salsa,88-110 felt,peak,,,sauce
+30,virDlRWbA-w,Sergio George's Salsa Giants,Bajo la Tormenta,salsa,88-110 felt,peak,,,sauce
+31,zn7XLCPbwfA,"Víctor Manuelle, Yandel",Imaginar,salsa_urbano,88-110 felt,peak,,,sauce
+32,llIZRZXmZ8A,Maykel Blanco y su Salsa Mayor,Dale Lo Que Lleva,timba,88-110 felt,peak,,,sauce
+33,-gCgSXFctOQ,Ilegales,Meneo,merenhouse,120-132,peak,marquesina/limpieza,JUMP,sauce
+34,foPuJr0S6Z0,Olga Tañón,Todo Lo Que Sube y Baja,merengue,128-150,peak,,,sauce
+35,JVnY9yR2sYk,"Elvis Crespo, Ebenezer Guerra",Luna Llena,merengue,128-150,peak,,,sauce
+36,IKpVd1bzois,"Ilegales, Manny Cruz",Dime Que Sí,merengue_remake,128-150,mid,limpieza-guest,,sauce
+37,Vtq6gM4ztcA,"La India, Jacob Forever",Fuera Fuera,salsa,88-110 felt,peak,,JUMP,sauce
+38,PMPzgq9SSH8,Víctor Manuelle,Agua Bendita,salsa,88-110 felt,peak,,,sauce
+39,RoGFYO32lEw,Havana D'Primera,Pasaporte,timba,88-110 felt,peak,,,sauce
+40,VMp55KH_3wo,"Gente de Zona, Marc Anthony",La Gozadera,salsa_crossover,88-110 felt,peak,not-first-of-hour,,sauce
+41,ME92E6J8ubE,Daniela Darcourt,Probablemente,salsa,88-110 felt,mid,,,tail
+42,RksYXExb0d0,Juan Luis Guerra 4.40,Vale la Pena (Live),jlg_live,128-150,mid,galeria-adjacent,JUMP,tail
+43,BFaRWXEpFrs,Marc Anthony,Tu Vida en la Mía,salsa,88-110 felt,mid,,JUMP,tail
+44,Eh5C2yHs_WU,Yiyo Sarante,Me Hubieras Dicho,salsa,88-110 felt,mid,,,tail
+45,t-7o7JXENzE,Marc Anthony,Lo Que Te Di,salsa,88-110 felt,mid,,,tail
+46,RwvKQtD6zGQ,"Gilberto Santa Rosa, Tito Nieves",Vivir Sin Ella (En Vivo),salsa_live,88-110 felt,mid,,,tail
+47,VUw4ZFzGhnM,Yiyo Sarante,Me Vas a Extrañar,salsa,88-110 felt,mid,,,tail
+48,KEmKrvWULcY,Chiquito Team Band,Perdóname (En Vivo NYC),merengue_live,128-150,mid,,JUMP,tail
+49,bUab_Wn2qCM,Marc Anthony,Nada de Nada,salsa,88-110 felt,mid,,JUMP,tail
+50,SD51n7yOPpA,Yiyo Sarante,Tres Semanas,salsa,88-110 felt,mid,,,tail
+51,y2JJY1vm9go,Gilberto Santa Rosa,Qué Manera de Quererte (En Vivo),salsa_live,88-110 felt,mid,,,tail
+52,cCt1qAML8ZQ,Marc Anthony,Hipocresía,salsa,88-110 felt,peak,,,tail
+53,XPL0WSXnzIU,Yiyo Sarante,La Maldita Primavera,salsa,88-110 felt,peak,,,tail
+54,eYaUwMwkHkg,Havana D'Primera,Tres Días,timba,88-110 felt,peak,,,tail
+55,B2SLbC8fnfs,"Elvis Crespo, Manny Cruz",Imaginarme Sin Ti,merengue_remake,128-150,mid,limpieza-guest,JUMP,tail
+56,js-EY3QYzcI,Marc Anthony,Espera,salsa,88-110 felt,peak,,JUMP,tail
+57,h-Mft5aVAiM,"Elvis Crespo, El Blachy",Me Mataron,merengue,128-150,peak,,JUMP,tail
+58,zyDjrb5GWr8,Manny Cruz,Santo Domingo,merengue_remake,128-150,mid,limpieza-guest,,tail
+59,dyM5fHdbowM,Eddy Herrera,Si Yo Se Lo Pido,merengue,128-150,peak,,,tail
+60,gqkSXYlKt6s,"Manny Cruz, Nacho, Daniel Santacruz",Dame Una Noche,merengue_remake,128-150,mid,limpieza-guest,,tail
+61,S3YR063_bSc,Yiyo Sarante,El Vino De Tu Boca,salsa,88-110 felt,peak,,JUMP,tail
+62,lswYpEtVAUw,Toño Rosario,Compréndeme,merengue,128-150,peak,,JUMP,tail
+63,1nKQkNW1xNc,Marc Anthony,Yo Le Mentí,salsa,88-110 felt,peak,,JUMP,tail
+64,Ns_CBsORRTY,Manny Cruz,Bailando Contigo,merengue_remake,128-150,mid,limpieza-guest,JUMP,tail
+65,AFykvpZBsVc,"Eddy Herrera, Manny Cruz",No Me Lo Creo,merengue_remake,128-150,mid,limpieza-guest,,tail
+66,e1Hp8YaQJHc,"Manny Cruz, Aramis Camilo",El Motor,merengue_remake,128-150,mid,limpieza-guest,,tail
+67,lvsYQrm1L-o,Chiquito Team Band,Por Qué Será,merengue,128-150,peak,,,tail
+68,1inWphabkno,Víctor Manuelle,Otra Noche Más,salsa,88-110 felt,peak,,JUMP,tail
+69,cP0IZVeEgyE,Yiyo Sarante,Sálvame,salsa,88-110 felt,peak,,,tail
+70,8HCXYy36RM8,"Manny Cruz, Wilfrido Vargas",El Hombre Divertido,merengue_remake,128-150,mid,limpieza-guest,JUMP,tail
+71,dUOC-ryYtQI,Juan Luis Guerra 4.40,I Love You More,jlg_other,90-130,mid,galeria/malecon,JUMP,tail
+72,S3h4xmU-qQM,Manny Cruz,All Night Long,merengue_remake,128-150,mid,limpieza-guest,JUMP,tail
+73,_4kTsEB484U,Chiquito Team Band,Volveré,merengue,128-150,peak,,,tail
+74,ym2clIz5t4A,"Manny Cruz, Milly Quezada",Llegaste,merengue_remake,128-150,mid,limpieza-guest,,tail
+75,P_xKX0NBTeQ,Eddy Herrera,Si No Era Yo,merengue,128-150,peak,,,tail
+76,sHRzCQEHpU8,Manny Cruz,De Lunes a Lunes,merengue_remake,128-150,mid,limpieza-guest,,tail
+77,2kR2FrKOyhM,Toño Rosario,"Mujer De Todos, Mujer De Nadie",merengue,128-150,peak,,,tail
+78,0rJGcaA5Rb0,Maykel Blanco y su Salsa Mayor,Ya Tú No Coronas,timba,88-110 felt,peak,,JUMP,tail
+79,4R7NmEa8s8M,"Manny Cruz, Los Hermanos Rosario",La Dueña del Swing,merengue_remake,128-150,mid,limpieza-guest,JUMP,tail
+80,RVNeQCmsbeA,"Tito Nieves, Daniela Darcourt",Aunque Sea en Otra Vida,salsa,88-110 felt,peak,,JUMP,tail
+81,cenRb14_sMY,"Manny Cruz, Johnny Ventura",Qué Rico Es El Merengue,merengue_remake,128-150,mid,limpieza-guest,JUMP,tail
+82,8nHXVTPDcDY,Tito Nieves,Sin Cuenta,salsa,88-110 felt,peak,,JUMP,tail
+83,W2hJkydJbFU,Gilberto Santa Rosa,Pensando En Ti (Salsa),salsa,88-110 felt,peak,,,tail
+84,B5zFX-wdAGY,Tito Nieves,Bailemos,salsa,88-110 felt,peak,,,tail
+85,0K6ItvTTpe8,Miriam Cruz,Me Enamoré De Ti,salsa,88-110 felt,mid,,,tail
+86,glSptBKFBTU,"Tito Nieves, Gilberto Santa Rosa",Soy,salsa,88-110 felt,peak,,,tail
+87,6WHxFGj4CFc,Chiquito Team Band,Te Felicito,merengue,128-150,peak,,JUMP,tail
+88,vEDn-xoL4Ss,Manny Cruz,OYE,merengue_remake,128-150,mid,limpieza-guest,,tail
+89,ePQ3HlXC6ic,Tito Nieves,El Amor Más Bonito,salsa,88-110 felt,peak,,JUMP,tail
+90,dVK7vDz5wV4,"Descemer Bueno, Issac Delgado",La Vida Es Buena,salsa,88-110 felt,mid,,,tail
+91,xalmyE3UO_4,Juan Luis Guerra 4.40,Corazón Enamorado,jlg_other,90-130,mid,galeria/malecon,JUMP,tail
+92,9oGxCO-aDPg,Havana D'Primera,Secuestro,timba,88-110 felt,peak,,JUMP,tail
+93,GT5l22yLxwA,Juan Luis Guerra 4.40,Tú,jlg_other,90-130,mid,galeria/malecon,JUMP,tail
+94,ixAwSiZaC1o,El Niño y La Verdad,He Renunciado a Ti,salsa,88-110 felt,mid,,JUMP,tail
+95,HmIKs2Q3epY,Eddy Herrera,Y Cómo Te Olvido,merengue,128-150,peak,,JUMP,tail
+96,RSRzIrOqaN4,"Romeo Santos, Daddy Yankee, Nicky Jam",Bella y Sensual,urbano_gated,90-110,peak,gated-tail,JUMP,tail
+97,ayd3yWr4tqU,"Aventura, Bad Bunny",Volví,urbano_gated,90-110,peak,gated-tail,,tail
+98,VibGLc41UvQ,"Daddy Yankee, Marc Anthony",De Vuelta Pa' La Vuelta,urbano_gated,90-110,peak,gated-tail,,tail
+99,s5yRZOQ3EWI,"El Alfa, CJ, El Cherry Scom",La Mamá de la Mamá,urbano_gated,90-110,peak,gated-tail,,tail
+100,sZvYPC-Xh1g,"Víctor Manuelle, Bad Bunny",Mala y Peligrosa,urbano_gated,90-110,peak,gated-tail,,tail

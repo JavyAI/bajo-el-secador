@@ -35,15 +35,6 @@
       "intro": true
     },
     {
-      "id": "qSi2j6FM0dc",
-      "artist": "Joe Arroyo",
-      "title": "Rebelión",
-      "youtube": "https://www.youtube.com/watch?v=qSi2j6FM0dc",
-      "artwork": "assets/covers/qSi2j6FM0dc.jpg",
-      "artworkLarge": "assets/covers/qSi2j6FM0dc.jpg",
-      "intro": true
-    },
-    {
       "id": "_koz_f4mthE",
       "artist": "Juan Luis Guerra",
       "title": "A Pedir Su Mano",
@@ -53,30 +44,30 @@
       "intro": true
     },
     {
-      "id": "frsVQWSINAI",
-      "artist": "El Gran Combo",
-      "title": "Me Liberé",
-      "youtube": "https://www.youtube.com/watch?v=frsVQWSINAI",
-      "artwork": "assets/covers/frsVQWSINAI.jpg",
-      "artworkLarge": "assets/covers/frsVQWSINAI.jpg",
-      "intro": true
-    },
-    {
-      "id": "y08MAPIACBY",
-      "artist": "Cuco Valoy",
-      "title": "Juliana",
-      "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
-      "artwork": "assets/covers/y08MAPIACBY.jpg",
-      "artworkLarge": "assets/covers/y08MAPIACBY.jpg",
-      "intro": true
-    },
-    {
       "id": "uzU3x_egiEk",
       "artist": "Eddy Herrera",
       "title": "Tú Eres Ajena",
       "youtube": "https://www.youtube.com/watch?v=uzU3x_egiEk",
       "artwork": "https://i.ytimg.com/vi/uzU3x_egiEk/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/uzU3x_egiEk/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "qSi2j6FM0dc",
+      "artist": "Joe Arroyo",
+      "title": "Rebelión",
+      "youtube": "https://www.youtube.com/watch?v=qSi2j6FM0dc",
+      "artwork": "assets/covers/qSi2j6FM0dc.jpg",
+      "artworkLarge": "assets/covers/qSi2j6FM0dc.jpg",
+      "intro": true
+    },
+    {
+      "id": "frsVQWSINAI",
+      "artist": "El Gran Combo",
+      "title": "Me Liberé",
+      "youtube": "https://www.youtube.com/watch?v=frsVQWSINAI",
+      "artwork": "assets/covers/frsVQWSINAI.jpg",
+      "artworkLarge": "assets/covers/frsVQWSINAI.jpg",
       "intro": true
     },
     {
@@ -107,6 +98,15 @@
       "intro": true
     },
     {
+      "id": "y08MAPIACBY",
+      "artist": "Cuco Valoy",
+      "title": "Juliana",
+      "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
+      "artwork": "assets/covers/y08MAPIACBY.jpg",
+      "artworkLarge": "assets/covers/y08MAPIACBY.jpg",
+      "intro": true
+    },
+    {
       "id": "v7324GfdI3Q",
       "artist": "Los Cantantes",
       "title": "El Venao",
@@ -116,12 +116,12 @@
       "intro": true
     },
     {
-      "id": "BNo0vkEYWRc",
-      "artist": "Héctor Lavoe",
-      "title": "El Cantante",
-      "youtube": "https://www.youtube.com/watch?v=BNo0vkEYWRc",
-      "artwork": "assets/covers/BNo0vkEYWRc.jpg",
-      "artworkLarge": "assets/covers/BNo0vkEYWRc.jpg",
+      "id": "HN6ACmknaiw",
+      "artist": "Los Hermanos Rosario",
+      "title": "La Dueña del Swing",
+      "youtube": "https://www.youtube.com/watch?v=HN6ACmknaiw",
+      "artwork": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
       "intro": true
     },
     {
@@ -143,22 +143,12 @@
       "intro": true
     },
     {
-      "id": "HN6ACmknaiw",
-      "artist": "Los Hermanos Rosario",
-      "title": "La Dueña del Swing",
-      "youtube": "https://www.youtube.com/watch?v=HN6ACmknaiw",
-      "artwork": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
-      "intro": false
-    },
-    {
       "id": "gxlB1B9emDc",
       "artist": "Oscar D'León",
       "title": "Llorarás",
       "youtube": "https://www.youtube.com/watch?v=gxlB1B9emDc",
       "artwork": "assets/covers/gxlB1B9emDc.jpg",
-      "artworkLarge": "assets/covers/gxlB1B9emDc.jpg",
-      "intro": false
+      "artworkLarge": "assets/covers/gxlB1B9emDc.jpg"
     },
     {
       "id": "AFYJ5axf02o",
@@ -166,629 +156,7 @@
       "title": "La Vida Es Un Carnaval",
       "youtube": "https://www.youtube.com/watch?v=AFYJ5axf02o",
       "artwork": "assets/covers/AFYJ5axf02o.jpg",
-      "artworkLarge": "assets/covers/AFYJ5axf02o.jpg",
-      "intro": false
-    },
-    {
-      "id": "Jn1OIkMqpbo",
-      "artist": "Sergio Vargas",
-      "title": "La Quiero a Morir",
-      "youtube": "https://www.youtube.com/watch?v=Jn1OIkMqpbo",
-      "artwork": "https://i.ytimg.com/vi/Jn1OIkMqpbo/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Jn1OIkMqpbo/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "N8kGeGXddxg",
-      "artist": "Frankie Ruiz",
-      "title": "Deseándote",
-      "youtube": "https://www.youtube.com/watch?v=N8kGeGXddxg",
-      "artwork": "https://i.ytimg.com/vi/N8kGeGXddxg/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/N8kGeGXddxg/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "mXZRB_al3fs",
-      "artist": "Willie Colón y Héctor Lavoe",
-      "title": "El Día de Mi Suerte",
-      "youtube": "https://www.youtube.com/watch?v=mXZRB_al3fs",
-      "artwork": "assets/covers/mXZRB_al3fs.jpg",
-      "artworkLarge": "assets/covers/mXZRB_al3fs.jpg",
-      "intro": false
-    },
-    {
-      "id": "GyhwmZAQB-Y",
-      "artist": "Rubén Blades",
-      "title": "Decisiones",
-      "youtube": "https://www.youtube.com/watch?v=GyhwmZAQB-Y",
-      "artwork": "assets/covers/GyhwmZAQB-Y.jpg",
-      "artworkLarge": "assets/covers/GyhwmZAQB-Y.jpg",
-      "intro": false
-    },
-    {
-      "id": "Zc13NAc7dvM",
-      "artist": "Gilberto Santa Rosa",
-      "title": "Conteo Regresivo (Salsa Version)",
-      "youtube": "https://www.youtube.com/watch?v=Zc13NAc7dvM",
-      "artwork": "https://i.ytimg.com/vi/Zc13NAc7dvM/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Zc13NAc7dvM/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "Ns9YYSqLxyI",
-      "artist": "Marc Anthony",
-      "title": "Valió La Pena (Salsa)",
-      "youtube": "https://www.youtube.com/watch?v=Ns9YYSqLxyI",
-      "artwork": "https://i.ytimg.com/vi/Ns9YYSqLxyI/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Ns9YYSqLxyI/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "3CqNeJLqvL0",
-      "artist": "Elvis Crespo",
-      "title": "Tu Sonrisa",
-      "youtube": "https://www.youtube.com/watch?v=3CqNeJLqvL0",
-      "artwork": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "s3fcKFQukbY",
-      "artist": "Tito Nieves",
-      "title": "Fabricando Fantasías",
-      "youtube": "https://www.youtube.com/watch?v=s3fcKFQukbY",
-      "artwork": "assets/covers/s3fcKFQukbY.jpg",
-      "artworkLarge": "assets/covers/s3fcKFQukbY.jpg",
-      "intro": false
-    },
-    {
-      "id": "2PVi95J-FMo",
-      "artist": "Luis Enrique",
-      "title": "Yo No Sé Mañana",
-      "youtube": "https://www.youtube.com/watch?v=2PVi95J-FMo",
-      "artwork": "assets/covers/2PVi95J-FMo.jpg",
-      "artworkLarge": "assets/covers/2PVi95J-FMo.jpg",
-      "intro": false
-    },
-    {
-      "id": "7kbjKCj-rMQ",
-      "artist": "Gilberto Santa Rosa",
-      "title": "Conciencia",
-      "youtube": "https://www.youtube.com/watch?v=7kbjKCj-rMQ",
-      "artwork": "https://i.ytimg.com/vi/7kbjKCj-rMQ/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/7kbjKCj-rMQ/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "wQUcaSEuob0",
-      "artist": "Rey Ruiz",
-      "title": "Mi Media Mitad",
-      "youtube": "https://www.youtube.com/watch?v=wQUcaSEuob0",
-      "artwork": "assets/covers/wQUcaSEuob0.jpg",
-      "artworkLarge": "assets/covers/wQUcaSEuob0.jpg",
-      "intro": false
-    },
-    {
-      "id": "4Qy0vs80T5M",
-      "artist": "Proyecto Uno",
-      "title": "El Tiburón",
-      "youtube": "https://www.youtube.com/watch?v=4Qy0vs80T5M",
-      "artwork": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "0ZfwT6lHahk",
-      "artist": "Gilberto Santa Rosa",
-      "title": "Que Alguien Me Diga",
-      "youtube": "https://www.youtube.com/watch?v=0ZfwT6lHahk",
-      "artwork": "assets/covers/0ZfwT6lHahk.jpg",
-      "artworkLarge": "assets/covers/0ZfwT6lHahk.jpg",
-      "intro": false
-    },
-    {
-      "id": "ptrvHM0-ceA",
-      "artist": "Fruko y sus Tesos",
-      "title": "El Preso",
-      "youtube": "https://www.youtube.com/watch?v=ptrvHM0-ceA",
-      "artwork": "assets/covers/ptrvHM0-ceA.jpg",
-      "artworkLarge": "assets/covers/ptrvHM0-ceA.jpg",
-      "intro": false
-    },
-    {
-      "id": "1crMUfqH6i0",
-      "artist": "Bonny Cepeda",
-      "title": "Una Fotografía",
-      "youtube": "https://www.youtube.com/watch?v=1crMUfqH6i0",
-      "artwork": "assets/covers/1crMUfqH6i0.jpg",
-      "artworkLarge": "assets/covers/1crMUfqH6i0.jpg",
-      "intro": false
-    },
-    {
-      "id": "sJqDmVekMWU",
-      "artist": "Jerry Rivera",
-      "title": "Amores Como el Nuestro",
-      "youtube": "https://www.youtube.com/watch?v=sJqDmVekMWU",
-      "artwork": "assets/covers/sJqDmVekMWU.jpg",
-      "artworkLarge": "assets/covers/sJqDmVekMWU.jpg",
-      "intro": false
-    },
-    {
-      "id": "US0GbUpQ9VU",
-      "artist": "Willie Colón",
-      "title": "El Gran Varón",
-      "youtube": "https://www.youtube.com/watch?v=US0GbUpQ9VU",
-      "artwork": "assets/covers/US0GbUpQ9VU.jpg",
-      "artworkLarge": "assets/covers/US0GbUpQ9VU.jpg",
-      "intro": false
-    },
-    {
-      "id": "xhpJqdZgF5U",
-      "artist": "Juan Luis Guerra",
-      "title": "El Niágara en Bicicleta (Live)",
-      "youtube": "https://www.youtube.com/watch?v=xhpJqdZgF5U",
-      "artwork": "https://i.ytimg.com/vi/xhpJqdZgF5U/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/xhpJqdZgF5U/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "0xT7maXs-UU",
-      "artist": "El Gran Combo",
-      "title": "Brujería",
-      "youtube": "https://www.youtube.com/watch?v=0xT7maXs-UU",
-      "artwork": "https://i.ytimg.com/vi/0xT7maXs-UU/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/0xT7maXs-UU/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "qYkpURie5cU",
-      "artist": "Héctor Lavoe",
-      "title": "Periódico de Ayer",
-      "youtube": "https://www.youtube.com/watch?v=qYkpURie5cU",
-      "artwork": "assets/covers/qYkpURie5cU.jpg",
-      "artworkLarge": "assets/covers/qYkpURie5cU.jpg",
-      "intro": false
-    },
-    {
-      "id": "hLKwsJHspCw",
-      "artist": "El Gran Combo",
-      "title": "Ojos Chinos",
-      "youtube": "https://www.youtube.com/watch?v=hLKwsJHspCw",
-      "artwork": "assets/covers/hLKwsJHspCw.jpg",
-      "artworkLarge": "assets/covers/hLKwsJHspCw.jpg",
-      "intro": false
-    },
-    {
-      "id": "bnv9r-FcD6I",
-      "artist": "La India",
-      "title": "Ese Hombre",
-      "youtube": "https://www.youtube.com/watch?v=bnv9r-FcD6I",
-      "artwork": "https://i.ytimg.com/vi/bnv9r-FcD6I/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/bnv9r-FcD6I/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "HBkZRS8gTdg",
-      "artist": "El Gran Combo",
-      "title": "Un Verano en Nueva York",
-      "youtube": "https://www.youtube.com/watch?v=HBkZRS8gTdg",
-      "artwork": "assets/covers/HBkZRS8gTdg.jpg",
-      "artworkLarge": "assets/covers/HBkZRS8gTdg.jpg",
-      "intro": false
-    },
-    {
-      "id": "j8ElCh65bzk",
-      "artist": "Joe Arroyo",
-      "title": "En Barranquilla Me Quedo",
-      "youtube": "https://www.youtube.com/watch?v=j8ElCh65bzk",
-      "artwork": "assets/covers/j8ElCh65bzk.jpg",
-      "artworkLarge": "assets/covers/j8ElCh65bzk.jpg",
-      "intro": false
-    },
-    {
-      "id": "4V3QrqlCnmw",
-      "artist": "Willie Colón y Héctor Lavoe",
-      "title": "Juanito Alimaña",
-      "youtube": "https://www.youtube.com/watch?v=4V3QrqlCnmw",
-      "artwork": "assets/covers/4V3QrqlCnmw.jpg",
-      "artworkLarge": "assets/covers/4V3QrqlCnmw.jpg",
-      "intro": false
-    },
-    {
-      "id": "ERVhkEtdrPY",
-      "artist": "Rubén Blades",
-      "title": "Pedro Navaja",
-      "youtube": "https://www.youtube.com/watch?v=ERVhkEtdrPY",
-      "artwork": "https://i.ytimg.com/vi/ERVhkEtdrPY/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/ERVhkEtdrPY/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "dDEVFQnBTp0",
-      "artist": "Juan Luis Guerra",
-      "title": "Ojalá Que Llueva Café",
-      "youtube": "https://www.youtube.com/watch?v=dDEVFQnBTp0",
-      "artwork": "assets/covers/dDEVFQnBTp0.jpg",
-      "artworkLarge": "assets/covers/dDEVFQnBTp0.jpg",
-      "intro": false
-    },
-    {
-      "id": "ISvXRDB8iwE",
-      "artist": "Joe Arroyo",
-      "title": "El Centurión De La Noche",
-      "youtube": "https://www.youtube.com/watch?v=ISvXRDB8iwE",
-      "artwork": "assets/covers/ISvXRDB8iwE.jpg",
-      "artworkLarge": "assets/covers/ISvXRDB8iwE.jpg",
-      "intro": false
-    },
-    {
-      "id": "tPTB0TRV3BA",
-      "artist": "Juan Luis Guerra",
-      "title": "El Costo de La Vida",
-      "youtube": "https://www.youtube.com/watch?v=tPTB0TRV3BA",
-      "artwork": "assets/covers/tPTB0TRV3BA.jpg",
-      "artworkLarge": "assets/covers/tPTB0TRV3BA.jpg",
-      "intro": false
-    },
-    {
-      "id": "bgSpdgL9lkQ",
-      "artist": "El Gran Combo",
-      "title": "Y No Hago Más Na",
-      "youtube": "https://www.youtube.com/watch?v=bgSpdgL9lkQ",
-      "artwork": "https://i.ytimg.com/vi/bgSpdgL9lkQ/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/bgSpdgL9lkQ/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "pE6HUa6Q3b8",
-      "artist": "Grupo Niche",
-      "title": "Gotas de Lluvia",
-      "youtube": "https://www.youtube.com/watch?v=pE6HUa6Q3b8",
-      "artwork": "assets/covers/pE6HUa6Q3b8.jpg",
-      "artworkLarge": "assets/covers/pE6HUa6Q3b8.jpg",
-      "intro": false
-    },
-    {
-      "id": "OvQArMzHt90",
-      "artist": "Cheo Feliciano",
-      "title": "Anacaona",
-      "youtube": "https://www.youtube.com/watch?v=OvQArMzHt90",
-      "artwork": "assets/covers/OvQArMzHt90.jpg",
-      "artworkLarge": "assets/covers/OvQArMzHt90.jpg",
-      "intro": false
-    },
-    {
-      "id": "dElUL4hvbJE",
-      "artist": "Grupo Manía",
-      "title": "Linda Eh",
-      "youtube": "https://www.youtube.com/watch?v=dElUL4hvbJE",
-      "artwork": "https://i.ytimg.com/vi/dElUL4hvbJE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/dElUL4hvbJE/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "fDj-CSQDbsY",
-      "artist": "Ismael Rivera",
-      "title": "El Nazareno",
-      "youtube": "https://www.youtube.com/watch?v=fDj-CSQDbsY",
-      "artwork": "assets/covers/fDj-CSQDbsY.jpg",
-      "artworkLarge": "assets/covers/fDj-CSQDbsY.jpg",
-      "intro": false
-    },
-    {
-      "id": "uTXP8VB52-I",
-      "artist": "Héctor Lavoe",
-      "title": "Todo Tiene Su Final",
-      "youtube": "https://www.youtube.com/watch?v=uTXP8VB52-I",
-      "artwork": "assets/covers/uTXP8VB52-I.jpg",
-      "artworkLarge": "assets/covers/uTXP8VB52-I.jpg",
-      "intro": false
-    },
-    {
-      "id": "V1jnol6o1kQ",
-      "artist": "Bonny Cepeda",
-      "title": "La Asesina",
-      "youtube": "https://www.youtube.com/watch?v=V1jnol6o1kQ",
-      "artwork": "assets/covers/V1jnol6o1kQ.jpg",
-      "artworkLarge": "assets/covers/V1jnol6o1kQ.jpg",
-      "intro": false
-    },
-    {
-      "id": "MAq9y0bxTX0",
-      "artist": "Celia Cruz",
-      "title": "Quimbara",
-      "youtube": "https://www.youtube.com/watch?v=MAq9y0bxTX0",
-      "artwork": "assets/covers/MAq9y0bxTX0.jpg",
-      "artworkLarge": "assets/covers/MAq9y0bxTX0.jpg",
-      "intro": false
-    },
-    {
-      "id": "fs1Fg07CsQs",
-      "artist": "Wilfrido Vargas",
-      "title": "El Baile del Perrito",
-      "youtube": "https://www.youtube.com/watch?v=fs1Fg07CsQs",
-      "artwork": "https://i.ytimg.com/vi/fs1Fg07CsQs/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/fs1Fg07CsQs/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "pXPVxwaXtV0",
-      "artist": "Willie Colón",
-      "title": "Idilio",
-      "youtube": "https://www.youtube.com/watch?v=pXPVxwaXtV0",
-      "artwork": "assets/covers/pXPVxwaXtV0.jpg",
-      "artworkLarge": "assets/covers/pXPVxwaXtV0.jpg",
-      "intro": false
-    },
-    {
-      "id": "epndigKqzDs",
-      "artist": "Wilfrido Vargas",
-      "title": "El Jardinero",
-      "youtube": "https://www.youtube.com/watch?v=epndigKqzDs",
-      "artwork": "assets/covers/epndigKqzDs.jpg",
-      "artworkLarge": "assets/covers/epndigKqzDs.jpg",
-      "intro": false
-    },
-    {
-      "id": "x6Y3EFLtnFM",
-      "artist": "Fulanito",
-      "title": "Guallando",
-      "youtube": "https://www.youtube.com/watch?v=x6Y3EFLtnFM",
-      "artwork": "assets/covers/x6Y3EFLtnFM.jpg",
-      "artworkLarge": "assets/covers/x6Y3EFLtnFM.jpg",
-      "intro": false
-    },
-    {
-      "id": "8QFzVz8whgQ",
-      "artist": "Rubby Pérez",
-      "title": "Volveré",
-      "youtube": "https://www.youtube.com/watch?v=8QFzVz8whgQ",
-      "artwork": "https://i.ytimg.com/vi/8QFzVz8whgQ/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/8QFzVz8whgQ/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "-X92muXeN-s",
-      "artist": "Willie Colón",
-      "title": "Che Che Colé",
-      "youtube": "https://www.youtube.com/watch?v=-X92muXeN-s",
-      "artwork": "assets/covers/-X92muXeN-s.jpg",
-      "artworkLarge": "assets/covers/-X92muXeN-s.jpg",
-      "intro": false
-    },
-    {
-      "id": "ptb09sCuMTo",
-      "artist": "Ismael Rivera",
-      "title": "Las Tumbas",
-      "youtube": "https://www.youtube.com/watch?v=ptb09sCuMTo",
-      "artwork": "assets/covers/ptb09sCuMTo.jpg",
-      "artworkLarge": "assets/covers/ptb09sCuMTo.jpg",
-      "intro": false
-    },
-    {
-      "id": "95Wcl9ucitM",
-      "artist": "Sergio Vargas",
-      "title": "La Ventanita",
-      "youtube": "https://www.youtube.com/watch?v=95Wcl9ucitM",
-      "artwork": "assets/covers/95Wcl9ucitM.jpg",
-      "artworkLarge": "assets/covers/95Wcl9ucitM.jpg",
-      "intro": false
-    },
-    {
-      "id": "E6soE-1p3kw",
-      "artist": "Milly Quezada",
-      "title": "Volvió Juanita",
-      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
-      "artwork": "assets/covers/E6soE-1p3kw.jpg",
-      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg",
-      "intro": false
-    },
-    {
-      "id": "cg7pyBPSEwE",
-      "artist": "Bonny Cepeda",
-      "title": "Ay Doctor",
-      "youtube": "https://www.youtube.com/watch?v=cg7pyBPSEwE",
-      "artwork": "https://i.ytimg.com/vi/cg7pyBPSEwE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/cg7pyBPSEwE/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "zN138OU1qws",
-      "artist": "Johnny Ventura",
-      "title": "Patacón Pisao",
-      "youtube": "https://www.youtube.com/watch?v=zN138OU1qws",
-      "artwork": "https://i.ytimg.com/vi/zN138OU1qws/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/zN138OU1qws/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "e494zPaEc6A",
-      "artist": "Lalo Rodríguez",
-      "title": "Ven Devórame Otra Vez",
-      "youtube": "https://www.youtube.com/watch?v=e494zPaEc6A",
-      "artwork": "assets/covers/e494zPaEc6A.jpg",
-      "artworkLarge": "assets/covers/e494zPaEc6A.jpg",
-      "intro": false
-    },
-    {
-      "id": "lvfQWpvcE30",
-      "artist": "Los Hermanos Rosario",
-      "title": "Ella Se Fue",
-      "youtube": "https://www.youtube.com/watch?v=lvfQWpvcE30",
-      "artwork": "assets/covers/lvfQWpvcE30.jpg",
-      "artworkLarge": "assets/covers/lvfQWpvcE30.jpg",
-      "intro": false
-    },
-    {
-      "id": "5BPYFIWNehg",
-      "artist": "Willie Colón y Héctor Lavoe",
-      "title": "Aguanile",
-      "youtube": "https://www.youtube.com/watch?v=5BPYFIWNehg",
-      "artwork": "https://i.ytimg.com/vi/5BPYFIWNehg/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/5BPYFIWNehg/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "hwv_-V5LsHk",
-      "artist": "Jossie Esteban y la Patrulla 15",
-      "title": "El Cantinero",
-      "youtube": "https://www.youtube.com/watch?v=hwv_-V5LsHk",
-      "artwork": "https://i.ytimg.com/vi/hwv_-V5LsHk/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/hwv_-V5LsHk/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "vtizic9NnfY",
-      "artist": "Kinito Méndez",
-      "title": "El Baile del Sua Sua",
-      "youtube": "https://www.youtube.com/watch?v=vtizic9NnfY",
-      "artwork": "assets/covers/vtizic9NnfY.jpg",
-      "artworkLarge": "assets/covers/vtizic9NnfY.jpg",
-      "intro": false
-    },
-    {
-      "id": "ssOtmdQatGQ",
-      "artist": "Toño Rosario",
-      "title": "Kulikitaka",
-      "youtube": "https://www.youtube.com/watch?v=ssOtmdQatGQ",
-      "artwork": "assets/covers/ssOtmdQatGQ.jpg",
-      "artworkLarge": "assets/covers/ssOtmdQatGQ.jpg",
-      "intro": false
-    },
-    {
-      "id": "H5gxKL5pmI4",
-      "artist": "Frankie Ruiz",
-      "title": "Desnúdate Mujer",
-      "youtube": "https://www.youtube.com/watch?v=H5gxKL5pmI4",
-      "artwork": "assets/covers/H5gxKL5pmI4.jpg",
-      "artworkLarge": "assets/covers/H5gxKL5pmI4.jpg",
-      "intro": false
-    },
-    {
-      "id": "Rh2YCjhZnYk",
-      "artist": "Tito Rojas",
-      "title": "Sensual",
-      "youtube": "https://www.youtube.com/watch?v=Rh2YCjhZnYk",
-      "artwork": "assets/covers/Rh2YCjhZnYk.jpg",
-      "artworkLarge": "assets/covers/Rh2YCjhZnYk.jpg",
-      "intro": false
-    },
-    {
-      "id": "Phy-i5oPJJ0",
-      "artist": "Willie Colón y Héctor Lavoe",
-      "title": "Calle Luna Calle Sol",
-      "youtube": "https://www.youtube.com/watch?v=Phy-i5oPJJ0",
-      "artwork": "https://i.ytimg.com/vi/Phy-i5oPJJ0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Phy-i5oPJJ0/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "xaKLn_z9R_k",
-      "artist": "Fernando Villalona",
-      "title": "Tabaco y Ron",
-      "youtube": "https://www.youtube.com/watch?v=xaKLn_z9R_k",
-      "artwork": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "DJfU0ZfFidY",
-      "artist": "Willie Colón",
-      "title": "Oh Qué Será",
-      "youtube": "https://www.youtube.com/watch?v=DJfU0ZfFidY",
-      "artwork": "assets/covers/DJfU0ZfFidY.jpg",
-      "artworkLarge": "assets/covers/DJfU0ZfFidY.jpg",
-      "intro": false
-    },
-    {
-      "id": "3OCbM4Ct97M",
-      "artist": "Elvis Crespo",
-      "title": "Píntame (Live)",
-      "youtube": "https://www.youtube.com/watch?v=3OCbM4Ct97M",
-      "artwork": "https://i.ytimg.com/vi/3OCbM4Ct97M/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/3OCbM4Ct97M/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "ydz-OjoIyuo",
-      "artist": "Los Hermanos Rosario",
-      "title": "Dominicana",
-      "youtube": "https://www.youtube.com/watch?v=ydz-OjoIyuo",
-      "artwork": "assets/covers/ydz-OjoIyuo.jpg",
-      "artworkLarge": "assets/covers/ydz-OjoIyuo.jpg",
-      "intro": false
-    },
-    {
-      "id": "BT8Afk8HDxY",
-      "artist": "Ilegales",
-      "title": "La Morena",
-      "youtube": "https://www.youtube.com/watch?v=BT8Afk8HDxY",
-      "artwork": "assets/covers/BT8Afk8HDxY.jpg",
-      "artworkLarge": "assets/covers/BT8Afk8HDxY.jpg",
-      "intro": false
-    },
-    {
-      "id": "XtQ6QxGF0PM",
-      "artist": "Kinito Méndez",
-      "title": "Cachamba",
-      "youtube": "https://www.youtube.com/watch?v=XtQ6QxGF0PM",
-      "artwork": "https://i.ytimg.com/vi/XtQ6QxGF0PM/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/XtQ6QxGF0PM/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "jqg5n6TtO-U",
-      "artist": "Sonora Ponceña",
-      "title": "Fuego en el 23",
-      "youtube": "https://www.youtube.com/watch?v=jqg5n6TtO-U",
-      "artwork": "https://i.ytimg.com/vi/jqg5n6TtO-U/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/jqg5n6TtO-U/mqdefault.jpg",
-      "intro": false
-    },
-    {
-      "id": "uWIl86jzQqc",
-      "artist": "Johnny Ventura",
-      "title": "El Sueño",
-      "youtube": "https://www.youtube.com/watch?v=uWIl86jzQqc",
-      "artwork": "assets/covers/uWIl86jzQqc.jpg",
-      "artworkLarge": "assets/covers/uWIl86jzQqc.jpg",
-      "intro": false
-    },
-    {
-      "id": "uwQ-2yfnuRU",
-      "artist": "Gisselle y Sergio Vargas",
-      "title": "Perdóname, Olvídalo",
-      "youtube": "https://www.youtube.com/watch?v=uwQ-2yfnuRU",
-      "artwork": "assets/covers/uwQ-2yfnuRU.jpg",
-      "artworkLarge": "assets/covers/uwQ-2yfnuRU.jpg",
-      "intro": false
-    },
-    {
-      "id": "m29uPaJ0Deo",
-      "artist": "Grupo Manía",
-      "title": "A Que Te Pego Mi Manía",
-      "youtube": "https://www.youtube.com/watch?v=m29uPaJ0Deo",
-      "artwork": "assets/covers/m29uPaJ0Deo.jpg",
-      "artworkLarge": "assets/covers/m29uPaJ0Deo.jpg",
-      "intro": false
-    },
-    {
-      "id": "bntQQjEnbPA",
-      "artist": "Wilfrido Vargas",
-      "title": "Abusadora",
-      "youtube": "https://www.youtube.com/watch?v=bntQQjEnbPA",
-      "artwork": "assets/covers/bntQQjEnbPA.jpg",
-      "artworkLarge": "assets/covers/bntQQjEnbPA.jpg",
-      "intro": false
-    },
-    {
-      "id": "bibVirPrCD4",
-      "artist": "Marc Anthony",
-      "title": "Hasta Ayer",
-      "youtube": "https://www.youtube.com/watch?v=bibVirPrCD4",
-      "artwork": "assets/covers/bibVirPrCD4.jpg",
-      "artworkLarge": "assets/covers/bibVirPrCD4.jpg",
-      "intro": false
+      "artworkLarge": "assets/covers/AFYJ5axf02o.jpg"
     },
     {
       "id": "af9gVqE9-E8",
@@ -796,98 +164,127 @@
       "title": "Mi Gente",
       "youtube": "https://www.youtube.com/watch?v=af9gVqE9-E8",
       "artwork": "assets/covers/af9gVqE9-E8.jpg",
-      "artworkLarge": "assets/covers/af9gVqE9-E8.jpg",
-      "intro": false
+      "artworkLarge": "assets/covers/af9gVqE9-E8.jpg"
     },
     {
-      "id": "zLu1z5Cg59w",
-      "artist": "Marc Anthony",
-      "title": "Y Hubo Alguien",
-      "youtube": "https://www.youtube.com/watch?v=zLu1z5Cg59w",
-      "artwork": "assets/covers/zLu1z5Cg59w.jpg",
-      "artworkLarge": "assets/covers/zLu1z5Cg59w.jpg",
-      "intro": false
+      "id": "MAq9y0bxTX0",
+      "artist": "Celia Cruz",
+      "title": "Quimbara",
+      "youtube": "https://www.youtube.com/watch?v=MAq9y0bxTX0",
+      "artwork": "assets/covers/MAq9y0bxTX0.jpg",
+      "artworkLarge": "assets/covers/MAq9y0bxTX0.jpg"
     },
     {
-      "id": "tvX9xwHCPmg",
-      "artist": "Eddie Santiago",
-      "title": "Tú Me Quemas",
-      "youtube": "https://www.youtube.com/watch?v=tvX9xwHCPmg",
-      "artwork": "assets/covers/tvX9xwHCPmg.jpg",
-      "artworkLarge": "assets/covers/tvX9xwHCPmg.jpg",
-      "intro": false
-    },
-    {
-      "id": "HOrPwEZLhD4",
-      "artist": "Kinito Méndez",
-      "title": "El Asilo",
-      "youtube": "https://www.youtube.com/watch?v=HOrPwEZLhD4",
-      "artwork": "assets/covers/HOrPwEZLhD4.jpg",
-      "artworkLarge": "assets/covers/HOrPwEZLhD4.jpg",
-      "intro": false
-    },
-    {
-      "id": "-VuPAychkn8",
-      "artist": "Frankie Ruiz",
-      "title": "Mi Libertad",
-      "youtube": "https://www.youtube.com/watch?v=-VuPAychkn8",
-      "artwork": "assets/covers/-VuPAychkn8.jpg",
-      "artworkLarge": "assets/covers/-VuPAychkn8.jpg",
-      "intro": false
-    },
-    {
-      "id": "fJ_Rsda2chU",
-      "artist": "Eddie Santiago",
-      "title": "Qué Locura Enamorarme de Ti",
-      "youtube": "https://www.youtube.com/watch?v=fJ_Rsda2chU",
-      "artwork": "assets/covers/fJ_Rsda2chU.jpg",
-      "artworkLarge": "assets/covers/fJ_Rsda2chU.jpg",
-      "intro": false
-    },
-    {
-      "id": "zZTo7FYn0lI",
-      "artist": "Eddy Herrera",
-      "title": "Me Sabe A Poco",
-      "youtube": "https://www.youtube.com/watch?v=zZTo7FYn0lI",
-      "artwork": "assets/covers/zZTo7FYn0lI.jpg",
-      "artworkLarge": "assets/covers/zZTo7FYn0lI.jpg",
-      "intro": false
-    },
-    {
-      "id": "KFhdezcPhGA",
-      "artist": "Eddie Santiago",
-      "title": "Lluvia",
-      "youtube": "https://www.youtube.com/watch?v=KFhdezcPhGA",
-      "artwork": "assets/covers/KFhdezcPhGA.jpg",
-      "artworkLarge": "assets/covers/KFhdezcPhGA.jpg",
-      "intro": false
-    },
-    {
-      "id": "KP_TJdAiGLE",
+      "id": "-X92muXeN-s",
       "artist": "Willie Colón",
-      "title": "El Malo",
-      "youtube": "https://www.youtube.com/watch?v=KP_TJdAiGLE",
-      "artwork": "assets/covers/KP_TJdAiGLE.jpg",
-      "artworkLarge": "assets/covers/KP_TJdAiGLE.jpg",
-      "intro": false
+      "title": "Che Che Colé",
+      "youtube": "https://www.youtube.com/watch?v=-X92muXeN-s",
+      "artwork": "assets/covers/-X92muXeN-s.jpg",
+      "artworkLarge": "assets/covers/-X92muXeN-s.jpg"
     },
     {
-      "id": "E0f3J0z2SBQ",
-      "artist": "Fernandito Villalona",
-      "title": "Cama y Mesa",
-      "youtube": "https://www.youtube.com/watch?v=E0f3J0z2SBQ",
-      "artwork": "assets/covers/E0f3J0z2SBQ.jpg",
-      "artworkLarge": "assets/covers/E0f3J0z2SBQ.jpg",
-      "intro": false
+      "id": "5BPYFIWNehg",
+      "artist": "Willie Colón y Héctor Lavoe",
+      "title": "Aguanile",
+      "youtube": "https://www.youtube.com/watch?v=5BPYFIWNehg",
+      "artwork": "https://i.ytimg.com/vi/5BPYFIWNehg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/5BPYFIWNehg/mqdefault.jpg"
     },
     {
-      "id": "1yvoPyqaOCA",
-      "artist": "Oscar D'León",
-      "title": "Detalles",
-      "youtube": "https://www.youtube.com/watch?v=1yvoPyqaOCA",
-      "artwork": "assets/covers/1yvoPyqaOCA.jpg",
-      "artworkLarge": "assets/covers/1yvoPyqaOCA.jpg",
-      "intro": false
+      "id": "jqg5n6TtO-U",
+      "artist": "Sonora Ponceña",
+      "title": "Fuego en el 23",
+      "youtube": "https://www.youtube.com/watch?v=jqg5n6TtO-U",
+      "artwork": "https://i.ytimg.com/vi/jqg5n6TtO-U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jqg5n6TtO-U/mqdefault.jpg"
+    },
+    {
+      "id": "0xT7maXs-UU",
+      "artist": "El Gran Combo",
+      "title": "Brujería",
+      "youtube": "https://www.youtube.com/watch?v=0xT7maXs-UU",
+      "artwork": "https://i.ytimg.com/vi/0xT7maXs-UU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0xT7maXs-UU/mqdefault.jpg"
+    },
+    {
+      "id": "ptrvHM0-ceA",
+      "artist": "Fruko y sus Tesos",
+      "title": "El Preso",
+      "youtube": "https://www.youtube.com/watch?v=ptrvHM0-ceA",
+      "artwork": "assets/covers/ptrvHM0-ceA.jpg",
+      "artworkLarge": "assets/covers/ptrvHM0-ceA.jpg"
+    },
+    {
+      "id": "3CqNeJLqvL0",
+      "artist": "Elvis Crespo",
+      "title": "Tu Sonrisa",
+      "youtube": "https://www.youtube.com/watch?v=3CqNeJLqvL0",
+      "artwork": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg"
+    },
+    {
+      "id": "ub_36MSMrxo",
+      "artist": "Pochy y su Cocoband",
+      "title": "La Peliona",
+      "youtube": "https://www.youtube.com/watch?v=ub_36MSMrxo",
+      "artwork": "https://i.ytimg.com/vi/ub_36MSMrxo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ub_36MSMrxo/mqdefault.jpg"
+    },
+    {
+      "id": "3SJwKBxKuoM",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "La Cosquillita",
+      "youtube": "https://www.youtube.com/watch?v=3SJwKBxKuoM",
+      "artwork": "https://i.ytimg.com/vi/3SJwKBxKuoM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3SJwKBxKuoM/mqdefault.jpg"
+    },
+    {
+      "id": "ASnkzgvBf0o",
+      "artist": "Olga Tañón",
+      "title": "Es Mentiroso",
+      "youtube": "https://www.youtube.com/watch?v=ASnkzgvBf0o",
+      "artwork": "https://i.ytimg.com/vi/ASnkzgvBf0o/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ASnkzgvBf0o/mqdefault.jpg"
+    },
+    {
+      "id": "ihZQAh4jr4M",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "Las Avispas",
+      "youtube": "https://www.youtube.com/watch?v=ihZQAh4jr4M",
+      "artwork": "https://i.ytimg.com/vi/ihZQAh4jr4M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ihZQAh4jr4M/mqdefault.jpg"
+    },
+    {
+      "id": "zN138OU1qws",
+      "artist": "Johnny Ventura",
+      "title": "Patacón Pisao",
+      "youtube": "https://www.youtube.com/watch?v=zN138OU1qws",
+      "artwork": "https://i.ytimg.com/vi/zN138OU1qws/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zN138OU1qws/mqdefault.jpg"
+    },
+    {
+      "id": "9x_Zmt4S01s",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "La Guagua",
+      "youtube": "https://www.youtube.com/watch?v=9x_Zmt4S01s",
+      "artwork": "https://i.ytimg.com/vi/9x_Zmt4S01s/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/9x_Zmt4S01s/mqdefault.jpg"
+    },
+    {
+      "id": "hwv_-V5LsHk",
+      "artist": "Jossie Esteban y la Patrulla 15",
+      "title": "El Cantinero",
+      "youtube": "https://www.youtube.com/watch?v=hwv_-V5LsHk",
+      "artwork": "https://i.ytimg.com/vi/hwv_-V5LsHk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hwv_-V5LsHk/mqdefault.jpg"
+    },
+    {
+      "id": "hBhIA8lDi2c",
+      "artist": "Elvis Crespo",
+      "title": "Píntame",
+      "youtube": "https://www.youtube.com/watch?v=hBhIA8lDi2c",
+      "artwork": "https://i.ytimg.com/vi/hBhIA8lDi2c/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hBhIA8lDi2c/mqdefault.jpg"
     },
     {
       "id": "yGvStabyqIE",
@@ -895,8 +292,527 @@
       "title": "El Negro No Puede",
       "youtube": "https://www.youtube.com/watch?v=yGvStabyqIE",
       "artwork": "assets/covers/yGvStabyqIE.jpg",
-      "artworkLarge": "assets/covers/yGvStabyqIE.jpg",
-      "intro": false
+      "artworkLarge": "assets/covers/yGvStabyqIE.jpg"
+    },
+    {
+      "id": "4Qy0vs80T5M",
+      "artist": "Proyecto Uno",
+      "title": "El Tiburón",
+      "youtube": "https://www.youtube.com/watch?v=4Qy0vs80T5M",
+      "artwork": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4Qy0vs80T5M/mqdefault.jpg"
+    },
+    {
+      "id": "x6Y3EFLtnFM",
+      "artist": "Fulanito",
+      "title": "Guallando",
+      "youtube": "https://www.youtube.com/watch?v=x6Y3EFLtnFM",
+      "artwork": "assets/covers/x6Y3EFLtnFM.jpg",
+      "artworkLarge": "assets/covers/x6Y3EFLtnFM.jpg"
+    },
+    {
+      "id": "BT8Afk8HDxY",
+      "artist": "Ilegales",
+      "title": "La Morena",
+      "youtube": "https://www.youtube.com/watch?v=BT8Afk8HDxY",
+      "artwork": "assets/covers/BT8Afk8HDxY.jpg",
+      "artworkLarge": "assets/covers/BT8Afk8HDxY.jpg"
+    },
+    {
+      "id": "m29uPaJ0Deo",
+      "artist": "Grupo Manía",
+      "title": "A Que Te Pego Mi Manía",
+      "youtube": "https://www.youtube.com/watch?v=m29uPaJ0Deo",
+      "artwork": "assets/covers/m29uPaJ0Deo.jpg",
+      "artworkLarge": "assets/covers/m29uPaJ0Deo.jpg"
+    },
+    {
+      "id": "Zc13NAc7dvM",
+      "artist": "Gilberto Santa Rosa",
+      "title": "Conteo Regresivo (Salsa Version)",
+      "youtube": "https://www.youtube.com/watch?v=Zc13NAc7dvM",
+      "artwork": "https://i.ytimg.com/vi/Zc13NAc7dvM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Zc13NAc7dvM/mqdefault.jpg"
+    },
+    {
+      "id": "Ns9YYSqLxyI",
+      "artist": "Marc Anthony",
+      "title": "Valió La Pena (Salsa)",
+      "youtube": "https://www.youtube.com/watch?v=Ns9YYSqLxyI",
+      "artwork": "https://i.ytimg.com/vi/Ns9YYSqLxyI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ns9YYSqLxyI/mqdefault.jpg"
+    },
+    {
+      "id": "BNo0vkEYWRc",
+      "artist": "Héctor Lavoe",
+      "title": "El Cantante",
+      "youtube": "https://www.youtube.com/watch?v=BNo0vkEYWRc",
+      "artwork": "assets/covers/BNo0vkEYWRc.jpg",
+      "artworkLarge": "assets/covers/BNo0vkEYWRc.jpg"
+    },
+    {
+      "id": "Jn1OIkMqpbo",
+      "artist": "Sergio Vargas",
+      "title": "La Quiero a Morir",
+      "youtube": "https://www.youtube.com/watch?v=Jn1OIkMqpbo",
+      "artwork": "https://i.ytimg.com/vi/Jn1OIkMqpbo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Jn1OIkMqpbo/mqdefault.jpg"
+    },
+    {
+      "id": "N8kGeGXddxg",
+      "artist": "Frankie Ruiz",
+      "title": "Deseándote",
+      "youtube": "https://www.youtube.com/watch?v=N8kGeGXddxg",
+      "artwork": "https://i.ytimg.com/vi/N8kGeGXddxg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/N8kGeGXddxg/mqdefault.jpg"
+    },
+    {
+      "id": "mXZRB_al3fs",
+      "artist": "Willie Colón y Héctor Lavoe",
+      "title": "El Día de Mi Suerte",
+      "youtube": "https://www.youtube.com/watch?v=mXZRB_al3fs",
+      "artwork": "assets/covers/mXZRB_al3fs.jpg",
+      "artworkLarge": "assets/covers/mXZRB_al3fs.jpg"
+    },
+    {
+      "id": "GyhwmZAQB-Y",
+      "artist": "Rubén Blades",
+      "title": "Decisiones",
+      "youtube": "https://www.youtube.com/watch?v=GyhwmZAQB-Y",
+      "artwork": "assets/covers/GyhwmZAQB-Y.jpg",
+      "artworkLarge": "assets/covers/GyhwmZAQB-Y.jpg"
+    },
+    {
+      "id": "s3fcKFQukbY",
+      "artist": "Tito Nieves",
+      "title": "Fabricando Fantasías",
+      "youtube": "https://www.youtube.com/watch?v=s3fcKFQukbY",
+      "artwork": "assets/covers/s3fcKFQukbY.jpg",
+      "artworkLarge": "assets/covers/s3fcKFQukbY.jpg"
+    },
+    {
+      "id": "2PVi95J-FMo",
+      "artist": "Luis Enrique",
+      "title": "Yo No Sé Mañana",
+      "youtube": "https://www.youtube.com/watch?v=2PVi95J-FMo",
+      "artwork": "assets/covers/2PVi95J-FMo.jpg",
+      "artworkLarge": "assets/covers/2PVi95J-FMo.jpg"
+    },
+    {
+      "id": "7kbjKCj-rMQ",
+      "artist": "Gilberto Santa Rosa",
+      "title": "Conciencia",
+      "youtube": "https://www.youtube.com/watch?v=7kbjKCj-rMQ",
+      "artwork": "https://i.ytimg.com/vi/7kbjKCj-rMQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7kbjKCj-rMQ/mqdefault.jpg"
+    },
+    {
+      "id": "wQUcaSEuob0",
+      "artist": "Rey Ruiz",
+      "title": "Mi Media Mitad",
+      "youtube": "https://www.youtube.com/watch?v=wQUcaSEuob0",
+      "artwork": "assets/covers/wQUcaSEuob0.jpg",
+      "artworkLarge": "assets/covers/wQUcaSEuob0.jpg"
+    },
+    {
+      "id": "0ZfwT6lHahk",
+      "artist": "Gilberto Santa Rosa",
+      "title": "Que Alguien Me Diga",
+      "youtube": "https://www.youtube.com/watch?v=0ZfwT6lHahk",
+      "artwork": "assets/covers/0ZfwT6lHahk.jpg",
+      "artworkLarge": "assets/covers/0ZfwT6lHahk.jpg"
+    },
+    {
+      "id": "1crMUfqH6i0",
+      "artist": "Bonny Cepeda",
+      "title": "Una Fotografía",
+      "youtube": "https://www.youtube.com/watch?v=1crMUfqH6i0",
+      "artwork": "assets/covers/1crMUfqH6i0.jpg",
+      "artworkLarge": "assets/covers/1crMUfqH6i0.jpg"
+    },
+    {
+      "id": "sJqDmVekMWU",
+      "artist": "Jerry Rivera",
+      "title": "Amores Como el Nuestro",
+      "youtube": "https://www.youtube.com/watch?v=sJqDmVekMWU",
+      "artwork": "assets/covers/sJqDmVekMWU.jpg",
+      "artworkLarge": "assets/covers/sJqDmVekMWU.jpg"
+    },
+    {
+      "id": "US0GbUpQ9VU",
+      "artist": "Willie Colón",
+      "title": "El Gran Varón",
+      "youtube": "https://www.youtube.com/watch?v=US0GbUpQ9VU",
+      "artwork": "assets/covers/US0GbUpQ9VU.jpg",
+      "artworkLarge": "assets/covers/US0GbUpQ9VU.jpg"
+    },
+    {
+      "id": "qYkpURie5cU",
+      "artist": "Héctor Lavoe",
+      "title": "Periódico de Ayer",
+      "youtube": "https://www.youtube.com/watch?v=qYkpURie5cU",
+      "artwork": "assets/covers/qYkpURie5cU.jpg",
+      "artworkLarge": "assets/covers/qYkpURie5cU.jpg"
+    },
+    {
+      "id": "hLKwsJHspCw",
+      "artist": "El Gran Combo",
+      "title": "Ojos Chinos",
+      "youtube": "https://www.youtube.com/watch?v=hLKwsJHspCw",
+      "artwork": "assets/covers/hLKwsJHspCw.jpg",
+      "artworkLarge": "assets/covers/hLKwsJHspCw.jpg"
+    },
+    {
+      "id": "bnv9r-FcD6I",
+      "artist": "La India",
+      "title": "Ese Hombre",
+      "youtube": "https://www.youtube.com/watch?v=bnv9r-FcD6I",
+      "artwork": "https://i.ytimg.com/vi/bnv9r-FcD6I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bnv9r-FcD6I/mqdefault.jpg"
+    },
+    {
+      "id": "HBkZRS8gTdg",
+      "artist": "El Gran Combo",
+      "title": "Un Verano en Nueva York",
+      "youtube": "https://www.youtube.com/watch?v=HBkZRS8gTdg",
+      "artwork": "assets/covers/HBkZRS8gTdg.jpg",
+      "artworkLarge": "assets/covers/HBkZRS8gTdg.jpg"
+    },
+    {
+      "id": "j8ElCh65bzk",
+      "artist": "Joe Arroyo",
+      "title": "En Barranquilla Me Quedo",
+      "youtube": "https://www.youtube.com/watch?v=j8ElCh65bzk",
+      "artwork": "assets/covers/j8ElCh65bzk.jpg",
+      "artworkLarge": "assets/covers/j8ElCh65bzk.jpg"
+    },
+    {
+      "id": "4V3QrqlCnmw",
+      "artist": "Willie Colón y Héctor Lavoe",
+      "title": "Juanito Alimaña",
+      "youtube": "https://www.youtube.com/watch?v=4V3QrqlCnmw",
+      "artwork": "assets/covers/4V3QrqlCnmw.jpg",
+      "artworkLarge": "assets/covers/4V3QrqlCnmw.jpg"
+    },
+    {
+      "id": "ERVhkEtdrPY",
+      "artist": "Rubén Blades",
+      "title": "Pedro Navaja",
+      "youtube": "https://www.youtube.com/watch?v=ERVhkEtdrPY",
+      "artwork": "https://i.ytimg.com/vi/ERVhkEtdrPY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ERVhkEtdrPY/mqdefault.jpg"
+    },
+    {
+      "id": "ISvXRDB8iwE",
+      "artist": "Joe Arroyo",
+      "title": "El Centurión De La Noche",
+      "youtube": "https://www.youtube.com/watch?v=ISvXRDB8iwE",
+      "artwork": "assets/covers/ISvXRDB8iwE.jpg",
+      "artworkLarge": "assets/covers/ISvXRDB8iwE.jpg"
+    },
+    {
+      "id": "bgSpdgL9lkQ",
+      "artist": "El Gran Combo",
+      "title": "Y No Hago Más Na",
+      "youtube": "https://www.youtube.com/watch?v=bgSpdgL9lkQ",
+      "artwork": "https://i.ytimg.com/vi/bgSpdgL9lkQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bgSpdgL9lkQ/mqdefault.jpg"
+    },
+    {
+      "id": "pE6HUa6Q3b8",
+      "artist": "Grupo Niche",
+      "title": "Gotas de Lluvia",
+      "youtube": "https://www.youtube.com/watch?v=pE6HUa6Q3b8",
+      "artwork": "assets/covers/pE6HUa6Q3b8.jpg",
+      "artworkLarge": "assets/covers/pE6HUa6Q3b8.jpg"
+    },
+    {
+      "id": "OvQArMzHt90",
+      "artist": "Cheo Feliciano",
+      "title": "Anacaona",
+      "youtube": "https://www.youtube.com/watch?v=OvQArMzHt90",
+      "artwork": "assets/covers/OvQArMzHt90.jpg",
+      "artworkLarge": "assets/covers/OvQArMzHt90.jpg"
+    },
+    {
+      "id": "dElUL4hvbJE",
+      "artist": "Grupo Manía",
+      "title": "Linda Eh",
+      "youtube": "https://www.youtube.com/watch?v=dElUL4hvbJE",
+      "artwork": "https://i.ytimg.com/vi/dElUL4hvbJE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/dElUL4hvbJE/mqdefault.jpg"
+    },
+    {
+      "id": "fDj-CSQDbsY",
+      "artist": "Ismael Rivera",
+      "title": "El Nazareno",
+      "youtube": "https://www.youtube.com/watch?v=fDj-CSQDbsY",
+      "artwork": "assets/covers/fDj-CSQDbsY.jpg",
+      "artworkLarge": "assets/covers/fDj-CSQDbsY.jpg"
+    },
+    {
+      "id": "uTXP8VB52-I",
+      "artist": "Héctor Lavoe",
+      "title": "Todo Tiene Su Final",
+      "youtube": "https://www.youtube.com/watch?v=uTXP8VB52-I",
+      "artwork": "assets/covers/uTXP8VB52-I.jpg",
+      "artworkLarge": "assets/covers/uTXP8VB52-I.jpg"
+    },
+    {
+      "id": "V1jnol6o1kQ",
+      "artist": "Bonny Cepeda",
+      "title": "La Asesina",
+      "youtube": "https://www.youtube.com/watch?v=V1jnol6o1kQ",
+      "artwork": "assets/covers/V1jnol6o1kQ.jpg",
+      "artworkLarge": "assets/covers/V1jnol6o1kQ.jpg"
+    },
+    {
+      "id": "fs1Fg07CsQs",
+      "artist": "Wilfrido Vargas",
+      "title": "El Baile del Perrito",
+      "youtube": "https://www.youtube.com/watch?v=fs1Fg07CsQs",
+      "artwork": "https://i.ytimg.com/vi/fs1Fg07CsQs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fs1Fg07CsQs/mqdefault.jpg"
+    },
+    {
+      "id": "pXPVxwaXtV0",
+      "artist": "Willie Colón",
+      "title": "Idilio",
+      "youtube": "https://www.youtube.com/watch?v=pXPVxwaXtV0",
+      "artwork": "assets/covers/pXPVxwaXtV0.jpg",
+      "artworkLarge": "assets/covers/pXPVxwaXtV0.jpg"
+    },
+    {
+      "id": "epndigKqzDs",
+      "artist": "Wilfrido Vargas",
+      "title": "El Jardinero",
+      "youtube": "https://www.youtube.com/watch?v=epndigKqzDs",
+      "artwork": "assets/covers/epndigKqzDs.jpg",
+      "artworkLarge": "assets/covers/epndigKqzDs.jpg"
+    },
+    {
+      "id": "8QFzVz8whgQ",
+      "artist": "Rubby Pérez",
+      "title": "Volveré",
+      "youtube": "https://www.youtube.com/watch?v=8QFzVz8whgQ",
+      "artwork": "https://i.ytimg.com/vi/8QFzVz8whgQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/8QFzVz8whgQ/mqdefault.jpg"
+    },
+    {
+      "id": "ptb09sCuMTo",
+      "artist": "Ismael Rivera",
+      "title": "Las Tumbas",
+      "youtube": "https://www.youtube.com/watch?v=ptb09sCuMTo",
+      "artwork": "assets/covers/ptb09sCuMTo.jpg",
+      "artworkLarge": "assets/covers/ptb09sCuMTo.jpg"
+    },
+    {
+      "id": "E6soE-1p3kw",
+      "artist": "Milly Quezada",
+      "title": "Volvió Juanita",
+      "youtube": "https://www.youtube.com/watch?v=E6soE-1p3kw",
+      "artwork": "assets/covers/E6soE-1p3kw.jpg",
+      "artworkLarge": "assets/covers/E6soE-1p3kw.jpg"
+    },
+    {
+      "id": "cg7pyBPSEwE",
+      "artist": "Bonny Cepeda",
+      "title": "Ay Doctor",
+      "youtube": "https://www.youtube.com/watch?v=cg7pyBPSEwE",
+      "artwork": "https://i.ytimg.com/vi/cg7pyBPSEwE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/cg7pyBPSEwE/mqdefault.jpg"
+    },
+    {
+      "id": "e494zPaEc6A",
+      "artist": "Lalo Rodríguez",
+      "title": "Ven Devórame Otra Vez",
+      "youtube": "https://www.youtube.com/watch?v=e494zPaEc6A",
+      "artwork": "assets/covers/e494zPaEc6A.jpg",
+      "artworkLarge": "assets/covers/e494zPaEc6A.jpg"
+    },
+    {
+      "id": "lvfQWpvcE30",
+      "artist": "Los Hermanos Rosario",
+      "title": "Ella Se Fue",
+      "youtube": "https://www.youtube.com/watch?v=lvfQWpvcE30",
+      "artwork": "assets/covers/lvfQWpvcE30.jpg",
+      "artworkLarge": "assets/covers/lvfQWpvcE30.jpg"
+    },
+    {
+      "id": "vtizic9NnfY",
+      "artist": "Kinito Méndez",
+      "title": "El Baile del Sua Sua",
+      "youtube": "https://www.youtube.com/watch?v=vtizic9NnfY",
+      "artwork": "assets/covers/vtizic9NnfY.jpg",
+      "artworkLarge": "assets/covers/vtizic9NnfY.jpg"
+    },
+    {
+      "id": "ssOtmdQatGQ",
+      "artist": "Toño Rosario",
+      "title": "Kulikitaka",
+      "youtube": "https://www.youtube.com/watch?v=ssOtmdQatGQ",
+      "artwork": "assets/covers/ssOtmdQatGQ.jpg",
+      "artworkLarge": "assets/covers/ssOtmdQatGQ.jpg"
+    },
+    {
+      "id": "H5gxKL5pmI4",
+      "artist": "Frankie Ruiz",
+      "title": "Desnúdate Mujer",
+      "youtube": "https://www.youtube.com/watch?v=H5gxKL5pmI4",
+      "artwork": "assets/covers/H5gxKL5pmI4.jpg",
+      "artworkLarge": "assets/covers/H5gxKL5pmI4.jpg"
+    },
+    {
+      "id": "Rh2YCjhZnYk",
+      "artist": "Tito Rojas",
+      "title": "Sensual",
+      "youtube": "https://www.youtube.com/watch?v=Rh2YCjhZnYk",
+      "artwork": "assets/covers/Rh2YCjhZnYk.jpg",
+      "artworkLarge": "assets/covers/Rh2YCjhZnYk.jpg"
+    },
+    {
+      "id": "Phy-i5oPJJ0",
+      "artist": "Willie Colón y Héctor Lavoe",
+      "title": "Calle Luna Calle Sol",
+      "youtube": "https://www.youtube.com/watch?v=Phy-i5oPJJ0",
+      "artwork": "https://i.ytimg.com/vi/Phy-i5oPJJ0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Phy-i5oPJJ0/mqdefault.jpg"
+    },
+    {
+      "id": "xaKLn_z9R_k",
+      "artist": "Fernando Villalona",
+      "title": "Tabaco y Ron",
+      "youtube": "https://www.youtube.com/watch?v=xaKLn_z9R_k",
+      "artwork": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xaKLn_z9R_k/mqdefault.jpg"
+    },
+    {
+      "id": "DJfU0ZfFidY",
+      "artist": "Willie Colón",
+      "title": "Oh Qué Será",
+      "youtube": "https://www.youtube.com/watch?v=DJfU0ZfFidY",
+      "artwork": "assets/covers/DJfU0ZfFidY.jpg",
+      "artworkLarge": "assets/covers/DJfU0ZfFidY.jpg"
+    },
+    {
+      "id": "ydz-OjoIyuo",
+      "artist": "Los Hermanos Rosario",
+      "title": "Dominicana",
+      "youtube": "https://www.youtube.com/watch?v=ydz-OjoIyuo",
+      "artwork": "assets/covers/ydz-OjoIyuo.jpg",
+      "artworkLarge": "assets/covers/ydz-OjoIyuo.jpg"
+    },
+    {
+      "id": "XtQ6QxGF0PM",
+      "artist": "Kinito Méndez",
+      "title": "Cachamba",
+      "youtube": "https://www.youtube.com/watch?v=XtQ6QxGF0PM",
+      "artwork": "https://i.ytimg.com/vi/XtQ6QxGF0PM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/XtQ6QxGF0PM/mqdefault.jpg"
+    },
+    {
+      "id": "uWIl86jzQqc",
+      "artist": "Johnny Ventura",
+      "title": "El Sueño",
+      "youtube": "https://www.youtube.com/watch?v=uWIl86jzQqc",
+      "artwork": "assets/covers/uWIl86jzQqc.jpg",
+      "artworkLarge": "assets/covers/uWIl86jzQqc.jpg"
+    },
+    {
+      "id": "uwQ-2yfnuRU",
+      "artist": "Gisselle y Sergio Vargas",
+      "title": "Perdóname, Olvídalo",
+      "youtube": "https://www.youtube.com/watch?v=uwQ-2yfnuRU",
+      "artwork": "assets/covers/uwQ-2yfnuRU.jpg",
+      "artworkLarge": "assets/covers/uwQ-2yfnuRU.jpg"
+    },
+    {
+      "id": "bntQQjEnbPA",
+      "artist": "Wilfrido Vargas",
+      "title": "Abusadora",
+      "youtube": "https://www.youtube.com/watch?v=bntQQjEnbPA",
+      "artwork": "assets/covers/bntQQjEnbPA.jpg",
+      "artworkLarge": "assets/covers/bntQQjEnbPA.jpg"
+    },
+    {
+      "id": "bibVirPrCD4",
+      "artist": "Marc Anthony",
+      "title": "Hasta Ayer",
+      "youtube": "https://www.youtube.com/watch?v=bibVirPrCD4",
+      "artwork": "assets/covers/bibVirPrCD4.jpg",
+      "artworkLarge": "assets/covers/bibVirPrCD4.jpg"
+    },
+    {
+      "id": "tvX9xwHCPmg",
+      "artist": "Eddie Santiago",
+      "title": "Tú Me Quemas",
+      "youtube": "https://www.youtube.com/watch?v=tvX9xwHCPmg",
+      "artwork": "assets/covers/tvX9xwHCPmg.jpg",
+      "artworkLarge": "assets/covers/tvX9xwHCPmg.jpg"
+    },
+    {
+      "id": "zLu1z5Cg59w",
+      "artist": "Marc Anthony",
+      "title": "Y Hubo Alguien",
+      "youtube": "https://www.youtube.com/watch?v=zLu1z5Cg59w",
+      "artwork": "assets/covers/zLu1z5Cg59w.jpg",
+      "artworkLarge": "assets/covers/zLu1z5Cg59w.jpg"
+    },
+    {
+      "id": "HOrPwEZLhD4",
+      "artist": "Kinito Méndez",
+      "title": "El Asilo",
+      "youtube": "https://www.youtube.com/watch?v=HOrPwEZLhD4",
+      "artwork": "assets/covers/HOrPwEZLhD4.jpg",
+      "artworkLarge": "assets/covers/HOrPwEZLhD4.jpg"
+    },
+    {
+      "id": "-VuPAychkn8",
+      "artist": "Frankie Ruiz",
+      "title": "Mi Libertad",
+      "youtube": "https://www.youtube.com/watch?v=-VuPAychkn8",
+      "artwork": "assets/covers/-VuPAychkn8.jpg",
+      "artworkLarge": "assets/covers/-VuPAychkn8.jpg"
+    },
+    {
+      "id": "fJ_Rsda2chU",
+      "artist": "Eddie Santiago",
+      "title": "Qué Locura Enamorarme de Ti",
+      "youtube": "https://www.youtube.com/watch?v=fJ_Rsda2chU",
+      "artwork": "assets/covers/fJ_Rsda2chU.jpg",
+      "artworkLarge": "assets/covers/fJ_Rsda2chU.jpg"
+    },
+    {
+      "id": "zZTo7FYn0lI",
+      "artist": "Eddy Herrera",
+      "title": "Me Sabe A Poco",
+      "youtube": "https://www.youtube.com/watch?v=zZTo7FYn0lI",
+      "artwork": "assets/covers/zZTo7FYn0lI.jpg",
+      "artworkLarge": "assets/covers/zZTo7FYn0lI.jpg"
+    },
+    {
+      "id": "KFhdezcPhGA",
+      "artist": "Eddie Santiago",
+      "title": "Lluvia",
+      "youtube": "https://www.youtube.com/watch?v=KFhdezcPhGA",
+      "artwork": "assets/covers/KFhdezcPhGA.jpg",
+      "artworkLarge": "assets/covers/KFhdezcPhGA.jpg"
+    },
+    {
+      "id": "KP_TJdAiGLE",
+      "artist": "Willie Colón",
+      "title": "El Malo",
+      "youtube": "https://www.youtube.com/watch?v=KP_TJdAiGLE",
+      "artwork": "assets/covers/KP_TJdAiGLE.jpg",
+      "artworkLarge": "assets/covers/KP_TJdAiGLE.jpg"
+    },
+    {
+      "id": "1yvoPyqaOCA",
+      "artist": "Oscar D'León",
+      "title": "Detalles",
+      "youtube": "https://www.youtube.com/watch?v=1yvoPyqaOCA",
+      "artwork": "assets/covers/1yvoPyqaOCA.jpg",
+      "artworkLarge": "assets/covers/1yvoPyqaOCA.jpg"
     },
     {
       "id": "s_U6G68NYec",
@@ -904,8 +820,7 @@
       "title": "Sonido Bestial",
       "youtube": "https://www.youtube.com/watch?v=s_U6G68NYec",
       "artwork": "assets/covers/s_U6G68NYec.jpg",
-      "artworkLarge": "assets/covers/s_U6G68NYec.jpg",
-      "intro": false
+      "artworkLarge": "assets/covers/s_U6G68NYec.jpg"
     }
   ]
 }

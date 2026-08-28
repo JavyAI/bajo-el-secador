@@ -1,0 +1,16 @@
+rank,id,artist,title,family,bpm_band,block,change
+1,WPiEbYSF9kE,Elvis Crespo,Suavemente,merengue,124,merengue_door,HOLD
+2,McV4pBRb-Sg,Juan Luis Guerra,La Bilirrubina,merengue,130-138,merengue_door,same_slot
+3,1DbXzlhKS5s,Wilfrido Vargas,El Africano,merengue,137,merengue_door,same_slot
+4,_koz_f4mthE,Juan Luis Guerra,A Pedir Su Mano,merengue,128-150,merengue_door,was_5
+5,uzU3x_egiEk,Eddy Herrera,Tú Eres Ajena,merengue,128-150,merengue_door,was_8
+6,qSi2j6FM0dc,Joe Arroyo,Rebelión,salsa,106-felt,salsa_bridge,was_4
+7,frsVQWSINAI,El Gran Combo,Me Liberé,salsa,88-110-felt,salsa_block,was_6
+8,imeXSRNRMeg,Celia Cruz,La Negra Tiene Tumbao,salsa,88-110-felt,salsa_block,was_9
+9,PmXJKVjhbqI,Frankie Ruiz,La Cura,salsa,88-110-felt,salsa_block,was_10
+10,UwnmzIgNzyU,Grupo Niche,Una Aventura,salsa,88-110-felt,salsa_block,was_11
+11,y08MAPIACBY,Cuco Valoy,Juliana,merengue,128-150,merengue_return,was_7
+12,v7324GfdI3Q,Los Cantantes,El Venao,merengue,128-150,merengue_return,same_slot
+13,HN6ACmknaiw,Los Hermanos Rosario,La Dueña del Swing,merengue,128-150,merengue_return,was_16
+14,SUgQHe902yQ,Jerry Rivera,Qué Hay de Malo,salsa,88-110-felt,salsa_close,was_14
+15,7wpVJvRIKYQ,Víctor Manuelle,He Tratado,salsa,88-110-felt,salsa_close,same_slot
