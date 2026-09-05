@@ -14,7 +14,8 @@
       "youtube": "https://www.youtube.com/watch?v=ExCIp6TOnJw",
       "artwork": "assets/covers/ExCIp6TOnJw.jpg",
       "artworkLarge": "assets/covers/ExCIp6TOnJw.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 16
     },
     {
       "id": "3VmoZrxXbmg",
@@ -23,7 +24,8 @@
       "youtube": "https://www.youtube.com/watch?v=3VmoZrxXbmg",
       "artwork": "https://i.ytimg.com/vi/3VmoZrxXbmg/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/3VmoZrxXbmg/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 7
     },
     {
       "id": "QBaIMZ8QjcU",
@@ -32,7 +34,8 @@
       "youtube": "https://www.youtube.com/watch?v=QBaIMZ8QjcU",
       "artwork": "https://i.ytimg.com/vi/QBaIMZ8QjcU/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/QBaIMZ8QjcU/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 6
     },
     {
       "id": "HYYjcRx2L30",
@@ -59,7 +62,8 @@
       "youtube": "https://www.youtube.com/watch?v=_oMfwHYSRIk",
       "artwork": "https://i.ytimg.com/vi/_oMfwHYSRIk/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/_oMfwHYSRIk/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 8
     },
     {
       "id": "YXnjy5YlDwk",
@@ -68,7 +72,8 @@
       "youtube": "https://www.youtube.com/watch?v=YXnjy5YlDwk",
       "artwork": "https://i.ytimg.com/vi/YXnjy5YlDwk/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/YXnjy5YlDwk/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 4
     },
     {
       "id": "CjLJdR6DXZ4",
@@ -77,7 +82,8 @@
       "youtube": "https://www.youtube.com/watch?v=CjLJdR6DXZ4",
       "artwork": "https://i.ytimg.com/vi/CjLJdR6DXZ4/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/CjLJdR6DXZ4/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 9
     },
     {
       "id": "lf8xoMhV8pI",
@@ -86,7 +92,8 @@
       "youtube": "https://www.youtube.com/watch?v=lf8xoMhV8pI",
       "artwork": "https://i.ytimg.com/vi/lf8xoMhV8pI/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/lf8xoMhV8pI/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 15
     },
     {
       "id": "Re93tMg6sfc",
@@ -95,7 +102,8 @@
       "youtube": "https://www.youtube.com/watch?v=Re93tMg6sfc",
       "artwork": "https://i.ytimg.com/vi/Re93tMg6sfc/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/Re93tMg6sfc/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 10
     },
     {
       "id": "hpkaifThmOs",

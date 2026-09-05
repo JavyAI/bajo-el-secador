@@ -32,7 +32,8 @@
       "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
       "artwork": "assets/covers/1DbXzlhKS5s.jpg",
       "artworkLarge": "assets/covers/1DbXzlhKS5s.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 8
     },
     {
       "id": "_koz_f4mthE",
@@ -41,7 +42,8 @@
       "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
       "artwork": "assets/covers/_koz_f4mthE.jpg",
       "artworkLarge": "assets/covers/_koz_f4mthE.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 27
     },
     {
       "id": "uzU3x_egiEk",
@@ -77,7 +79,8 @@
       "youtube": "https://www.youtube.com/watch?v=imeXSRNRMeg",
       "artwork": "assets/covers/imeXSRNRMeg.jpg",
       "artworkLarge": "assets/covers/imeXSRNRMeg.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 15
     },
     {
       "id": "PmXJKVjhbqI",
@@ -95,7 +98,8 @@
       "youtube": "https://www.youtube.com/watch?v=UwnmzIgNzyU",
       "artwork": "assets/covers/UwnmzIgNzyU.jpg",
       "artworkLarge": "assets/covers/UwnmzIgNzyU.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 18
     },
     {
       "id": "y08MAPIACBY",
@@ -104,7 +108,8 @@
       "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
       "artwork": "assets/covers/y08MAPIACBY.jpg",
       "artworkLarge": "assets/covers/y08MAPIACBY.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 5
     },
     {
       "id": "_u2m43WXQks",
@@ -122,7 +127,8 @@
       "youtube": "https://www.youtube.com/watch?v=HN6ACmknaiw",
       "artwork": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 9
     },
     {
       "id": "SUgQHe902yQ",
@@ -131,7 +137,8 @@
       "youtube": "https://www.youtube.com/watch?v=SUgQHe902yQ",
       "artwork": "https://i.ytimg.com/vi/SUgQHe902yQ/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/SUgQHe902yQ/mqdefault.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 5
     },
     {
       "id": "7wpVJvRIKYQ",
@@ -140,7 +147,8 @@
       "youtube": "https://www.youtube.com/watch?v=7wpVJvRIKYQ",
       "artwork": "assets/covers/7wpVJvRIKYQ.jpg",
       "artworkLarge": "assets/covers/7wpVJvRIKYQ.jpg",
-      "intro": true
+      "intro": true,
+      "hook": 11
     },
     {
       "id": "gxlB1B9emDc",

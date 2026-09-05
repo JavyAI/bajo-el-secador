@@ -283,7 +283,7 @@
         const id = videoIdOf(player);
         if (state.wantId && id && id !== state.wantId) {
           try {
-            player.loadVideoById(state.wantId);
+            loadTrack(player, state.wantId);
           } catch {
             /* ignore */
           }
@@ -365,7 +365,7 @@
       }
       if (Date.now() - t0 > 1600) {
         try {
-          player.loadVideoById(wantId);
+          loadTrack(player, wantId);
         } catch {
           /* ignore */
         }
@@ -400,7 +400,7 @@
       }
       if (Date.now() - t0 > 1600) {
         try {
-          player.loadVideoById(wantId);
+          loadTrack(player, wantId);
         } catch {
           /* ignore */
         }
@@ -875,6 +875,7 @@
       if (!t || !t.id || seen.has(t.id)) continue;
       if (!/^[A-Za-z0-9_-]{11}$/.test(t.id)) continue;
       seen.add(t.id);
+      const hook = Number(t.hook);
       catalog.push({
         id: t.id,
         artist: t.artist || "",
@@ -882,9 +883,31 @@
         youtube: t.youtube || `https://www.youtube.com/watch?v=${t.id}`,
         artwork: t.artwork || `https://i.ytimg.com/vi/${t.id}/mqdefault.jpg`,
         artworkLarge: t.artworkLarge || t.artwork || `https://i.ytimg.com/vi/${t.id}/mqdefault.jpg`,
+        hook: hook > 0 ? Math.floor(hook) : 0,
       });
     }
     return { catalog, loop: !data || data.loop !== false };
+  }
+
+  function hookStart(trackOrId) {
+    let track = null;
+    if (trackOrId && typeof trackOrId === "object") track = trackOrId;
+    else {
+      const id = trackOrId || (current() && current().id);
+      const q = state.queue || state.catalog || [];
+      track = q.find((t) => t.id === id) || current();
+    }
+    const n = track && Number(track.hook);
+    return n > 0 ? n : 0;
+  }
+
+  function loadTrack(player, trackOrId) {
+    if (!player || !player.loadVideoById) return;
+    const id = typeof trackOrId === "string" ? trackOrId : trackOrId && trackOrId.id;
+    if (!id) return;
+    const start = hookStart(trackOrId);
+    if (start) player.loadVideoById({ videoId: id, startSeconds: start });
+    else player.loadVideoById(id);
   }
 
   async function fetchRoom(id, era) {
@@ -1044,7 +1067,7 @@
         if (state.wantId && vid && vid !== state.wantId) {
           dbg("stale-playing", vid);
           try {
-            event.target.loadVideoById(state.wantId);
+            loadTrack(event.target, state.wantId);
           } catch {
             /* ignore */
           }
@@ -1126,7 +1149,7 @@
       state.loadedAt = Date.now();
       try {
         if (state.playlistId && player && player.playVideoAt) player.playVideoAt(state.index || 0);
-        else if (player && player.loadVideoById) player.loadVideoById(track.id);
+        else if (player && player.loadVideoById) loadTrack(player, track);
         setVol(player, state.masterVolume);
         player.playVideo();
       } catch {
@@ -1246,7 +1269,7 @@
       state.index = 0;
       state.wantId = first || null;
       try {
-        if (first && player.loadVideoById) player.loadVideoById(first);
+        if (first && player.loadVideoById) loadTrack(player, first);
       } catch {
         /* kickPlay retries */
       }
@@ -1332,7 +1355,11 @@
         onError: (event) => onPlayerError(slot, event),
       },
     };
-    if (videoId) opts.videoId = videoId;
+    if (videoId) {
+      opts.videoId = videoId;
+      const start = hookStart(videoId);
+      if (start) playerVars.start = start;
+    }
     const player = new window.YT.Player(mountId(slot), opts);
     state.players[slot] = player;
     if (slot === state.activeSlot) {
@@ -1391,7 +1418,7 @@
       if (state.playFromCatalog && trackId && loaded !== trackId) {
         state.loadedAt = Date.now();
         try {
-          state.player.loadVideoById(trackId);
+          loadTrack(state.player, trackId);
         } catch {
           /* ignore */
         }
@@ -1415,7 +1442,7 @@
     const loaded = state.player.getVideoData ? state.player.getVideoData() : null;
     if (!loaded || loaded.video_id !== track.id) {
       state.loadedAt = Date.now();
-      state.player.loadVideoById(track.id);
+      loadTrack(state.player, track);
     }
     if (state.wanted === "play") state.player.playVideo();
     setVol(state.player, state.masterVolume);
@@ -1459,8 +1486,7 @@
           incoming.loadPlaylist({ list: pid, listType: "playlist", index: 0 });
           if (incoming.setLoop) incoming.setLoop(false);
         } else if (track) {
-          if (incoming.cueVideoById) incoming.cueVideoById(track.id);
-          else incoming.loadVideoById(track.id);
+          loadTrack(incoming, track);
         }
       } catch {
         return { slot, incoming: null };
@@ -1508,7 +1534,7 @@
     const incoming = slotPlayer(idleSlot());
     if (!track || !incoming) return;
     try {
-      incoming.loadVideoById(track.id);
+      loadTrack(incoming, track);
       incoming.playVideo();
     } catch {
       /* ignore */
@@ -1560,7 +1586,7 @@
       const retry = current();
       if (retry && retry.id !== track.id) {
         try {
-          incoming.loadVideoById(retry.id);
+          loadTrack(incoming, retry);
           incoming.playVideo();
         } catch {
           /* ignore */
@@ -1661,7 +1687,7 @@
         cur = 0;
       }
       if (cur > RESTART_SEC) {
-        player.seekTo(0, true);
+        player.seekTo(hookStart(current()), true);
         if (state.wanted === "play") player.playVideo();
         if (fromEnd) state.advancing = false;
         return;
@@ -1711,7 +1737,7 @@
         if (state.playFromCatalog && p && track && p.loadVideoById) {
           state.wantId = track.id;
           try {
-            p.loadVideoById(track.id);
+            loadTrack(p, track);
           } catch {
             /* ignore */
           }
