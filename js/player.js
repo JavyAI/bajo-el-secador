@@ -96,9 +96,9 @@
       listaNameAyer: "Sopita Malecón",
       listaNameHoy: "Sopita Malecón de noche",
     },
-    abuela: {
-      name: "En casa de abuela",
-      lockup: ["En casa de", "abuela"],
+    tierra: {
+      name: "En mi tierra",
+      lockup: ["En mi", "tierra"],
       kicker: "Orocovis",
       theme: "#6b4f2a",
       themeHoy: "#24180c",
@@ -107,9 +107,9 @@
       tracksHoy: "public/hoy/abuela.json",
       listaAyer: "https://music.youtube.com/playlist?list=PLYEH_60hjSxM",
       listaHoy: "https://music.youtube.com/playlist?list=PLT4NHEltF4xE",
-      station: "Sopita Abuela",
-      listaNameAyer: "Sopita Casa de Abuela",
-      listaNameHoy: "Sopita Casa de Abuela de noche",
+      station: "Sopita Tierra",
+      listaNameAyer: "Sopita Mi Tierra",
+      listaNameHoy: "Sopita Mi Tierra de noche",
     },
   };
 
@@ -124,9 +124,12 @@
     marquesina: "limpieza",
     cibao: "galeria",
     campo: "galeria",
-    orocovis: "abuela",
-    finca: "abuela",
-    abuelos: "abuela",
+    pueblo: "tierra",
+    mitierra: "tierra",
+    orocovis: "tierra",
+    finca: "tierra",
+    abuelos: "tierra",
+    abuela: "tierra",
   };
 
   const el = {
@@ -544,6 +547,8 @@
     "limpieza-hoy": "assets/limpieza-hoy.jpg?v=74",
     "galeria-hoy": "assets/galeria-hoy.jpg?v=74",
     "malecon-hoy": "assets/malecon-hoy.jpg?v=74",
+    tierra: "assets/abuela.jpg?v=1",
+    "tierra-hoy": "assets/abuela-hoy.jpg?v=1",
     abuela: "assets/abuela.jpg?v=1",
     "abuela-hoy": "assets/abuela-hoy.jpg?v=1",
   };

@@ -83,16 +83,16 @@
       "catalog": "public/hoy/malecon.json"
     }
   },
-  "abuela": {
+  "tierra": {
     "ayer": {
       "id": "PLYEH_60hjSxM",
-      "name": "Sopita Casa de Abuela",
+      "name": "Sopita Mi Tierra",
       "url": "https://music.youtube.com/playlist?list=PLYEH_60hjSxM",
       "catalog": "public/ayer/abuela.json"
     },
     "hoy": {
       "id": "PLT4NHEltF4xE",
-      "name": "Sopita Casa de Abuela de noche",
+      "name": "Sopita Mi Tierra de noche",
       "url": "https://music.youtube.com/playlist?list=PLT4NHEltF4xE",
       "catalog": "public/hoy/abuela.json"
     }

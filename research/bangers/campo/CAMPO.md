@@ -1,4 +1,4 @@
-# En casa de abuela (`abuela` / `#abuela`)
+# En mi tierra (`tierra` / `#tierra`)
 
 **Place:** Orocovis. The finca. Grandparents’ house.  
 **Kicker:** Orocovis.  
@@ -17,7 +17,7 @@ PR jíbaro + DR Cibao sprinkled + Mexican records that actually played in that h
 | | #1 | Feel |
 |---|---|---|
 | De día | Ritchie Valens — *La Bamba* | The timing Javy named. Cuatro-speed dance. Official Topic. |
-| De noche | José José — *El Triste* | The weep abuela put on after dark. Artist channel. |
+| De noche | José José — *El Triste* | The weep the house put on after dark. Artist channel. |
 
 Forgotten in the 15, never opener: Cortijo/Ismael *El Negro Bembón*, Angel Viloria *Compadre Pedro Juan*, Los Panchos *Sin Ti*, Javier Solís *Sombras*.
 
@@ -36,5 +36,5 @@ Do not zipper típico into a bolero every other song. Blocks of 3–5.
 
 ## First-5 unique vs the 12 live lists. Official YouTube only.
 
-Live JSON: `public/ayer/abuela.json` · `public/hoy/abuela.json`  
-YouTube: [Sopita Casa de Abuela](https://music.youtube.com/playlist?list=PLYEH_60hjSxM) · [de noche](https://music.youtube.com/playlist?list=PLT4NHEltF4xE)
+Live JSON: `public/ayer/abuela.json` · `public/hoy/abuela.json` (on-disk name kept). Hash `#tierra`. Aliases `#abuela` `#orocovis` `#pueblo` `#finca`.  
+YouTube: [Sopita Mi Tierra](https://music.youtube.com/playlist?list=PLYEH_60hjSxM) · [de noche](https://music.youtube.com/playlist?list=PLT4NHEltF4xE)

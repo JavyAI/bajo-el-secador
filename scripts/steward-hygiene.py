@@ -18,7 +18,7 @@ ROOMS = [
     ("limpieza", "ayer/limpieza.json", "hoy/limpieza.json"),
     ("galeria", "ayer/galeria.json", "hoy/galeria.json"),
     ("malecon", "ayer/malecon.json", "hoy/malecon.json"),
-    ("abuela", "ayer/abuela.json", "hoy/abuela.json"),
+    ("tierra", "ayer/abuela.json", "hoy/abuela.json"),
 ]
 
 AUTHED = {
@@ -34,8 +34,8 @@ AUTHED = {
     ("galeria", "hoy"): "I9cCPQVPv8o",
     ("malecon", "ayer"): "iK3BlAZAtPs",
     ("malecon", "hoy"): "Mtau4v6foHA",
-    ("abuela", "ayer"): "BycLmWI97Nc",
-    ("abuela", "hoy"): "b1cbgrcBrY0",
+    ("tierra", "ayer"): "BycLmWI97Nc",
+    ("tierra", "hoy"): "b1cbgrcBrY0",
 }
 
 
