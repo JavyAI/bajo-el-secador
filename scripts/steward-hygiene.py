@@ -22,7 +22,7 @@ ROOMS = [
 
 AUTHED = {
     ("colmado", "ayer"): "WPiEbYSF9kE",
-    ("colmado", "hoy"): "h6sbZalmiu4",
+    ("colmado", "hoy"): "ExCIp6TOnJw",
     ("secador", "ayer"): "JsUt2jsLM1k",
     ("secador", "hoy"): "XEvKn-QgAY0",
     ("barberia", "ayer"): "SEjw5rdyvVg",

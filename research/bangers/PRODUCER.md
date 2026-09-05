@@ -54,7 +54,7 @@ De día = **El Ayer** (~1980–2010). De noche = **El Presente** (~2011–now). 
 **Place:** same bocina, later hits.  
 **Body:** shout.  
 **Hour:** Yiyo, Chiquito, merengue still on the corner, 2010s salsa-radio late.  
-**Door job:** Elvis *Abracadabra* holds (same king as *Suavemente*). *La Llamada De Mi Ex* is the HOY merengue bomb — it lives in this first 5 because the corner owns Chiquito.  
+**Door job:** Yiyo *Manos de Tijera* `ExCIp6TOnJw` (walked 2026-08-27). Official ~360M. *Abracadabra* was 7M — overtaken, sits in the 15. *La Llamada De Mi Ex* stays in this first 5 because the corner owns Chiquito.  
 **Broader hour:** merengue + salsa that still plays outside. Not *Despacito*. Not dembow as the spine.
 
 ### 3. Secador de día — under the hood, yesterday
@@ -157,7 +157,7 @@ Vitilla and Marquesina stay off the board.
 
 | Room | De día | De noche |
 |---|---|---|
-| Colmado | Elvis Crespo — *Suavemente* | Elvis Crespo — *Abracadabra* |
+| Colmado | Elvis Crespo — *Suavemente* | Yiyo Sarante — *Manos de Tijera* |
 | Secador | Selena — *Como La Flor* | Prince Royce, Shakira — *Deja Vu* |
 | Barbería | Aventura — *Obsesión* | Romeo Santos — *Propuesta Indecente* |
 | Limpieza | Toño Rosario — *Kulikitaka* | Toño Rosario — *Dale Vieja Dale* |

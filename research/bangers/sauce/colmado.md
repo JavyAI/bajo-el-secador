@@ -47,23 +47,23 @@ Javy: first 15 is the door. Authored #1s hold. Views do not pick #1. First-5 ids
 
 | # | Artist | Title | Id | 15s |
 |---:|---|---|---|---|
-| 1 | Elvis Crespo | Abracadabra | `h6sbZalmiu4` | **HOLD.** Same king as *Suavemente*. |
-| 2 | Chiquito Team Band | La Llamada De Mi Ex | `u6Q5Lu0Sq3g` | **This first 5 owns this id.** Next to Elvis, same tambora. |
-| 3 | Yiyo Sarante | Manos de Tijera | `ExCIp6TOnJw` | Forgotten #1. After the merengue door. |
-| 4 | Romeo Santos, Marc Anthony | Yo También | `QBaIMZ8QjcU` | Sidewalk salsa-voice. Not Barbería first 5. |
-| 5 | Marc Anthony | Flor Pálida | `3VmoZrxXbmg` | 2010s salsa-radio. Still first-5 unique. |
-| 6 | Yiyo Sarante | Sin Esencia | `HYYjcRx2L30` | Second Yiyo, not consecutive with #3. |
+| 1 | Yiyo Sarante | Manos de Tijera | `ExCIp6TOnJw` | **HOLD.** Walked off *Abracadabra* (7M). Official ~360M. House-band shout. |
+| 2 | Marc Anthony | Flor Pálida | `3VmoZrxXbmg` | 2010s salsa-radio. 1.17B. After the Yiyo door. |
+| 3 | Romeo Santos, Marc Anthony | Yo También | `QBaIMZ8QjcU` | Sidewalk salsa-voice. Not Barbería first 5. |
+| 4 | Yiyo Sarante | Sin Esencia | `HYYjcRx2L30` | Second Yiyo, not consecutive with #1. |
+| 5 | Chiquito Team Band | La Llamada De Mi Ex | `u6Q5Lu0Sq3g` | **This first 5 owns this id.** Merengue bomb. |
+| 6 | Gente de Zona, Marc Anthony | Traidora | `_oMfwHYSRIk` | Salsa-radio, not *La Gozadera* first. |
 | 7 | Marc Anthony | Vivir Mi Vida | `YXnjy5YlDwk` | After Limpieza’s first 5 (they own it at #4). |
-| 8 | Gente de Zona, Marc Anthony | Traidora | `_oMfwHYSRIk` | Salsa-radio, not *La Gozadera* first. |
-| 9 | Víctor Manuelle | No Quería Engañarte | `CjLJdR6DXZ4` | Breaks a Gente–Gente consecutive. |
-| 10 | Gente de Zona | Si No Vuelves | `lf8xoMhV8pI` | |
-| 11 | Olga Tañón | La Gran Fiesta | `Re93tMg6sfc` | Merengue return, not an orphan. Limpieza HOY has this id after *their* first 5. |
-| 12 | Juan Luis Guerra 4.40 | Mambo 23 | `K3S96fUGrEY` | Promote from 43. JLG merengue on this corner. |
-| 13 | Toño Rosario | Dale Vieja Dale | `hal7rXfJj5o` | Limpieza throne as guest, after slot 5. |
-| 14 | Chiquito Team Band | Tengo Que Colgar | `A0f-FDFpPZE` | Promote from 35. Second Chiquito, not consecutive with #2. |
-| 15 | Juan Luis Guerra 4.40 | Kitipun | `hpkaifThmOs` | Promote from 32. Second JLG, not consecutive with #12. Door ends tambora. |
+| 8 | Víctor Manuelle | No Quería Engañarte | `CjLJdR6DXZ4` | |
+| 9 | Gente de Zona | Si No Vuelves | `lf8xoMhV8pI` | |
+| 10 | Olga Tañón | La Gran Fiesta | `Re93tMg6sfc` | Merengue return. Limpieza HOY has this id after *their* first 5. |
+| 11 | Juan Luis Guerra 4.40 | Mambo 23 | `K3S96fUGrEY` | JLG merengue on this corner. |
+| 12 | Toño Rosario | Dale Vieja Dale | `hal7rXfJj5o` | Limpieza throne as guest, after slot 5. |
+| 13 | Chiquito Team Band | Tengo Que Colgar | `A0f-FDFpPZE` | Second Chiquito, not consecutive with #5. |
+| 14 | Juan Luis Guerra 4.40 | Kitipun | `hpkaifThmOs` | Second JLG, not consecutive with #11. |
+| 15 | Elvis Crespo | Abracadabra | `h6sbZalmiu4` | Overtaken #1. Stays in the 15, never the throne. |
 
-**Walked 2026-08-27:** blend blocks (merengue 1–2 → salsa 3–10 → merengue 11–15). Family jumps in the 15: 8 → 2. `Abracadabra` holds. Yiyo capped at two in the 15. First-5 ids (`h6sbZalmiu4`, `u6Q5Lu0Sq3g`, `ExCIp6TOnJw`, `QBaIMZ8QjcU`, `3VmoZrxXbmg`) unique vs the other 11 lists. *Qué Agonía*, *Probablemente*, *Vale la Pena* Live sit at 16–18. *La Gozadera* is 19 — still not sauce-recut.
+**Walked 2026-08-27:** *Manos de Tijera* is the door. *Abracadabra* (7M official) is overtaken. First-5 ids (`ExCIp6TOnJw`, `3VmoZrxXbmg`, `QBaIMZ8QjcU`, `HYYjcRx2L30`, `u6Q5Lu0Sq3g`) unique vs the other 11 lists. *La Gozadera* stays #40.
 
 ---
 
