@@ -32,8 +32,8 @@
       "youtube": "https://www.youtube.com/watch?v=1DbXzlhKS5s",
       "artwork": "assets/covers/1DbXzlhKS5s.jpg",
       "artworkLarge": "assets/covers/1DbXzlhKS5s.jpg",
-      "intro": true,
-      "hook": 8
+      "hook": 8,
+      "intro": true
     },
     {
       "id": "_koz_f4mthE",
@@ -42,8 +42,8 @@
       "youtube": "https://www.youtube.com/watch?v=_koz_f4mthE",
       "artwork": "assets/covers/_koz_f4mthE.jpg",
       "artworkLarge": "assets/covers/_koz_f4mthE.jpg",
-      "intro": true,
-      "hook": 27
+      "hook": 27,
+      "intro": true
     },
     {
       "id": "uzU3x_egiEk",
@@ -79,8 +79,8 @@
       "youtube": "https://www.youtube.com/watch?v=imeXSRNRMeg",
       "artwork": "assets/covers/imeXSRNRMeg.jpg",
       "artworkLarge": "assets/covers/imeXSRNRMeg.jpg",
-      "intro": true,
-      "hook": 15
+      "hook": 15,
+      "intro": true
     },
     {
       "id": "PmXJKVjhbqI",
@@ -98,18 +98,27 @@
       "youtube": "https://www.youtube.com/watch?v=UwnmzIgNzyU",
       "artwork": "assets/covers/UwnmzIgNzyU.jpg",
       "artworkLarge": "assets/covers/UwnmzIgNzyU.jpg",
-      "intro": true,
-      "hook": 18
+      "hook": 18,
+      "intro": true
     },
     {
-      "id": "y08MAPIACBY",
-      "artist": "Cuco Valoy",
-      "title": "Juliana",
-      "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
-      "artwork": "assets/covers/y08MAPIACBY.jpg",
-      "artworkLarge": "assets/covers/y08MAPIACBY.jpg",
-      "intro": true,
-      "hook": 5
+      "id": "3CqNeJLqvL0",
+      "artist": "Elvis Crespo",
+      "title": "Tu Sonrisa",
+      "youtube": "https://www.youtube.com/watch?v=3CqNeJLqvL0",
+      "artwork": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "HN6ACmknaiw",
+      "artist": "Los Hermanos Rosario",
+      "title": "La Dueña del Swing",
+      "youtube": "https://www.youtube.com/watch?v=HN6ACmknaiw",
+      "artwork": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
+      "hook": 9,
+      "intro": true
     },
     {
       "id": "_u2m43WXQks",
@@ -121,24 +130,14 @@
       "intro": true
     },
     {
-      "id": "HN6ACmknaiw",
-      "artist": "Los Hermanos Rosario",
-      "title": "La Dueña del Swing",
-      "youtube": "https://www.youtube.com/watch?v=HN6ACmknaiw",
-      "artwork": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/HN6ACmknaiw/mqdefault.jpg",
-      "intro": true,
-      "hook": 9
-    },
-    {
       "id": "SUgQHe902yQ",
       "artist": "Jerry Rivera",
       "title": "Qué Hay de Malo",
       "youtube": "https://www.youtube.com/watch?v=SUgQHe902yQ",
       "artwork": "https://i.ytimg.com/vi/SUgQHe902yQ/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/SUgQHe902yQ/mqdefault.jpg",
-      "intro": true,
-      "hook": 5
+      "hook": 5,
+      "intro": true
     },
     {
       "id": "7wpVJvRIKYQ",
@@ -147,8 +146,17 @@
       "youtube": "https://www.youtube.com/watch?v=7wpVJvRIKYQ",
       "artwork": "assets/covers/7wpVJvRIKYQ.jpg",
       "artworkLarge": "assets/covers/7wpVJvRIKYQ.jpg",
-      "intro": true,
-      "hook": 11
+      "hook": 11,
+      "intro": true
+    },
+    {
+      "id": "y08MAPIACBY",
+      "artist": "Cuco Valoy",
+      "title": "Juliana",
+      "youtube": "https://www.youtube.com/watch?v=y08MAPIACBY",
+      "artwork": "assets/covers/y08MAPIACBY.jpg",
+      "artworkLarge": "assets/covers/y08MAPIACBY.jpg",
+      "hook": 5
     },
     {
       "id": "gxlB1B9emDc",
@@ -221,14 +229,6 @@
       "youtube": "https://www.youtube.com/watch?v=FN5oLBXiNvM",
       "artwork": "https://i.ytimg.com/vi/FN5oLBXiNvM/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/FN5oLBXiNvM/mqdefault.jpg"
-    },
-    {
-      "id": "3CqNeJLqvL0",
-      "artist": "Elvis Crespo",
-      "title": "Tu Sonrisa",
-      "youtube": "https://www.youtube.com/watch?v=3CqNeJLqvL0",
-      "artwork": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/3CqNeJLqvL0/mqdefault.jpg"
     },
     {
       "id": "s3fcKFQukbY",

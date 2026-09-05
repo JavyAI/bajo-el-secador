@@ -96,49 +96,21 @@
       "hook": 15
     },
     {
-      "id": "Re93tMg6sfc",
-      "artist": "Olga Tañón",
-      "title": "La Gran Fiesta",
-      "youtube": "https://www.youtube.com/watch?v=Re93tMg6sfc",
-      "artwork": "https://i.ytimg.com/vi/Re93tMg6sfc/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Re93tMg6sfc/mqdefault.jpg",
-      "intro": true,
-      "hook": 10
-    },
-    {
-      "id": "hpkaifThmOs",
-      "artist": "Juan Luis Guerra 4.40",
-      "title": "Kitipun",
-      "youtube": "https://www.youtube.com/watch?v=hpkaifThmOs",
-      "artwork": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg",
-      "intro": true
-    },
-    {
-      "id": "hal7rXfJj5o",
-      "artist": "Toño Rosario",
-      "title": "Dale Vieja Dale",
-      "youtube": "https://www.youtube.com/watch?v=hal7rXfJj5o",
-      "artwork": "https://i.ytimg.com/vi/hal7rXfJj5o/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/hal7rXfJj5o/mqdefault.jpg",
-      "intro": true
-    },
-    {
-      "id": "A0f-FDFpPZE",
-      "artist": "Chiquito Team Band",
-      "title": "Tengo Que Colgar",
-      "youtube": "https://www.youtube.com/watch?v=A0f-FDFpPZE",
-      "artwork": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg",
-      "intro": true
-    },
-    {
       "id": "virDlRWbA-w",
       "artist": "Sergio George's Salsa Giants",
       "title": "Bajo la Tormenta",
       "youtube": "https://www.youtube.com/watch?v=virDlRWbA-w",
       "artwork": "https://i.ytimg.com/vi/virDlRWbA-w/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/virDlRWbA-w/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "zn7XLCPbwfA",
+      "artist": "Víctor Manuelle, Yandel",
+      "title": "Imaginar",
+      "youtube": "https://www.youtube.com/watch?v=zn7XLCPbwfA",
+      "artwork": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg",
       "intro": true
     },
     {
@@ -149,6 +121,106 @@
       "artwork": "https://i.ytimg.com/vi/llIZRZXmZ8A/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/llIZRZXmZ8A/mqdefault.jpg",
       "intro": true
+    },
+    {
+      "id": "eYaUwMwkHkg",
+      "artist": "Havana D'Primera",
+      "title": "Tres Días",
+      "youtube": "https://www.youtube.com/watch?v=eYaUwMwkHkg",
+      "artwork": "https://i.ytimg.com/vi/eYaUwMwkHkg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/eYaUwMwkHkg/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "Vtq6gM4ztcA",
+      "artist": "La India, Jacob Forever",
+      "title": "Fuera Fuera",
+      "youtube": "https://www.youtube.com/watch?v=Vtq6gM4ztcA",
+      "artwork": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "7ddBc_Jxbw0",
+      "artist": "Elvis Crespo, Fito Blanko",
+      "title": "Pegaito Suavecito",
+      "youtube": "https://www.youtube.com/watch?v=7ddBc_Jxbw0",
+      "artwork": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "Re93tMg6sfc",
+      "artist": "Olga Tañón",
+      "title": "La Gran Fiesta",
+      "youtube": "https://www.youtube.com/watch?v=Re93tMg6sfc",
+      "artwork": "https://i.ytimg.com/vi/Re93tMg6sfc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Re93tMg6sfc/mqdefault.jpg",
+      "hook": 10
+    },
+    {
+      "id": "hal7rXfJj5o",
+      "artist": "Toño Rosario",
+      "title": "Dale Vieja Dale",
+      "youtube": "https://www.youtube.com/watch?v=hal7rXfJj5o",
+      "artwork": "https://i.ytimg.com/vi/hal7rXfJj5o/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hal7rXfJj5o/mqdefault.jpg"
+    },
+    {
+      "id": "hpkaifThmOs",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "Kitipun",
+      "youtube": "https://www.youtube.com/watch?v=hpkaifThmOs",
+      "artwork": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hpkaifThmOs/mqdefault.jpg"
+    },
+    {
+      "id": "A0f-FDFpPZE",
+      "artist": "Chiquito Team Band",
+      "title": "Tengo Que Colgar",
+      "youtube": "https://www.youtube.com/watch?v=A0f-FDFpPZE",
+      "artwork": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/A0f-FDFpPZE/mqdefault.jpg"
+    },
+    {
+      "id": "K3S96fUGrEY",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "Mambo 23",
+      "youtube": "https://www.youtube.com/watch?v=K3S96fUGrEY",
+      "artwork": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg"
+    },
+    {
+      "id": "8820jXsE4kQ",
+      "artist": "Chiquito Team Band",
+      "title": "Lejos De Ti",
+      "youtube": "https://www.youtube.com/watch?v=8820jXsE4kQ",
+      "artwork": "assets/covers/8820jXsE4kQ.jpg",
+      "artworkLarge": "assets/covers/8820jXsE4kQ.jpg"
+    },
+    {
+      "id": "bWTfpdD4nRM",
+      "artist": "Olga Tañón",
+      "title": "Vivo La Vida",
+      "youtube": "https://www.youtube.com/watch?v=bWTfpdD4nRM",
+      "artwork": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg"
+    },
+    {
+      "id": "qhOPeeZHSWE",
+      "artist": "Los Hermanos Rosario",
+      "title": "Nuevecita de Caja",
+      "youtube": "https://www.youtube.com/watch?v=qhOPeeZHSWE",
+      "artwork": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg"
+    },
+    {
+      "id": "WENJIxEfyaw",
+      "artist": "Juan Luis Guerra 4.40",
+      "title": "La Noviecita",
+      "youtube": "https://www.youtube.com/watch?v=WENJIxEfyaw",
+      "artwork": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg"
     },
     {
       "id": "AsCnKFzhFSA",
@@ -207,30 +279,6 @@
       "artworkLarge": "https://i.ytimg.com/vi/kjqMFOcRpuI/mqdefault.jpg"
     },
     {
-      "id": "7ddBc_Jxbw0",
-      "artist": "Elvis Crespo, Fito Blanko",
-      "title": "Pegaito Suavecito",
-      "youtube": "https://www.youtube.com/watch?v=7ddBc_Jxbw0",
-      "artwork": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/7ddBc_Jxbw0/mqdefault.jpg"
-    },
-    {
-      "id": "8820jXsE4kQ",
-      "artist": "Chiquito Team Band",
-      "title": "Lejos De Ti",
-      "youtube": "https://www.youtube.com/watch?v=8820jXsE4kQ",
-      "artwork": "assets/covers/8820jXsE4kQ.jpg",
-      "artworkLarge": "assets/covers/8820jXsE4kQ.jpg"
-    },
-    {
-      "id": "bWTfpdD4nRM",
-      "artist": "Olga Tañón",
-      "title": "Vivo La Vida",
-      "youtube": "https://www.youtube.com/watch?v=bWTfpdD4nRM",
-      "artwork": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/bWTfpdD4nRM/mqdefault.jpg"
-    },
-    {
       "id": "h3W9Om0RtVQ",
       "artist": "Yiyo Sarante",
       "title": "Mejor Lo Hago Con La Mano",
@@ -239,12 +287,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/h3W9Om0RtVQ/mqdefault.jpg"
     },
     {
-      "id": "zn7XLCPbwfA",
-      "artist": "Víctor Manuelle, Yandel",
-      "title": "Imaginar",
-      "youtube": "https://www.youtube.com/watch?v=zn7XLCPbwfA",
-      "artwork": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/zn7XLCPbwfA/mqdefault.jpg"
+      "id": "h6sbZalmiu4",
+      "artist": "Elvis Crespo",
+      "title": "Abracadabra",
+      "youtube": "https://www.youtube.com/watch?v=h6sbZalmiu4",
+      "artwork": "https://i.ytimg.com/vi/h6sbZalmiu4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/h6sbZalmiu4/mqdefault.jpg"
     },
     {
       "id": "Eh5C2yHs_WU",
@@ -253,38 +301,6 @@
       "youtube": "https://www.youtube.com/watch?v=Eh5C2yHs_WU",
       "artwork": "https://i.ytimg.com/vi/Eh5C2yHs_WU/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/Eh5C2yHs_WU/mqdefault.jpg"
-    },
-    {
-      "id": "K3S96fUGrEY",
-      "artist": "Juan Luis Guerra 4.40",
-      "title": "Mambo 23",
-      "youtube": "https://www.youtube.com/watch?v=K3S96fUGrEY",
-      "artwork": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/K3S96fUGrEY/mqdefault.jpg"
-    },
-    {
-      "id": "qhOPeeZHSWE",
-      "artist": "Los Hermanos Rosario",
-      "title": "Nuevecita de Caja",
-      "youtube": "https://www.youtube.com/watch?v=qhOPeeZHSWE",
-      "artwork": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/qhOPeeZHSWE/mqdefault.jpg"
-    },
-    {
-      "id": "WENJIxEfyaw",
-      "artist": "Juan Luis Guerra 4.40",
-      "title": "La Noviecita",
-      "youtube": "https://www.youtube.com/watch?v=WENJIxEfyaw",
-      "artwork": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/WENJIxEfyaw/mqdefault.jpg"
-    },
-    {
-      "id": "h6sbZalmiu4",
-      "artist": "Elvis Crespo",
-      "title": "Abracadabra",
-      "youtube": "https://www.youtube.com/watch?v=h6sbZalmiu4",
-      "artwork": "https://i.ytimg.com/vi/h6sbZalmiu4/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/h6sbZalmiu4/mqdefault.jpg"
     },
     {
       "id": "foPuJr0S6Z0",
@@ -327,12 +343,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/wbwFizVMJyw/mqdefault.jpg"
     },
     {
-      "id": "Vtq6gM4ztcA",
-      "artist": "La India, Jacob Forever",
-      "title": "Fuera Fuera",
-      "youtube": "https://www.youtube.com/watch?v=Vtq6gM4ztcA",
-      "artwork": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/Vtq6gM4ztcA/mqdefault.jpg"
+      "id": "VMp55KH_3wo",
+      "artist": "Gente de Zona, Marc Anthony",
+      "title": "La Gozadera",
+      "youtube": "https://www.youtube.com/watch?v=VMp55KH_3wo",
+      "artwork": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg"
     },
     {
       "id": "-gCgSXFctOQ",
@@ -343,12 +359,12 @@
       "artworkLarge": "https://i.ytimg.com/vi/-gCgSXFctOQ/mqdefault.jpg"
     },
     {
-      "id": "VMp55KH_3wo",
-      "artist": "Gente de Zona, Marc Anthony",
-      "title": "La Gozadera",
-      "youtube": "https://www.youtube.com/watch?v=VMp55KH_3wo",
-      "artwork": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/VMp55KH_3wo/mqdefault.jpg"
+      "id": "ME92E6J8ubE",
+      "artist": "Daniela Darcourt",
+      "title": "Probablemente",
+      "youtube": "https://www.youtube.com/watch?v=ME92E6J8ubE",
+      "artwork": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg"
     },
     {
       "id": "IKpVd1bzois",
@@ -357,14 +373,6 @@
       "youtube": "https://www.youtube.com/watch?v=IKpVd1bzois",
       "artwork": "https://i.ytimg.com/vi/IKpVd1bzois/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/IKpVd1bzois/mqdefault.jpg"
-    },
-    {
-      "id": "ME92E6J8ubE",
-      "artist": "Daniela Darcourt",
-      "title": "Probablemente",
-      "youtube": "https://www.youtube.com/watch?v=ME92E6J8ubE",
-      "artwork": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/ME92E6J8ubE/mqdefault.jpg"
     },
     {
       "id": "RksYXExb0d0",
@@ -453,14 +461,6 @@
       "youtube": "https://www.youtube.com/watch?v=XPL0WSXnzIU",
       "artwork": "https://i.ytimg.com/vi/XPL0WSXnzIU/mqdefault.jpg",
       "artworkLarge": "https://i.ytimg.com/vi/XPL0WSXnzIU/mqdefault.jpg"
-    },
-    {
-      "id": "eYaUwMwkHkg",
-      "artist": "Havana D'Primera",
-      "title": "Tres Días",
-      "youtube": "https://www.youtube.com/watch?v=eYaUwMwkHkg",
-      "artwork": "https://i.ytimg.com/vi/eYaUwMwkHkg/mqdefault.jpg",
-      "artworkLarge": "https://i.ytimg.com/vi/eYaUwMwkHkg/mqdefault.jpg"
     },
     {
       "id": "B2SLbC8fnfs",
