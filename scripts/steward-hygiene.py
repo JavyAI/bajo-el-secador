@@ -24,7 +24,7 @@ AUTHED = {
     ("colmado", "ayer"): "WPiEbYSF9kE",
     ("colmado", "hoy"): "ExCIp6TOnJw",
     ("secador", "ayer"): "JsUt2jsLM1k",
-    ("secador", "hoy"): "XEvKn-QgAY0",
+    ("secador", "hoy"): "Uws510cVia4",
     ("barberia", "ayer"): "SEjw5rdyvVg",
     ("barberia", "hoy"): "QFs3PIZb3js",
     ("limpieza", "ayer"): "3LCEzvkwWwI",

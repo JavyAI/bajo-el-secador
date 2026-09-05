@@ -70,7 +70,7 @@ De día = **El Ayer** (~1980–2010). De noche = **El Presente** (~2011–now). 
 **Place:** same chair, 2010s radio.  
 **Body:** still throat.  
 **Hour:** dryer-cry (Ha*Ash, Jesse & Joy, *Deja Vu*, Romeo violin a tía still plays).  
-**Door job:** Royce & Shakira *Deja Vu*.  
+**Door job:** Ha*Ash *Lo Aprendí de Ti* `Uws510cVia4` (walked 2026-08-27). Primera Fila ~1.85B. *Deja Vu* stays in the 15.  
 **Broader hour:** the weep that still belts. Not *Pepas*. Not *Bella y Sensual*.
 
 ### 5. Barbería de día — the chair, yesterday
@@ -158,7 +158,7 @@ Vitilla and Marquesina stay off the board.
 | Room | De día | De noche |
 |---|---|---|
 | Colmado | Elvis Crespo — *Suavemente* | Yiyo Sarante — *Manos de Tijera* |
-| Secador | Selena — *Como La Flor* | Prince Royce, Shakira — *Deja Vu* |
+| Secador | Selena — *Como La Flor* | Ha*Ash — *Lo Aprendí de Ti* |
 | Barbería | Aventura — *Obsesión* | Romeo Santos — *Propuesta Indecente* |
 | Limpieza | Toño Rosario — *Kulikitaka* | Toño Rosario — *Dale Vieja Dale* |
 | Galería | Juan Luis Guerra — *El Costo de la Vida* | Ricardo Arjona, Gaby Moreno — *Fuiste Tú* |
