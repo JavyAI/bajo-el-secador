@@ -550,14 +550,14 @@
     "limpieza-hoy": "assets/limpieza-hoy.jpg?v=74",
     "galeria-hoy": "assets/galeria-hoy.jpg?v=74",
     "malecon-hoy": "assets/malecon-hoy.jpg?v=74",
-    campo: "assets/abuela.jpg?v=1",
-    "campo-hoy": "assets/abuela-hoy.jpg?v=1",
-    raices: "assets/abuela.jpg?v=1",
-    "raices-hoy": "assets/abuela-hoy.jpg?v=1",
-    tierra: "assets/abuela.jpg?v=1",
-    "tierra-hoy": "assets/abuela-hoy.jpg?v=1",
-    abuela: "assets/abuela.jpg?v=1",
-    "abuela-hoy": "assets/abuela-hoy.jpg?v=1",
+    campo: "assets/orocovis.jpg?v=2",
+    "campo-hoy": "assets/orocovis-hoy.jpg?v=2",
+    raices: "assets/orocovis.jpg?v=2",
+    "raices-hoy": "assets/orocovis-hoy.jpg?v=2",
+    tierra: "assets/orocovis.jpg?v=2",
+    "tierra-hoy": "assets/orocovis-hoy.jpg?v=2",
+    abuela: "assets/orocovis.jpg?v=2",
+    "abuela-hoy": "assets/orocovis-hoy.jpg?v=2",
   };
 
   function isCoarsePhone() {
