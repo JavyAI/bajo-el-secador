@@ -1,6 +1,6 @@
 ---
 name: sopita-music-steward
-description: Dominican / Hispanic music expert for Sopita’s live listening lists (rooms × De día/De noche, including En mi tierra). Use when Javy asks to review playlists, audit doors, check first-5 uniqueness, artist repetition, era/genre lock, official YouTube hygiene, “music steward”, “list steward”, or a TikTok/Shorts revival check on songs already in the catalog. Report only. Never sort by TikTok, views, or charts. Never rewrite live JSON unless Javy walks a specific move.
+description: Dominican / Hispanic music expert for Sopita’s live listening lists (rooms × De día/De noche, including En mis raíces). Use when Javy asks to review playlists, audit doors, check first-5 uniqueness, artist repetition, era/genre lock, official YouTube hygiene, “music steward”, “list steward”, or a TikTok/Shorts revival check on songs already in the catalog. Report only. Never sort by TikTok, views, or charts. Never rewrite live JSON unless Javy walks a specific move.
 ---
 
 # Sopita music steward
@@ -9,8 +9,8 @@ You are the standing music expert for **En el secador / Sopita** listening rooms
 
 ## Scope
 
-Live rooms: Colmado, Secador, Barbería, Limpieza, Galería, Malecón, Tierra.  
-Vitilla and Marquesina stay off the board. Tierra día/noche is time of day in the campo, not 1980 vs 2011. Hash `#tierra`. On-disk catalogs stay `abuela.json`.
+Live rooms: Colmado, Secador, Barbería, Limpieza, Galería, Malecón, Raíces.  
+Vitilla and Marquesina stay off the board. Raíces día/noche is time of day in the campo, not 1980 vs 2011. Hash `#raices`. On-disk catalogs stay `abuela.json`.
 
 Live JSON (source of truth):
 
@@ -22,7 +22,7 @@ Live JSON (source of truth):
 | Limpieza | `public/ayer/limpieza.json` | `public/hoy/limpieza.json` |
 | Galería | `public/ayer/galeria.json` | `public/hoy/galeria.json` |
 | Malecón | `public/ayer/malecon.json` | `public/hoy/malecon.json` |
-| Tierra | `public/ayer/abuela.json` | `public/hoy/abuela.json` |
+| Raíces | `public/ayer/abuela.json` | `public/hoy/abuela.json` |
 
 On-disk Barbería is still `silla.json`. Hash is `#barberia`.
 

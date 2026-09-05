@@ -56,10 +56,10 @@ ROOMS = [
         "hoy": {"name": "Sopita Malecón de noche", "id": None},
     },
     {
-        "id": "tierra",
+        "id": "raices",
         "catalog": "abuela.json",
-        "ayer": {"name": "Sopita Mi Tierra", "id": "PLYEH_60hjSxM"},
-        "hoy": {"name": "Sopita Mi Tierra de noche", "id": "PLT4NHEltF4xE"},
+        "ayer": {"name": "Sopita Raíces", "id": "PLYEH_60hjSxM"},
+        "hoy": {"name": "Sopita Raíces de noche", "id": "PLT4NHEltF4xE"},
     },
 ]
 
