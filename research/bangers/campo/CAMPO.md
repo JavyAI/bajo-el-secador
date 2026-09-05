@@ -17,7 +17,7 @@ PR jíbaro + DR Cibao sprinkled + Mexican records that actually played in that h
 | | #1 | Feel |
 |---|---|---|
 | De día | Ritchie Valens — *La Bamba* | The timing Javy named. Cuatro-speed dance. Official Topic. |
-| De noche | José José — *El Triste* | The weep the house put on after dark. Artist channel. |
+| De noche | Javier Solís — *En Mi Viejo San Juan* | Walked 2026-09-04. VEVO. *El Triste* sits in the 15. |
 
 Forgotten in the 15, never opener: Cortijo/Ismael *El Negro Bembón*, Angel Viloria *Compadre Pedro Juan*, Los Panchos *Sin Ti*, Javier Solís *Sombras*.
 
