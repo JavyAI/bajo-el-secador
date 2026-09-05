@@ -1,0 +1,826 @@
+{
+  "name": "abuela",
+  "room": "abuela",
+  "era": "ayer",
+  "shuffle": false,
+  "loop": true,
+  "introCount": 15,
+  "count": 100,
+  "tracks": [
+    {
+      "id": "BycLmWI97Nc",
+      "artist": "Ritchie Valens",
+      "title": "La Bamba",
+      "youtube": "https://www.youtube.com/watch?v=BycLmWI97Nc",
+      "artwork": "https://i.ytimg.com/vi/BycLmWI97Nc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/BycLmWI97Nc/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "FYMzEoGi8i4",
+      "artist": "Ismael Rivera",
+      "title": "El Negro Bembón",
+      "youtube": "https://www.youtube.com/watch?v=FYMzEoGi8i4",
+      "artwork": "https://i.ytimg.com/vi/FYMzEoGi8i4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FYMzEoGi8i4/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "59j1m49X2eA",
+      "artist": "Ángel Viloria y su Conjunto Típico Cibaeño",
+      "title": "Compadre Pedro Juan",
+      "youtube": "https://www.youtube.com/watch?v=59j1m49X2eA",
+      "artwork": "https://i.ytimg.com/vi/59j1m49X2eA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/59j1m49X2eA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "AZHmbdQD0nE",
+      "artist": "La Sonora Matancera, Alberto Beltrán",
+      "title": "El Negrito del Batey",
+      "youtube": "https://www.youtube.com/watch?v=AZHmbdQD0nE",
+      "artwork": "https://i.ytimg.com/vi/AZHmbdQD0nE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/AZHmbdQD0nE/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "whFKkmjl3ps",
+      "artist": "Odilio González",
+      "title": "Celos Sin Motivo",
+      "youtube": "https://www.youtube.com/watch?v=whFKkmjl3ps",
+      "artwork": "https://i.ytimg.com/vi/whFKkmjl3ps/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/whFKkmjl3ps/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "LbbEbIiGOuY",
+      "artist": "Ramito",
+      "title": "Qué Bonita Bandera",
+      "youtube": "https://www.youtube.com/watch?v=LbbEbIiGOuY",
+      "artwork": "https://i.ytimg.com/vi/LbbEbIiGOuY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/LbbEbIiGOuY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "LS49yDGjyZ0",
+      "artist": "Johnny Ventura",
+      "title": "La Agarradera",
+      "youtube": "https://www.youtube.com/watch?v=LS49yDGjyZ0",
+      "artwork": "https://i.ytimg.com/vi/LS49yDGjyZ0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/LS49yDGjyZ0/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "-rbE8KxEZd8",
+      "artist": "Ismael Rivera",
+      "title": "Quítate de la Vía Perico",
+      "youtube": "https://www.youtube.com/watch?v=-rbE8KxEZd8",
+      "artwork": "https://i.ytimg.com/vi/-rbE8KxEZd8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/-rbE8KxEZd8/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "3dNtHbJGDo0",
+      "artist": "Trío Vegabajeño",
+      "title": "El Amor del Jibarito",
+      "youtube": "https://www.youtube.com/watch?v=3dNtHbJGDo0",
+      "artwork": "https://i.ytimg.com/vi/3dNtHbJGDo0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/3dNtHbJGDo0/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "TGmvErNQKWA",
+      "artist": "Celia Cruz",
+      "title": "Burundanga",
+      "youtube": "https://www.youtube.com/watch?v=TGmvErNQKWA",
+      "artwork": "https://i.ytimg.com/vi/TGmvErNQKWA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TGmvErNQKWA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "NRfpb-Ufh4w",
+      "artist": "Guandulito",
+      "title": "El Rebu",
+      "youtube": "https://www.youtube.com/watch?v=NRfpb-Ufh4w",
+      "artwork": "https://i.ytimg.com/vi/NRfpb-Ufh4w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/NRfpb-Ufh4w/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "NocW20IDmtA",
+      "artist": "Alberto Beltrán",
+      "title": "Todo Me Gusta De Ti",
+      "youtube": "https://www.youtube.com/watch?v=NocW20IDmtA",
+      "artwork": "https://i.ytimg.com/vi/NocW20IDmtA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/NocW20IDmtA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "jXHZyEZveKM",
+      "artist": "Chuíto el de Bayamón",
+      "title": "La Vieja Voladora",
+      "youtube": "https://www.youtube.com/watch?v=jXHZyEZveKM",
+      "artwork": "https://i.ytimg.com/vi/jXHZyEZveKM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jXHZyEZveKM/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "sHFFQsAXjmw",
+      "artist": "Cortijo y su Combo",
+      "title": "El Bombón de Elena",
+      "youtube": "https://www.youtube.com/watch?v=sHFFQsAXjmw",
+      "artwork": "https://i.ytimg.com/vi/sHFFQsAXjmw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/sHFFQsAXjmw/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "xAm7GYmgJUY",
+      "artist": "Juaniquillo",
+      "title": "Canto a Puerto Rico",
+      "youtube": "https://www.youtube.com/watch?v=xAm7GYmgJUY",
+      "artwork": "https://i.ytimg.com/vi/xAm7GYmgJUY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xAm7GYmgJUY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "87uELF0RYaY",
+      "artist": "La Sonora Matancera, Bobby Capó",
+      "title": "Piel Canela",
+      "youtube": "https://www.youtube.com/watch?v=87uELF0RYaY",
+      "artwork": "https://i.ytimg.com/vi/87uELF0RYaY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/87uELF0RYaY/mqdefault.jpg"
+    },
+    {
+      "id": "4DdWs1A8UZ0",
+      "artist": "Ismael Rivera",
+      "title": "El Chivo de la Campana",
+      "youtube": "https://www.youtube.com/watch?v=4DdWs1A8UZ0",
+      "artwork": "https://i.ytimg.com/vi/4DdWs1A8UZ0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4DdWs1A8UZ0/mqdefault.jpg"
+    },
+    {
+      "id": "uHmRhMbq2EE",
+      "artist": "La Sonora Matancera, Alberto Beltrán",
+      "title": "Aunque Me Cueste La Vida",
+      "youtube": "https://www.youtube.com/watch?v=uHmRhMbq2EE",
+      "artwork": "https://i.ytimg.com/vi/uHmRhMbq2EE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/uHmRhMbq2EE/mqdefault.jpg"
+    },
+    {
+      "id": "hV8jxgCesEQ",
+      "artist": "Ismael Rivera",
+      "title": "Saoco",
+      "youtube": "https://www.youtube.com/watch?v=hV8jxgCesEQ",
+      "artwork": "https://i.ytimg.com/vi/hV8jxgCesEQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hV8jxgCesEQ/mqdefault.jpg"
+    },
+    {
+      "id": "GKhXD1MsEOE",
+      "artist": "Odilio González",
+      "title": "Qué Mala Suerte La Mía",
+      "youtube": "https://www.youtube.com/watch?v=GKhXD1MsEOE",
+      "artwork": "https://i.ytimg.com/vi/GKhXD1MsEOE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/GKhXD1MsEOE/mqdefault.jpg"
+    },
+    {
+      "id": "35P9hZB6Y_I",
+      "artist": "Ismael Rivera",
+      "title": "Maquinolandera",
+      "youtube": "https://www.youtube.com/watch?v=35P9hZB6Y_I",
+      "artwork": "https://i.ytimg.com/vi/35P9hZB6Y_I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/35P9hZB6Y_I/mqdefault.jpg"
+    },
+    {
+      "id": "DHISNB0xhKc",
+      "artist": "Guandulito",
+      "title": "Candelo Cedife",
+      "youtube": "https://www.youtube.com/watch?v=DHISNB0xhKc",
+      "artwork": "https://i.ytimg.com/vi/DHISNB0xhKc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/DHISNB0xhKc/mqdefault.jpg"
+    },
+    {
+      "id": "0GGrSaWypAM",
+      "artist": "Luis Kalaff y sus Alegres Dominicanos",
+      "title": "Las Auroras",
+      "youtube": "https://www.youtube.com/watch?v=0GGrSaWypAM",
+      "artwork": "https://i.ytimg.com/vi/0GGrSaWypAM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0GGrSaWypAM/mqdefault.jpg"
+    },
+    {
+      "id": "Hzg5DRp5218",
+      "artist": "Joseíto Mateo",
+      "title": "Los Algodones",
+      "youtube": "https://www.youtube.com/watch?v=Hzg5DRp5218",
+      "artwork": "https://i.ytimg.com/vi/Hzg5DRp5218/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Hzg5DRp5218/mqdefault.jpg"
+    },
+    {
+      "id": "wc_itynfgHs",
+      "artist": "Luis Kalaff y sus Alegres Dominicanos",
+      "title": "La Cosquillita",
+      "youtube": "https://www.youtube.com/watch?v=wc_itynfgHs",
+      "artwork": "https://i.ytimg.com/vi/wc_itynfgHs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/wc_itynfgHs/mqdefault.jpg"
+    },
+    {
+      "id": "Iyr08hYofp4",
+      "artist": "Cuco Valoy",
+      "title": "El Brujo",
+      "youtube": "https://www.youtube.com/watch?v=Iyr08hYofp4",
+      "artwork": "https://i.ytimg.com/vi/Iyr08hYofp4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Iyr08hYofp4/mqdefault.jpg"
+    },
+    {
+      "id": "IoV6X-Nwsss",
+      "artist": "Odilio González",
+      "title": "Canto a Lares",
+      "youtube": "https://www.youtube.com/watch?v=IoV6X-Nwsss",
+      "artwork": "https://i.ytimg.com/vi/IoV6X-Nwsss/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/IoV6X-Nwsss/mqdefault.jpg"
+    },
+    {
+      "id": "cO0ryWB5yy4",
+      "artist": "Juaniquillo",
+      "title": "Amor al Dinero",
+      "youtube": "https://www.youtube.com/watch?v=cO0ryWB5yy4",
+      "artwork": "https://i.ytimg.com/vi/cO0ryWB5yy4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/cO0ryWB5yy4/mqdefault.jpg"
+    },
+    {
+      "id": "gY93BsKMc9k",
+      "artist": "Miguelito",
+      "title": "Jíbaro en San Juan",
+      "youtube": "https://www.youtube.com/watch?v=gY93BsKMc9k",
+      "artwork": "https://i.ytimg.com/vi/gY93BsKMc9k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gY93BsKMc9k/mqdefault.jpg"
+    },
+    {
+      "id": "MlMMWGYcpKA",
+      "artist": "Ramito",
+      "title": "Libertad del Campo",
+      "youtube": "https://www.youtube.com/watch?v=MlMMWGYcpKA",
+      "artwork": "https://i.ytimg.com/vi/MlMMWGYcpKA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/MlMMWGYcpKA/mqdefault.jpg"
+    },
+    {
+      "id": "Fvpd8XYMti0",
+      "artist": "Chuíto y Maso Rivera",
+      "title": "Parranda",
+      "youtube": "https://www.youtube.com/watch?v=Fvpd8XYMti0",
+      "artwork": "https://i.ytimg.com/vi/Fvpd8XYMti0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Fvpd8XYMti0/mqdefault.jpg"
+    },
+    {
+      "id": "eUOFH0dJ74o",
+      "artist": "Ramito",
+      "title": "Dos Caminos",
+      "youtube": "https://www.youtube.com/watch?v=eUOFH0dJ74o",
+      "artwork": "https://i.ytimg.com/vi/eUOFH0dJ74o/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/eUOFH0dJ74o/mqdefault.jpg"
+    },
+    {
+      "id": "r_40chgVBSw",
+      "artist": "Luz Celenia Tirado",
+      "title": "Flotando Sobre el Caribe",
+      "youtube": "https://www.youtube.com/watch?v=r_40chgVBSw",
+      "artwork": "https://i.ytimg.com/vi/r_40chgVBSw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/r_40chgVBSw/mqdefault.jpg"
+    },
+    {
+      "id": "uvMqK8FYJlk",
+      "artist": "El Jilguero de Cienfuegos",
+      "title": "La Vida Es Una Carcajada",
+      "youtube": "https://www.youtube.com/watch?v=uvMqK8FYJlk",
+      "artwork": "https://i.ytimg.com/vi/uvMqK8FYJlk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/uvMqK8FYJlk/mqdefault.jpg"
+    },
+    {
+      "id": "6q-F8HTj9wo",
+      "artist": "Luz Celenia Tirado",
+      "title": "Alma Gemela",
+      "youtube": "https://www.youtube.com/watch?v=6q-F8HTj9wo",
+      "artwork": "https://i.ytimg.com/vi/6q-F8HTj9wo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6q-F8HTj9wo/mqdefault.jpg"
+    },
+    {
+      "id": "_JISmNABRqU",
+      "artist": "Trío Vegabajeño",
+      "title": "Vuelve",
+      "youtube": "https://www.youtube.com/watch?v=_JISmNABRqU",
+      "artwork": "https://i.ytimg.com/vi/_JISmNABRqU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/_JISmNABRqU/mqdefault.jpg"
+    },
+    {
+      "id": "ftQUOML41Gc",
+      "artist": "Miguel Aceves Mejía",
+      "title": "El Jinete",
+      "youtube": "https://www.youtube.com/watch?v=ftQUOML41Gc",
+      "artwork": "https://i.ytimg.com/vi/ftQUOML41Gc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ftQUOML41Gc/mqdefault.jpg"
+    },
+    {
+      "id": "oKIEjcodFYQ",
+      "artist": "Trío Vegabajeño",
+      "title": "Amor Prohibido",
+      "youtube": "https://www.youtube.com/watch?v=oKIEjcodFYQ",
+      "artwork": "https://i.ytimg.com/vi/oKIEjcodFYQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/oKIEjcodFYQ/mqdefault.jpg"
+    },
+    {
+      "id": "bb5K3vpNEvw",
+      "artist": "Pedro Infante",
+      "title": "Amorcito Corazón",
+      "youtube": "https://www.youtube.com/watch?v=bb5K3vpNEvw",
+      "artwork": "https://i.ytimg.com/vi/bb5K3vpNEvw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bb5K3vpNEvw/mqdefault.jpg"
+    },
+    {
+      "id": "Cn5TX3TulA0",
+      "artist": "Cortijo y su Combo",
+      "title": "Alegría y Bomba",
+      "youtube": "https://www.youtube.com/watch?v=Cn5TX3TulA0",
+      "artwork": "https://i.ytimg.com/vi/Cn5TX3TulA0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Cn5TX3TulA0/mqdefault.jpg"
+    },
+    {
+      "id": "Z_bs4AzSD-Y",
+      "artist": "Mon Rivera",
+      "title": "El Gato",
+      "youtube": "https://www.youtube.com/watch?v=Z_bs4AzSD-Y",
+      "artwork": "https://i.ytimg.com/vi/Z_bs4AzSD-Y/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Z_bs4AzSD-Y/mqdefault.jpg"
+    },
+    {
+      "id": "ONJsGbE9lIs",
+      "artist": "Cortijo y su Combo",
+      "title": "El Platanal de Bartolo",
+      "youtube": "https://www.youtube.com/watch?v=ONJsGbE9lIs",
+      "artwork": "https://i.ytimg.com/vi/ONJsGbE9lIs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ONJsGbE9lIs/mqdefault.jpg"
+    },
+    {
+      "id": "hRjhRJJiLsU",
+      "artist": "Mon Rivera",
+      "title": "Karakatis-Ki",
+      "youtube": "https://www.youtube.com/watch?v=hRjhRJJiLsU",
+      "artwork": "https://i.ytimg.com/vi/hRjhRJJiLsU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hRjhRJJiLsU/mqdefault.jpg"
+    },
+    {
+      "id": "9sOVXX2vtls",
+      "artist": "Cortijo y su Combo",
+      "title": "El Yoyo",
+      "youtube": "https://www.youtube.com/watch?v=9sOVXX2vtls",
+      "artwork": "https://i.ytimg.com/vi/9sOVXX2vtls/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/9sOVXX2vtls/mqdefault.jpg"
+    },
+    {
+      "id": "ddA48YKb90s",
+      "artist": "Mon Rivera",
+      "title": "Aló Quién Ñaña",
+      "youtube": "https://www.youtube.com/watch?v=ddA48YKb90s",
+      "artwork": "https://i.ytimg.com/vi/ddA48YKb90s/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ddA48YKb90s/mqdefault.jpg"
+    },
+    {
+      "id": "9EnhnXQZG0Y",
+      "artist": "Cortijo y su Combo",
+      "title": "Oriza",
+      "youtube": "https://www.youtube.com/watch?v=9EnhnXQZG0Y",
+      "artwork": "https://i.ytimg.com/vi/9EnhnXQZG0Y/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/9EnhnXQZG0Y/mqdefault.jpg"
+    },
+    {
+      "id": "iwL8M6wRH9o",
+      "artist": "Mon Rivera",
+      "title": "Ron con Coco",
+      "youtube": "https://www.youtube.com/watch?v=iwL8M6wRH9o",
+      "artwork": "https://i.ytimg.com/vi/iwL8M6wRH9o/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/iwL8M6wRH9o/mqdefault.jpg"
+    },
+    {
+      "id": "hsZHLWI1Xxk",
+      "artist": "Cortijo y su Combo",
+      "title": "El Conde de Loíza",
+      "youtube": "https://www.youtube.com/watch?v=hsZHLWI1Xxk",
+      "artwork": "https://i.ytimg.com/vi/hsZHLWI1Xxk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hsZHLWI1Xxk/mqdefault.jpg"
+    },
+    {
+      "id": "rKtb-eAkhfg",
+      "artist": "Canario y su Grupo",
+      "title": "Cortaron a Elena",
+      "youtube": "https://www.youtube.com/watch?v=rKtb-eAkhfg",
+      "artwork": "https://i.ytimg.com/vi/rKtb-eAkhfg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/rKtb-eAkhfg/mqdefault.jpg"
+    },
+    {
+      "id": "MFxslDLuVMY",
+      "artist": "Cortijo y su Combo",
+      "title": "Temporal",
+      "youtube": "https://www.youtube.com/watch?v=MFxslDLuVMY",
+      "artwork": "https://i.ytimg.com/vi/MFxslDLuVMY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/MFxslDLuVMY/mqdefault.jpg"
+    },
+    {
+      "id": "6NgLtXxfFTY",
+      "artist": "Ramito",
+      "title": "La Tierra Mía",
+      "youtube": "https://www.youtube.com/watch?v=6NgLtXxfFTY",
+      "artwork": "https://i.ytimg.com/vi/6NgLtXxfFTY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6NgLtXxfFTY/mqdefault.jpg"
+    },
+    {
+      "id": "MZU_ZpRzRSQ",
+      "artist": "Cortijo y su Combo",
+      "title": "Juan José",
+      "youtube": "https://www.youtube.com/watch?v=MZU_ZpRzRSQ",
+      "artwork": "https://i.ytimg.com/vi/MZU_ZpRzRSQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/MZU_ZpRzRSQ/mqdefault.jpg"
+    },
+    {
+      "id": "Obafq7X2WE8",
+      "artist": "Mon Rivera",
+      "title": "Ola de Agua",
+      "youtube": "https://www.youtube.com/watch?v=Obafq7X2WE8",
+      "artwork": "https://i.ytimg.com/vi/Obafq7X2WE8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Obafq7X2WE8/mqdefault.jpg"
+    },
+    {
+      "id": "SpCWsn3H46k",
+      "artist": "Cortijo y su Combo",
+      "title": "Caballero Qué Bomba",
+      "youtube": "https://www.youtube.com/watch?v=SpCWsn3H46k",
+      "artwork": "https://i.ytimg.com/vi/SpCWsn3H46k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/SpCWsn3H46k/mqdefault.jpg"
+    },
+    {
+      "id": "whORfJfJEuY",
+      "artist": "Canario y su Grupo",
+      "title": "Santa María",
+      "youtube": "https://www.youtube.com/watch?v=whORfJfJEuY",
+      "artwork": "https://i.ytimg.com/vi/whORfJfJEuY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/whORfJfJEuY/mqdefault.jpg"
+    },
+    {
+      "id": "ACm4fLIe9Hc",
+      "artist": "Cortijo y su Combo",
+      "title": "Fuego a la Lata",
+      "youtube": "https://www.youtube.com/watch?v=ACm4fLIe9Hc",
+      "artwork": "https://i.ytimg.com/vi/ACm4fLIe9Hc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ACm4fLIe9Hc/mqdefault.jpg"
+    },
+    {
+      "id": "FsLAEZituAw",
+      "artist": "Ramito",
+      "title": "Te Están Vacilando",
+      "youtube": "https://www.youtube.com/watch?v=FsLAEZituAw",
+      "artwork": "https://i.ytimg.com/vi/FsLAEZituAw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FsLAEZituAw/mqdefault.jpg"
+    },
+    {
+      "id": "pe3D-lNOl8k",
+      "artist": "Cortijo y su Combo",
+      "title": "Calypso Bomba y Plena",
+      "youtube": "https://www.youtube.com/watch?v=pe3D-lNOl8k",
+      "artwork": "https://i.ytimg.com/vi/pe3D-lNOl8k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/pe3D-lNOl8k/mqdefault.jpg"
+    },
+    {
+      "id": "5hDltMlynmo",
+      "artist": "Ramito",
+      "title": "Buena en Cantidad",
+      "youtube": "https://www.youtube.com/watch?v=5hDltMlynmo",
+      "artwork": "https://i.ytimg.com/vi/5hDltMlynmo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/5hDltMlynmo/mqdefault.jpg"
+    },
+    {
+      "id": "BmMH_QJvavA",
+      "artist": "Cortijo y su Combo",
+      "title": "Déjalo Que Suba",
+      "youtube": "https://www.youtube.com/watch?v=BmMH_QJvavA",
+      "artwork": "https://i.ytimg.com/vi/BmMH_QJvavA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/BmMH_QJvavA/mqdefault.jpg"
+    },
+    {
+      "id": "j0Otlsj5tTc",
+      "artist": "Odilio González",
+      "title": "Sacude Zapato Viejo",
+      "youtube": "https://www.youtube.com/watch?v=j0Otlsj5tTc",
+      "artwork": "https://i.ytimg.com/vi/j0Otlsj5tTc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/j0Otlsj5tTc/mqdefault.jpg"
+    },
+    {
+      "id": "kuHUV4gRTuM",
+      "artist": "Cortijo y su Combo",
+      "title": "Lo Dejé Llorando",
+      "youtube": "https://www.youtube.com/watch?v=kuHUV4gRTuM",
+      "artwork": "https://i.ytimg.com/vi/kuHUV4gRTuM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/kuHUV4gRTuM/mqdefault.jpg"
+    },
+    {
+      "id": "2wRynnffMUY",
+      "artist": "Ramito",
+      "title": "El Gallo",
+      "youtube": "https://www.youtube.com/watch?v=2wRynnffMUY",
+      "artwork": "https://i.ytimg.com/vi/2wRynnffMUY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2wRynnffMUY/mqdefault.jpg"
+    },
+    {
+      "id": "n3AgjxOsY7w",
+      "artist": "Cortijo y su Combo",
+      "title": "El Chivo",
+      "youtube": "https://www.youtube.com/watch?v=n3AgjxOsY7w",
+      "artwork": "https://i.ytimg.com/vi/n3AgjxOsY7w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/n3AgjxOsY7w/mqdefault.jpg"
+    },
+    {
+      "id": "ACDrjIQH8yY",
+      "artist": "Odilio González",
+      "title": "Ni de Madera Son Buenas",
+      "youtube": "https://www.youtube.com/watch?v=ACDrjIQH8yY",
+      "artwork": "https://i.ytimg.com/vi/ACDrjIQH8yY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ACDrjIQH8yY/mqdefault.jpg"
+    },
+    {
+      "id": "VOgz8TK44U8",
+      "artist": "Cortijo y su Combo",
+      "title": "Cucala",
+      "youtube": "https://www.youtube.com/watch?v=VOgz8TK44U8",
+      "artwork": "https://i.ytimg.com/vi/VOgz8TK44U8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/VOgz8TK44U8/mqdefault.jpg"
+    },
+    {
+      "id": "0O1rXB5Q40Q",
+      "artist": "La Calandria",
+      "title": "Somos Boricuas",
+      "youtube": "https://www.youtube.com/watch?v=0O1rXB5Q40Q",
+      "artwork": "https://i.ytimg.com/vi/0O1rXB5Q40Q/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0O1rXB5Q40Q/mqdefault.jpg"
+    },
+    {
+      "id": "AkY-cMqRb_s",
+      "artist": "Odilio González",
+      "title": "El Libro de Mi Vida",
+      "youtube": "https://www.youtube.com/watch?v=AkY-cMqRb_s",
+      "artwork": "https://i.ytimg.com/vi/AkY-cMqRb_s/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/AkY-cMqRb_s/mqdefault.jpg"
+    },
+    {
+      "id": "92mlNqF0qEU",
+      "artist": "Chuíto el de Bayamón",
+      "title": "El Alma de Puerto Rico",
+      "youtube": "https://www.youtube.com/watch?v=92mlNqF0qEU",
+      "artwork": "https://i.ytimg.com/vi/92mlNqF0qEU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/92mlNqF0qEU/mqdefault.jpg"
+    },
+    {
+      "id": "HJi1T4AGA-E",
+      "artist": "Odilio González",
+      "title": "Las Penas Mías",
+      "youtube": "https://www.youtube.com/watch?v=HJi1T4AGA-E",
+      "artwork": "https://i.ytimg.com/vi/HJi1T4AGA-E/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/HJi1T4AGA-E/mqdefault.jpg"
+    },
+    {
+      "id": "_buSeHemW4c",
+      "artist": "Maso Rivera",
+      "title": "El Cuatro",
+      "youtube": "https://www.youtube.com/watch?v=_buSeHemW4c",
+      "artwork": "https://i.ytimg.com/vi/_buSeHemW4c/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/_buSeHemW4c/mqdefault.jpg"
+    },
+    {
+      "id": "f3cve6V4_oc",
+      "artist": "Germán Rosario",
+      "title": "Seis Chorreao",
+      "youtube": "https://www.youtube.com/watch?v=f3cve6V4_oc",
+      "artwork": "https://i.ytimg.com/vi/f3cve6V4_oc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/f3cve6V4_oc/mqdefault.jpg"
+    },
+    {
+      "id": "zjylXkq4RKc",
+      "artist": "Andrés Jiménez",
+      "title": "El Jíbaro",
+      "youtube": "https://www.youtube.com/watch?v=zjylXkq4RKc",
+      "artwork": "https://i.ytimg.com/vi/zjylXkq4RKc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zjylXkq4RKc/mqdefault.jpg"
+    },
+    {
+      "id": "t30mB31-xFE",
+      "artist": "El Gran Combo",
+      "title": "Jala Jala",
+      "youtube": "https://www.youtube.com/watch?v=t30mB31-xFE",
+      "artwork": "https://i.ytimg.com/vi/t30mB31-xFE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/t30mB31-xFE/mqdefault.jpg"
+    },
+    {
+      "id": "o_0dKP7lhBw",
+      "artist": "Rafael Hernández",
+      "title": "El Cumbanchero",
+      "youtube": "https://www.youtube.com/watch?v=o_0dKP7lhBw",
+      "artwork": "https://i.ytimg.com/vi/o_0dKP7lhBw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/o_0dKP7lhBw/mqdefault.jpg"
+    },
+    {
+      "id": "hLKwsJHspCw",
+      "artist": "El Gran Combo",
+      "title": "Ojos Chinos",
+      "youtube": "https://www.youtube.com/watch?v=hLKwsJHspCw",
+      "artwork": "https://i.ytimg.com/vi/hLKwsJHspCw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/hLKwsJHspCw/mqdefault.jpg"
+    },
+    {
+      "id": "2i4G0vSESjU",
+      "artist": "Rafael Hernández",
+      "title": "Cachita",
+      "youtube": "https://www.youtube.com/watch?v=2i4G0vSESjU",
+      "artwork": "https://i.ytimg.com/vi/2i4G0vSESjU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2i4G0vSESjU/mqdefault.jpg"
+    },
+    {
+      "id": "6LZyTN7T0as",
+      "artist": "El Gran Combo",
+      "title": "Azuquita Pa'l Café",
+      "youtube": "https://www.youtube.com/watch?v=6LZyTN7T0as",
+      "artwork": "https://i.ytimg.com/vi/6LZyTN7T0as/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6LZyTN7T0as/mqdefault.jpg"
+    },
+    {
+      "id": "gf7tHb9ZVKM",
+      "artist": "Ismael Rivera",
+      "title": "El Nazareno",
+      "youtube": "https://www.youtube.com/watch?v=gf7tHb9ZVKM",
+      "artwork": "https://i.ytimg.com/vi/gf7tHb9ZVKM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gf7tHb9ZVKM/mqdefault.jpg"
+    },
+    {
+      "id": "6uwyn4zj5J4",
+      "artist": "Tatico Henríquez",
+      "title": "La Pava",
+      "youtube": "https://www.youtube.com/watch?v=6uwyn4zj5J4",
+      "artwork": "https://i.ytimg.com/vi/6uwyn4zj5J4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6uwyn4zj5J4/mqdefault.jpg"
+    },
+    {
+      "id": "ptb09sCuMTo",
+      "artist": "Ismael Rivera",
+      "title": "Las Tumbas",
+      "youtube": "https://www.youtube.com/watch?v=ptb09sCuMTo",
+      "artwork": "https://i.ytimg.com/vi/ptb09sCuMTo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ptb09sCuMTo/mqdefault.jpg"
+    },
+    {
+      "id": "CJ9PlSR4EYQ",
+      "artist": "Tatico Henríquez",
+      "title": "La Chiflera",
+      "youtube": "https://www.youtube.com/watch?v=CJ9PlSR4EYQ",
+      "artwork": "https://i.ytimg.com/vi/CJ9PlSR4EYQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/CJ9PlSR4EYQ/mqdefault.jpg"
+    },
+    {
+      "id": "PK9PBb95xtI",
+      "artist": "Ismael Rivera",
+      "title": "Dime Por Qué",
+      "youtube": "https://www.youtube.com/watch?v=PK9PBb95xtI",
+      "artwork": "https://i.ytimg.com/vi/PK9PBb95xtI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/PK9PBb95xtI/mqdefault.jpg"
+    },
+    {
+      "id": "7vVer8ekcD4",
+      "artist": "Tatico Henríquez",
+      "title": "La Porfía",
+      "youtube": "https://www.youtube.com/watch?v=7vVer8ekcD4",
+      "artwork": "https://i.ytimg.com/vi/7vVer8ekcD4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7vVer8ekcD4/mqdefault.jpg"
+    },
+    {
+      "id": "FNIWtBvdbHA",
+      "artist": "Ismael Rivera",
+      "title": "Mi Negrita Me Espera",
+      "youtube": "https://www.youtube.com/watch?v=FNIWtBvdbHA",
+      "artwork": "https://i.ytimg.com/vi/FNIWtBvdbHA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/FNIWtBvdbHA/mqdefault.jpg"
+    },
+    {
+      "id": "0N3TkK5vG7M",
+      "artist": "Trío Reynoso",
+      "title": "Juanita Morel",
+      "youtube": "https://www.youtube.com/watch?v=0N3TkK5vG7M",
+      "artwork": "https://i.ytimg.com/vi/0N3TkK5vG7M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0N3TkK5vG7M/mqdefault.jpg"
+    },
+    {
+      "id": "Ya173-LKrHI",
+      "artist": "Ismael Rivera",
+      "title": "La Bomba",
+      "youtube": "https://www.youtube.com/watch?v=Ya173-LKrHI",
+      "artwork": "https://i.ytimg.com/vi/Ya173-LKrHI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ya173-LKrHI/mqdefault.jpg"
+    },
+    {
+      "id": "OUUDr0ZdO5g",
+      "artist": "Trío Reynoso",
+      "title": "Ay Ombe",
+      "youtube": "https://www.youtube.com/watch?v=OUUDr0ZdO5g",
+      "artwork": "https://i.ytimg.com/vi/OUUDr0ZdO5g/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/OUUDr0ZdO5g/mqdefault.jpg"
+    },
+    {
+      "id": "7B2V_Fnn8Nc",
+      "artist": "Guandulito",
+      "title": "Bolsillo Pelao",
+      "youtube": "https://www.youtube.com/watch?v=7B2V_Fnn8Nc",
+      "artwork": "https://i.ytimg.com/vi/7B2V_Fnn8Nc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7B2V_Fnn8Nc/mqdefault.jpg"
+    },
+    {
+      "id": "el7sPR0K9P4",
+      "artist": "Trío Reynoso",
+      "title": "La Empaliza",
+      "youtube": "https://www.youtube.com/watch?v=el7sPR0K9P4",
+      "artwork": "https://i.ytimg.com/vi/el7sPR0K9P4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/el7sPR0K9P4/mqdefault.jpg"
+    },
+    {
+      "id": "GD10-dmG_i0",
+      "artist": "Guandulito",
+      "title": "La Soga",
+      "youtube": "https://www.youtube.com/watch?v=GD10-dmG_i0",
+      "artwork": "https://i.ytimg.com/vi/GD10-dmG_i0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/GD10-dmG_i0/mqdefault.jpg"
+    },
+    {
+      "id": "CBpyzqej3Zc",
+      "artist": "Trío Reynoso",
+      "title": "Caña Brava",
+      "youtube": "https://www.youtube.com/watch?v=CBpyzqej3Zc",
+      "artwork": "https://i.ytimg.com/vi/CBpyzqej3Zc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/CBpyzqej3Zc/mqdefault.jpg"
+    },
+    {
+      "id": "l5PICSaj3Z4",
+      "artist": "Guandulito",
+      "title": "La Cariñosa",
+      "youtube": "https://www.youtube.com/watch?v=l5PICSaj3Z4",
+      "artwork": "https://i.ytimg.com/vi/l5PICSaj3Z4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/l5PICSaj3Z4/mqdefault.jpg"
+    },
+    {
+      "id": "zN138OU1qws",
+      "artist": "Johnny Ventura",
+      "title": "Patacón Pisao",
+      "youtube": "https://www.youtube.com/watch?v=zN138OU1qws",
+      "artwork": "https://i.ytimg.com/vi/zN138OU1qws/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zN138OU1qws/mqdefault.jpg"
+    },
+    {
+      "id": "MYZ8xWjzKxg",
+      "artist": "Antonio Aguilar",
+      "title": "Caballo Prieto Azabache",
+      "youtube": "https://www.youtube.com/watch?v=MYZ8xWjzKxg",
+      "artwork": "https://i.ytimg.com/vi/MYZ8xWjzKxg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/MYZ8xWjzKxg/mqdefault.jpg"
+    },
+    {
+      "id": "K7JIJQ8T5UM",
+      "artist": "Miguel Aceves Mejía",
+      "title": "Cucurrucucú Paloma",
+      "youtube": "https://www.youtube.com/watch?v=K7JIJQ8T5UM",
+      "artwork": "https://i.ytimg.com/vi/K7JIJQ8T5UM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/K7JIJQ8T5UM/mqdefault.jpg"
+    },
+    {
+      "id": "P2vv9cG9gsY",
+      "artist": "Jorge Negrete",
+      "title": "México Lindo y Querido",
+      "youtube": "https://www.youtube.com/watch?v=P2vv9cG9gsY",
+      "artwork": "https://i.ytimg.com/vi/P2vv9cG9gsY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/P2vv9cG9gsY/mqdefault.jpg"
+    },
+    {
+      "id": "RUmweP6Jvlo",
+      "artist": "Johnny Ventura",
+      "title": "El Llorón",
+      "youtube": "https://www.youtube.com/watch?v=RUmweP6Jvlo",
+      "artwork": "https://i.ytimg.com/vi/RUmweP6Jvlo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/RUmweP6Jvlo/mqdefault.jpg"
+    },
+    {
+      "id": "7uFWfVJCtOY",
+      "artist": "Jorge Negrete",
+      "title": "Ay Jalisco No Te Rajes",
+      "youtube": "https://www.youtube.com/watch?v=7uFWfVJCtOY",
+      "artwork": "https://i.ytimg.com/vi/7uFWfVJCtOY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7uFWfVJCtOY/mqdefault.jpg"
+    },
+    {
+      "id": "SMfnySHCj28",
+      "artist": "Miguel Aceves Mejía",
+      "title": "Cielito Lindo",
+      "youtube": "https://www.youtube.com/watch?v=SMfnySHCj28",
+      "artwork": "https://i.ytimg.com/vi/SMfnySHCj28/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/SMfnySHCj28/mqdefault.jpg"
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "name": "abuela",
+  "room": "abuela",
+  "era": "hoy",
+  "shuffle": false,
+  "loop": true,
+  "introCount": 15,
+  "count": 100,
+  "tracks": [
+    {
+      "id": "b1cbgrcBrY0",
+      "artist": "José José",
+      "title": "El Triste",
+      "youtube": "https://www.youtube.com/watch?v=b1cbgrcBrY0",
+      "artwork": "https://i.ytimg.com/vi/b1cbgrcBrY0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/b1cbgrcBrY0/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "Gb1FrnjlXoo",
+      "artist": "Eydie Gormé, Los Panchos",
+      "title": "Sabor a Mí",
+      "youtube": "https://www.youtube.com/watch?v=Gb1FrnjlXoo",
+      "artwork": "https://i.ytimg.com/vi/Gb1FrnjlXoo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Gb1FrnjlXoo/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "UasiMOoMz1o",
+      "artist": "Javier Solís",
+      "title": "Sombras Nada Más",
+      "youtube": "https://www.youtube.com/watch?v=UasiMOoMz1o",
+      "artwork": "https://i.ytimg.com/vi/UasiMOoMz1o/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/UasiMOoMz1o/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "sodp4caaGC0",
+      "artist": "Los Panchos",
+      "title": "Sin Ti",
+      "youtube": "https://www.youtube.com/watch?v=sodp4caaGC0",
+      "artwork": "https://i.ytimg.com/vi/sodp4caaGC0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/sodp4caaGC0/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "fVDed_ORGdY",
+      "artist": "Julio Jaramillo",
+      "title": "Nuestro Juramento",
+      "youtube": "https://www.youtube.com/watch?v=fVDed_ORGdY",
+      "artwork": "https://i.ytimg.com/vi/fVDed_ORGdY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fVDed_ORGdY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "86FCW0GRRcc",
+      "artist": "José José",
+      "title": "40 y 20",
+      "youtube": "https://www.youtube.com/watch?v=86FCW0GRRcc",
+      "artwork": "https://i.ytimg.com/vi/86FCW0GRRcc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/86FCW0GRRcc/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "pOi9LLVcFBo",
+      "artist": "Javier Solís",
+      "title": "En Mi Viejo San Juan",
+      "youtube": "https://www.youtube.com/watch?v=pOi9LLVcFBo",
+      "artwork": "https://i.ytimg.com/vi/pOi9LLVcFBo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/pOi9LLVcFBo/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "jhx3hYS__JI",
+      "artist": "Los Panchos",
+      "title": "Contigo",
+      "youtube": "https://www.youtube.com/watch?v=jhx3hYS__JI",
+      "artwork": "https://i.ytimg.com/vi/jhx3hYS__JI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jhx3hYS__JI/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "y96olukMtfg",
+      "artist": "José Luis Rodríguez",
+      "title": "Dueño de Nada",
+      "youtube": "https://www.youtube.com/watch?v=y96olukMtfg",
+      "artwork": "https://i.ytimg.com/vi/y96olukMtfg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/y96olukMtfg/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "2remXMDCx3U",
+      "artist": "Bienvenido Granda",
+      "title": "Total",
+      "youtube": "https://www.youtube.com/watch?v=2remXMDCx3U",
+      "artwork": "https://i.ytimg.com/vi/2remXMDCx3U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2remXMDCx3U/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "1Y9Sy1e2CFY",
+      "artist": "Pedro Infante",
+      "title": "Cien Años",
+      "youtube": "https://www.youtube.com/watch?v=1Y9Sy1e2CFY",
+      "artwork": "https://i.ytimg.com/vi/1Y9Sy1e2CFY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1Y9Sy1e2CFY/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "ZipzeNiBe_E",
+      "artist": "José Alfredo Jiménez",
+      "title": "El Rey",
+      "youtube": "https://www.youtube.com/watch?v=ZipzeNiBe_E",
+      "artwork": "https://i.ytimg.com/vi/ZipzeNiBe_E/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ZipzeNiBe_E/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "TXRW9FdZcZA",
+      "artist": "Tito Rodríguez",
+      "title": "Inolvidable",
+      "youtube": "https://www.youtube.com/watch?v=TXRW9FdZcZA",
+      "artwork": "https://i.ytimg.com/vi/TXRW9FdZcZA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TXRW9FdZcZA/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "1LYZ6sGmq-U",
+      "artist": "Beny Moré",
+      "title": "Cómo Fue",
+      "youtube": "https://www.youtube.com/watch?v=1LYZ6sGmq-U",
+      "artwork": "https://i.ytimg.com/vi/1LYZ6sGmq-U/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1LYZ6sGmq-U/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "bxf59VB_TLI",
+      "artist": "Felipe Rodríguez",
+      "title": "La Última Copa",
+      "youtube": "https://www.youtube.com/watch?v=bxf59VB_TLI",
+      "artwork": "https://i.ytimg.com/vi/bxf59VB_TLI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bxf59VB_TLI/mqdefault.jpg",
+      "intro": true
+    },
+    {
+      "id": "LR7F45paOVc",
+      "artist": "José José",
+      "title": "Gavilán o Paloma",
+      "youtube": "https://www.youtube.com/watch?v=LR7F45paOVc",
+      "artwork": "https://i.ytimg.com/vi/LR7F45paOVc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/LR7F45paOVc/mqdefault.jpg"
+    },
+    {
+      "id": "xRK33-dd7nI",
+      "artist": "José Luis Rodríguez",
+      "title": "Pavo Real",
+      "youtube": "https://www.youtube.com/watch?v=xRK33-dd7nI",
+      "artwork": "https://i.ytimg.com/vi/xRK33-dd7nI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xRK33-dd7nI/mqdefault.jpg"
+    },
+    {
+      "id": "lCUnsPvJMWg",
+      "artist": "José José",
+      "title": "Lo Que No Fue No Será",
+      "youtube": "https://www.youtube.com/watch?v=lCUnsPvJMWg",
+      "artwork": "https://i.ytimg.com/vi/lCUnsPvJMWg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/lCUnsPvJMWg/mqdefault.jpg"
+    },
+    {
+      "id": "QX44fC9MszA",
+      "artist": "José Luis Rodríguez",
+      "title": "Voy a Perder la Cabeza por Tu Amor",
+      "youtube": "https://www.youtube.com/watch?v=QX44fC9MszA",
+      "artwork": "https://i.ytimg.com/vi/QX44fC9MszA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/QX44fC9MszA/mqdefault.jpg"
+    },
+    {
+      "id": "RzJ3QjBsqM0",
+      "artist": "José José",
+      "title": "El Amar y El Querer",
+      "youtube": "https://www.youtube.com/watch?v=RzJ3QjBsqM0",
+      "artwork": "https://i.ytimg.com/vi/RzJ3QjBsqM0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/RzJ3QjBsqM0/mqdefault.jpg"
+    },
+    {
+      "id": "2BYody7JX_w",
+      "artist": "Los Panchos",
+      "title": "Rayito de Luna",
+      "youtube": "https://www.youtube.com/watch?v=2BYody7JX_w",
+      "artwork": "https://i.ytimg.com/vi/2BYody7JX_w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/2BYody7JX_w/mqdefault.jpg"
+    },
+    {
+      "id": "-I8ERJNhHAQ",
+      "artist": "José José",
+      "title": "Almohada",
+      "youtube": "https://www.youtube.com/watch?v=-I8ERJNhHAQ",
+      "artwork": "https://i.ytimg.com/vi/-I8ERJNhHAQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/-I8ERJNhHAQ/mqdefault.jpg"
+    },
+    {
+      "id": "yiATSi7Gcik",
+      "artist": "Javier Solís",
+      "title": "Si Dios Me Quita la Vida",
+      "youtube": "https://www.youtube.com/watch?v=yiATSi7Gcik",
+      "artwork": "https://i.ytimg.com/vi/yiATSi7Gcik/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/yiATSi7Gcik/mqdefault.jpg"
+    },
+    {
+      "id": "tDM0Oi9YdKM",
+      "artist": "José José",
+      "title": "La Nave del Olvido",
+      "youtube": "https://www.youtube.com/watch?v=tDM0Oi9YdKM",
+      "artwork": "https://i.ytimg.com/vi/tDM0Oi9YdKM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/tDM0Oi9YdKM/mqdefault.jpg"
+    },
+    {
+      "id": "bb5K3vpNEvw",
+      "artist": "Pedro Infante",
+      "title": "Amorcito Corazón",
+      "youtube": "https://www.youtube.com/watch?v=bb5K3vpNEvw",
+      "artwork": "https://i.ytimg.com/vi/bb5K3vpNEvw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/bb5K3vpNEvw/mqdefault.jpg"
+    },
+    {
+      "id": "Ru9QRh25X7A",
+      "artist": "Daniel Santos",
+      "title": "Lamento Borincano",
+      "youtube": "https://www.youtube.com/watch?v=Ru9QRh25X7A",
+      "artwork": "https://i.ytimg.com/vi/Ru9QRh25X7A/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ru9QRh25X7A/mqdefault.jpg"
+    },
+    {
+      "id": "TDN6V_0Se3k",
+      "artist": "Bienvenido Granda",
+      "title": "Quisiera Que El Mundo Acabase",
+      "youtube": "https://www.youtube.com/watch?v=TDN6V_0Se3k",
+      "artwork": "https://i.ytimg.com/vi/TDN6V_0Se3k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TDN6V_0Se3k/mqdefault.jpg"
+    },
+    {
+      "id": "YTyBE-bvJ1M",
+      "artist": "Gilberto Monroig",
+      "title": "Qué Falta Tú Me Haces",
+      "youtube": "https://www.youtube.com/watch?v=YTyBE-bvJ1M",
+      "artwork": "https://i.ytimg.com/vi/YTyBE-bvJ1M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YTyBE-bvJ1M/mqdefault.jpg"
+    },
+    {
+      "id": "NQhnqBsgwoA",
+      "artist": "Bienvenido Granda",
+      "title": "Egoísmo",
+      "youtube": "https://www.youtube.com/watch?v=NQhnqBsgwoA",
+      "artwork": "https://i.ytimg.com/vi/NQhnqBsgwoA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/NQhnqBsgwoA/mqdefault.jpg"
+    },
+    {
+      "id": "dsH4i71crIc",
+      "artist": "Gilberto Monroig",
+      "title": "Un Imposible Amor",
+      "youtube": "https://www.youtube.com/watch?v=dsH4i71crIc",
+      "artwork": "https://i.ytimg.com/vi/dsH4i71crIc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/dsH4i71crIc/mqdefault.jpg"
+    },
+    {
+      "id": "e-a2iqX-ZfY",
+      "artist": "Los Panchos",
+      "title": "Bésame Mucho",
+      "youtube": "https://www.youtube.com/watch?v=e-a2iqX-ZfY",
+      "artwork": "https://i.ytimg.com/vi/e-a2iqX-ZfY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/e-a2iqX-ZfY/mqdefault.jpg"
+    },
+    {
+      "id": "Rn4KOurlsYQ",
+      "artist": "Lucho Gatica",
+      "title": "Contigo En La Distancia",
+      "youtube": "https://www.youtube.com/watch?v=Rn4KOurlsYQ",
+      "artwork": "https://i.ytimg.com/vi/Rn4KOurlsYQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Rn4KOurlsYQ/mqdefault.jpg"
+    },
+    {
+      "id": "ggUlpfchOwk",
+      "artist": "Joe Valle",
+      "title": "Preciosa",
+      "youtube": "https://www.youtube.com/watch?v=ggUlpfchOwk",
+      "artwork": "https://i.ytimg.com/vi/ggUlpfchOwk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ggUlpfchOwk/mqdefault.jpg"
+    },
+    {
+      "id": "WI9p-pXCS0I",
+      "artist": "José José",
+      "title": "Vamos a Darnos Tiempo",
+      "youtube": "https://www.youtube.com/watch?v=WI9p-pXCS0I",
+      "artwork": "https://i.ytimg.com/vi/WI9p-pXCS0I/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/WI9p-pXCS0I/mqdefault.jpg"
+    },
+    {
+      "id": "YSRIXrl1uVc",
+      "artist": "José Luis Rodríguez",
+      "title": "Este Amor Es un Sueño de Locos",
+      "youtube": "https://www.youtube.com/watch?v=YSRIXrl1uVc",
+      "artwork": "https://i.ytimg.com/vi/YSRIXrl1uVc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YSRIXrl1uVc/mqdefault.jpg"
+    },
+    {
+      "id": "fmi0bdJi2vs",
+      "artist": "José José",
+      "title": "Amnesia",
+      "youtube": "https://www.youtube.com/watch?v=fmi0bdJi2vs",
+      "artwork": "https://i.ytimg.com/vi/fmi0bdJi2vs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fmi0bdJi2vs/mqdefault.jpg"
+    },
+    {
+      "id": "Te51928gM1w",
+      "artist": "José Luis Rodríguez",
+      "title": "Culpable Soy Yo",
+      "youtube": "https://www.youtube.com/watch?v=Te51928gM1w",
+      "artwork": "https://i.ytimg.com/vi/Te51928gM1w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Te51928gM1w/mqdefault.jpg"
+    },
+    {
+      "id": "mWLxP3eiDO4",
+      "artist": "José José",
+      "title": "El Príncipe",
+      "youtube": "https://www.youtube.com/watch?v=mWLxP3eiDO4",
+      "artwork": "https://i.ytimg.com/vi/mWLxP3eiDO4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/mWLxP3eiDO4/mqdefault.jpg"
+    },
+    {
+      "id": "qCRZysxi60Q",
+      "artist": "José Luis Rodríguez",
+      "title": "Agárrense de las Manos",
+      "youtube": "https://www.youtube.com/watch?v=qCRZysxi60Q",
+      "artwork": "https://i.ytimg.com/vi/qCRZysxi60Q/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/qCRZysxi60Q/mqdefault.jpg"
+    },
+    {
+      "id": "Uk5ZVd3H3JE",
+      "artist": "José José",
+      "title": "Preso",
+      "youtube": "https://www.youtube.com/watch?v=Uk5ZVd3H3JE",
+      "artwork": "https://i.ytimg.com/vi/Uk5ZVd3H3JE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Uk5ZVd3H3JE/mqdefault.jpg"
+    },
+    {
+      "id": "pHtM4n7OvTg",
+      "artist": "José Luis Rodríguez",
+      "title": "Camino Verde",
+      "youtube": "https://www.youtube.com/watch?v=pHtM4n7OvTg",
+      "artwork": "https://i.ytimg.com/vi/pHtM4n7OvTg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/pHtM4n7OvTg/mqdefault.jpg"
+    },
+    {
+      "id": "zaGkLzmV4cE",
+      "artist": "José José",
+      "title": "Si Me Dejas Ahora",
+      "youtube": "https://www.youtube.com/watch?v=zaGkLzmV4cE",
+      "artwork": "https://i.ytimg.com/vi/zaGkLzmV4cE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/zaGkLzmV4cE/mqdefault.jpg"
+    },
+    {
+      "id": "na-dNyIq0WU",
+      "artist": "José Luis Rodríguez",
+      "title": "Recuerdos",
+      "youtube": "https://www.youtube.com/watch?v=na-dNyIq0WU",
+      "artwork": "https://i.ytimg.com/vi/na-dNyIq0WU/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/na-dNyIq0WU/mqdefault.jpg"
+    },
+    {
+      "id": "1o13Gpb_49w",
+      "artist": "José José",
+      "title": "Volcán",
+      "youtube": "https://www.youtube.com/watch?v=1o13Gpb_49w",
+      "artwork": "https://i.ytimg.com/vi/1o13Gpb_49w/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1o13Gpb_49w/mqdefault.jpg"
+    },
+    {
+      "id": "wptHm5hn-to",
+      "artist": "Julio Jaramillo",
+      "title": "Fatalidad",
+      "youtube": "https://www.youtube.com/watch?v=wptHm5hn-to",
+      "artwork": "https://i.ytimg.com/vi/wptHm5hn-to/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/wptHm5hn-to/mqdefault.jpg"
+    },
+    {
+      "id": "APVzZJxdFIw",
+      "artist": "José José",
+      "title": "Buenos Días Amor",
+      "youtube": "https://www.youtube.com/watch?v=APVzZJxdFIw",
+      "artwork": "https://i.ytimg.com/vi/APVzZJxdFIw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/APVzZJxdFIw/mqdefault.jpg"
+    },
+    {
+      "id": "fLnXca7_quI",
+      "artist": "José Luis Rodríguez",
+      "title": "Tengo",
+      "youtube": "https://www.youtube.com/watch?v=fLnXca7_quI",
+      "artwork": "https://i.ytimg.com/vi/fLnXca7_quI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fLnXca7_quI/mqdefault.jpg"
+    },
+    {
+      "id": "1YzvgXpTkbs",
+      "artist": "José José",
+      "title": "Lo Dudo",
+      "youtube": "https://www.youtube.com/watch?v=1YzvgXpTkbs",
+      "artwork": "https://i.ytimg.com/vi/1YzvgXpTkbs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/1YzvgXpTkbs/mqdefault.jpg"
+    },
+    {
+      "id": "p4BRbaYloPk",
+      "artist": "José Luis Rodríguez",
+      "title": "Atrévete",
+      "youtube": "https://www.youtube.com/watch?v=p4BRbaYloPk",
+      "artwork": "https://i.ytimg.com/vi/p4BRbaYloPk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/p4BRbaYloPk/mqdefault.jpg"
+    },
+    {
+      "id": "l4rJyZO-Zg0",
+      "artist": "José José",
+      "title": "Payaso",
+      "youtube": "https://www.youtube.com/watch?v=l4rJyZO-Zg0",
+      "artwork": "https://i.ytimg.com/vi/l4rJyZO-Zg0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/l4rJyZO-Zg0/mqdefault.jpg"
+    },
+    {
+      "id": "pyLH4B2NkSo",
+      "artist": "José Luis Rodríguez",
+      "title": "La Distancia",
+      "youtube": "https://www.youtube.com/watch?v=pyLH4B2NkSo",
+      "artwork": "https://i.ytimg.com/vi/pyLH4B2NkSo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/pyLH4B2NkSo/mqdefault.jpg"
+    },
+    {
+      "id": "BdxoSwKt8wc",
+      "artist": "José José",
+      "title": "El Amor Acaba",
+      "youtube": "https://www.youtube.com/watch?v=BdxoSwKt8wc",
+      "artwork": "https://i.ytimg.com/vi/BdxoSwKt8wc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/BdxoSwKt8wc/mqdefault.jpg"
+    },
+    {
+      "id": "xntwGDWac4Y",
+      "artist": "Julio Jaramillo",
+      "title": "Reminiscencias",
+      "youtube": "https://www.youtube.com/watch?v=xntwGDWac4Y",
+      "artwork": "https://i.ytimg.com/vi/xntwGDWac4Y/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xntwGDWac4Y/mqdefault.jpg"
+    },
+    {
+      "id": "6e0XWqAeTwc",
+      "artist": "José José",
+      "title": "Y Quién Puede Ser",
+      "youtube": "https://www.youtube.com/watch?v=6e0XWqAeTwc",
+      "artwork": "https://i.ytimg.com/vi/6e0XWqAeTwc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6e0XWqAeTwc/mqdefault.jpg"
+    },
+    {
+      "id": "4MjJhRMWIqg",
+      "artist": "Julio Jaramillo",
+      "title": "Ódiame",
+      "youtube": "https://www.youtube.com/watch?v=4MjJhRMWIqg",
+      "artwork": "https://i.ytimg.com/vi/4MjJhRMWIqg/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4MjJhRMWIqg/mqdefault.jpg"
+    },
+    {
+      "id": "lu_pRhlo8MI",
+      "artist": "Los Panchos",
+      "title": "Historia de un Amor",
+      "youtube": "https://www.youtube.com/watch?v=lu_pRhlo8MI",
+      "artwork": "https://i.ytimg.com/vi/lu_pRhlo8MI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/lu_pRhlo8MI/mqdefault.jpg"
+    },
+    {
+      "id": "jg1VAH5WdeI",
+      "artist": "Julio Jaramillo",
+      "title": "Cinco Centavitos",
+      "youtube": "https://www.youtube.com/watch?v=jg1VAH5WdeI",
+      "artwork": "https://i.ytimg.com/vi/jg1VAH5WdeI/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/jg1VAH5WdeI/mqdefault.jpg"
+    },
+    {
+      "id": "p3T5REvJKkw",
+      "artist": "Los Panchos",
+      "title": "Reloj",
+      "youtube": "https://www.youtube.com/watch?v=p3T5REvJKkw",
+      "artwork": "https://i.ytimg.com/vi/p3T5REvJKkw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/p3T5REvJKkw/mqdefault.jpg"
+    },
+    {
+      "id": "JXWkgAsPZZs",
+      "artist": "Julio Jaramillo",
+      "title": "Ya No Sufro",
+      "youtube": "https://www.youtube.com/watch?v=JXWkgAsPZZs",
+      "artwork": "https://i.ytimg.com/vi/JXWkgAsPZZs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/JXWkgAsPZZs/mqdefault.jpg"
+    },
+    {
+      "id": "QiinVkIwTbs",
+      "artist": "Los Panchos",
+      "title": "La Barca",
+      "youtube": "https://www.youtube.com/watch?v=QiinVkIwTbs",
+      "artwork": "https://i.ytimg.com/vi/QiinVkIwTbs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/QiinVkIwTbs/mqdefault.jpg"
+    },
+    {
+      "id": "L7JTq6brvCc",
+      "artist": "Julio Jaramillo",
+      "title": "Rondando Tu Esquina",
+      "youtube": "https://www.youtube.com/watch?v=L7JTq6brvCc",
+      "artwork": "https://i.ytimg.com/vi/L7JTq6brvCc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/L7JTq6brvCc/mqdefault.jpg"
+    },
+    {
+      "id": "8VThm5QvP1M",
+      "artist": "Los Panchos",
+      "title": "Perfidia",
+      "youtube": "https://www.youtube.com/watch?v=8VThm5QvP1M",
+      "artwork": "https://i.ytimg.com/vi/8VThm5QvP1M/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/8VThm5QvP1M/mqdefault.jpg"
+    },
+    {
+      "id": "OnIBJh85GVc",
+      "artist": "Julio Jaramillo",
+      "title": "Devuélveme el Rosario de Mi Madre",
+      "youtube": "https://www.youtube.com/watch?v=OnIBJh85GVc",
+      "artwork": "https://i.ytimg.com/vi/OnIBJh85GVc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/OnIBJh85GVc/mqdefault.jpg"
+    },
+    {
+      "id": "fkH8_kHFJts",
+      "artist": "Javier Solís",
+      "title": "El Loco",
+      "youtube": "https://www.youtube.com/watch?v=fkH8_kHFJts",
+      "artwork": "https://i.ytimg.com/vi/fkH8_kHFJts/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/fkH8_kHFJts/mqdefault.jpg"
+    },
+    {
+      "id": "Nt52EyTmC28",
+      "artist": "Julio Jaramillo",
+      "title": "Te Odio y Te Quiero",
+      "youtube": "https://www.youtube.com/watch?v=Nt52EyTmC28",
+      "artwork": "https://i.ytimg.com/vi/Nt52EyTmC28/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Nt52EyTmC28/mqdefault.jpg"
+    },
+    {
+      "id": "mcpH7OGpt70",
+      "artist": "Los Panchos",
+      "title": "Piel Canela",
+      "youtube": "https://www.youtube.com/watch?v=mcpH7OGpt70",
+      "artwork": "https://i.ytimg.com/vi/mcpH7OGpt70/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/mcpH7OGpt70/mqdefault.jpg"
+    },
+    {
+      "id": "L3kn9Xs4Tek",
+      "artist": "Javier Solís",
+      "title": "Entrega Total",
+      "youtube": "https://www.youtube.com/watch?v=L3kn9Xs4Tek",
+      "artwork": "https://i.ytimg.com/vi/L3kn9Xs4Tek/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/L3kn9Xs4Tek/mqdefault.jpg"
+    },
+    {
+      "id": "UI6-BgTi1Zk",
+      "artist": "Los Panchos",
+      "title": "Aquellos Ojos Verdes",
+      "youtube": "https://www.youtube.com/watch?v=UI6-BgTi1Zk",
+      "artwork": "https://i.ytimg.com/vi/UI6-BgTi1Zk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/UI6-BgTi1Zk/mqdefault.jpg"
+    },
+    {
+      "id": "x3noNiiOsEY",
+      "artist": "Javier Solís",
+      "title": "Cenizas",
+      "youtube": "https://www.youtube.com/watch?v=x3noNiiOsEY",
+      "artwork": "https://i.ytimg.com/vi/x3noNiiOsEY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/x3noNiiOsEY/mqdefault.jpg"
+    },
+    {
+      "id": "cc3TUbYng9c",
+      "artist": "Los Panchos",
+      "title": "Quién Será",
+      "youtube": "https://www.youtube.com/watch?v=cc3TUbYng9c",
+      "artwork": "https://i.ytimg.com/vi/cc3TUbYng9c/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/cc3TUbYng9c/mqdefault.jpg"
+    },
+    {
+      "id": "Ag9rrauCHLw",
+      "artist": "Javier Solís",
+      "title": "Esclavo y Amo",
+      "youtube": "https://www.youtube.com/watch?v=Ag9rrauCHLw",
+      "artwork": "https://i.ytimg.com/vi/Ag9rrauCHLw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ag9rrauCHLw/mqdefault.jpg"
+    },
+    {
+      "id": "4ol-CNrFEkA",
+      "artist": "Los Panchos",
+      "title": "Solamente una Vez",
+      "youtube": "https://www.youtube.com/watch?v=4ol-CNrFEkA",
+      "artwork": "https://i.ytimg.com/vi/4ol-CNrFEkA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/4ol-CNrFEkA/mqdefault.jpg"
+    },
+    {
+      "id": "QfGc8PLZgaY",
+      "artist": "Javier Solís",
+      "title": "Media Vuelta",
+      "youtube": "https://www.youtube.com/watch?v=QfGc8PLZgaY",
+      "artwork": "https://i.ytimg.com/vi/QfGc8PLZgaY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/QfGc8PLZgaY/mqdefault.jpg"
+    },
+    {
+      "id": "8CJnEUMJdBE",
+      "artist": "Los Panchos",
+      "title": "Una Copa Más",
+      "youtube": "https://www.youtube.com/watch?v=8CJnEUMJdBE",
+      "artwork": "https://i.ytimg.com/vi/8CJnEUMJdBE/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/8CJnEUMJdBE/mqdefault.jpg"
+    },
+    {
+      "id": "y0k0leAya5Y",
+      "artist": "Javier Solís",
+      "title": "Amanecí en Tus Brazos",
+      "youtube": "https://www.youtube.com/watch?v=y0k0leAya5Y",
+      "artwork": "https://i.ytimg.com/vi/y0k0leAya5Y/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/y0k0leAya5Y/mqdefault.jpg"
+    },
+    {
+      "id": "gfm2zSgQ8cQ",
+      "artist": "Vicente Fernández",
+      "title": "Por Tu Maldito Amor",
+      "youtube": "https://www.youtube.com/watch?v=gfm2zSgQ8cQ",
+      "artwork": "https://i.ytimg.com/vi/gfm2zSgQ8cQ/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/gfm2zSgQ8cQ/mqdefault.jpg"
+    },
+    {
+      "id": "M3FwfskGQQ8",
+      "artist": "Javier Solís",
+      "title": "Llorarás",
+      "youtube": "https://www.youtube.com/watch?v=M3FwfskGQQ8",
+      "artwork": "https://i.ytimg.com/vi/M3FwfskGQQ8/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/M3FwfskGQQ8/mqdefault.jpg"
+    },
+    {
+      "id": "YRg4pGkMPbY",
+      "artist": "Vicente Fernández",
+      "title": "Lástima Que Seas Ajena",
+      "youtube": "https://www.youtube.com/watch?v=YRg4pGkMPbY",
+      "artwork": "https://i.ytimg.com/vi/YRg4pGkMPbY/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/YRg4pGkMPbY/mqdefault.jpg"
+    },
+    {
+      "id": "Ew7h30Gy-Hw",
+      "artist": "Javier Solís",
+      "title": "Sabrás Que Te Quiero",
+      "youtube": "https://www.youtube.com/watch?v=Ew7h30Gy-Hw",
+      "artwork": "https://i.ytimg.com/vi/Ew7h30Gy-Hw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Ew7h30Gy-Hw/mqdefault.jpg"
+    },
+    {
+      "id": "ugNQ5uIN09Q",
+      "artist": "Vicente Fernández",
+      "title": "Volver Volver",
+      "youtube": "https://www.youtube.com/watch?v=ugNQ5uIN09Q",
+      "artwork": "https://i.ytimg.com/vi/ugNQ5uIN09Q/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/ugNQ5uIN09Q/mqdefault.jpg"
+    },
+    {
+      "id": "vAJnYt6huQs",
+      "artist": "José Alfredo Jiménez",
+      "title": "Ella",
+      "youtube": "https://www.youtube.com/watch?v=vAJnYt6huQs",
+      "artwork": "https://i.ytimg.com/vi/vAJnYt6huQs/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/vAJnYt6huQs/mqdefault.jpg"
+    },
+    {
+      "id": "_9-oddWM_9k",
+      "artist": "Vicente Fernández",
+      "title": "Acá Entre Nos",
+      "youtube": "https://www.youtube.com/watch?v=_9-oddWM_9k",
+      "artwork": "https://i.ytimg.com/vi/_9-oddWM_9k/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/_9-oddWM_9k/mqdefault.jpg"
+    },
+    {
+      "id": "0O8i6P4H2W4",
+      "artist": "José Alfredo Jiménez",
+      "title": "Un Mundo Raro",
+      "youtube": "https://www.youtube.com/watch?v=0O8i6P4H2W4",
+      "artwork": "https://i.ytimg.com/vi/0O8i6P4H2W4/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/0O8i6P4H2W4/mqdefault.jpg"
+    },
+    {
+      "id": "xVDmyuzkiPo",
+      "artist": "Camilo Sesto",
+      "title": "Melina",
+      "youtube": "https://www.youtube.com/watch?v=xVDmyuzkiPo",
+      "artwork": "https://i.ytimg.com/vi/xVDmyuzkiPo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/xVDmyuzkiPo/mqdefault.jpg"
+    },
+    {
+      "id": "Lbi19fyEMoo",
+      "artist": "José Alfredo Jiménez",
+      "title": "Si Nos Dejan",
+      "youtube": "https://www.youtube.com/watch?v=Lbi19fyEMoo",
+      "artwork": "https://i.ytimg.com/vi/Lbi19fyEMoo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Lbi19fyEMoo/mqdefault.jpg"
+    },
+    {
+      "id": "nZShzrtpq6A",
+      "artist": "Camilo Sesto",
+      "title": "Vivir Así Es Morir de Amor",
+      "youtube": "https://www.youtube.com/watch?v=nZShzrtpq6A",
+      "artwork": "https://i.ytimg.com/vi/nZShzrtpq6A/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/nZShzrtpq6A/mqdefault.jpg"
+    },
+    {
+      "id": "PruMNPB2P1c",
+      "artist": "José Alfredo Jiménez",
+      "title": "Paloma Querida",
+      "youtube": "https://www.youtube.com/watch?v=PruMNPB2P1c",
+      "artwork": "https://i.ytimg.com/vi/PruMNPB2P1c/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/PruMNPB2P1c/mqdefault.jpg"
+    },
+    {
+      "id": "_sTeDba7eHA",
+      "artist": "Camilo Sesto",
+      "title": "Algo de Mí",
+      "youtube": "https://www.youtube.com/watch?v=_sTeDba7eHA",
+      "artwork": "https://i.ytimg.com/vi/_sTeDba7eHA/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/_sTeDba7eHA/mqdefault.jpg"
+    },
+    {
+      "id": "6G-fE7a4Uq0",
+      "artist": "José Alfredo Jiménez",
+      "title": "Camino de Guanajuato",
+      "youtube": "https://www.youtube.com/watch?v=6G-fE7a4Uq0",
+      "artwork": "https://i.ytimg.com/vi/6G-fE7a4Uq0/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/6G-fE7a4Uq0/mqdefault.jpg"
+    },
+    {
+      "id": "WZOgXrCvGmk",
+      "artist": "Raphael",
+      "title": "Cuando Tú No Estás",
+      "youtube": "https://www.youtube.com/watch?v=WZOgXrCvGmk",
+      "artwork": "https://i.ytimg.com/vi/WZOgXrCvGmk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/WZOgXrCvGmk/mqdefault.jpg"
+    },
+    {
+      "id": "Qr_xKvt4HFM",
+      "artist": "Nino Bravo",
+      "title": "Libre",
+      "youtube": "https://www.youtube.com/watch?v=Qr_xKvt4HFM",
+      "artwork": "https://i.ytimg.com/vi/Qr_xKvt4HFM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Qr_xKvt4HFM/mqdefault.jpg"
+    },
+    {
+      "id": "TEwWrpebnkM",
+      "artist": "Raphael",
+      "title": "Yo Soy Aquel",
+      "youtube": "https://www.youtube.com/watch?v=TEwWrpebnkM",
+      "artwork": "https://i.ytimg.com/vi/TEwWrpebnkM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/TEwWrpebnkM/mqdefault.jpg"
+    },
+    {
+      "id": "W9SDlbyn-sc",
+      "artist": "Nino Bravo",
+      "title": "Un Beso y Una Flor",
+      "youtube": "https://www.youtube.com/watch?v=W9SDlbyn-sc",
+      "artwork": "https://i.ytimg.com/vi/W9SDlbyn-sc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/W9SDlbyn-sc/mqdefault.jpg"
+    },
+    {
+      "id": "tExaVNSjQdo",
+      "artist": "Roberto Carlos",
+      "title": "Amigo",
+      "youtube": "https://www.youtube.com/watch?v=tExaVNSjQdo",
+      "artwork": "https://i.ytimg.com/vi/tExaVNSjQdo/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/tExaVNSjQdo/mqdefault.jpg"
+    },
+    {
+      "id": "Gb7C9rga3wc",
+      "artist": "Armando Manzanero",
+      "title": "Adoro",
+      "youtube": "https://www.youtube.com/watch?v=Gb7C9rga3wc",
+      "artwork": "https://i.ytimg.com/vi/Gb7C9rga3wc/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Gb7C9rga3wc/mqdefault.jpg"
+    },
+    {
+      "id": "5aBrHRWLJ14",
+      "artist": "Roberto Carlos",
+      "title": "Detalles",
+      "youtube": "https://www.youtube.com/watch?v=5aBrHRWLJ14",
+      "artwork": "https://i.ytimg.com/vi/5aBrHRWLJ14/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/5aBrHRWLJ14/mqdefault.jpg"
+    },
+    {
+      "id": "5CrcNAl9OPk",
+      "artist": "Armando Manzanero",
+      "title": "Somos Novios",
+      "youtube": "https://www.youtube.com/watch?v=5CrcNAl9OPk",
+      "artwork": "https://i.ytimg.com/vi/5CrcNAl9OPk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/5CrcNAl9OPk/mqdefault.jpg"
+    },
+    {
+      "id": "Lk13rXB1BlM",
+      "artist": "Daniel Santos",
+      "title": "Fichas Negras",
+      "youtube": "https://www.youtube.com/watch?v=Lk13rXB1BlM",
+      "artwork": "https://i.ytimg.com/vi/Lk13rXB1BlM/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/Lk13rXB1BlM/mqdefault.jpg"
+    },
+    {
+      "id": "7v4OIim8LBw",
+      "artist": "Armando Manzanero",
+      "title": "Contigo Aprendí",
+      "youtube": "https://www.youtube.com/watch?v=7v4OIim8LBw",
+      "artwork": "https://i.ytimg.com/vi/7v4OIim8LBw/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/7v4OIim8LBw/mqdefault.jpg"
+    },
+    {
+      "id": "A5vaIjBQnmk",
+      "artist": "Mocedades",
+      "title": "Eres Tú",
+      "youtube": "https://www.youtube.com/watch?v=A5vaIjBQnmk",
+      "artwork": "https://i.ytimg.com/vi/A5vaIjBQnmk/mqdefault.jpg",
+      "artworkLarge": "https://i.ytimg.com/vi/A5vaIjBQnmk/mqdefault.jpg"
+    }
+  ]
+}
