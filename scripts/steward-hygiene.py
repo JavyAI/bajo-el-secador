@@ -35,7 +35,7 @@ AUTHED = {
     ("malecon", "ayer"): "iK3BlAZAtPs",
     ("malecon", "hoy"): "Mtau4v6foHA",
     ("campo", "ayer"): "BycLmWI97Nc",
-    ("campo", "hoy"): "pOi9LLVcFBo",
+    ("campo", "hoy"): "ublTCBgHmMA",
 }
 
 

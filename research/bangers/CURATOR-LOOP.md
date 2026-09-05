@@ -40,7 +40,7 @@ Some voices own a genre. They may appear more than once.
 | Limpieza | Toño Rosario — *Kulikitaka* `3LCEzvkwWwI` | Toño Rosario — *Dale Vieja Dale* `hal7rXfJj5o` |
 | Galería | Juan Luis Guerra — *El Costo de la Vida* `tPTB0TRV3BA` | Ricardo Arjona, Gaby Moreno — *Fuiste Tú* `I9cCPQVPv8o` |
 | Malecón | Chayanne — *Completamente Enamorados* `iK3BlAZAtPs` | Carlos Vives, Sebastián Yatra — *Robarte un Beso* `Mtau4v6foHA` |
-| Campo | Ritchie Valens — *La Bamba* `BycLmWI97Nc` | Javier Solís — *En Mi Viejo San Juan* `pOi9LLVcFBo` |
+| Campo | Ritchie Valens — *La Bamba* `BycLmWI97Nc` | Trío Vegabajeño — *En Mi Viejo San Juan* `ublTCBgHmMA` |
 
 Always bombs: slot #1 is the 15-second body hit for that room. Charts can name a candidate (*Suavemente* is Hot Latin #1). They do not auto-win if the room refuses (*Despacito*, *La Gozadera*). A dead official clip fails even if the title is the room (*Pasarela* on Limpieza de noche). Feel: `research/bangers/PRODUCER.md`.
 
