@@ -1,4 +1,4 @@
-# En mis raíces (`raices` / `#raices`)
+# En el campo (`campo` / `#campo`)
 
 **Place:** Orocovis. The finca. Grandparents’ house.  
 **Kicker:** Orocovis.  
@@ -36,5 +36,5 @@ Do not zipper típico into a bolero every other song. Blocks of 3–5.
 
 ## First-5 unique vs the 12 live lists. Official YouTube only.
 
-Live JSON: `public/ayer/abuela.json` · `public/hoy/abuela.json` (on-disk name kept). Hash `#raices`. Aliases `#tierra` `#pueblo` `#orocovis` `#abuela` `#raizes`.  
-YouTube: [Sopita Raíces](https://music.youtube.com/playlist?list=PLYEH_60hjSxM) · [de noche](https://music.youtube.com/playlist?list=PLT4NHEltF4xE)
+Live JSON: `public/ayer/abuela.json` · `public/hoy/abuela.json` (on-disk name kept). Hash `#campo`. Aliases `#raices` `#tierra` `#pueblo` `#orocovis` `#abuela`.  
+YouTube: [Sopita Campo](https://music.youtube.com/playlist?list=PLYEH_60hjSxM) · [de noche](https://music.youtube.com/playlist?list=PLT4NHEltF4xE)

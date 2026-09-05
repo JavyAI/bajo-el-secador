@@ -61,7 +61,8 @@ body[data-room="galeria"] { --theme: #1f7045; }
 body[data-room="malecon"] { --theme: #0e5f96; }
 body[data-room="abuela"],
 body[data-room="tierra"],
-body[data-room="raices"] { --theme: #6b4f2a; }
+body[data-room="raices"],
+body[data-room="campo"] { --theme: #6b4f2a; }
 body[data-room="colmado"][data-era="hoy"] { --theme: #2a1e06; }
 body[data-room="secador"][data-era="hoy"] { --theme: #12122a; }
 body[data-room="barberia"][data-era="hoy"] { --theme: #8a1e12; }
@@ -70,7 +71,8 @@ body[data-room="galeria"][data-era="hoy"] { --theme: #1e4e5a; }
 body[data-room="malecon"][data-era="hoy"] { --theme: #061e42; }
 body[data-room="abuela"][data-era="hoy"],
 body[data-room="tierra"][data-era="hoy"],
-body[data-room="raices"][data-era="hoy"] { --theme: #24180c; }
+body[data-room="raices"][data-era="hoy"],
+body[data-room="campo"][data-era="hoy"] { --theme: #24180c; }
 
 img {
   display: block;
@@ -708,7 +710,8 @@ body[data-room="barberia"] .rooms a,
 body[data-room="limpieza"] .rooms a,
 body[data-room="abuela"] .rooms a,
 body[data-room="tierra"] .rooms a,
-body[data-room="raices"] .rooms a {
+body[data-room="raices"] .rooms a,
+body[data-room="campo"] .rooms a {
   color: rgba(255, 255, 255, 0.78);
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
 }
@@ -719,7 +722,8 @@ body[data-room="barberia"] .eras a,
 body[data-room="limpieza"] .eras a,
 body[data-room="abuela"] .eras a,
 body[data-room="tierra"] .eras a,
-body[data-room="raices"] .eras a {
+body[data-room="raices"] .eras a,
+body[data-room="campo"] .eras a {
   color: rgba(255, 255, 255, 0.72);
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
 }
@@ -738,6 +742,8 @@ body[data-room="tierra"] .rooms a:hover,
 body[data-room="tierra"] .rooms a.is-on,
 body[data-room="raices"] .rooms a:hover,
 body[data-room="raices"] .rooms a.is-on,
+body[data-room="campo"] .rooms a:hover,
+body[data-room="campo"] .rooms a.is-on,
 body[data-room="colmado"] .eras a:hover,
 body[data-room="colmado"] .eras a.is-on,
 body[data-room="secador"] .eras a:hover,
@@ -751,7 +757,9 @@ body[data-room="abuela"] .eras a.is-on,
 body[data-room="tierra"] .eras a:hover,
 body[data-room="tierra"] .eras a.is-on,
 body[data-room="raices"] .eras a:hover,
-body[data-room="raices"] .eras a.is-on {
+body[data-room="raices"] .eras a.is-on,
+body[data-room="campo"] .eras a:hover,
+body[data-room="campo"] .eras a.is-on {
   color: #fff;
 }
 

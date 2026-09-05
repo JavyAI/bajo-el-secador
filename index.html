@@ -38,9 +38,10 @@
         barberia: { ayer: "#c42818", hoy: "#8a1e12" },
         limpieza: { ayer: "#0a7382", hoy: "#1a3a40" },
         galeria: { ayer: "#1f7045", hoy: "#1e4e5a" },
-        malecon: { ayer: "#0e5f96", hoy: "#061e42" }
+        malecon: { ayer: "#0e5f96", hoy: "#061e42" },
+        campo: { ayer: "#6b4f2a", hoy: "#24180c" }
       };
-      var ALIAS = { salon: "secador", rolos: "secador", esquina: "colmado", silla: "barberia", deluxe: "barberia", "salon-deluxe": "barberia", vitilla: "colmado", marquesina: "limpieza", cibao: "galeria", campo: "galeria" };
+      var ALIAS = { salon: "secador", rolos: "secador", esquina: "colmado", silla: "barberia", deluxe: "barberia", "salon-deluxe": "barberia", vitilla: "colmado", marquesina: "limpieza", cibao: "galeria", raices: "campo", tierra: "campo", pueblo: "campo", orocovis: "campo", abuela: "campo" };
       var id = (location.hash || "#colmado").replace(/^#/, "").split(/[/?]/)[0];
       if (ALIAS[id]) id = ALIAS[id];
       var era = /(?:\?|&)hoy=1(?:&|$)/.test(location.search) ? "hoy" : "ayer";
@@ -71,7 +72,7 @@
   <link rel="preconnect" href="https://i.ytimg.com">
   <link rel="preconnect" href="https://www.youtube.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=144">
+  <link rel="stylesheet" href="css/styles.css?v=145">
 </head>
 <body data-room="colmado" data-era="ayer">
   <div id="theme-probe" aria-hidden="true"></div>
@@ -151,7 +152,7 @@
       <a href="#limpieza" data-room="limpieza">Limpieza</a>
       <a href="#galeria" data-room="galeria">Galería</a>
       <a href="#malecon" data-room="malecon">Malecón</a>
-      <a href="#raices" data-room="raices">Raíces</a>
+      <a href="#campo" data-room="campo">Campo</a>
     </nav>
     <nav class="eras" aria-label="Luz">
       <a href="./" data-era="ayer" class="is-on">De día</a>
@@ -215,6 +216,6 @@
       setTimeout(pin, 800);
     })();
   </script>
-  <script src="js/player.js?v=114" defer></script>
+  <script src="js/player.js?v=115" defer></script>
 </body>
 </html>
